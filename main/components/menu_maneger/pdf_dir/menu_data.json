@@ -1,0 +1,362 @@
+[
+    {
+        "item_name": "1800 266",
+        "price": "7646",
+        "description": "Timings: 12:00 PM to 3:00 PM and 7:00 PM to 11:00 PM"
+    },
+    {
+        "item_name": "Dhaniya Paneer Tikka",
+        "price": "675",
+        "description": "Apricot, almond slivers, corn chat, pickled mango dip"
+    },
+    {
+        "item_name": "Chicken or Paneer Kathi Roll",
+        "price": "750",
+        "description": "Grilled chicken tikka or paneer tikka, green apple relish, mint chutney"
+    },
+    {
+        "item_name": "Pav Bhaji",
+        "price": "685",
+        "description": "Classic Bombay street food, spicy mashed potatoes & vegetable mixture,"
+    },
+    {
+        "item_name": "Kheema Ghotala",
+        "price": "785",
+        "description": "Bombay street food classic, spiced minced lamb, egg,"
+    },
+    {
+        "item_name": "Goan Pomfret Curry",
+        "price": "1325",
+        "description": "Mildly spiced coconut curry flavoured with Garcinia indica rind,"
+    },
+    {
+        "item_name": "Vegetable Club Sandwich",
+        "price": "685",
+        "description": "Russian salad, tomato, cheese, iceberg lettuce"
+    },
+    {
+        "item_name": "Vegetarian Panini sandwich",
+        "price": "685",
+        "description": "Herbed mushroom, grilled pimentos, avocado, provolone cheese,"
+    },
+    {
+        "item_name": "Classic Club Sandwich",
+        "price": "685",
+        "description": "Chicken slices, fried egg, ham, cheese, tomato, iceberg lettuce"
+    },
+    {
+        "item_name": "Chole Kulche",
+        "price": "885",
+        "description": "Spicy tangy chickpeas, baked leavened bread"
+    },
+    {
+        "item_name": "Paneer Butter Masala",
+        "price": "885",
+        "description": "Cottage cheese, fenugreek leaves, creamy tomato gravy"
+    },
+    {
+        "item_name": "Methi Malai Matar",
+        "price": "885",
+        "description": "Green peas, cashewnut, cream, tempered fresh fenugreek leaves"
+    },
+    {
+        "item_name": "Bombay Veg Tawa Pulao",
+        "price": "885",
+        "description": "Popular Mumbai street food, hot spicy rice with mixed vegetables, date raita"
+    },
+    {
+        "item_name": "Bombay Chicken Tawa Pulao",
+        "price": "885",
+        "description": "Popular Mumbai street food, hot spicy rice with chicken, date raita"
+    },
+    {
+        "item_name": "Orecchiette",
+        "price": "885",
+        "description": "Shaped pasta, black garlic, Parmesan cream sauce, cherry tomato salsa"
+    },
+    {
+        "item_name": "Multigrain Pizza Bianca",
+        "price": "885",
+        "description": "Multigrain, roasted bell peppers, onions, mozzarella, olives"
+    },
+    {
+        "item_name": "Pizza Verdure Grigliate",
+        "price": "885",
+        "description": "Artichoke, grilled vegetables, olives, sun-dried tomatoes, buffalo mozzarella"
+    },
+    {
+        "item_name": "Chooza Kalmi Makhani",
+        "price": "985",
+        "description": "Charred chicken morsels, tomato cashew nut gravy, fenugreek pulao"
+    },
+    {
+        "item_name": "Pizza Pollo Arrosto",
+        "price": "985",
+        "description": "Roasted chicken, mushrooms, truffle oil, buffalo mozzarella, goat cheese"
+    },
+    {
+        "item_name": "Pizza Calabrese",
+        "price": "985",
+        "description": "Italian sausage, pepperoni slices, parmesan, mozzarella, onions"
+    },
+    {
+        "item_name": "Herb Butter Roast Chicken",
+        "price": "985",
+        "description": "Saut\u00e9 potatoes, garlic mushrooms, rosemary jus"
+    },
+    {
+        "item_name": "Falafel Burger",
+        "price": "825",
+        "description": "Sesame brioche bun, falafel patty, tahini, pickled onion,"
+    },
+    {
+        "item_name": "Chicken Burger",
+        "price": "825",
+        "description": "Sourdough brioche bun, crispy chicken patty, caramelized onions,"
+    },
+    {
+        "item_name": "Indian Breads",
+        "price": "385",
+        "description": "Roti / Naan / Parantha"
+    },
+    {
+        "item_name": "Steamed Rice",
+        "price": "485",
+        "description": "Desserts"
+    },
+    {
+        "item_name": "Salted Caramel & Sau Thome Chocolate Pot, Citrus Shortbread Biscuits",
+        "price": "585",
+        "description": "Shrikhand Cheese Cake, Charoli Nut Crumble 585"
+    },
+    {
+        "item_name": "Shrikhand Cheese Cake, Charoli Nut Crumble",
+        "price": "585",
+        "description": "Vegetarian"
+    },
+    {
+        "item_name": "ASPARAGUS CORN DUMPLING",
+        "price": "750",
+        "description": "STEAMED CHICKEN SUI MAI 850"
+    },
+    {
+        "item_name": "STEAMED CHICKEN SUI MAI",
+        "price": "850",
+        "description": "PRAWN HAR GAU 850"
+    },
+    {
+        "item_name": "PRAWN HAR GAU",
+        "price": "850",
+        "description": "Prawns and asparagus dumpling"
+    },
+    {
+        "item_name": "HOT & SOUR SOUP VEGETABLE",
+        "price": "775",
+        "description": "Hot & sour soup with assorted vegetables and tofu"
+    },
+    {
+        "item_name": "HOT & SOUR SOUP CHICKEN",
+        "price": "825",
+        "description": "CRISPY VEGETABLES CHILLI WILD PEPPER 1150"
+    },
+    {
+        "item_name": "CRISPY VEGETABLES CHILLI WILD PEPPER",
+        "price": "1150",
+        "description": "Crispy assorted vegetables tossed in chilli wild pepper mix"
+    },
+    {
+        "item_name": "THREE PEPPER SICHUAN CHICKEN",
+        "price": "1250",
+        "description": "1500"
+    },
+    {
+        "item_name": "WOTHIB ASPARAGUS, SOYA CORIANDER SAUCE",
+        "price": "1300",
+        "description": "Wothib asparagus tossed in soy coriander sauce"
+    },
+    {
+        "item_name": "EGGPLANT, HOT GARLIC SAUCE",
+        "price": "1300",
+        "description": "SWEET N SOUR VEGETABLE 1300"
+    },
+    {
+        "item_name": "SWEET N SOUR VEGETABLE",
+        "price": "1300",
+        "description": "CHICKEN SCHEZWAN SAUCE 1750"
+    },
+    {
+        "item_name": "CHICKEN SCHEZWAN SAUCE",
+        "price": "1750",
+        "description": "KUNG PAO CHICKEN, CASHEW NUTS AND DRY RED CHILLI 1750"
+    },
+    {
+        "item_name": "KUNG PAO CHICKEN, CASHEW NUTS AND DRY RED CHILLI",
+        "price": "1750",
+        "description": "BAY PRAWN, SINGAPORE CHILLI SAUCE 2250"
+    },
+    {
+        "item_name": "BAY PRAWN, SINGAPORE CHILLI SAUCE",
+        "price": "2250",
+        "description": "Bay prawns tossed in a Singapore chilli sauce with egg"
+    },
+    {
+        "item_name": "CRISPY AROMATIC DUCK",
+        "price": "3500",
+        "description": "spring onion, cucumber, hoisin sauce & plum sauce"
+    },
+    {
+        "item_name": "JASMINE RICE",
+        "price": "750",
+        "description": "Steamed jasmine rice"
+    },
+    {
+        "item_name": "CHILLED MANGO PUDDING",
+        "price": "850",
+        "description": "Vegetarian"
+    },
+    {
+        "item_name": "HUMMUS",
+        "price": "1050",
+        "description": "a favourite across the Middle East"
+    },
+    {
+        "item_name": "HUMMUS BEIRUTY",
+        "price": "1050",
+        "description": "Hummus mixed with onions, tomatoes and parsley"
+    },
+    {
+        "item_name": "MOUTABEL",
+        "price": "1050",
+        "description": "MUHAMMARA 1050"
+    },
+    {
+        "item_name": "MUHAMMARA",
+        "price": "1050",
+        "description": "Fiery red pepper, walnuts and pistachio dip from Beirut"
+    },
+    {
+        "item_name": "KOLOKITHI",
+        "price": "1150",
+        "description": "and eggplant chips served with garlic yoghurt dip"
+    },
+    {
+        "item_name": "BATATA HARRA",
+        "price": "1150",
+        "description": "KIBBE 1500"
+    },
+    {
+        "item_name": "KIBBE",
+        "price": "1500",
+        "description": "CREAM AL THOUM 600"
+    },
+    {
+        "item_name": "CREAM AL THOUM",
+        "price": "600",
+        "description": "Garlic aioli sauce"
+    },
+    {
+        "item_name": "CREAM AL THOUM MA HARISSA",
+        "price": "600",
+        "description": "Harissa aioli"
+    },
+    {
+        "item_name": "TURKISH CHILLI GRILLED VEGETABLES",
+        "price": "1650",
+        "description": "RUBIAN MESHWI 2250"
+    },
+    {
+        "item_name": "RUBIAN MESHWI",
+        "price": "2250",
+        "description": "GRILLED LAMB CHOPS 2950"
+    },
+    {
+        "item_name": "GRILLED LAMB CHOPS",
+        "price": "2950",
+        "description": "Grilled lamb chops marinated with cinnamon, garlic"
+    },
+    {
+        "item_name": "SHEESH TAOUK",
+        "price": "1850",
+        "description": "Entree"
+    },
+    {
+        "item_name": "SPANAKOS MENEMEN",
+        "price": "1650",
+        "description": "A creamy mixture of spinach, potato and feta cheese"
+    },
+    {
+        "item_name": "LEBANESE MOUSSAKA",
+        "price": "1650",
+        "description": "BAKED LOBSTER 2950"
+    },
+    {
+        "item_name": "BAKED LOBSTER",
+        "price": "2950",
+        "description": "DIJAJ M'QUALLI 2250"
+    },
+    {
+        "item_name": "DIJAJ M'QUALLI",
+        "price": "2250",
+        "description": "LAMB TAGINE 2250"
+    },
+    {
+        "item_name": "LAMB TAGINE",
+        "price": "2250",
+        "description": "PRAWN TAGINE 2250"
+    },
+    {
+        "item_name": "PRAWN TAGINE",
+        "price": "2250",
+        "description": "served with couscous"
+    },
+    {
+        "item_name": "HARISSA SEA BASS",
+        "price": "2250",
+        "description": "on bed of bulgur and crunchy vegetables"
+    },
+    {
+        "item_name": "DIJAJ MAQLUBA",
+        "price": "1000",
+        "description": "and served upside down with fried aubergine, pine nuts and"
+    },
+    {
+        "item_name": "KHOUBZ",
+        "price": "325",
+        "description": "MNAISH BI ZAATAR 325"
+    },
+    {
+        "item_name": "MNAISH BI ZAATAR",
+        "price": "325",
+        "description": "EISH BALADI 325"
+    },
+    {
+        "item_name": "EISH BALADI",
+        "price": "325",
+        "description": "SPINACH & COTTAGE CHEESE TALAS KEBABI 1200"
+    },
+    {
+        "item_name": "SPINACH & COTTAGE CHEESE TALAS KEBABI",
+        "price": "1200",
+        "description": "LAMB TALAS 1200"
+    },
+    {
+        "item_name": "LAMB TALAS",
+        "price": "1200",
+        "description": "Desserts"
+    },
+    {
+        "item_name": "BAKLAVA",
+        "price": "850",
+        "description": "OMALI 850"
+    },
+    {
+        "item_name": "OMALI",
+        "price": "850",
+        "description": "Vegetarian"
+    },
+    {
+        "item_name": "1800 266",
+        "price": "7646",
+        "description": "Timings: 12:00 PM to 3:00 PM"
+    }
+]

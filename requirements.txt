@@ -1,0 +1,5 @@
+PyQt6==6.8.1
+SpeechRecognition==3.14.2
+pdfplumber 0.11.6
+PyYAML 6.0.2
+python-box 7.3.2

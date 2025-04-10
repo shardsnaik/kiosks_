@@ -1,0 +1,3 @@
+pdf_maneger:
+  pdf_path: 'main\components\menu_maneger\The_Taj_Mahal_Palace_menu.pdf'
+  pdf_dir: main/components/menu_maneger/pdf_dir
