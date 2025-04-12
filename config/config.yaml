@@ -1,3 +1,6 @@
 pdf_maneger:
   pdf_path: 'main\components\menu_maneger\The_Taj_Mahal_Palace_menu.pdf'
   pdf_dir: main/components/menu_maneger/pdf_dir
+
+local_models:
+  speech_recog_model: models/speech_recog_model

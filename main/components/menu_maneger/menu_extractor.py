@@ -22,10 +22,11 @@ class pdf_extractor:
                 str (pdf): pdf file path
           Returns: josn file with extracted text
          """
-        menu_items = []
+        raw_menu_items = []
         # categories = []
         with pdfplumber.open(self.pdf_url) as pdf_filess:
-            for pages in pdf_filess.pages:
+            # for pages in pdf_filess.pages:
+                pages = pdf_filess.pages[3]
                 text = pages.extract_text()
                 text_new_lines = text.split('\n')
                 for line in text_new_lines:
@@ -35,20 +36,67 @@ class pdf_extractor:
                         price = match.group(2).strip()
                         description_line = text_new_lines[text_new_lines.index(line) + 1]
     
-                        menu_items.append({
+                        raw_menu_items.append({
                             'item_name': item_name,
                             'price': price,
                             'description': description_line.strip()
                         })
-        # json_file_menu = save_json_file(path= self.pdf_dir, data=menu_items)
-        output_file_path = os.path.join(self.pdf_dir, "menu_data.json")
-        json_file_menu = save_json_file(path=output_file_path, data=menu_items)
+   
+        output_file_path = os.path.join(self.pdf_dir, "raw_menu_data.json")
+        save_json_file(path=output_file_path, data=raw_menu_items)
 
-        return json_file_menu
+        return raw_menu_items
+    
+    
+    
+    def review_json(self, raw_menu_items: list, file_name:str = 'revwied_menu_data.json'):
+        print('Review the JSON data before finalizing')
+
+        reviewed_data = []
+    
+        for idx, items in enumerate(raw_menu_items):
+            print('---------------------------------')
+            print(f"[{idx+1}] Item Name      : {items['item_name']}")
+            print(f"    Price          : {items['price']}")
+            print(f"    Description    : {items['description']}")
+            print('---------------------------------')
+        
+            action = input("Is this correct? (y/n): or press 'd' to delete or 'all' to save raw json file   ➤ ").strip().lower()
+        
+            if action == 'y':
+                print("✅ Item confirmed.")
+                reviewed_data.append(items)
+        
+            elif action == 'n':
+                print("✏️  Editing the item.")
+                items['item_name'] = input(f"    Edit Item Name [{items['item_name']}]: ") or items['item_name']
+                items['price'] = input(f"    Edit Price [{items['price']}]: ") or items['price']
+                items['description'] = input(f"    Edit Description [{items['description']}]: ") or items['description']
+                reviewed_data.append(items)
+        
+            elif action == 'd':
+                print("🗑️  Item deleted.")
+                # Do not add to reviewed_data
+
+            elif action == 'all':
+                break
+
+            else:
+                print("⚠️  Invalid input. Please enter 'y', 'n', or 'd'")
+                # Optionally re-prompt here if you want strict control
+        
+        output_file_path = os.path.join(self.pdf_dir, "reviewed_menu_data.json")
+        if not reviewed_data:
+            print("❌ No items were confirmed. Exiting...")
+            save_json_file(path=output_file_path, data= raw_menu_items)
+
+            return raw_menu_items
+        
+        save_json_file(path=output_file_path, data= reviewed_data)
+        return reviewed_data
 
 
-    def review_and_save(self, data: list, filename:)
   
-# Create object and call extraction
-pdf_extractor_obj = pdf_extractor()
-print(pdf_extractor_obj.extract_pdf_text())
+# # Create object and call extraction
+# pdf_extractor_obj = pdf_extractor()
+# print(pdf_extractor_obj.extract_pdf_text())
