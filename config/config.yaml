@@ -4,3 +4,4 @@ pdf_maneger:
 
 local_models:
   speech_recog_model: models/speech_recog_model
+  speech_to_text_model: 'base'
