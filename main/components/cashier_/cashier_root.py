@@ -3,6 +3,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 # from unsloth import FastLanguageModel
 from transformers import AutoTokenizer
 import os, json
+from pathlib import Path
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -45,9 +46,13 @@ class cashier_root:
                 trust_remote_code=True,
                 token=token
             )
-            print(f'Saving the {self.config['base_model_id']} to local folder {self.config['base_model_path']}')
-            model.save_pretrained(self.config['base_model_path'])
-            tokenizer.save_pretrained(self.config['base_model_path'])
+            # output_dir = Path(self.config['base_model_path']) / self.config['base_model_id']
+            print(f'Saving the {self.config['base_model_id']} to local folder {self.config['dowloaded_base_model_path']}')
+            self.config['dowloaded_base_model_path'].mkdir(parents=True, exist_ok=True)
+
+
+            model.save_pretrained(self.config['dowloaded_base_model_path'])
+            tokenizer.save_pretrained(self.config['dowloaded_base_model_path'])
 
             print("Model downloaded and saved successfully!")
         
@@ -127,8 +132,9 @@ if __name__ == '__main__':
     obj = cashier_configs()
     config_params = obj.cashier_all_configs()
     comp_obj = cashier_root(config_params, config_params)
-    if not os.path.exists('models\\base_model'):
-        comp_obj.download_model()
+    # if not os.path.exists(out):
+    comp_obj.download_model()
     llm = comp_obj.load_and_process()
     orders_json = comp_obj.order_maneger(llm,data)
     print(orders_json)
+    # print(config_params)

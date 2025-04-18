@@ -13,7 +13,8 @@ class cashier_configs:
 
         all_cahier_configs = {
             'base_model_path': Path(config['base_model_path']),
-            'base_model_id': config['base_model_id']
+            'base_model_id': config['base_model_id'],
+            'dowloaded_base_model_path':  Path(config['base_model_path']) / config['base_model_id']
         }
 
         return all_cahier_configs

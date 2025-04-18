@@ -33,9 +33,9 @@ class speech_recog_compo:
         sounddevice.wait()
         write('recording.wav', self.params['sample_rate'], audio)
         print("✅ Recording saved to", "recording.wav")
-        model = WhisperModel(self.config['model'], compute_type="float32")  # use float16 if GPU available
+        model = WhisperModel(self.config['model'], compute_type=self.config['compute_type'])  
 
-        segments, info = model.transcribe("recording.wav", beam_size=5)
+        segments, info = model.transcribe("recording.wav",log_progress=True, beam_size=5)
         print("🌐 Detected Language:", info.language)
         print("📝 Transcription:")
         for segment in segments:

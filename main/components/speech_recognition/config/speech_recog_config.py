@@ -15,6 +15,7 @@ class speech_recog_config:
             'duration': self.params['duration'],
             'sample_rate': self.params['sampling_rate'],
             'channel': self.params['channel'],
+            'compute_type': self.params['compute_type']
         }
         
         return sppech_recog_config
