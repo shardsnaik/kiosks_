@@ -14,9 +14,11 @@ class pdf_source:
     def create_source_dir(self):
         config = self.config.pdf_maneger
         create_directories([config.pdf_dir])
+        create_directories([config.extracted_menu_dir])
 
         pdf_urls = {
             'pdf_dir': Path(config['pdf_dir']),
+            'extracted_menu': Path(config['extracted_menu_dir']),
             'pdf_url' : config['pdf_path']
         }
 

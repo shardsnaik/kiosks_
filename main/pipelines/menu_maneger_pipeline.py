@@ -7,13 +7,14 @@ class MenuManagerPipeline:
 
     def run_pipeline(self):
         obj = pdf_extractor()
-        raw_json = obj.extract_pdf_text()
-        # print(raw_json)
-        final_json = obj.review_json(raw_json)
-        # print('     ')
-        # print('---------------------------' )
-        # print('Final JSON data:', final_json)
-        return final_json
+        files = input('Upload the file .pdf, .jpg, .png, .txt files areonly accepted ')
+        if files.endswith('.pdf'):
+            methods = input('press A. for AI-Pdf extractor : Press B for Manual pdf extractor  ').lower()
+            if methods == 'a':
+                obj.load_and_process_docs(files)
+                retrival_query = obj.retrival(query='give me complete extracted menu in json')
+                response = obj.generate(query='give me complete extracted menu in json', context=retrival_query)
+                print(response)
 
 
 if __name__ == "__main__":

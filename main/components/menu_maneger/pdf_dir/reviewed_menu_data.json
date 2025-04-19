@@ -1,42 +1,42 @@
 [
     {
-        "item_name": "Dhaniya Paneer Tikka",
-        "price": "675",
-        "description": "Apricot, almond slivers, corn chat, pickled mango dip"
+        "item_name": "Aloo Chana Chat",
+        "price": "80.00",
+        "description": "A Combination of boiled potato and chana with green chutney with spices. Chicken Tandoori (Half / Full) 275.00 / 520.00"
     },
     {
-        "item_name": "Chicken or Paneer Kathi Roll",
-        "price": "750",
-        "description": "Grilled chicken tikka or paneer tikka, green apple relish, mint chutney"
+        "item_name": "A Combination of boiled potato and chana with green chutney with spices. Chicken Tandoori (Half / Full) 275.00 /",
+        "price": "520.00",
+        "description": "Aloo Chat 80.00"
     },
     {
-        "item_name": "Pav Bhaji",
-        "price": "685",
-        "description": "Classic Bombay street food, spicy mashed potatoes & vegetable mixture,"
+        "item_name": "Aloo Chat",
+        "price": "80.00",
+        "description": "Resplendent chicken marinated with garlic, ginger paste & lemon juice, grilled in"
     },
     {
-        "item_name": "Kheema Ghotala",
-        "price": "785",
-        "description": "Bombay street food classic, spiced minced lamb, egg,"
+        "item_name": "Peanut Chat",
+        "price": "80.00",
+        "description": "Chicken Laooni Kebab 245.00"
     },
     {
-        "item_name": "Goan Pomfret Curry",
-        "price": "1325",
-        "description": "Mildly spiced coconut curry flavoured with Garcinia indica rind,"
+        "item_name": "Chicken Laooni Kebab",
+        "price": "245.00",
+        "description": "A unique chat prepared, raw peanut boiled with turmeric & tossed with chopped onion."
     },
     {
-        "item_name": "Vegetable Club Sandwich",
-        "price": "685",
-        "description": "Russian salad, tomato, cheese, iceberg lettuce"
+        "item_name": "Mix Rost",
+        "price": "90.00",
+        "description": "Chicken Banjara 245.00"
     },
     {
-        "item_name": "Vegetarian Panini sandwich",
-        "price": "685",
-        "description": "Herbed mushroom, grilled pimentos, avocado, provolone cheese,"
+        "item_name": "Chicken Banjara",
+        "price": "245.00",
+        "description": "Bhindi Kur Kuri 120.00"
     },
     {
-        "item_name": "Classic Club Sandwich",
-        "price": "685",
-        "description": "Chicken slices, fried egg, ham, cheese, tomato, iceberg lettuce"
+        "item_name": "Bhindi Kur Kuri",
+        "price": "120.00",
+        "description": "A delicious spicy kebab with fresh spices, mint & cumin flavour.."
     }
 ]
