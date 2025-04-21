@@ -1,42 +1,7 @@
 [
     {
-        "item_name": "Aloo Chana Chat",
-        "price": "80.00",
-        "description": "A Combination of boiled potato and chana with green chutney with spices. Chicken Tandoori (Half / Full) 275.00 / 520.00"
-    },
-    {
-        "item_name": "A Combination of boiled potato and chana with green chutney with spices. Chicken Tandoori (Half / Full) 275.00 /",
-        "price": "520.00",
-        "description": "Aloo Chat 80.00"
-    },
-    {
-        "item_name": "Aloo Chat",
-        "price": "80.00",
-        "description": "Resplendent chicken marinated with garlic, ginger paste & lemon juice, grilled in"
-    },
-    {
-        "item_name": "Peanut Chat",
-        "price": "80.00",
-        "description": "Chicken Laooni Kebab 245.00"
-    },
-    {
-        "item_name": "Chicken Laooni Kebab",
-        "price": "245.00",
-        "description": "A unique chat prepared, raw peanut boiled with turmeric & tossed with chopped onion."
-    },
-    {
-        "item_name": "Mix Rost",
-        "price": "90.00",
-        "description": "Chicken Banjara 245.00"
-    },
-    {
-        "item_name": "Chicken Banjara",
-        "price": "245.00",
-        "description": "Bhindi Kur Kuri 120.00"
-    },
-    {
-        "item_name": "Bhindi Kur Kuri",
-        "price": "120.00",
-        "description": "A delicious spicy kebab with fresh spices, mint & cumin flavour.."
+        "item_name": "chickrn",
+        "price": "60",
+        "description": "gowda n chicken"
     }
 ]

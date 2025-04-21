@@ -1,0 +1,72 @@
+[
+  {
+    "category": "Breakfast",
+    "items": [
+      {
+        "item_name": "Food Item",
+        "price": "",
+        "description": ""
+      },
+      {
+        "item_name": "Food Item 1",
+        "price": "",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "category": "Stew",
+    "items": [
+      {
+        "item_name": "Food Item",
+        "price": "",
+        "description": ""
+      },
+      {
+        "item_name": "Food Item 1",
+        "price": "",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "category": "Dunks",
+    "items": [
+      {
+        "item_name": "Food tem",
+        "price": "",
+        "description": ""
+      },
+      {
+        "item_name": "Food Iter 1",
+        "price": "",
+        "description": ""
+      },
+      {
+        "item_name": "Food Item 1",
+        "price": "",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "category": "Prices",
+    "items": [
+      {
+        "item_name": "Price Example",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "item_name": "Price Example",
+        "price": "200",
+        "description": ""
+      },
+      {
+        "item_name": "Price Example",
+        "price": "300",
+        "description": ""
+      }
+    ]
+  }
+]

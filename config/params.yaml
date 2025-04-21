@@ -1,3 +1,4 @@
 duration: 5
 sampling_rate: 16000
 channel: 1
+compute_type: 'float32'  # use float16 if GPU available

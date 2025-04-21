@@ -7,8 +7,9 @@ from dotenv import load_dotenv
 import groq
 from langchain_community.document_loaders import TextLoader, PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
-from langchain.schema import Document    
+from langchain.schema import Document   
 import pytesseract
 from transformers import LayoutLMv3Processor
 from PIL import Image
@@ -21,10 +22,17 @@ groq_client = groq.Client(api_key=groq_api_key)
 class pdf_extractor:
     def __init__(self):
         obj = pdf_source()
-        self.source = obj.create_source_dir()
+        self.source, self.prompt = obj.create_source_dir()
         self.pdf_dir = self.source['pdf_dir']
         self.pdf_url = self.source['pdf_url']
         self.extracted_menu_dir = self.source['extracted_menu']
+        self.final_json_name = self.source['final_json_name']
+        self.extracter_model_name = self.source['extracter_model_name']
+
+        self.embeddings = HuggingFaceEmbeddings(
+           model_name="sentence-transformers/all-mpnet-base-v2",
+            model_kwargs={'device': 'cpu'}
+        )
 
 
 
@@ -64,13 +72,21 @@ class pdf_extractor:
                             'description': description_line.strip()
                         })
    
-        output_file_path = os.path.join(self.extracted_menu_dir, "raw_menu_data.json")
+        output_file_path = os.path.join(self.extracted_menu_dir, "raw_manual_menu_data.json")
         save_json_file(path=output_file_path, data=raw_menu_items)
 
         return output_file_path
     
 
     def human_in_loop_manual_extractor(self, raw_menu_items: json, file_name:str = 'api_menu_extractir.json'):
+        '''
+        Function to review the extracted menu items and allow for manual editing or deletion.
+        Args: 
+            raw_menu_items (json): json file with extracted menu items
+        Returns:
+            reviewed_data (json): json file with reviewed and edited menu items
+        '''
+        
         print('Review the JSON data before finalizing')
 
         reviewed_data = []
@@ -108,7 +124,7 @@ class pdf_extractor:
                 print("⚠️  Invalid input. Please enter 'y', 'n', or 'd'")
                 # Optionally re-prompt here if you want strict control
         
-        output_file_path = os.path.join(self.extracted_menu_dir, "reviewed_menu_data.json")
+        output_file_path = os.path.join(self.extracted_menu_dir, f"manual_{self.final_json_name}")
         if not reviewed_data:
             print("❌ No items were confirmed. Exiting...")
             save_json_file(path=output_file_path, data= raw_menu_items)
@@ -120,7 +136,7 @@ class pdf_extractor:
     
     
 # code for extracting the menu using the LLM (API)
-# Need to call seperate Human-In_loop function for this abpve LLM function because of it handle double for loop (ie categories)
+# Need to call seperate Human-In_loop function for this abpve LLM function because of it handle double for loop (ie categories)👇👇👇🤖🤖🤖
 
 
 
@@ -129,6 +145,10 @@ class pdf_extractor:
         Load document from the specified directory
 
         split document into chuck
+        Args:
+            file (str) : file Path
+            pdf_maneger:
+                    pdf_path: source file
         '''
         all_docs = []
         if file_.endswith('.pdf'):
@@ -156,6 +176,11 @@ class pdf_extractor:
     def retrival(self, query: str, k: int= 5)->List[Document]:
         '''
         Retrieve relavent document for a given query
+        Args: 
+            query (str): query to search for
+            k (int): number of documents to retrieve
+        Returns:
+            List[Document]: list of retrieved documents
         '''
         if not self.vectorstore:
             raise ValueError('Vector store not initialized..')
@@ -164,62 +189,24 @@ class pdf_extractor:
         context = "\n\n".join([doc.page_content for doc in docs])
         return context
     
-    def generate(self, query: str, context: str) -> str:
+    def generate(self, query: str, context: str, filename:str) -> str:
           
-          """Generate response using Groq API"""
-          prompt = f"""
-        ## Role: AI Menu Extraction Specialist
-        
-        You are an expert AI system specialized in menu data extraction. Your core expertise is analyzing menu documents and converting them into structured data formats while maintaining accuracy and consistency.
-        
-        ## Task Description
-        Extract menu information from the provided document into a structured JSON format. Follow these precise guidelines:
-        
-        1. Extract all menu items, organizing them by their respective categories
-        2. For each item, capture:
-           - Exact item name
-           - Price (numeric only, without currency symbols)
-           - Complete item description if available
-        
-        ## Output Format
-        Return a well-formatted JSON structure following this exact schema:
-        ```json
-        [
-          {{
-            "category": "Category Name",
-            "items": [
-              {{
-                "item_name": "Full Item Name",
-                "price": "Price as String",
-                "description": "Complete Item Description"
-              }}
-            ]
-          }}
-        ]
-        ```
-        ## Special Instructions
-        - Create proper categories even if they're implicit in the document
-        - If a menu item has no description, include the key with an empty string
-        - If price format varies (e.g., "₹500", "$10", "10.99"), extract only the numeric portion
-        - Maintain the order of categories and items as they appear in the document
-        - If an item has multiple price points (e.g., for size variations), create separate entries for each
-        - If information is unclear or ambiguous, make the best determination based on context
-        
-        ## Context Document:
-        {context}
-        
-        ## Query:
-        {query}
-        
-        ## Response:
+          """Generate response using Groq API
+          Args:
+                query (str) "Query to search for"
+        Returns:
+               str: json file exracted from response
+
         """
+          
+          prompt = self.prompt.format(context=context, query=query)
           
           chat_completion = groq_client.chat.completions.create(
                 messages=[
                     {"role": "system", "content": "You are a specialized AI system for structured data extraction from unstructured text, with particular expertise in menu analysis."},
                     {"role": "user", "content": prompt}
                 ],
-                model='llama-3.3-70b-versatile',
+                model=self.extracter_model_name,
                 temperature=0.1,
                 max_tokens=4096,
             )
@@ -228,19 +215,26 @@ class pdf_extractor:
           json_data = re.search(r'```json\n(.*?)\n```', response, re.DOTALL).group(1)
 
 
-          output_path = os.path.join(self.extracted_menu_dir, 'api_menu_extractir.json')
+          output_path = os.path.join(self.extracted_menu_dir, f'raw_{filename}_menu_extractor.json')
           
           with open(output_path, "w", encoding="utf-8") as f:
               json.dump(json_data, f, indent=2, ensure_ascii=False)
           
-          with open("api_menu_extractir.json", "w") as f:
+          with open(output_path, "w") as f:
               f.write(json_data)
           
           print(f"Menu saved successfully to {output_path}")
           
           return output_path
     
-    def human_loop_for_llm(self, raw_menu_items: json, file_name:str = 'api_menu_extractir.json'):
+    def human_loop_for_llm(self, raw_menu_items: json):
+        '''
+        Function to review the extracted menu items and allow for manual editing or deletion.
+        Args: 
+            raw_menu_items (json): json file with extracted menu items
+        Returns:
+            reviewed_data (json): json file with reviewed and edited menu items
+        '''
         print('Review the JSON data before finalizing')
 
         with open(raw_menu_items , 'r') as f:
@@ -257,33 +251,34 @@ class pdf_extractor:
                 print(f"📝 Description   : {items['description'] or 'N/A'}")
                 print('---')
         
-            action = input("Is this correct? (y/n): or press 'd' to delete or 'all' to save raw json file  ➤ ").strip().lower()
-        
-            if action == 'y':
-                print("✅ Item confirmed.")
-                reviewed_data.append(items)
-        
-            elif action == 'n':
-                print("✏️  Editing the category.")
-                category_block['category'] = input(f"    Edit Category Name [{category_block['category']}]: ") or category_block['category']
-                print("✏️  Editing the item.")
-                items['item_name'] = input(f"    Edit Item Name [{items['item_name']}]: ") or items['item_name']
-                items['price'] = input(f"    Edit Price [{items['price']}]: ") or items['price']
-                items['description'] = input(f"    Edit Description [{items['description']}]: ") or items['description']
-                reviewed_data.append(items)
-        
-            elif action == 'd':
-                print("🗑️  Item deleted.")
-                # Do not add to reviewed_data
-
-            elif action == 'all':
-                break
-
-            else:
-                print("⚠️  Invalid input. Please enter 'y', 'n', or 'd'")
+                action = input("Is this correct? (y/n): or press 'd' to delete or 'all' to save raw json file  ➤ ").strip().lower()
+            
+                if action == 'y':
+                    print("✅ Item confirmed.")
+                    reviewed_data.append(items)
+            
+                elif action == 'n':
+                    print("✏️  Editing the category.")
+                    category_block['category'] = input(f"    Edit Category Name [{category_block['category']}]: ") or category_block['category']
+                    print("✏️  Editing the item.")
+                    items['item_name'] = input(f"    Edit Item Name [{items['item_name']}]: ") or items['item_name']
+                    items['price'] = input(f"    Edit Price [{items['price']}]: ") or items['price']
+                    items['description'] = input(f"    Edit Description [{items['description']}]: ") or items['description']
+                    reviewed_data.append(items)
+            
+                elif action == 'd':
+                    print("🗑️  Item deleted.")
+                    # Do not add to reviewed_data
+    
+                elif action == 'all':
+                    reviewed_data.append(category_block)
+                    break
+    
+                else:
+                    print("⚠️  Invalid input. Please enter 'y', 'n', or 'd'")
                 # Optionally re-prompt here if you want strict control
         
-        output_file_path = os.path.join(self.pdf_dir, "reviewed_menu_data.json")
+        output_file_path = os.path.join(self.extracted_menu_dir, f"manual_{self.final_json_name}")
         if not reviewed_data:
             print("❌ No items were confirmed. Exiting...")
             save_json_file(path=output_file_path, data= raw_menu_items)
@@ -294,7 +289,7 @@ class pdf_extractor:
         return reviewed_data
 
 
-    def _organize_text_by_layout(ocr_data: Dict[str, Any]) -> List[Dict[str, Any]]:
+    def _organize_text_by_layout(self, ocr_data: Dict[str, Any]) -> List[Dict[str, Any]]:
             """Organize OCR results into layout-aware sections"""
             layout_text = []
             
@@ -348,8 +343,15 @@ class pdf_extractor:
             return layout_text
     
     
-    def extract_text_from_image(image_path: str) -> Dict[str, Any]:
-        """Extract text and layout information from an image"""
+    def extract_text_from_image(self, image_path: str) -> Dict[str, Any]:
+        """
+        Extract text from an image using OCR.
+        Args:
+            image_path (str): Path to the image file.
+        Returns:
+            str: Extracted text
+        
+        """
         image = Image.open(image_path).convert("RGB")
         pytesseract.pytesseract.tesseract_cmd = r"C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
     
@@ -361,7 +363,7 @@ class pdf_extractor:
         encoding = processor(image, return_tensors="pt", truncation=True)
         
         # Organize text by layout
-        layout_text = _organize_text_by_layout(ocr_results)
+        layout_text = self._organize_text_by_layout(ocr_results)
         
         return {
             "text": pytesseract.image_to_string(image),
@@ -371,7 +373,7 @@ class pdf_extractor:
         }
     
     
-    def _create_layout_aware_text(extracted_data: Dict[str, Any]) -> str:
+    def _create_layout_aware_text(self, extracted_data: Dict[str, Any]) -> str:
             """Convert extracted OCR data into layout-aware text format"""
             layout_text = ""
             
@@ -385,8 +387,3 @@ class pdf_extractor:
             
             return layout_text
     
-
-
-
-
-

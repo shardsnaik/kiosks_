@@ -81,7 +81,7 @@ class MainWindow(QMainWindow):
         self.cart_items = []  # To store cart items with quantity and price
         self.total_price = 0
 
-        self.setWindowTitle("Taj Mahal Palace Kiosk")
+        self.setWindowTitle("The Kiosks")
         self.setGeometry(100, 100, 1200, 700)
         self.setStyleSheet("background-color: #ecf0f1;")
 
@@ -95,7 +95,7 @@ class MainWindow(QMainWindow):
         left_layout = QVBoxLayout()
 
         # Welcome header
-        welcome_label = QLabel("Welcome to Taj Mahal Palace")
+        welcome_label = QLabel("Welcome to The KIOSKS Palace")
         font = welcome_label.font()
         font.setPointSize(24)
         font.setBold(True)

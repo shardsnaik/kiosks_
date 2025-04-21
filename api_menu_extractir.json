@@ -1,0 +1,192 @@
+[
+  {
+    "category": "Non-Veg",
+    "items": [
+      {
+        "item_name": "Chicken Alishan",
+        "price": "215.00",
+        "description": "Tender Boneless chicken marinated in tangy mix of yoghurt & spices cooked in tandoor, topped with cheese."
+      },
+      {
+        "item_name": "Chicken Tikka",
+        "price": "245.00",
+        "description": "Chicken pieces marinated in a blend of fragrant spices mixed with yogurt."
+      },
+      {
+        "item_name": "Chicken Angara",
+        "price": "245.00",
+        "description": "Spicy chicken kebab with a smoky aroma & charcoal flavour."
+      },
+      {
+        "item_name": "Chicken Irani Kebab",
+        "price": "260.00",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Shami Kebab",
+        "price": "260.00",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Seekh Kebab",
+        "price": "260.00",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Bhuna",
+        "price": "265.00",
+        "description": "Succulent mutton pan fried in spicy masala"
+      },
+      {
+        "item_name": "Mutton Shami Kebab",
+        "price": "280.00",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Chopli Kebab",
+        "price": "280.00",
+        "description": "and grilled to perfection"
+      },
+      {
+        "item_name": "Chicken Pahadi Kebab",
+        "price": "245.00",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Afghani Tikka",
+        "price": "245.00",
+        "description": "A succulent kebab, chicken marinated in curd, cream, cheese, cashew & aromatic spices."
+      },
+      {
+        "item_name": "Chicken Reshmi Kebab",
+        "price": "245.00",
+        "description": "Tender chicken marinated in yoghurt, cream, cheese cooked in tandoor."
+      },
+      {
+        "item_name": "Chicken Sheekh Kebab",
+        "price": "245.00",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Tangdi Kebab",
+        "price": "245.00",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Kalmi Kebab (2 Pcs.)",
+        "price": "245.00",
+        "description": "Chicken leg mildly seasoned & marinated with yoghurt & ginger garlic paste cooked in tandoor."
+      },
+      {
+        "item_name": "Chicken Alishan",
+        "price": "215.00",
+        "description": "Tender Boneless chicken marinated in tangy mix of yoghurt & spices cooked in tandoor, topped with cheese."
+      }
+    ]
+  },
+  {
+    "category": "Veg",
+    "items": [
+      {
+        "item_name": "Mushroom Tikka",
+        "price": "190.00",
+        "description": "Small cubes of cottage cheese cooked on skewers, wrapped in paratha with onion rings, green chilli & dash of lemon."
+      },
+      {
+        "item_name": "Paneer Pakoda",
+        "price": "225.00",
+        "description": ""
+      },
+      {
+        "item_name": "Veg Seekh Kebab",
+        "price": "200.00",
+        "description": ""
+      },
+      {
+        "item_name": "Veg Pakoda",
+        "price": "110.00",
+        "description": ""
+      },
+      {
+        "item_name": "Honey Chilly Potato",
+        "price": "180.00",
+        "description": ""
+      },
+      {
+        "item_name": "Assorted Veg Platter",
+        "price": "450.00",
+        "description": "Mix of veg kebab served with Indian garnish & accompaniments ( Harabara Kebab 4 Nos. Achari Aloo 4 Nos. Paneer Tikka 4 Nos. Veg Malai 4 Nos. Veg Sheekh Kebab 4 Nos.)"
+      }
+    ]
+  },
+  {
+    "category": "Starters",
+    "items": [
+      {
+        "item_name": "Veg Corn Tikki",
+        "price": "130.00",
+        "description": "A unique combination of boiled corn, green peas & potatoes full with spices & flavour"
+      },
+      {
+        "item_name": "Hara Bhara Kebab",
+        "price": "145.00",
+        "description": "Vegetable & Spinach patties, mildly spiced & deep fried"
+      },
+      {
+        "item_name": "Paneer Malai Tikka",
+        "price": "240.00",
+        "description": "Cottage Cheese cubes marinated with yogurt, cream, spices & herbs."
+      },
+      {
+        "item_name": "Paneer Lasooni Tikka",
+        "price": "230.00",
+        "description": "Cottage cheese cubes marinated with garlic paste & yogurt."
+      },
+      {
+        "item_name": "Paneer Tikka",
+        "price": "230.00",
+        "description": "Chunks of Paneer marinated in aromatic spices & grilled in tandoor"
+      },
+      {
+        "item_name": "Paneer Reshmi Kebab",
+        "price": "235.00",
+        "description": "A Soft & Juicy kebab, cottage cheese marinated in yoghurt & cream cooked in tandoor"
+      },
+      {
+        "item_name": "Paneer Banjara Kebab",
+        "price": "235.00",
+        "description": "A delicios kebab, paneer marinated with yoghurt & traditional spices"
+      },
+      {
+        "item_name": "Paneer Pahadi Kebab",
+        "price": "235.00",
+        "description": "A delicios kebab, paneer marinated with yoghurt & traditional spices"
+      },
+      {
+        "item_name": "Paneer Kathi Roll",
+        "price": "215.00",
+        "description": "Small cubes of cottage cheese cooked on skewers, wrapped in paratha with onion rings, green chilli & dash of lemon."
+      },
+      {
+        "item_name": "Mushroom Tikka",
+        "price": "190.00",
+        "description": "Small cubes of cottage cheese cooked on skewers, wrapped in paratha with onion rings, green chilli & dash of lemon."
+      }
+    ]
+  },
+  {
+    "category": "Indian Starters - Non-Veg",
+    "items": [
+      {
+        "item_name": "Chicken Tandoori (Half)",
+        "price": "275.00",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Tandoori (Full)",
+        "price": "520.00",
+        "description": ""
+      }
+    ]
+  }
+]
