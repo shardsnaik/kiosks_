@@ -387,3 +387,4 @@ class pdf_extractor:
             
             return layout_text
     
+

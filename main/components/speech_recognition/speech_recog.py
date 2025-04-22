@@ -2,6 +2,7 @@ from main.components.speech_recognition.config.speech_recog_config import speech
 from faster_whisper import WhisperModel
 import torch
 import sounddevice
+import speech_recognition as sr
 from scipy.io.wavfile import write
 import os
 
@@ -29,9 +30,29 @@ class speech_recog_compo:
     
     def record_and_transcribe_audio(self):
         print('Recording audio...')
-        audio = sounddevice.rec(int(self.params['duration'] * self.params['sample_rate']), samplerate=self.params['sample_rate'], channels=1, dtype='int16')
-        sounddevice.wait()
-        write('recording.wav', self.params['sample_rate'], audio)
+
+        # audio = sounddevice.rec(int(self.params['duration'] * self.params['sample_rate']), samplerate=self.params['sample_rate'], channels=1, dtype='int16')
+
+        
+        # 🎙️ recording usign speech_recognition model
+        print("🎙️ Listening... Speak now (will stop automatically when you're silent)")
+
+        recog = sr.Recognizer()
+        mic = sr.Microphone(sample_rate=self.params['sample_rate'])
+        all_audio =[]
+        with mic as source:
+            recog.adjust_for_ambient_noise(source)
+            audio = recog.listen(source, 
+            timeout=5, phrase_time_limit=None)
+
+        # sounddevice.wait()
+        # write('recording.wav', self.params['sample_rate'], audio)
+        # Save to WAV
+        wav_file = "recording.wav"
+        with open(wav_file, "wb") as f:
+            f.write(audio.get_wav_data())
+    
+
         print("✅ Recording saved to", "recording.wav")
         model = WhisperModel(self.config['model'], compute_type=self.config['compute_type'])  
 
