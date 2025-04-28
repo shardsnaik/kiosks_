@@ -27,4 +27,6 @@ pyttsx3==2.98
 faster-whisper==1.1.1
 pandas==2.2.3
 datasets==3.5.0
+spacy==3.8.5
+
 # 🦾‼️‼️❕🔜✔️
