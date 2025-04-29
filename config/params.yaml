@@ -1,4 +1,13 @@
 duration: 5
 sampling_rate: 16000
 channel: 1
-compute_type: 'float32'  # use float16 if GPU available
+compute_type: "float32"  # use float16 if GPU available
+
+intent_keywords:
+  ordering_intent:
+    - "order"
+    - "want"
+    - "place for"
+    - "get"
+    - "get me"
+    - "add"

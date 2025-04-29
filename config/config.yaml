@@ -19,3 +19,6 @@ cashier:
 artifacts:
   datasets: artifacts/datasets
   raw_datasets: artifacts/raw_datasets
+
+intent_recog:
+  nltk_path: nltk_data

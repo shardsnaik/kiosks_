@@ -182,5 +182,8 @@ recording.wav
 # models
 models/
 
+# NlTK required file 
+nltk_data/
+
 # notes file personal
 notes.txt
