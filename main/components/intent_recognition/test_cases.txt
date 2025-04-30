@@ -1,0 +1,53 @@
+<<<<<<<< ❕ Interfering INTENT RECOGNITION Component ‼️ >>>>>>>>>>>
+created directory at: nltk_data
+intent ordering_keywords
+keywords ['order', 'want', 'place for', 'get', 'get me', 'add']
+intent cancelling_keywords
+keywords ["don't", 'cancel', "don't want", 'no need', "don't add"]
+1.Could you please add a pizza to my order? I'm craving it! => ordering_keywords
+intent ordering_keywords
+keywords ['order', 'want', 'place for', 'get', 'get me', 'add']
+intent cancelling_keywords
+keywords ["don't", 'cancel', "don't want", 'no need', "don't add"]
+2.I'd love to place an order for a fresh salad. Thank you! => ordering_keywords
+intent ordering_keywords
+keywords ['order', 'want', 'place for', 'get', 'get me', 'add']
+intent cancelling_keywords
+keywords ["don't", 'cancel', "don't want", 'no need', "don't add"]
+3.Can you please confirm my order for the pasta? I can't wait to enjoy it. => ordering_keywords
+intent ordering_keywords
+keywords ['order', 'want', 'place for', 'get', 'get me', 'add']
+intent cancelling_keywords
+keywords ["don't", 'cancel', "don't want", 'no need', "don't add"]
+4.I’ve changed my mind, please remove the sushi from my order. => ordering_keywords
+intent ordering_keywords
+keywords ['order', 'want', 'place for', 'get', 'get me', 'add']
+intent cancelling_keywords
+keywords ["don't", 'cancel', "don't want", 'no need', "don't add"]
+5.I don’t need the fries anymore, so please cancel them. => cancelling_keywords
+intent ordering_keywords
+keywords ['order', 'want', 'place for', 'get', 'get me', 'add']
+intent cancelling_keywords
+keywords ["don't", 'cancel', "don't want", 'no need', "don't add"]
+6.Can you stop processing my order for the sandwich? I no longer want it. => ordering_keywords
+(myenv) PS C:\kiosks_>
+
+
+##########################################################
+
+
+<<<<<<<< ❕ Interfering INTENT RECOGNITION Component ‼️ >>>>>>>>>>>
+created directory at: nltk_data
+1.Could you please add a pizza to my order? I'm craving it! => ordering_keywords
+2.I'd love to place an order for a fresh salad. Thank you! => ordering_keywords
+3.Can you please confirm my order for the pasta? I can't wait to enjoy it. => ordering_keywords
+4.I’ve changed my mind, please remove the sushi from my order. => cancelling_keywords
+5.I don’t need the fries anymore, so please cancel them. => cancelling_keywords
+6.Can you stop processing my order for the sandwich? I no longer want it. => ordering_keywords
+7.Could you bring me a burger with extra cheese, please? That sounds perfect! => unknown_intent
+8.I'd like to order some freshly baked cookies. Can you help me with that? => ordering_keywords
+9.I’m excited to try the new pasta dish! Please place an order for me. => ordering_keywords
+10.Please cancel my order for the dessert platter, I’ve decided against it. => ordering_keywords
+11.I don’t want the seafood curry anymore, could you remove it from my order? => ordering_keywords
+12.Could you stop the delivery for the salad? I don’t need it now. => unknown_intent
+(myenv) PS C:\kiosks_>

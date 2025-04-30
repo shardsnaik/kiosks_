@@ -12,7 +12,12 @@ class intent_recogntion_configs:
 
         intent_recogntion_configrations ={
             'nltk_path': config['nltk_path'],
-            'intent_keywords': params.ordering_intent
-        
+            
+            'intent_keywords':{
+
+            'ordering_keywords': params['ordering_intent'],
+            'cancelling_keywords': params['canceling_intent']
+            
+            }
         }
         return intent_recogntion_configrations

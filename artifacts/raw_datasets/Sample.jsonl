@@ -108,5 +108,15 @@
 {"messages": [{"role": "assistant", "content": "Good evening! Are you dining in or taking out today?"}, {"role": "user", "content": "I'll dine in."}, {"role": "assistant", "content": "Great! Here's our menu. Let me know if you have any questions."}, {"role": "user", "content": "Do you have any vegetarian options?"}, {"role": "assistant", "content": "Yes! Our {vegetarian_item} is very popular."}, {"role": "user", "content": "I'll have that, please."}, {"role": "assistant", "content": "Excellent choice. Your order number is {order_number}. We'll call you when it's ready."}]}
 {"messages": [{"role": "assistant", "content": "Good afternoon! Would you like a table for how many?"}, {"role": "user", "content": "Table for two, please."}, {"role": "assistant", "content": "Right this way. Here's the menu."}, {"role": "user", "content": "Thank you. What’s your recommendation?"}, {"role": "assistant", "content": "Our {menu_special} is a favorite."}, {"role": "user", "content": "I’ll have that."}, {"role": "assistant", "content": "Excellent choice! I'll put that in."}]}
 {"messages": [{"role": "user", "content": "Good afternoon! I saw the offers today! could explain more about the offers?"}, {"role": "assistant", "content": "Sure! I am happy to help you..! Here the todays offers {todays_offers}"}]}
-
-
+{"messages": [{"role": "user", "content": "Hello, may I see the menu?"},
+      {"role": "assistant", "content": "Sure! Here is the menu. Feel free to order whenever you're ready."},
+      {"role": "user", "content": "Okay, let's add 2 {item_name_1}."},
+      {"role": "assistant", "content": "Alright, 2 {item_name_1} have been successfully added to your cart. Would you like to add anything else?"},
+      {"role": "user", "content": "I just want to add {item_name_2} also, with extra {customization}."},
+      {"role": "assistant", "content": "Got it! {item_name_2} with extra {customization} has also been added. Anything else?"},
+      {"role": "user", "content": "Okay then, add {item_name_3} too."},
+      {"role": "assistant", "content": "Sure. Items in your cart now are: 2 {item_name_1}, 1 {item_name_2} with extra {customization}, and 1 {item_name_3}. Your total is {total}. Are you ready to proceed?"},
+      {"role": "user", "content": "Yes, let's add all to the cart."}
+    ]
+  }
+  

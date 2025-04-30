@@ -11,3 +11,14 @@ intent_keywords:
     - "get"
     - "get me"
     - "add"
+  
+  canceling_intent:
+    - "don't"
+    - "cancel"
+    - "don't want"
+    - "no need"
+    - "don't add"
+    - "remove"
+    - "please remove"
+    - "want to cancel"
+    - "no longer want"
