@@ -52,3 +52,5 @@ if __name__ == '__main__':
     # print(objs.extract_intent_with_nltk("just cancel my order i don't want it anaymore"))
     for num,i in enumerate(text):
         print(f'{num+1}.{i} => {objs.extract_intent_with_nltk(i)}')
+
+
