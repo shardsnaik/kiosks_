@@ -93,11 +93,12 @@ pip install -r requirements.txt
 ---
 config:
   theme: redux
+  layout: dagre
 ---
 flowchart TD
  subgraph s1["Components"]
         n8["Internal Storage"]
-        n9["Sample Label"]
+        n33["API 🗨️🗨️"]
   end
  subgraph s2["Intent Recognition"]
         n17["NLTK"]
@@ -105,83 +106,89 @@ flowchart TD
   end
  subgraph s3["Reinforcement Learning"]
         n22["Collate Action"]
-        n23["Feedback"]
         n20["Database"]
         n21["Preprocessing"]
         n24["reinforcement learning"]
         n28["Communication Link"]
-  end
- subgraph s4["OUTPUT"]
-        n15["Text to Speech"]
-        n27["Display"]
+        n34(["Feedback🚀"])
   end
  subgraph s5["INPUT"]
         n2["Manual Input"]
-        n29["Sample Label"]
         n1["Start"]
         n5["Voice Input"]
+        n29["Menu File 🗃️"]
+  end
+ subgraph s6["OUTPUT"]
+        n35["Text to Speech 📤"]
+        n27["Display"]
   end
     B{"LLM"} --> n11["Multi Process"]
     n1 --> n4["speech to text"]
     n2 --> B
     n4 --> B & n22
     n5 L_n5_n1_0@-- Start --> n1
-    n9 <--> n4
     n8 <--> n4
     n11 --> n13["Generated Output"]
     n11 L_n11_n27_0@==> n27
-    n13 --> n14["Stop"] & n22
+    n13 --> n22 & n35
     n13 o--o n17
-    n14 L_n14_n15_0@==> n15
-    n19["END"] --- n15
-    n22 --> n23
-    n23 --> n20
     n21 --> n28
     n21 === n24
     n18 o--o n13
     n20 --> n21
     n28 --> B
     n24 --> n28
-    n29 --> B
+    n29 L_n29_B_0@--> B
+    n33 --> n4
+    n22 --> n34
+    n34 L_n34_n20_0@--> n20
     n8@{ shape: internal-storage}
-    n9@{ icon: "gcp:api", pos: "b"}
+    n33@{ shape: card}
     n22@{ shape: collate}
-    n23@{ icon: "azure:backlog", pos: "t"}
     n20@{ shape: db}
     n21@{ shape: div-proc}
     n24@{ shape: braces}
     n28@{ shape: com-link}
-    n15@{ icon: "aws:arch-amazon-simple-notification-service", pos: "t", h: 60}
-    n27@{ shape: display}
     n2@{ shape: manual-input}
-    n29@{ icon: "fa:file-pdf", pos: "b"}
-    n11@{ shape: procs}
     n1@{ shape: start}
-    n4@{ shape: rect}
     n5@{ icon: "gcp:speech-to-text", pos: "t", h: 60}
-    n14@{ shape: stop}
-    n19@{ shape: text}
+    n29@{ shape: text}
+    n27@{ shape: display}
+    n11@{ shape: procs}
+    n4@{ shape: rect}
      n22:::Ash
-     n23:::Ash
      n20:::Ash
      n21:::Ash
      n24:::Ash
      n2:::Pine
+     n35:::Sky
+     n35:::Pine
+     n27:::Rose
      B:::Aqua
-    classDef Pine stroke-width:1px, stroke-dasharray:none, stroke:#254336, fill:#27654A, color:#FFFFFF
+     n11:::Peach
     classDef Aqua stroke-width:1px, stroke-dasharray:none, stroke:#46EDC8, fill:#DEFFF8, color:#378E7A
     classDef Ash stroke-width:1px, stroke-dasharray:none, stroke:#999999, fill:#EEEEEE, color:#000000
+    classDef Sky stroke-width:1px, stroke-dasharray:none, stroke:#374D7C, fill:#E2EBFF, color:#374D7C
+    classDef Pine stroke-width:1px, stroke-dasharray:none, stroke:#254336, fill:#27654A, color:#FFFFFF
+    classDef Rose stroke-width:1px, stroke-dasharray:none, stroke:#FF5978, fill:#FFDFE5, color:#8E2236
+    classDef Peach stroke-width:1px, stroke-dasharray:none, stroke:#FBB35A, fill:#FFEFDB, color:#8F632D
+    style n33 color:#424242,fill:#BBDEFB
     style n28 fill:#FF6D00
-    style B color:#000000
     style n5 fill:#000000
-    style s4 color:#00C853
+    style n29 color:#000000,fill:#00C853
+    style B color:#000000
     style s5 color:#00C853
+    style s2 fill:#FFF9C4
     linkStyle 1 stroke:#00C853,fill:none
+    linkStyle 4 stroke:#FF6D00,fill:none
     linkStyle 5 stroke:#00C853,fill:none
-    linkStyle 9 stroke:#2962FF,fill:none
-    linkStyle 13 stroke:#2962FF,fill:none
+    linkStyle 8 stroke:#2962FF,fill:none
+    linkStyle 9 stroke:#FF6D00,fill:none
+    linkStyle 21 stroke:#D50000,fill:none
     L_n5_n1_0@{ animation: fast } 
     L_n11_n27_0@{ animation: slow } 
-    L_n14_n15_0@{ animation: slow }
+    L_n13_n35_0@{ animation: fast } 
+    L_n29_B_0@{ animation: fast } 
+    L_n34_n20_0@{ animation: slow }
 
 ```
