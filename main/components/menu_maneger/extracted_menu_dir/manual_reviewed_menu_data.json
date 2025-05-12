@@ -1,70 +1,285 @@
 [
     {
-        "category": "Breakfast",
+        "category": "Parotta",
         "items": [
             {
-                "item_name": "Food Item",
-                "price": "",
+                "item_name": "Parotta Veechu Parotta",
+                "price": "70",
                 "description": ""
             },
             {
-                "item_name": "Food Item 1",
-                "price": "",
+                "item_name": "Open Veechu Parotta",
+                "price": "25",
+                "description": ""
+            },
+            {
+                "item_name": "Veechu Egg Parotta",
+                "price": "70",
+                "description": ""
+            },
+            {
+                "item_name": "Piece Parotta",
+                "price": "180",
+                "description": ""
+            },
+            {
+                "item_name": "Kothu Parotta",
+                "price": "170",
+                "description": ""
+            },
+            {
+                "item_name": "Mutton Kaima Parotta",
+                "price": "180",
+                "description": ""
+            },
+            {
+                "item_name": "Chicken Kaima Parotta",
+                "price": "170",
+                "description": ""
+            },
+            {
+                "item_name": "Mutton Murtabak Parotta",
+                "price": "25",
+                "description": ""
+            },
+            {
+                "item_name": "Chicken Murtabak Parotta",
+                "price": "20",
+                "description": ""
+            },
+            {
+                "item_name": "Oll Parotta",
+                "price": "25",
+                "description": ""
+            },
+            {
+                "item_name": "Without Oil Parotta",
+                "price": "30",
+                "description": ""
+            },
+            {
+                "item_name": "Panchu Parotta",
+                "price": "210",
+                "description": ""
+            },
+            {
+                "item_name": "Sweet Parotta",
+                "price": "170",
+                "description": ""
+            },
+            {
+                "item_name": "Banana Leaf Mutton Parotta",
+                "price": "40",
+                "description": ""
+            },
+            {
+                "item_name": "Banana Leaf Chicken Parotta",
+                "price": "300",
+                "description": ""
+            },
+            {
+                "item_name": "Chappathi",
+                "price": "120",
+                "description": ""
+            },
+            {
+                "item_name": "Chicken Dum Parotta",
+                "price": "130",
+                "description": ""
+            },
+            {
+                "item_name": "Mushroom Dosa",
+                "price": "160",
+                "description": ""
+            },
+            {
+                "item_name": "Chicken Dosa",
+                "price": "120",
+                "description": ""
+            },
+            {
+                "item_name": "Mutton Dosa",
+                "price": "130",
                 "description": ""
             }
         ]
     },
     {
-        "category": "Stew",
+        "category": "Idiyappam / Paya",
         "items": [
             {
-                "item_name": "Food Item",
-                "price": "",
+                "item_name": "Idiyappam / Paya",
+                "price": "80",
                 "description": ""
             },
             {
-                "item_name": "Food Item 1",
-                "price": "",
+                "item_name": "Appam / Chicken Gravy",
+                "price": "110",
                 "description": ""
             }
         ]
     },
     {
-        "category": "Dunks",
+        "category": "Manchurian",
         "items": [
             {
-                "item_name": "Food tem",
-                "price": "",
+                "item_name": "Veg Manchurian",
+                "price": "80",
                 "description": ""
             },
             {
-                "item_name": "Food Iter 1",
-                "price": "",
+                "item_name": "Gobi Manchurian",
+                "price": "90",
                 "description": ""
             },
             {
-                "item_name": "Food Item 1",
-                "price": "",
+                "item_name": "Chilli Gobi Manchurian",
+                "price": "120",
                 "description": ""
-            }
-        ]
-    },
-    {
-        "category": "Prices",
-        "items": [
+            },
             {
-                "item_name": "Price Example",
+                "item_name": "Mushroom Gravy",
                 "price": "100",
                 "description": ""
             },
             {
-                "item_name": "Price Example",
-                "price": "200",
+                "item_name": "Mushroom Manchurian",
+                "price": "110",
                 "description": ""
             },
             {
-                "item_name": "Price Example",
-                "price": "300",
+                "item_name": "Crispy Veg",
+                "price": "140",
+                "description": ""
+            },
+            {
+                "item_name": "Szechwan Chicken",
+                "price": "140",
+                "description": ""
+            },
+            {
+                "item_name": "Chilli Chicken",
+                "price": "100",
+                "description": ""
+            },
+            {
+                "item_name": "Ginger Chicken",
+                "price": "130",
+                "description": ""
+            },
+            {
+                "item_name": "Dragon Chicken",
+                "price": "110",
+                "description": ""
+            },
+            {
+                "item_name": "Shawarma Roll",
+                "price": "140",
+                "description": ""
+            },
+            {
+                "item_name": "Shawarma Plate",
+                "price": "100",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "category": "Sued Rice",
+        "items": [
+            {
+                "item_name": "Veg Fried Rice",
+                "price": "80",
+                "description": ""
+            },
+            {
+                "item_name": "Egg Fried Rice",
+                "price": "90",
+                "description": ""
+            },
+            {
+                "item_name": "Chicken Fried Rice",
+                "price": "120",
+                "description": ""
+            },
+            {
+                "item_name": "Mushroom Fried Rice",
+                "price": "120",
+                "description": ""
+            },
+            {
+                "item_name": "Panner Fried Rice",
+                "price": "120",
+                "description": ""
+            },
+            {
+                "item_name": "Mixed Fried Rice",
+                "price": "150",
+                "description": ""
+            },
+            {
+                "item_name": "Schezwan Chicken Fried Rice",
+                "price": "120",
+                "description": ""
+            },
+            {
+                "item_name": "Schezwan Veg Fried Rice",
+                "price": "140",
+                "description": ""
+            },
+            {
+                "item_name": "Taiwanese Chicken Fried Rice",
+                "price": "150",
+                "description": ""
+            },
+            {
+                "item_name": "Taiwanese Veg Fried Rice",
+                "price": "120",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "category": "Noodles",
+        "items": [
+            {
+                "item_name": "Chicken Noodles",
+                "price": "80",
+                "description": ""
+            },
+            {
+                "item_name": "Veg Noodles",
+                "price": "90",
+                "description": ""
+            },
+            {
+                "item_name": "Egg Noodles",
+                "price": "120",
+                "description": ""
+            },
+            {
+                "item_name": "Mixed Noodles",
+                "price": "120",
+                "description": ""
+            },
+            {
+                "item_name": "Schezwan Chicken Noodles",
+                "price": "140",
+                "description": ""
+            },
+            {
+                "item_name": "Schezwan Veg Noodles",
+                "price": "110",
+                "description": ""
+            },
+            {
+                "item_name": "Taiwanese Chicken Noodles",
+                "price": "140",
+                "description": ""
+            },
+            {
+                "item_name": "Taiwanese Veg Noodles",
+                "price": "100",
                 "description": ""
             }
         ]
