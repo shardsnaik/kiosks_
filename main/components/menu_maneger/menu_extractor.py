@@ -27,6 +27,7 @@ class pdf_extractor:
         self.pdf_url = self.source['pdf_url']
         self.extracted_menu_dir = self.source['extracted_menu']
         self.final_json_name = self.source['final_json_name']
+        self.manual_json_name = self.source['manual_json_name']
         self.extracter_model_name = self.source['extracter_model_name']
 
         self.embeddings = HuggingFaceEmbeddings(
@@ -124,7 +125,7 @@ class pdf_extractor:
                 print("⚠️  Invalid input. Please enter 'y', 'n', or 'd'")
                 # Optionally re-prompt here if you want strict control
         
-        output_file_path = os.path.join(self.extracted_menu_dir, f"manual_{self.final_json_name}")
+        output_file_path = os.path.join(self.extracted_menu_dir, self.manual_json_name)
         if not reviewed_data:
             print("❌ No items were confirmed. Exiting...")
             save_json_file(path=output_file_path, data= raw_menu_items)
@@ -278,7 +279,7 @@ class pdf_extractor:
                     print("⚠️  Invalid input. Please enter 'y', 'n', or 'd'")
                 # Optionally re-prompt here if you want strict control
         
-        output_file_path = os.path.join(self.extracted_menu_dir, f"manual_{self.final_json_name}")
+        output_file_path = os.path.join(self.extracted_menu_dir, self.manual_json_name)
         if not reviewed_data:
             print("❌ No items were confirmed. Exiting...")
             save_json_file(path=output_file_path, data= raw_menu_items)

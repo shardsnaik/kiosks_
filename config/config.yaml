@@ -2,7 +2,8 @@ pdf_maneger:
   pdf_path: 'main\components\menu_maneger\pdf_dir\menu_image.jpg'
   pdf_dir: main/components/menu_maneger/pdf_dir
   extracted_menu_dir: main/components/menu_maneger/extracted_menu_dir
-  final_json_file_name: 'reviewed_menu_data.json'
+  json_file_name: 'reviewed_menu_data.json'
+  final_json_file_name: 'manual_reviewed_menu_data.json'
   extracter_model_name: 'llama-3.3-70b-versatile'
 
 local_models:
@@ -15,6 +16,8 @@ cashier:
   # base_model_id: 'google/gemma-3-1b-it'
   # base_model_id: 'meta-llama/Llama-3.2-1B'
   # base_model_id: 'meta-llama/Llama-3.1-8B-Instruct'
+  fine_tuned_model: 'models/Qwen2.5-0.5B-finetunned-Instruct-merged'
+  rag_file_in_json: 'manual_reviewed_menu_data.json'
 
 artifacts:
   datasets: artifacts/datasets

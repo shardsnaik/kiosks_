@@ -1,0 +1,53 @@
+PS C:\kiosks_>  C:/kiosks_/myenv/Scripts/python.exe c:/kiosks_/main/components/llm_engine_/cashier_root.py
+🔄 Loading model and tokenizer...
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+🔄 Loading RAG embedder and data...
+✅ Ready. Type 'exit' to quit.
+
+User Question: hii may i see the menu
+
+👤 User: hii may i see the menu
+🤖 Assistant: Sure! Here is the {menu}. I can show you more items if you'd like.
+
+User Question: hey i want chicken noodles what's the price of that
+
+👤 User: hey i want chicken noodles what's the price of that
+🤖 Assistant: The price of chicken noodles is 80.
+
+User Question: hey i want kothu parotta what's the price of that
+
+👤 User: hey i want kothu parotta what's the price of that
+🤖 Assistant: The {price} is for you.
+
+User Question: hey i want kothu parotta what's the price of that
+
+👤 User: hey i want kothu parotta what's the price of that
+🤖 Assistant: The {item_name} costs {price}.
+
+User Question: hey i want chicken noodles what's the price of that
+
+👤 User: hey i want chicken noodles what's the price of that
+🤖 Assistant: The price of chicken noodles is 80.
+
+User Question: hey i want both chicken noodles and kothu parotta what the price of both..?
+
+👤 User: hey i want both chicken noodles and kothu parotta what the price of both..?
+🤖 Assistant: The total for both chicken noodles and kothu parotta is 170.
+
+User Question: hey lets add two  kothu parotta
+
+👤 User: hey lets add two  kothu parotta
+🤖 Assistant: Sure, how many do you want to add?
+
+User Question: just 2
+
+👤 User: just 2
+🤖 Assistant: Sure, how many do you need?
+
+User Question: is there any discount are there?
+
+👤 User: is there any discount are there?
+🤖 Assistant: Yes, we have {discount_percentage} off on all items. Please indicate your preference when you check out.
+
+User Question: exit
+PS C:\kiosks_>

@@ -104,27 +104,27 @@
     "items": [
       {
         "item_name": "Semam",
-        "price": "80",
+        "price": "",
         "description": ""
       },
       {
         "item_name": "Badam Shake",
-        "price": "100",
+        "price": "",
         "description": ""
       },
       {
         "item_name": "Oreo Shake",
-        "price": "80",
+        "price": "",
         "description": ""
       },
       {
         "item_name": "Cara Milk Nuts",
-        "price": "80",
+        "price": "",
         "description": ""
       },
       {
         "item_name": "Til Tak",
-        "price": "80",
+        "price": "",
         "description": ""
       }
     ]
@@ -134,27 +134,27 @@
     "items": [
       {
         "item_name": "Looda",
-        "price": "20",
+        "price": "",
         "description": ""
       },
       {
         "item_name": "Royal Falooda",
-        "price": "35",
+        "price": "150",
         "description": ""
       },
       {
         "item_name": "Pista Falooda",
-        "price": "25",
+        "price": "160",
         "description": ""
       },
       {
         "item_name": "Butter Falooda",
-        "price": "25",
+        "price": "170",
         "description": ""
       },
       {
         "item_name": "MGS Special Falooda",
-        "price": "35",
+        "price": "210",
         "description": ""
       }
     ]
@@ -199,17 +199,17 @@
     "items": [
       {
         "item_name": "Guts Salad",
-        "price": "150",
+        "price": "",
         "description": ""
       },
       {
         "item_name": "Fruits Salad Pudding",
-        "price": "160",
+        "price": "20",
         "description": ""
       },
       {
         "item_name": "Dry Fruits Salad",
-        "price": "170",
+        "price": "35",
         "description": ""
       }
     ]
@@ -264,27 +264,27 @@
       },
       {
         "item_name": "Chilli Fish",
-        "price": "180",
+        "price": "",
         "description": ""
       },
       {
         "item_name": "Prawns Fry",
-        "price": "180",
+        "price": "",
         "description": ""
       },
       {
         "item_name": "Prawns Masala",
-        "price": "15",
+        "price": "",
         "description": ""
       },
       {
         "item_name": "Prawns Curry",
-        "price": "25",
+        "price": "",
         "description": ""
       },
       {
         "item_name": "Chilli Prawns",
-        "price": "25",
+        "price": "",
         "description": ""
       }
     ]
@@ -294,7 +294,7 @@
     "items": [
       {
         "item_name": "Parotta Veechu Parotta",
-        "price": "70",
+        "price": "15",
         "description": ""
       },
       {
@@ -304,37 +304,37 @@
       },
       {
         "item_name": "Veechu Egg Parotta",
-        "price": "70",
-        "description": ""
-      },
-      {
-        "item_name": "Piece Parotta",
-        "price": "180",
-        "description": ""
-      },
-      {
-        "item_name": "Kothu Parotta",
-        "price": "170",
-        "description": ""
-      },
-      {
-        "item_name": "Mutton Kaima Parotta",
-        "price": "180",
-        "description": ""
-      },
-      {
-        "item_name": "Chicken Kaima Parotta",
-        "price": "170",
-        "description": ""
-      },
-      {
-        "item_name": "Mutton Murtabak Parotta",
         "price": "25",
         "description": ""
       },
       {
+        "item_name": "Piece Parotta",
+        "price": "70",
+        "description": ""
+      },
+      {
+        "item_name": "Kothu Parotta",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Kaima Parotta",
+        "price": "70",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Kaima Parotta",
+        "price": "180",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Murtabak Parotta",
+        "price": "180",
+        "description": ""
+      },
+      {
         "item_name": "Chicken Murtabak Parotta",
-        "price": "20",
+        "price": "170",
         "description": ""
       },
       {
@@ -344,52 +344,52 @@
       },
       {
         "item_name": "Without Oil Parotta",
-        "price": "30",
+        "price": "20",
         "description": ""
       },
       {
         "item_name": "Panchu Parotta",
-        "price": "210",
+        "price": "25",
         "description": ""
       },
       {
         "item_name": "Sweet Parotta",
-        "price": "170",
+        "price": "30",
         "description": ""
       },
       {
         "item_name": "Banana Leaf Mutton Parotta",
-        "price": "40",
+        "price": "210",
         "description": ""
       },
       {
         "item_name": "Banana Leaf Chicken Parotta",
-        "price": "300",
+        "price": "170",
         "description": ""
       },
       {
         "item_name": "Chappathi",
-        "price": "120",
+        "price": "40",
         "description": ""
       },
       {
         "item_name": "Chicken Dum Parotta",
-        "price": "130",
+        "price": "300",
         "description": ""
       },
       {
         "item_name": "Mushroom Dosa",
-        "price": "160",
-        "description": ""
-      },
-      {
-        "item_name": "Chicken Dosa",
         "price": "120",
         "description": ""
       },
       {
-        "item_name": "Mutton Dosa",
+        "item_name": "Chicken Dosa",
         "price": "130",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Dosa",
+        "price": "160",
         "description": ""
       }
     ]
@@ -399,12 +399,12 @@
     "items": [
       {
         "item_name": "Idiyappam / Paya",
-        "price": "80",
+        "price": "",
         "description": ""
       },
       {
         "item_name": "Appam / Chicken Gravy",
-        "price": "110",
+        "price": "",
         "description": ""
       }
     ]
@@ -429,27 +429,27 @@
       },
       {
         "item_name": "Mushroom Gravy",
-        "price": "100",
+        "price": "120",
         "description": ""
       },
       {
         "item_name": "Mushroom Manchurian",
-        "price": "110",
+        "price": "150",
         "description": ""
       },
       {
         "item_name": "Crispy Veg",
-        "price": "140",
+        "price": "80",
         "description": ""
       },
       {
         "item_name": "Szechwan Chicken",
-        "price": "140",
+        "price": "110",
         "description": ""
       },
       {
         "item_name": "Chilli Chicken",
-        "price": "100",
+        "price": "90",
         "description": ""
       },
       {
@@ -459,7 +459,7 @@
       },
       {
         "item_name": "Dragon Chicken",
-        "price": "110",
+        "price": "140",
         "description": ""
       },
       {
@@ -475,8 +475,13 @@
     ]
   },
   {
-    "category": "Sued Rice",
+    "category": "Fried Rice",
     "items": [
+      {
+        "item_name": "Sued Rice",
+        "price": "",
+        "description": ""
+      },
       {
         "item_name": "Veg Fried Rice",
         "price": "80",
@@ -524,7 +529,7 @@
       },
       {
         "item_name": "Taiwanese Veg Fried Rice",
-        "price": "120",
+        "price": "140",
         "description": ""
       }
     ]
@@ -554,22 +559,22 @@
       },
       {
         "item_name": "Schezwan Chicken Noodles",
-        "price": "140",
+        "price": "120",
         "description": ""
       },
       {
         "item_name": "Schezwan Veg Noodles",
-        "price": "110",
-        "description": ""
-      },
-      {
-        "item_name": "Taiwanese Chicken Noodles",
         "price": "140",
         "description": ""
       },
       {
+        "item_name": "Taiwanese Chicken Noodles",
+        "price": "150",
+        "description": ""
+      },
+      {
         "item_name": "Taiwanese Veg Noodles",
-        "price": "100",
+        "price": "140",
         "description": ""
       }
     ]

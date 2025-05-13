@@ -22,7 +22,8 @@ class pdf_source:
             'pdf_dir': Path(config['pdf_dir']),
             'extracted_menu': Path(config['extracted_menu_dir']),
             'pdf_url' : config['pdf_path'],
-            'final_json_name' : config['final_json_file_name'],
+            'final_json_name' : config['json_file_name'],
+            'manual_json_name' : config['final_json_file_name'],
             'extracter_model_name' : config['extracter_model_name']
         }
 
