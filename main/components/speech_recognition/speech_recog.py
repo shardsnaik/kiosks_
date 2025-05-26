@@ -85,18 +85,17 @@ class speech_recog_compo:
         full_text = ""
         for segment in segments:
             print(f"[{segment.start:.2f}s -> {segment.end:.2f}s] {segment.text}")
-        full_text += segment.text.strip() + " "
+            full_text += segment.text.strip() + " "
         return full_text.strip() if full_text else None
 
-if __name__ == '__main__':
-    print(" 🎙️🎙️ Initializing Speech Recognition Component...")
-    print("✔️ Loading configuration...")
+# if __name__ == '__main__':
+#     
 
-    obj = speech_recog_config()
-    config_params = obj.speech_recog_module()
+#     obj = speech_recog_config()
+#     config_params = obj.speech_recog_module()
     
-    f = speech_recog_compo(config_params, config_params)
-    f.download_model()
-    d = f.record_and_transcribe_audio()
-    print("Final Transcription:", d)
-    print(type(d))
+#     f = speech_recog_compo(config_params, config_params)
+#     f.download_model()
+#     d = f.record_and_transcribe_audio()
+#     print("Final Transcription:", d)
+#     print(type(d))

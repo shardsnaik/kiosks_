@@ -7,9 +7,10 @@ from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QFont, QPixmap
 
 from main.pipelines.menu_maneger_pipeline import MenuManagerPipeline
-
+import json
 obj = MenuManagerPipeline()
-
+with open('main\components\menu_maneger\extracted_menu_dir\manual_reviewed_menu_data.json', 'r') as data:
+    data = json.load(data)
 
 class MenuItemWidget(QFrame):
     def __init__(self, item_data, add_to_cart_callback):
@@ -26,7 +27,8 @@ class MenuItemWidget(QFrame):
         layout = QVBoxLayout()
         
         # Item name
-        name_label = QLabel(item_data["item_name"])
+        # name_label = QLabel(item_data["item_name"])
+        name_label = QLabel(item_data.get("item_name", "Unnamed Item"))
         name_font = QFont()
         name_font.setBold(True)
         name_font.setPointSize(12)
@@ -34,7 +36,7 @@ class MenuItemWidget(QFrame):
         layout.addWidget(name_label)
         
         # Price
-        price_label = QLabel(f"₹{item_data['price']}")
+        price_label = QLabel(f"₹{int(item_data['price'])}")
         price_font = QFont()
         price_font.setPointSize(10)
         price_label.setFont(price_font)
@@ -76,13 +78,14 @@ class MainWindow(QMainWindow):
         super().__init__()
 
         # Sample menu data (this would come from your JSON)
-        self.menu_data = obj.run_pipeline()
+        # self.menu_data = obj.run_pipeline()
+        # obj.run_pipeline()
         
         self.cart_items = []  # To store cart items with quantity and price
         self.total_price = 0
 
         self.setWindowTitle("The Kiosks")
-        self.setGeometry(100, 100, 1200, 700)
+        self.setGeometry(100, 100, 700, 200)
         self.setStyleSheet("background-color: #ecf0f1;")
 
         # Main container
@@ -186,26 +189,43 @@ class MainWindow(QMainWindow):
         right_layout.addWidget(checkout_button)
 
         # Combine layouts
-        main_layout.addLayout(left_layout, 3)
-        main_layout.addLayout(right_layout, 2)
+        main_layout.addLayout(left_layout, 2)
+        main_layout.addLayout(right_layout, 3)
 
         main_widget.setLayout(main_layout)
         self.setCentralWidget(main_widget)
 
     def populate_menu(self):
-        # Clear existing menu items
+    # Clear existing menu items
         while self.menu_layout.count():
             child = self.menu_layout.takeAt(0)
             if child.widget():
                 child.widget().deleteLater()
-        
-        # Add menu items from JSON data
-        for item_data in self.menu_data:
-            item_widget = MenuItemWidget(item_data, self.add_to_cart)
-            self.menu_layout.addWidget(item_widget)
-        
-        # Add stretch to push items to the top
+    
+        # Loop through each category
+        for category_data in data:
+            category_name = category_data.get("category", "Unnamed Category")
+            items = category_data.get("items", [])
+    
+            # Add category label
+            cat_label = QLabel(f"📂 {category_name}")
+            cat_font = QFont()
+            cat_font.setPointSize(14)
+            cat_font.setBold(True)
+            cat_label.setFont(cat_font)
+            cat_label.setStyleSheet("color: #2c3e50; margin-top: 15px;")
+            self.menu_layout.addWidget(cat_label)
+    
+            # Add each item in the category
+            for item_data in items:
+                if "item_name" in item_data:
+                    item_widget = MenuItemWidget(item_data, self.add_to_cart)
+                    self.menu_layout.addWidget(item_widget)
+    
         self.menu_layout.addStretch()
+    
+        
+
 
     def add_to_cart(self, item_data):
         # Add item to cart
@@ -269,3 +289,4 @@ if __name__ == "__main__":
     window = MainWindow()
     window.show()
     app.exec()
+

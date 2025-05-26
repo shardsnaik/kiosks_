@@ -1,5 +1,8 @@
-from main.components.menu_maneger.menu_extractor import pdf_extractor
+# Importing the Menu extarcting configuration
 from main.components.menu_maneger.config.menu_maneger_config import pdf_source
+
+# Importing the Menu extracter class that hadels all type of menu's (.txt, .pdf, .jpg, .png file)
+from main.components.menu_maneger.menu_extractor import pdf_extractor
 import re, os
 
 class MenuManagerPipeline:
@@ -49,7 +52,7 @@ class MenuManagerPipeline:
                 
         
 
-if __name__ == "__main__":
-    obj = MenuManagerPipeline()
-    obj.run_pipeline()
+# if __name__ == "__main__":
+    # obj = MenuManagerPipeline()
+    # obj.run_pipeline()
     

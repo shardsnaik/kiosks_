@@ -13,3 +13,4 @@ class llm_maneger_pipeline:
     def llm_engine(self):
         obj = llm_engine()
         model, tokenizer,embedder, text_embeddings, text_chunks = obj.load_model_and_doc()
+
