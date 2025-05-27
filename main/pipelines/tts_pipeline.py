@@ -26,7 +26,7 @@ class tts_pipeline:
         config_obj = tts_configration()
         self.config, self.params = config_obj.tts_configuration()
 
-    def main(self):
+    def main(self, gen_text: str):
         """
         Executes the TTS engine using the pre-loaded configuration and parameters.
         
@@ -41,9 +41,9 @@ class tts_pipeline:
         None
         """
         tts = TTS(self.config, self.params)
-        tts.tts_root('hello')  # Example text to convert to speech
+        tts.tts_root(gen_text=gen_text)  # Example text to convert to speech
 
-# Entry point of the script
-if __name__ == '__main__':
-    obj = tts_pipeline()
-    obj.main()
+# # Entry point of the script
+# if __name__ == '__main__':
+#     obj = tts_pipeline()
+#     obj.main()

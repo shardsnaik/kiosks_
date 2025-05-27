@@ -15,8 +15,8 @@ class speech_recognition_pipeline:
         speech_input = component.record_and_transcribe_audio()
         print(type(speech_input))
         return speech_input
-    
 
-if __name__ == '__main__':
-    obj = speech_recognition_pipeline()
-    obj.main()
+
+# if __name__ == '__main__':
+#     obj = speech_recognition_pipeline()
+#     obj.main()
