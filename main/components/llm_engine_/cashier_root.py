@@ -148,6 +148,9 @@ import torch, json, re
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
+from main.pipelines.speech_recognition_pipeline import speech_recognition_pipeline
+
+speech_recog_pipeline = speech_recognition_pipeline()
 
 
 class llm_engine:
@@ -161,10 +164,10 @@ class llm_engine:
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         try:
             print("🔄 Loading model and tokenizer...")
-            model = AutoModelForCausalLM.from_pretrained(self.config['fine_tuned_model']).to(self.device)
-            tokenizer = AutoTokenizer.from_pretrained(self.config['fine_tuned_model'])
+            self.model = AutoModelForCausalLM.from_pretrained(self.config['fine_tuned_model_id']).to(self.device)
+            self.tokenizer = AutoTokenizer.from_pretrained(self.config['fine_tuned_model_id'])
             print("🔄 Loading RAG embedder and data...")
-            embedder = SentenceTransformer('all-MiniLM-L6-v2')                
+            self.embedder = SentenceTransformer('all-MiniLM-L6-v2')                
 
         except Exception as e:
             print('Failed to Load fine tunned Model ❌. ✔️ Check-out the path and model-id for confirmation')
@@ -172,10 +175,10 @@ class llm_engine:
         
         with open(self.config['rag_file_in_json'], "r", encoding="utf-8") as f:
                 rag_data = json.load(f)
-                text_chunks = [json.dumps(item) if isinstance(item, dict) else str(item) for item in rag_data]
-                text_embeddings = embedder.encode(text_chunks, convert_to_tensor=True)
+                self.text_chunks = [json.dumps(item) if isinstance(item, dict) else str(item) for item in rag_data]
+                self.text_embeddings = self.embedder.encode(self.text_chunks, convert_to_tensor=True)
 
-        return model, tokenizer,embedder, text_embeddings, text_chunks
+        return self.model, self.tokenizer,self.embedder, self.text_embeddings, self.text_chunks
     
     
     
@@ -210,7 +213,7 @@ class llm_engine:
     
         return formatted_chunks
     
-    def llm_core(self, model, tokenizer):
+    def llm_core(self, model, tokenizer,embedder, text_embeddings, text_chunks ):
           
         # Chat memory
         chat_history = [{
@@ -219,13 +222,26 @@ class llm_engine:
         }]
         
         print("✅ Ready. Type 'exit' to quit.\n")
+                
         while True:
-            user_text = input("User Question: ")
+            mode = input("🔘 Input Mode - type 'voice' for mic or press Enter for text: ").strip().lower()
+            # user_text = input("User Question: ") 
+            
+            if mode == "voice":
+                print("🎙️ Voice input selected. Please speak now...")
+                try:
+                    user_text =speech_recog_pipeline.main()
+                except Exception as e:
+                    raise Exception(f"Error in speech recognition pipeline: {e}")
+            else:
+                user_text = input("👤 User Question: ").strip()
+            if not user_text:
+                continue  
             if user_text.lower() in ["exit", "quit"]:
                 break
         
             # RAG retrieval
-            rag_context = "\n".join(self.retrieve_relevant_docs(user_text))
+            rag_context = "\n".join(self.retrieve_relevant_docs(embedder, user_text,text_embeddings,text_chunks))
         
             # Append user with RAG context
             chat_history.append({
@@ -259,4 +275,7 @@ class llm_engine:
         
             print(f"\n👤 User: {user_text}")
             print(f"🤖 Assistant: {assistant_reply}\n")
+            return user_text, assistant_reply
+            # Connecting intent recognition pipiline to assistant response
+
             

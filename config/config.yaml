@@ -25,3 +25,6 @@ artifacts:
 
 intent_recog:
   nltk_path: nltk_data
+
+chat_history:
+  chat_history_path: history

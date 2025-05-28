@@ -37,20 +37,20 @@ class intent_recognition_compo:
         else:
             return "unknown_intent"
 
-text =[
-    'just add two biryani',
-    'i want to cancel my order',
-    'remove one biryani'
-]
+# text =[
+#     'just add two biryani',
+#     'i want to cancel my order',
+#     'remove one biryani'
+# ]
 
-if __name__ == '__main__':
-    print('<<<<<<<< ❕ Interfering INTENT RECOGNITION Component ‼️ >>>>>>>>>>>')
-    config_obj = intent_recogntion_configs()
-    config_params = config_obj.intent_recogntion_all_configs()
+# if __name__ == '__main__':
+#     print('<<<<<<<< ❕ Interfering INTENT RECOGNITION Component ‼️ >>>>>>>>>>>')
+#     config_obj = intent_recogntion_configs()
+#     config_params = config_obj.intent_recogntion_all_configs()
     
-    objs = intent_recognition_compo(config_params,config_params)
-    # print(objs.extract_intent_with_nltk("just cancel my order i don't want it anaymore"))
-    for num,i in enumerate(text):
-        print(f'{num+1}.{i} => {objs.extract_intent_with_nltk(i)}')
+#     objs = intent_recognition_compo(config_params,config_params)
+#     # print(objs.extract_intent_with_nltk("just cancel my order i don't want it anaymore"))
+#     for num,i in enumerate(text):
+#         print(f'{num+1}.{i} => {objs.extract_intent_with_nltk(i)}')
 
 
