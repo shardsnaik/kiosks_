@@ -24,6 +24,9 @@ class llm_maneger_pipeline:
         '''
         
         question, response = self.obj.llm_core(self.model, self.tokenizer,self.embedder, self.text_embeddings, self.text_chunks)
+        # if response is None:
+        #     response = "I'm sorry, I didn't understand that. Could you please rephrase your question?"
+        #     return question, response
         return question, response
 
 

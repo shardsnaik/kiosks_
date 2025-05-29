@@ -1,0 +1,10 @@
+[
+    {
+        "user_text": "hello",
+        "llm_response": "Hello! How may I help you?"
+    },
+    {
+        "user_text": "Show me some menals.",
+        "llm_response": "Sure! Here are our popular items:\n\n- Vennila (75)\n- Strawberry (75)\n- Chocolate (80)\n- Butter Scotch (80)\n- Pista (80)\n- Spanish Delite (80)\n- Black Current (80)\n- Cherry (80)\n- Cashew (90)\n- Fig Fruit (100)\n- Kashmir (85)\n- Oman (80)\n- Saudi (80)\n- Thai ("
+    }
+]

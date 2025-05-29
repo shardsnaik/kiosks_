@@ -1,0 +1,10 @@
+[
+    {
+        "user_text": "hello",
+        "llm_response": "Hello! How can I assist you today?"
+    },
+    {
+        "user_text": "hhh",
+        "llm_response": "The price of the {item_name} is {price}."
+    }
+]

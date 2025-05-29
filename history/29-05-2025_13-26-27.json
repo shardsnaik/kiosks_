@@ -1,0 +1,10 @@
+[
+    {
+        "user_text": "jhi",
+        "llm_response": "Sure! How about you?"
+    },
+    {
+        "user_text": "exit",
+        "llm_response": "Thank you"
+    }
+]

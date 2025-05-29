@@ -3,12 +3,14 @@ from main.pipelines.speech_recognition_pipeline import speech_recognition_pipeli
 from main.pipelines.llm_pipeline import llm_maneger_pipeline
 from main.pipelines.intent_recognition_pipeline import intent_recognition_pipeline
 from main.pipelines.tts_pipeline import tts_pipeline
+from main.pipelines.chat_manager_pipeline import ChatManagerPipeline
 
 class  the_AI_Kiosks:
 
     def __init__(self):
         self.intent_recog_obj = intent_recognition_pipeline()
         self.tts_obj = tts_pipeline()
+        self.history_obj =  ChatManagerPipeline()
 
     def run_main(self):
         # # Initiating menu manager pipeline
@@ -30,7 +32,11 @@ class  the_AI_Kiosks:
             '''
             self.intent_recog_obj.intent_recog_main(ques)
             self.tts_obj.main(res)
-            if res == None:
+
+            # pipeline for saving the chat history
+            self.history_obj.chat_history_main(user_text=ques, bot_text=res)
+
+            if ques in ['exit', 'quit']:
                 break
 
 
@@ -39,3 +45,4 @@ class  the_AI_Kiosks:
 if __name__ == '__main__':
     kiosks = the_AI_Kiosks()
     kiosks.run_main()
+

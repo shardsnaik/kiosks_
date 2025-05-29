@@ -1,0 +1,18 @@
+[
+    {
+        "user_text": "hello",
+        "llm_response": "How many servings are in this bottle of milk?"
+    },
+    {
+        "user_text": "may i see the menu?",
+        "llm_response": "Sure! Here is the menu."
+    },
+    {
+        "user_text": "2nd attempt first",
+        "llm_response": "Sure, let me check that for you."
+    },
+    {
+        "user_text": "2nd attempt second",
+        "llm_response": "Sure! How about the {item_name}? It's {price} for two."
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "user_text": "I'd like to purchase this bottle of wine",
+        "llm_response": "I'm afraid we don't have that, but we do have a selection of other wines. Would you like to make me an extra-special selection?"
+    },
+    {
+        "user_text": "exit",
+        "llm_response": "Thank you"
+    }
+]

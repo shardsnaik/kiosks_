@@ -17,6 +17,7 @@ class chat_manager_config:
         create_directories([config.chat_history_path])
 
         all_chat_manager_configs = {
-            'chat_history_path': Path(config['chat_history_path'])
+            'chat_history_path': Path(config['chat_history_path']),
+            'chat_history_file_name': config['chat_history_file_name']
         }
         return all_chat_manager_configs

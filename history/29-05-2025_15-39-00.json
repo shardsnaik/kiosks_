@@ -1,0 +1,22 @@
+[
+    {
+        "user_text": "hello",
+        "llm_response": "Hello! How can I help you with today?"
+    },
+    {
+        "user_text": "may i see the menu",
+        "llm_response": "Sure! Here is the menu."
+    },
+    {
+        "user_text": "add some burger",
+        "llm_response": "Sure! Here's an extra cheese burger for you, priced at {price}."
+    },
+    {
+        "user_text": "what was i order before",
+        "llm_response": "I have a {order} which is priced at {price}."
+    },
+    {
+        "user_text": "exit",
+        "llm_response": "Thank you"
+    }
+]

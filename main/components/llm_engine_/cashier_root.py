@@ -239,6 +239,7 @@ class llm_engine:
                 continue  
             if user_text.lower() in ["exit", "quit"]:
                 break
+
         
             # RAG retrieval
             rag_context = "\n".join(self.retrieve_relevant_docs(embedder, user_text,text_embeddings,text_chunks))
@@ -275,7 +276,10 @@ class llm_engine:
         
             print(f"\n👤 User: {user_text}")
             print(f"🤖 Assistant: {assistant_reply}\n")
+            # if assistant_reply is None:
+                
             return user_text, assistant_reply
             # Connecting intent recognition pipiline to assistant response
-
+        assistant_reply = "Thank you"
+        return user_text, assistant_reply
             

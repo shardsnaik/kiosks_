@@ -1,0 +1,10 @@
+[
+    {
+        "user_text": "hello",
+        "llm_response": "Hello! How may I assist you with your meal today?"
+    },
+    {
+        "user_text": "second attempt",
+        "llm_response": "Sure! I'll take the {choice}."
+    }
+]

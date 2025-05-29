@@ -28,3 +28,4 @@ intent_recog:
 
 chat_history:
   chat_history_path: history
+  chat_history_file_name: chat_history.json
