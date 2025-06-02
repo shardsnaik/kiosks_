@@ -45,3 +45,5 @@ long_conv = [
 with open("fine_tune_data.jsonl", "w") as f:
     for conv in [short_conv, long_conv]:
         f.write(json.dumps(create_finetune_example(menu_context, conv)) + "\n")
+
+
