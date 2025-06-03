@@ -986,5 +986,3768 @@
     "content": "Great! Here’s your payment link. Enjoy your meal!"
   }]}
 {"messages":[
-  
+  {
+      "role": "user",
+      "content": "MENU_CONTEXT":{
+      "food_items": [    
+      {
+      "category": "Milk Shake & Ice Cream",
+      "items": [
+        {
+          "item_name": "Vennila",
+          "price": "75",
+          "description": ""
+        },
+        {
+          "item_name": "Strawberry",
+          "price": "75",
+          "description": ""
+        },
+        {
+          "item_name": "Chocolate",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Butter Scotch",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Pista",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Spanish Delite",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Black Current",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Cherry",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Cashew",
+          "price": "90",
+          "description": ""
+        },
+        {
+          "item_name": "Fig Fruit",
+          "price": "100",
+          "description": ""
+        },
+        {
+          "item_name": "Kashmir",
+          "price": "85",
+          "description": ""
+        },
+        {
+          "item_name": "Oman",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Saudi",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Thamam",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Mango Shake",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Papaya",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Pipeapple",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Chikku",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Aanar Tender Cocount",
+          "price": "90",
+          "description": ""
+        }
+      ]
+      },  
+      {  
+      "category": "Shakes",
+      "items": [
+        {
+          "item_name": "Semam",
+          "price": "80",
+          "description": ""
+        },
+      {
+        "item_name": "Badam Shake",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "item_name": "Oreo Shake",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Cara Milk Nuts",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Til Tak",
+        "price": "80",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Falooda",
+     "items": [
+      {
+        "item_name": "Looda",
+        "price": "20",
+        "description": ""
+      },
+      {
+        "item_name": "Royal Falooda",
+        "price": "150",
+        "description": ""
+      },
+      {
+        "item_name": "Pista Falooda",
+        "price": "160",
+        "description": ""
+      },
+      {
+        "item_name": "Butter Falooda",
+        "price": "170",
+        "description": ""
+      },
+      {
+        "item_name": "MGS Special Falooda",
+        "price": "210",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Limes",
+     "items": [
+      {
+        "item_name": "Fresh Limes",
+        "price": "35",
+        "description": ""
+      },
+      {
+        "item_name": "Ginger Limes",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Mint Limes",
+        "price": "35",
+        "description": ""
+      },
+      {
+        "item_name": "Soda Limes",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Grapes Limes",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Curry leaves Limes",
+        "price": "100",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Salads",
+     "items": [
+      {
+        "item_name": "Guts Salad",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "item_name": "Fruits Salad Pudding",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Dry Fruits Salad",
+        "price": "80",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Mutton",
+     "items": [
+      {
+        "item_name": "Mutton Chops",
+        "price": "190",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Chukka",
+        "price": "130",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Fry",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Boti Fry",
+        "price": "100",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Fish",
+     "items": [
+      {
+        "item_name": "Fish Fry",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "item_name": "Fish Curry",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Fish 65",
+        "price": "130",
+        "description": ""
+      },
+      {
+        "item_name": "Fish Masala",
+        "price": "170",
+        "description": ""
+      },
+      {
+        "item_name": "Chilli Fish",
+        "price": "180",
+        "description": ""
+      },
+      {
+        "item_name": "Prawns Fry",
+        "price": "180",
+        "description": ""
+      },
+      {
+        "item_name": "Prawns Masala",
+        "price": "15",
+        "description": ""
+      },
+      {
+        "item_name": "Prawns Curry",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Chilli Prawns",
+        "price": "25",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Parotta",
+     "items": [
+      {
+        "item_name": "Parotta Veechu Parotta",
+        "price": "70",
+        "description": ""
+      },
+      {
+        "item_name": "Open Veechu Parotta",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Veechu Egg Parotta",
+        "price": "70",
+        "description": ""
+      },
+      {
+        "item_name": "Piece Parotta",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Kothu Parotta",
+        "price": "180",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Kaima Parotta",
+        "price": "170",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Kaima Parotta",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Murtabak Parotta",
+        "price": "70",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Murtabak Parotta",
+        "price": "20",
+        "description": ""
+      },
+      {
+        "item_name": "Oll Parotta",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Without Oil Parotta",
+        "price": "30",
+        "description": ""
+      },
+      {
+        "item_name": "Panchu Parotta",
+        "price": "210",
+        "description": ""
+      },
+      {
+        "item_name": "Sweet Parotta",
+        "price": "170",
+        "description": ""
+      },
+      {
+        "item_name": "Banana Leaf Mutton Parotta",
+        "price": "40",
+        "description": ""
+      },
+      {
+        "item_name": "Banana Leaf Chicken Parotta",
+        "price": "300",
+        "description": ""
+      },
+      {
+        "item_name": "Chappathi",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Dum Parotta",
+        "price": "130",
+        "description": ""
+      },
+      {
+        "item_name": "Mushroom Dosa",
+        "price": "160",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Dosa",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Dosa",
+        "price": "130",
+        "description": ""
+      }
+     ]
+     },
+     { 
+     "category": "Idiyappam / Paya",
+     "items": [
+      {
+        "item_name": "Idiyappam / Paya",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Appam / Chicken Gravy",
+        "price": "135",
+        "description": ""
+      }
+     ]
+     },
+     {
+      "category": "Manchurian",
+      "items": [
+      {
+        "item_name": "Veg Manchuriyan",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "item_name": "Gobi Manchuriyan",
+        "price": "90",
+        "description": ""
+      },
+      {
+        "item_name": "Chilli Gobi Manchuriyan",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mushroom Gravy",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mushroom Manchurian",
+        "price": "150",
+        "description": ""
+      },
+      {
+        "item_name": "Crispy Veg",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Szechwan Chicken",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Chilli Chicken",
+        "price": "140",
+        "description": ""
+      },
+      {
+        "item_name": "Ginger Chicken",
+        "price": "150",
+        "description": ""
+      },
+      {
+        "item_name": "Dragon Chicken",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Shawarma Roll",
+        "price": "110",
+        "description": ""
+      },
+      {
+        "item_name": "Shawarma Plate",
+        "price": "140",
+         "description": ""
+          }
+        ]
+         },
+        {
+      "category": "Sued Rice",
+      "items": [
+      {
+        "item_name": "Veg Fried Rice",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "item_name": "Egg Fried Rice",
+        "price": "90",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Fried Rice",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mushroom Fried Rice",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Panner Fried Rice",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mixed Fried Rice",
+        "price": "150",
+        "description": ""
+      },
+      {
+        "item_name": "Schezwan Chicken Fried Rice",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Schezwan Veg Fried Rice",
+        "price": "140",
+        "description": ""
+      },
+      {
+        "item_name": "Taiwanese Chicken Fried Rice",
+        "price": "150",
+        "description": ""
+      },
+      {
+        "item_name": "Taiwanese Veg Fried Rice",
+        "price": "100",
+        "description": ""
+      }
+     ]
+      },
+      {
+       "category": "Noodles",
+      "items": [
+      {
+        "item_name": "Chicken Noodles",
+        "price": "110",
+        "description": ""
+      },
+      {
+        "item_name": "Veg Noodles",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Egg Noodles",
+        "price": "90",
+        "description": ""
+      },
+      {
+        "item_name": "Mixed Noodles",
+        "price": "130",
+        "description": ""
+      },
+      {
+        "item_name": "Schezwan Chicken Noodles",
+        "price": "140",
+        "description": ""
+      },
+      {
+        "item_name": "Schezwan Veg Noodles",
+        "price": "110",
+        "description": ""
+      },
+      {
+        "item_name": "Taiwanese Chicken Noodles",
+        "price": "140",
+        "description": ""
+      },
+      {
+        "item_name": "Taiwanese Veg Noodles",
+        "price": "100",
+        "description": ""
+      }
+      ]
+     }
+     ],
+     "offers": [
+      "20% off on order above 999",
+      "10% off on Parotta category",
+       "Exciting discounts on Manchurian and Noodles",
+       "Free delivery on orders above 999",
+       "flat 300 off on above 2999"
+     ],
+      "categories": ["Milk Shake & Ice cream", "Shakes",   "Falooda", "Limes", "Salads", "Mutton", "Fish",   "Parotta", "Idiyappam / Paya", "Manchurian", "Sued",   "Rice", "Noodles"],
+
+      "recommended_items": [
+      "Vennila Milk shake - 75",
+      "Strawberry Milk shake - 75",
+      "Chocolate Milk shake - 80",
+      "Fruits Salad Pudding - 80"
+      "Dry Fruits Salad - 80"
+      "Mutton Chops - 130",
+      "Fish Curry - 120",
+      "Fish Fry -100",
+      "Chilli Prawns - 250",
+      "Banana Leaf Chicken Parotta - 300",
+      "Chilli Gobi Manchuriyan - 120",
+      "Ginger Chicken - 150",
+      "Egg Noodles with Ginger Limes",
+      "Veg Fried Rice, Chilli Chicken, Guts Salad with Fresh Limes"
+     ],
+     "payment_methods": [
+      "Cash on Delivery",
+      "Online Payment",
+      "UPI Payment",
+      "Card Payment",
+      "Wallet Payment"
+     ],
+     "special_menu's": [
+      "Mutton Fry with Without Oil Parotta",
+      "Mutton Boti Fry with Veechu Egg Parotta",
+      "Chicken Kaima Parotta with Chilli Chicken",
+      "Chicken Noodles with Soda Limes",
+      "Schezwan Veg Noodles"
+    ]
+    }
+  }
+  {
+    "role": "user",
+    "content": "Hey, may i see the menu?"
+  },
+  {
+  "role": "assistant",
+  "content": "Yes, sure! Here's the menu... Feel free to order something!\n\n **Milk Shake & Ice Cream**\n- Vennila Milk Shake & Ice Cream – ₹75\n- Strawberry Milk Shake & Ice Cream – ₹75\n- Chocolate Milk Shake & Ice Cream – ₹80\n- Butter Scotch Milk Shake & Ice Cream – ₹80\n- Pista Milk Shake & Ice Cream – ₹80\n- Spanish Delite Milk Shake & Ice Cream – ₹80\n- Black Current Milk Shake & Ice Cream – ₹80\n- Cherry Milk Shake & Ice Cream – ₹80\n- Cashew Milk Shake & Ice Cream – ₹90\n- Fig Fruit Milk Shake & Ice Cream – ₹100\n- Kashmir Milk Shake & Ice Cream – ₹85\n- Oman Milk Shake & Ice Cream – ₹80\n- Saudi Milk Shake & Ice Cream – ₹80\n- Thamam Milk Shake & Ice Cream – ₹80\n- Mango Shake – ₹80\n- Papaya Milk Shake & Ice Cream – ₹80\n- Pineapple Milk Shake & Ice Cream – ₹80\n- Chikku Milk Shake & Ice Cream – ₹80\n- Aanar Tender Coconut Milk Shake & Ice Cream – ₹90\n\n**Shakes**\n- Semam – ₹80\n- Badam Shake – ₹100\n- Oreo Shake – ₹80\n- Cara Milk Nuts – ₹80\n- Til Tak – ₹80\n\n**Falooda**\n- Looda – ₹20\n- Royal Falooda – ₹150\n- Pista Falooda – ₹160\n- Butter Falooda – ₹170\n- MGS Special Falooda – ₹210\n\n**Limes**\n- Fresh Limes – ₹35\n- Ginger Limes – ₹25\n- Mint Limes – ₹35\n- Soda Limes – ₹25\n- Grapes Limes – ₹80\n- Curry Leaves Limes – ₹100\n\n**Salads**\n- Guts Salad – ₹100\n- Fruits Salad Pudding – ₹80\n- Dry Fruits Salad – ₹80\n\n**Mutton**\n- Mutton Chops – ₹190\n- Mutton Chukka – ₹130\n- Mutton Fry – ₹120\n- Mutton Boti Fry – ₹100\n\n**Fish**\n- Fish Fry – ₹100\n- Fish Curry – ₹120\n- Fish 65 – ₹130\n- Fish Masala – ₹170\n- Chilli Fish – ₹180\n- Prawns Fry – ₹180\n- Prawns Masala – ₹15\n- Prawns Curry – ₹25\n- Chilli Prawns – ₹25"
+  },
+  {
+    "role": "user",
+    "content": "Hey, what are the items in fish categories?"
+  },
+  {
+    "role": "assistant",
+    "content": "In the fish category, we have:\n- Fish Fry – ₹100\n- Fish Curry – ₹120\n- Fish 65 – ₹130\n- Fish Masala – ₹170\n- Chilli Fish – ₹180\n- Prawns Fry – ₹180\n- Prawns Masala – ₹150\n- Prawns Curry – ₹125\n- Chilli Prawns – ₹250"
+  },
+  {
+    "role": "user",
+    "content": "Okay, what's the price of Prawns Masala?"
+  },
+  {
+    "role": "assistant",
+    "content": "The cost of Prawns Masala is ₹150. Would you like to add it to your cart?"
+  },
+  {
+    "role": "user",
+    "content": "Yes, I like that one."
+  },
+  {
+    "role": "assistant",
+    "content": "Got it. One Prawns Masala added to cart. Is there anything else?"
+  },
+  {
+    "role": "user",
+    "content": "I want one parotta. Which is a good combination with Prawns Masala? Any recommendations?"
+  },
+  {
+    "role": "assistant",
+    "content": "We don’t have a recommendation specifically with Prawns Masala, but we recommend Chilli Prawns with Banana Leaf Chicken Parotta. Would you like to try it?"
+  },
+  {
+    "role": "user",
+    "content": "I would like to try it. Just add it."
+  },
+  {
+    "role": "assistant",
+    "content": "I'm happy that you accepted my suggestion! Adding Chilli Prawns with Banana Leaf Chicken Parotta to your cart.\n\nYour cart now contains:\n```json\n[\n  {\"item_name\": \"Chilli Prawns\", \"quantity\": 1, \"price\": 250},\n  {\"item_name\": \"Banana Leaf Chicken Parotta\", \"quantity\": 1, \"price\": 300}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Add one Chilli Gobi Manchurian. What is the price of that?"
+  },
+  {
+    "role": "assistant",
+    "content": "The price of Chilli Gobi Manchurian is ₹120. Would you like to add it?"
+  },
+  {
+    "role": "user",
+    "content": "Yes, add it."
+  },
+  {
+    "role": "assistant",
+    "content": "One Chilli Gobi Manchurian was added to your cart. Your cart now contains:\n```json\n[\n  {\"item_name\": \"Chilli Gobi Manchurian\", \"quantity\": 1, \"price\": 120},\n  {\"item_name\": \"Chilli Prawns\", \"quantity\": 1, \"price\": 250},\n  {\"item_name\": \"Banana Leaf Chicken Parotta\", \"quantity\": 1, \"price\": 300}\n]\nIs there anything else?"
+  },
+  {
+    "role": "user",
+    "content": "Wait, don’t add one. Add four Chilli Gobi Manchurians."
+  },
+  {
+    "role": "assistant",
+    "content": "Got it. Four Chilli Gobi Manchurians added to your cart. Also, we have a drinks category. Would you like to see the items in the drinks/limes category?\n\nYour cart now contains:\n```json\n[\n  {\"item_name\": \"Chilli Gobi Manchurian\", \"quantity\": 4, \"price\": 120},\n  {\"item_name\": \"Chilli Prawns\", \"quantity\": 1, \"price\": 250},\n  {\"item_name\": \"Banana Leaf Chicken Parotta\", \"quantity\": 1, \"price\": 300}\n]\n"
+  },
+  {
+    "role": "user",
+    "content": "Okay, show the items in limes."
+  },
+  {
+    "role": "assistant",
+    "content": "Here are the items in the limes category:\n- Fresh Lime – ₹35\n- Ginger Lime – ₹25\n- Mint Lime – ₹35\n- Soda Lime – ₹25\n- Grapes Lime – ₹80\n- Curry Leaves Lime – ₹100"
+  },
+  {
+    "role": "user",
+    "content": "I would like one Fresh Lime."
+  },{
+    "role": "assistant",
+    "content": "Got it. One Fresh Lime added to cart.\n\nUpdated cart:\n```json\n[\n  {\"item_name\": \"Chilli Gobi Manchurian\", \"quantity\": 4, \"price\": 120},\n  {\"item_name\": \"Chilli Prawns\", \"quantity\": 1, \"price\": 250},\n  {\"item_name\": \"Banana Leaf Chicken Parotta\", \"quantity\": 1, \"price\": 300},\n  {\"item_name\": \"Fresh Lime\", \"quantity\": 1, \"price\": 35}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "That's it. Check me out."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, which payment method would you prefer?"
+  },
+  {
+    "role": "user",
+    "content": "I would like to pay by UPI."
+  },
+  {
+    "role": "assistant",
+    "content": "Sure! You can pay through UPI. Have a happy meal!"
+  }]}
+{"messages":[
+  {
+      "role": "user",
+      "content": "MENU_CONTEXT":{
+      "food_items": [    
+      {
+      "category": "Milk Shake & Ice Cream",
+      "items": [
+        {
+          "item_name": "Vennila",
+          "price": "75",
+          "description": ""
+        },
+        {
+          "item_name": "Strawberry",
+          "price": "75",
+          "description": ""
+        },
+        {
+          "item_name": "Chocolate",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Butter Scotch",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Pista",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Spanish Delite",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Black Current",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Cherry",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Cashew",
+          "price": "90",
+          "description": ""
+        },
+        {
+          "item_name": "Fig Fruit",
+          "price": "100",
+          "description": ""
+        },
+        {
+          "item_name": "Kashmir",
+          "price": "85",
+          "description": ""
+        },
+        {
+          "item_name": "Oman",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Saudi",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Thamam",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Mango Shake",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Papaya",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Pipeapple",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Chikku",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Aanar Tender Cocount",
+          "price": "90",
+          "description": ""
+        }
+      ]
+      },  
+      {  
+      "category": "Shakes",
+      "items": [
+        {
+          "item_name": "Semam",
+          "price": "80",
+          "description": ""
+        },
+      {
+        "item_name": "Badam Shake",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "item_name": "Oreo Shake",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Cara Milk Nuts",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Til Tak",
+        "price": "80",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Falooda",
+     "items": [
+      {
+        "item_name": "Looda",
+        "price": "20",
+        "description": ""
+      },
+      {
+        "item_name": "Royal Falooda",
+        "price": "150",
+        "description": ""
+      },
+      {
+        "item_name": "Pista Falooda",
+        "price": "160",
+        "description": ""
+      },
+      {
+        "item_name": "Butter Falooda",
+        "price": "170",
+        "description": ""
+      },
+      {
+        "item_name": "MGS Special Falooda",
+        "price": "210",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Limes",
+     "items": [
+      {
+        "item_name": "Fresh Limes",
+        "price": "35",
+        "description": ""
+      },
+      {
+        "item_name": "Ginger Limes",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Mint Limes",
+        "price": "35",
+        "description": ""
+      },
+      {
+        "item_name": "Soda Limes",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Grapes Limes",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Curry leaves Limes",
+        "price": "100",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Salads",
+     "items": [
+      {
+        "item_name": "Guts Salad",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "item_name": "Fruits Salad Pudding",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Dry Fruits Salad",
+        "price": "80",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Mutton",
+     "items": [
+      {
+        "item_name": "Mutton Chops",
+        "price": "190",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Chukka",
+        "price": "130",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Fry",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Boti Fry",
+        "price": "100",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Fish",
+     "items": [
+      {
+        "item_name": "Fish Fry",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "item_name": "Fish Curry",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Fish 65",
+        "price": "130",
+        "description": ""
+      },
+      {
+        "item_name": "Fish Masala",
+        "price": "170",
+        "description": ""
+      },
+      {
+        "item_name": "Chilli Fish",
+        "price": "180",
+        "description": ""
+      },
+      {
+        "item_name": "Prawns Fry",
+        "price": "180",
+        "description": ""
+      },
+      {
+        "item_name": "Prawns Masala",
+        "price": "15",
+        "description": ""
+      },
+      {
+        "item_name": "Prawns Curry",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Chilli Prawns",
+        "price": "25",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Parotta",
+     "items": [
+      {
+        "item_name": "Parotta Veechu Parotta",
+        "price": "70",
+        "description": ""
+      },
+      {
+        "item_name": "Open Veechu Parotta",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Veechu Egg Parotta",
+        "price": "70",
+        "description": ""
+      },
+      {
+        "item_name": "Piece Parotta",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Kothu Parotta",
+        "price": "180",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Kaima Parotta",
+        "price": "170",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Kaima Parotta",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Murtabak Parotta",
+        "price": "70",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Murtabak Parotta",
+        "price": "20",
+        "description": ""
+      },
+      {
+        "item_name": "Oll Parotta",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Without Oil Parotta",
+        "price": "30",
+        "description": ""
+      },
+      {
+        "item_name": "Panchu Parotta",
+        "price": "210",
+        "description": ""
+      },
+      {
+        "item_name": "Sweet Parotta",
+        "price": "170",
+        "description": ""
+      },
+      {
+        "item_name": "Banana Leaf Mutton Parotta",
+        "price": "40",
+        "description": ""
+      },
+      {
+        "item_name": "Banana Leaf Chicken Parotta",
+        "price": "300",
+        "description": ""
+      },
+      {
+        "item_name": "Chappathi",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Dum Parotta",
+        "price": "130",
+        "description": ""
+      },
+      {
+        "item_name": "Mushroom Dosa",
+        "price": "160",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Dosa",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Dosa",
+        "price": "130",
+        "description": ""
+      }
+     ]
+     },
+     { 
+     "category": "Idiyappam / Paya",
+     "items": [
+      {
+        "item_name": "Idiyappam / Paya",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Appam / Chicken Gravy",
+        "price": "135",
+        "description": ""
+      }
+     ]
+     },
+     {
+      "category": "Manchurian",
+      "items": [
+      {
+        "item_name": "Veg Manchuriyan",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "item_name": "Gobi Manchuriyan",
+        "price": "90",
+        "description": ""
+      },
+      {
+        "item_name": "Chilli Gobi Manchuriyan",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mushroom Gravy",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mushroom Manchurian",
+        "price": "150",
+        "description": ""
+      },
+      {
+        "item_name": "Crispy Veg",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Szechwan Chicken",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Chilli Chicken",
+        "price": "140",
+        "description": ""
+      },
+      {
+        "item_name": "Ginger Chicken",
+        "price": "150",
+        "description": ""
+      },
+      {
+        "item_name": "Dragon Chicken",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Shawarma Roll",
+        "price": "110",
+        "description": ""
+      },
+      {
+        "item_name": "Shawarma Plate",
+        "price": "140",
+         "description": ""
+          }
+        ]
+         },
+        {
+      "category": "Sued Rice",
+      "items": [
+      {
+        "item_name": "Veg Fried Rice",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "item_name": "Egg Fried Rice",
+        "price": "90",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Fried Rice",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mushroom Fried Rice",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Panner Fried Rice",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mixed Fried Rice",
+        "price": "150",
+        "description": ""
+      },
+      {
+        "item_name": "Schezwan Chicken Fried Rice",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Schezwan Veg Fried Rice",
+        "price": "140",
+        "description": ""
+      },
+      {
+        "item_name": "Taiwanese Chicken Fried Rice",
+        "price": "150",
+        "description": ""
+      },
+      {
+        "item_name": "Taiwanese Veg Fried Rice",
+        "price": "100",
+        "description": ""
+      }
+     ]
+      },
+      {
+       "category": "Noodles",
+      "items": [
+      {
+        "item_name": "Chicken Noodles",
+        "price": "110",
+        "description": ""
+      },
+      {
+        "item_name": "Veg Noodles",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Egg Noodles",
+        "price": "90",
+        "description": ""
+      },
+      {
+        "item_name": "Mixed Noodles",
+        "price": "130",
+        "description": ""
+      },
+      {
+        "item_name": "Schezwan Chicken Noodles",
+        "price": "140",
+        "description": ""
+      },
+      {
+        "item_name": "Schezwan Veg Noodles",
+        "price": "110",
+        "description": ""
+      },
+      {
+        "item_name": "Taiwanese Chicken Noodles",
+        "price": "140",
+        "description": ""
+      },
+      {
+        "item_name": "Taiwanese Veg Noodles",
+        "price": "100",
+        "description": ""
+      }
+      ]
+     }
+     ],
+     "offers": [
+      "20% off on order above 999",
+      "10% off on Parotta category",
+       "Exciting discounts on Manchurian and Noodles",
+       "Free delivery on orders above 999",
+       "flat 300 off on above 2999"
+     ],
+      "categories": ["Milk Shake & Ice cream", "Shakes",   "Falooda", "Limes", "Salads", "Mutton", "Fish",   "Parotta", "Idiyappam / Paya", "Manchurian", "Sued",   "Rice", "Noodles"],
+
+      "recommended_items": [
+      "Vennila Milk shake - 75",
+      "Strawberry Milk shake - 75",
+      "Chocolate Milk shake - 80",
+      "Fruits Salad Pudding - 80"
+      "Dry Fruits Salad - 80"
+      "Mutton Chops - 130",
+      "Fish Curry - 120",
+      "Fish Fry -100",
+      "Chilli Prawns - 250",
+      "Banana Leaf Chicken Parotta - 300",
+      "Chilli Gobi Manchuriyan - 120",
+      "Ginger Chicken - 150",
+      "Egg Noodles with Ginger Limes",
+      "Veg Fried Rice, Chilli Chicken, Guts Salad with Fresh Limes"
+     ],
+     "payment_methods": [
+      "Cash on Delivery",
+      "Online Payment",
+      "UPI Payment",
+      "Card Payment",
+      "Wallet Payment"
+     ],
+     "special_menu's": [
+      "Mutton Fry with Without Oil Parotta",
+      "Mutton Boti Fry with Veechu Egg Parotta",
+      "Chicken Kaima Parotta with Chilli Chicken",
+      "Chicken Noodles with Soda Limes",
+      "Schezwan Veg Noodles"
+    ]
+    }
+  }
+  {
+    "role": "user",
+    "content": "Hey, may i see the menu?"
+  },
+  {
+  "role": "assistant",
+  "content": "Yes, sure! Here's the menu... Feel free to order something!\n\n **Milk Shake & Ice Cream**\n- Vennila Milk Shake & Ice Cream – ₹75\n- Strawberry Milk Shake & Ice Cream – ₹75\n- Chocolate Milk Shake & Ice Cream – ₹80\n- Butter Scotch Milk Shake & Ice Cream – ₹80\n- Pista Milk Shake & Ice Cream – ₹80\n- Spanish Delite Milk Shake & Ice Cream – ₹80\n- Black Current Milk Shake & Ice Cream – ₹80\n- Cherry Milk Shake & Ice Cream – ₹80\n- Cashew Milk Shake & Ice Cream – ₹90\n- Fig Fruit Milk Shake & Ice Cream – ₹100\n- Kashmir Milk Shake & Ice Cream – ₹85\n- Oman Milk Shake & Ice Cream – ₹80\n- Saudi Milk Shake & Ice Cream – ₹80\n- Thamam Milk Shake & Ice Cream – ₹80\n- Mango Shake – ₹80\n- Papaya Milk Shake & Ice Cream – ₹80\n- Pineapple Milk Shake & Ice Cream – ₹80\n- Chikku Milk Shake & Ice Cream – ₹80\n- Aanar Tender Coconut Milk Shake & Ice Cream – ₹90\n\n**Shakes**\n- Semam – ₹80\n- Badam Shake – ₹100\n- Oreo Shake – ₹80\n- Cara Milk Nuts – ₹80\n- Til Tak – ₹80\n\n**Falooda**\n- Looda – ₹20\n- Royal Falooda – ₹150\n- Pista Falooda – ₹160\n- Butter Falooda – ₹170\n- MGS Special Falooda – ₹210\n\n**Limes**\n- Fresh Limes – ₹35\n- Ginger Limes – ₹25\n- Mint Limes – ₹35\n- Soda Limes – ₹25\n- Grapes Limes – ₹80\n- Curry Leaves Limes – ₹100\n\n**Salads**\n- Guts Salad – ₹100\n- Fruits Salad Pudding – ₹80\n- Dry Fruits Salad – ₹80\n\n**Mutton**\n- Mutton Chops – ₹190\n- Mutton Chukka – ₹130\n- Mutton Fry – ₹120\n- Mutton Boti Fry – ₹100\n\n**Fish**\n- Fish Fry – ₹100\n- Fish Curry – ₹120\n- Fish 65 – ₹130\n- Fish Masala – ₹170\n- Chilli Fish – ₹180\n- Prawns Fry – ₹180\n- Prawns Masala – ₹15\n- Prawns Curry – ₹25\n- Chilli Prawns – ₹25"
+  },
+  {
+    "role": "user",
+    "content": "Hey, do you have any drinks with mint in them?"
+  },
+  {
+    "role": "assistant",
+    "content": "Yes! We have Mint Lime for ₹35. It's a refreshing option. Would you like to try it?"
+  },
+  {
+    "role": "user",
+    "content": "Hmm… what’s the difference between Mint Lime and Ginger Lime?"
+  },
+  {
+    "role": "assistant",
+    "content": "Mint Lime has fresh mint leaves for a cooling taste, while Ginger Lime is spicier with ginger extract. Ginger Lime costs ₹25, Mint Lime is ₹35."
+  },
+  {
+    "role": "user",
+    "content": "Okay, add one Ginger Lime instead of Mint."
+  },
+  {
+    "role": "assistant",
+    "content": "Got it! One Ginger Lime added to your cart.\n```json\n[\n  {\"item_name\": \"Ginger Lime\", \"quantity\": 1, \"price\": 25}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Wait wait… actually make that two Mint Limes instead."
+  },
+  {
+    "role": "assistant",
+    "content": "No problem! Replacing Ginger Lime with two Mint Limes.\n```json\n[\n  {\"item_name\": \"Mint Lime\", \"quantity\": 2, \"price\": 70}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Also do you have Oreo Shake? What's the cost?"
+  },
+  {
+    "role": "assistant",
+    "content": "Yes, we do! Oreo Shake costs ₹80. Shall I add it?"
+  },
+  {
+    "role": "user",
+    "content": "Add one Oreo Shake please."
+  },
+  {
+    "role": "assistant",
+    "content": "Oreo Shake added. Here's your current cart:\n```json\n[\n  {\"item_name\": \"Mint Lime\", \"quantity\": 2, \"price\": 70},\n  {\"item_name\": \"Oreo Shake\", \"quantity\": 1, \"price\": 80}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Okay, what are the mutton items you have?"
+  },
+  {
+    "role": "assistant",
+    "content": "We have:\n- Mutton Chops – ₹190\n- Mutton Chukka – ₹130\n- Mutton Fry – ₹120\n- Mutton Boti Fry – ₹100\nWhat would you like to have?"
+  },
+  {
+    "role": "user",
+    "content": "No thanks. What parotta options do you have?"
+  },
+  {
+    "role": "assistant",
+    "content": "We have:\n- Veechu Parotta – ₹70\n- Open Veechu Parotta – ₹25\n;- Veechu Egg Parotta – 70\n; Piece Parotta –25, Kothu Parotta – 180, Mutton Kaima parotta – ₹170\n Chicken Kaima Parotta – ₹25\n Mutton Murtabak Parotta – ₹170\n Chicken Murtabak Parotta – ₹200\n oll parotta – ₹25\n without Oil Parotta – ₹30\n Panchu Parotta – ₹210\n Sweet Parotta – ₹170\n Banana Leaf Mutton Parotta –400 ₹\n Banana Leaf Chicken parotta – ₹300\n Chicken Dum Parotta – ₹130\n What would you like to have?"
+  },
+  {
+    "role": "user",
+    "content": "No..."
+  },
+  {
+    "role": "assistant",
+    "content": "If you don’t mind, could I suggest something?"
+  },
+  {
+    "role": "user",
+    "content": "Yes sure."
+  },
+  {
+    "role": "assistant",
+    "content": "We highly recommend our combo: Veg Fried Rice, Chilli Chicken, Guts Salad with Fresh Lime. Would you like to try that?"
+  },
+  {
+    "role": "user",
+    "content": "Yeah, I would like to try. Okay, add that one."
+  },
+  {
+    "role": "assistant",
+    "content": "Great! Adding Veg Fried Rice, Chilli Chicken, Guts Salad, and Fresh Lime to your cart. Is there anything else?\n```json\n[\n  {\"item_name\": \"Veg Fried Rice\", \"quantity\": 1, \"price\": 120},\n  {\"item_name\": \"Chilli Chicken\", \"quantity\": 1, \"price\": 180},\n  {\"item_name\": \"Guts Salad\", \"quantity\": 1, \"price\": 100},\n  {\"item_name\": \"Fresh Lime\", \"quantity\": 1, \"price\": 35}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Well, is there any recommended item in the shakes category?"
+  },
+  {
+    "role": "assistant",
+    "content": "Yes! We recommend:\n- Vennila Milk Shake – ₹75\n- Strawberry Milk Shake – ₹75\n- Chocolate Milk Shake – ₹80\nWould you like to try any of them?"
+  },
+  {
+    "role": "user",
+    "content": "No no thanks."
+  },
+  {
+    "role": "assistant",
+    "content": "Alright, what would you like to have instead?"
+  },
+  {
+    "role": "user",
+    "content": "What do you recommend in the Idiyappam / Paya categories?"
+  },
+  {
+    "role": "assistant",
+    "content": "Sorry, we currently don’t have any recommendations in the Idiyappam / Paya category."
+  },
+  {
+  "role": "user",
+  "content": "Okay fine. Show me options in noodles."
+  },
+  {
+  "role": "assistant",
+  "content": "We have:\n\n**Noodles**\n- Chicken Noodles – ₹110\n- Veg Noodles – ₹80\n- Egg Noodles – ₹90\n- Mixed Noodles – ₹130\n- Schezwan Chicken Noodles – ₹140\n- Schezwan Veg Noodles – ₹110\n- Taiwanese Chicken Noodles – ₹140\n- Taiwanese Veg Noodles – ₹100\n\nWould you like to add it?"
+  },
+  {
+    "role": "user",
+    "content": "Okay, I don’t like any of those. Show me the Manchurian section."
+  },
+  {
+    "role": "assistant",
+    "content": "Sure! In the Manchurian section we have:\n- Veg Manchurian – ₹100\n- Gobi Manchurian – ₹90\nWould you like to try one?"
+  },
+  {
+    "role": "user",
+    "content": "I would like Shawarma Plate."
+  },
+  {
+    "role": "assistant",
+    "content": "are you sure about adding cart"
+  },
+  {
+    "role": "user",
+    "content": "yes."
+  },
+
+  {
+    "role": "assistant",
+    "content": "Sure! Shawarma Plate costs ₹140. Adding it to your cart. Here’s your updated cart:\n```json\n[\n  {\"item_name\": \"Veg Fried Rice\", \"quantity\": 1, \"price\": 120},\n  {\"item_name\": \"Chilli Chicken\", \"quantity\": 1, \"price\": 180},\n  {\"item_name\": \"Guts Salad\", \"quantity\": 1, \"price\": 100},\n  {\"item_name\": \"Fresh Lime\", \"quantity\": 1, \"price\": 35},\n  {\"item_name\": \"Shawarma Plate\", \"quantity\": 1, \"price\": 140}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Okay, fine."
+  },
+  {
+    "role": "assistant",
+    "content": "Shall I proceed to checkout?"
+  },
+  {
+    "role": "user",
+    "content": "Sure. I would like to pay by cash. Is that okay?"
+  },
+  {
+    "role": "assistant",
+    "content": "Yes, we accept cash as well. You're all set! Have a happy meal 😊"
+  }
+]}
+{"messages":[
+  {
+      "role": "user",
+      "content": "MENU_CONTEXT":{
+      "food_items": [    
+      {
+      "category": "Milk Shake & Ice Cream",
+      "items": [
+        {
+          "item_name": "Vennila",
+          "price": "75",
+          "description": ""
+        },
+        {
+          "item_name": "Strawberry",
+          "price": "75",
+          "description": ""
+        },
+        {
+          "item_name": "Chocolate",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Butter Scotch",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Pista",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Spanish Delite",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Black Current",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Cherry",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Cashew",
+          "price": "90",
+          "description": ""
+        },
+        {
+          "item_name": "Fig Fruit",
+          "price": "100",
+          "description": ""
+        },
+        {
+          "item_name": "Kashmir",
+          "price": "85",
+          "description": ""
+        },
+        {
+          "item_name": "Oman",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Saudi",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Thamam",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Mango Shake",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Papaya",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Pipeapple",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Chikku",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Aanar Tender Cocount",
+          "price": "90",
+          "description": ""
+        }
+      ]
+      },  
+      {  
+      "category": "Shakes",
+      "items": [
+        {
+          "item_name": "Semam",
+          "price": "80",
+          "description": ""
+        },
+      {
+        "item_name": "Badam Shake",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "item_name": "Oreo Shake",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Cara Milk Nuts",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Til Tak",
+        "price": "80",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Falooda",
+     "items": [
+      {
+        "item_name": "Looda",
+        "price": "20",
+        "description": ""
+      },
+      {
+        "item_name": "Royal Falooda",
+        "price": "150",
+        "description": ""
+      },
+      {
+        "item_name": "Pista Falooda",
+        "price": "160",
+        "description": ""
+      },
+      {
+        "item_name": "Butter Falooda",
+        "price": "170",
+        "description": ""
+      },
+      {
+        "item_name": "MGS Special Falooda",
+        "price": "210",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Limes",
+     "items": [
+      {
+        "item_name": "Fresh Limes",
+        "price": "35",
+        "description": ""
+      },
+      {
+        "item_name": "Ginger Limes",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Mint Limes",
+        "price": "35",
+        "description": ""
+      },
+      {
+        "item_name": "Soda Limes",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Grapes Limes",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Curry leaves Limes",
+        "price": "100",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Salads",
+     "items": [
+      {
+        "item_name": "Guts Salad",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "item_name": "Fruits Salad Pudding",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Dry Fruits Salad",
+        "price": "80",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Mutton",
+     "items": [
+      {
+        "item_name": "Mutton Chops",
+        "price": "190",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Chukka",
+        "price": "130",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Fry",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Boti Fry",
+        "price": "100",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Fish",
+     "items": [
+      {
+        "item_name": "Fish Fry",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "item_name": "Fish Curry",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Fish 65",
+        "price": "130",
+        "description": ""
+      },
+      {
+        "item_name": "Fish Masala",
+        "price": "170",
+        "description": ""
+      },
+      {
+        "item_name": "Chilli Fish",
+        "price": "180",
+        "description": ""
+      },
+      {
+        "item_name": "Prawns Fry",
+        "price": "180",
+        "description": ""
+      },
+      {
+        "item_name": "Prawns Masala",
+        "price": "15",
+        "description": ""
+      },
+      {
+        "item_name": "Prawns Curry",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Chilli Prawns",
+        "price": "25",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Parotta",
+     "items": [
+      {
+        "item_name": "Parotta Veechu Parotta",
+        "price": "70",
+        "description": ""
+      },
+      {
+        "item_name": "Open Veechu Parotta",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Veechu Egg Parotta",
+        "price": "70",
+        "description": ""
+      },
+      {
+        "item_name": "Piece Parotta",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Kothu Parotta",
+        "price": "180",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Kaima Parotta",
+        "price": "170",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Kaima Parotta",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Murtabak Parotta",
+        "price": "70",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Murtabak Parotta",
+        "price": "20",
+        "description": ""
+      },
+      {
+        "item_name": "Oll Parotta",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Without Oil Parotta",
+        "price": "30",
+        "description": ""
+      },
+      {
+        "item_name": "Panchu Parotta",
+        "price": "210",
+        "description": ""
+      },
+      {
+        "item_name": "Sweet Parotta",
+        "price": "170",
+        "description": ""
+      },
+      {
+        "item_name": "Banana Leaf Mutton Parotta",
+        "price": "40",
+        "description": ""
+      },
+      {
+        "item_name": "Banana Leaf Chicken Parotta",
+        "price": "300",
+        "description": ""
+      },
+      {
+        "item_name": "Chappathi",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Dum Parotta",
+        "price": "130",
+        "description": ""
+      },
+      {
+        "item_name": "Mushroom Dosa",
+        "price": "160",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Dosa",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Dosa",
+        "price": "130",
+        "description": ""
+      }
+     ]
+     },
+     { 
+     "category": "Idiyappam / Paya",
+     "items": [
+      {
+        "item_name": "Idiyappam / Paya",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Appam / Chicken Gravy",
+        "price": "135",
+        "description": ""
+      }
+     ]
+     },
+     {
+      "category": "Manchurian",
+      "items": [
+      {
+        "item_name": "Veg Manchuriyan",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "item_name": "Gobi Manchuriyan",
+        "price": "90",
+        "description": ""
+      },
+      {
+        "item_name": "Chilli Gobi Manchuriyan",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mushroom Gravy",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mushroom Manchurian",
+        "price": "150",
+        "description": ""
+      },
+      {
+        "item_name": "Crispy Veg",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Szechwan Chicken",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Chilli Chicken",
+        "price": "140",
+        "description": ""
+      },
+      {
+        "item_name": "Ginger Chicken",
+        "price": "150",
+        "description": ""
+      },
+      {
+        "item_name": "Dragon Chicken",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Shawarma Roll",
+        "price": "110",
+        "description": ""
+      },
+      {
+        "item_name": "Shawarma Plate",
+        "price": "140",
+         "description": ""
+          }
+        ]
+         },
+        {
+      "category": "Sued Rice",
+      "items": [
+      {
+        "item_name": "Veg Fried Rice",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "item_name": "Egg Fried Rice",
+        "price": "90",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Fried Rice",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mushroom Fried Rice",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Panner Fried Rice",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mixed Fried Rice",
+        "price": "150",
+        "description": ""
+      },
+      {
+        "item_name": "Schezwan Chicken Fried Rice",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Schezwan Veg Fried Rice",
+        "price": "140",
+        "description": ""
+      },
+      {
+        "item_name": "Taiwanese Chicken Fried Rice",
+        "price": "150",
+        "description": ""
+      },
+      {
+        "item_name": "Taiwanese Veg Fried Rice",
+        "price": "100",
+        "description": ""
+      }
+     ]
+      },
+      {
+       "category": "Noodles",
+      "items": [
+      {
+        "item_name": "Chicken Noodles",
+        "price": "110",
+        "description": ""
+      },
+      {
+        "item_name": "Veg Noodles",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Egg Noodles",
+        "price": "90",
+        "description": ""
+      },
+      {
+        "item_name": "Mixed Noodles",
+        "price": "130",
+        "description": ""
+      },
+      {
+        "item_name": "Schezwan Chicken Noodles",
+        "price": "140",
+        "description": ""
+      },
+      {
+        "item_name": "Schezwan Veg Noodles",
+        "price": "110",
+        "description": ""
+      },
+      {
+        "item_name": "Taiwanese Chicken Noodles",
+        "price": "140",
+        "description": ""
+      },
+      {
+        "item_name": "Taiwanese Veg Noodles",
+        "price": "100",
+        "description": ""
+      }
+      ]
+     }
+     ],
+     "offers": [
+      "20% off on order above 999",
+      "10% off on Parotta category",
+       "Exciting discounts on Manchurian and Noodles",
+       "Free delivery on orders above 999",
+       "flat 300 off on above 2999"
+     ],
+      "categories": ["Milk Shake & Ice cream", "Shakes",   "Falooda", "Limes", "Salads", "Mutton", "Fish",   "Parotta", "Idiyappam / Paya", "Manchurian", "Sued",   "Rice", "Noodles"],
+
+      "recommended_items": [
+      "Vennila Milk shake - 75",
+      "Strawberry Milk shake - 75",
+      "Chocolate Milk shake - 80",
+      "Fruits Salad Pudding - 80"
+      "Dry Fruits Salad - 80"
+      "Mutton Chops - 130",
+      "Fish Curry - 120",
+      "Fish Fry -100",
+      "Chilli Prawns - 250",
+      "Banana Leaf Chicken Parotta - 300",
+      "Chilli Gobi Manchuriyan - 120",
+      "Ginger Chicken - 150",
+      "Egg Noodles with Ginger Limes",
+      "Veg Fried Rice, Chilli Chicken, Guts Salad with Fresh Limes"
+     ],
+     "payment_methods": [
+      "Cash on Delivery",
+      "Online Payment",
+      "UPI Payment",
+      "Card Payment",
+      "Wallet Payment"
+     ],
+     "special_menu's": [
+      "Mutton Fry with Without Oil Parotta",
+      "Mutton Boti Fry with Veechu Egg Parotta",
+      "Chicken Kaima Parotta with Chilli Chicken",
+      "Chicken Noodles with Soda Limes",
+      "Schezwan Veg Noodles"
+    ]
+    }
+  }
+  {
+    "role": "user",
+    "content": "Hey, may i see the menu?"
+  },
+  {
+  "role": "assistant",
+  "content": "Yes, sure! Here's the menu... Feel free to order something!\n\n **Milk Shake & Ice Cream**\n- Vennila Milk Shake & Ice Cream – ₹75\n- Strawberry Milk Shake & Ice Cream – ₹75\n- Chocolate Milk Shake & Ice Cream – ₹80\n- Butter Scotch Milk Shake & Ice Cream – ₹80\n- Pista Milk Shake & Ice Cream – ₹80\n- Spanish Delite Milk Shake & Ice Cream – ₹80\n- Black Current Milk Shake & Ice Cream – ₹80\n- Cherry Milk Shake & Ice Cream – ₹80\n- Cashew Milk Shake & Ice Cream – ₹90\n- Fig Fruit Milk Shake & Ice Cream – ₹100\n- Kashmir Milk Shake & Ice Cream – ₹85\n- Oman Milk Shake & Ice Cream – ₹80\n- Saudi Milk Shake & Ice Cream – ₹80\n- Thamam Milk Shake & Ice Cream – ₹80\n- Mango Shake – ₹80\n- Papaya Milk Shake & Ice Cream – ₹80\n- Pineapple Milk Shake & Ice Cream – ₹80\n- Chikku Milk Shake & Ice Cream – ₹80\n- Aanar Tender Coconut Milk Shake & Ice Cream – ₹90\n\n**Shakes**\n- Semam – ₹80\n- Badam Shake – ₹100\n- Oreo Shake – ₹80\n- Cara Milk Nuts – ₹80\n- Til Tak – ₹80\n\n**Falooda**\n- Looda – ₹20\n- Royal Falooda – ₹150\n- Pista Falooda – ₹160\n- Butter Falooda – ₹170\n- MGS Special Falooda – ₹210\n\n**Limes**\n- Fresh Limes – ₹35\n- Ginger Limes – ₹25\n- Mint Limes – ₹35\n- Soda Limes – ₹25\n- Grapes Limes – ₹80\n- Curry Leaves Limes – ₹100\n\n**Salads**\n- Guts Salad – ₹100\n- Fruits Salad Pudding – ₹80\n- Dry Fruits Salad – ₹80\n\n**Mutton**\n- Mutton Chops – ₹190\n- Mutton Chukka – ₹130\n- Mutton Fry – ₹120\n- Mutton Boti Fry – ₹100\n\n**Fish**\n- Fish Fry – ₹100\n- Fish Curry – ₹120\n- Fish 65 – ₹130\n- Fish Masala – ₹170\n- Chilli Fish – ₹180\n- Prawns Fry – ₹180\n- Prawns Masala – ₹15\n- Prawns Curry – ₹25\n- Chilli Prawns – ₹25"
+  },
+  {
+    "role": "user",
+    "content": "Hi, can you add Chilli Fish to my order?"
+  },
+  {
+    "role": "assistant",
+    "content": "Sure! Chilli Fish costs ₹180. Adding it to your cart."
+  },
+  {
+    "role": "assistant",
+    "content": "```json\n[\n  {\"item_name\": \"Chilli Fish\", \"quantity\": 1, \"price\": 180}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Wait… is that the spicy prawns one? Or is that Chilli Prawns?"
+  },
+  {
+    "role": "assistant",
+    "content": "ohh sorry we don't have description of the items yet, if you want to know nessecarly  please aks manager."
+  },
+  {
+    "role": "user",
+    "content": "Ohhh I meant Chilli Prawns, not Fish. Can you remove the fish and add the prawns?"
+  },
+  {
+    "role": "assistant",
+    "content": "Absolutely! Removed Chilli Fish and added one Chilli Prawns.\n```json\n[\n  {\"item_name\": \"Chilli Prawns\", \"quantity\": 1, \"price\": 250}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Nice. Also do you have any desserts?"
+  },
+  {
+    "role": "assistant",
+    "content": "Yes, we have:\n- Fruits Salad Pudding – ₹80\n- Dry Fruits Salad – ₹80\n- Guts Salad – ₹100\nWould you like to try any?"
+  },
+  {
+    "role": "user",
+    "content": "What's in Guts Salad? That sounds weird 😅"
+  },
+  {
+    "role": "assistant",
+    "content": "Haha, it's just a local name! It's a spicy meat-based salad made with goat intestine. Would you like something else?"
+  },
+  {
+    "role": "user",
+    "content": "No thanks  Just add Dry Fruits Salad instead."
+  },
+  {
+    "role": "assistant",
+    "content": "Dry Fruits Salad added.\n```json\n[\n  {\"item_name\": \"Chilli Prawns\", \"quantity\": 1, \"price\": 250},\n  {\"item_name\": \"Dry Fruits Salad\", \"quantity\": 1, \"price\": 80}\n]\n```"
+  }
+  {
+    "role": "user",
+    "content": "What was the price of Chilli Chicken and Schezwan Chicken, and which is good?"
+  },
+  {
+    "role": "assistant",
+    "content": "The price of Chilli Chicken is ₹140, and Schezwan Chicken is ₹120. Both are good, but we recommend Chicken Kaima Parotta with Chilli Chicken—it's a great combination!"
+  },
+  {
+    "role": "user",
+    "content": "Actually, I want only Chilli Chicken, not Chicken Kaima Parotta."
+  },
+  {
+    "role": "assistant",
+    "content": "Sure! Adding Chilli Chicken to your order.
+    \n```json\n[\n  {\n  {\"item_name\": \"Chilli Prawns\", \"quantity\": 1, \"price\": 250},\n  {\"item_name\": \"Dry Fruits Salad\", \"quantity\": 1, \"price\": 80}\"item_name\": \"Chilli Chicken\", \"quantity\": 1, \"price\": 140}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Okay."
+  },
+  {
+    "role": "assistant",
+    "content": "Is there anything else you would like to add to your order? We have some great options in noodles and Manchurian as well!"
+  },
+  {
+    "role": "user",
+    "content": "What’s good in Manchurian?"
+  },
+  {
+    "role": "assistant",
+    "content": "We recommend Chilli Gobi Manchurian – ₹120."
+  },
+  {
+    "role": "user",
+    "content": "Hmm..."
+  },
+  {
+    "role": "assistant",
+    "content": "Sorry, I didn’t understand. Can you please repeat?"
+  }
+  {  
+    "role": "user",
+    "content": "I want it."
+  },
+  {
+    "role": "assistant",
+    "content": "Sure! Adding Chilli Gobi Manchurian to your order.\n```json\n[\n  {\"item_name\": \"Chilli Prawns\", \"quantity\": 1, \"price\": 250},\n  {\"item_name\": \"Dry Fruits Salad\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Chilli Chicken\", \"quantity\": 1, \"price\": 140},\n  {\"item_name\": \"Chilli Gobi Manchuriyan\", \"quantity\": 1, \"price\": 120}\n]\n```"
+    
+  },
+  {
+    "role": "user",
+    "content": "Okay."
+  },
+  {
+    "role": "assistant",
+    "content": "Is there anything else, or should I proceed to checkout?"
+  },
+  {
+    "role": "user",
+    "content": "No, I’m good. Please check out."
+  },
+  {
+    "role": "assistant",
+    "content": "Great! Here's your final order is 
+    Chilli Prawns, Dry Fruits Salad, Chilli Chicken, and Chilli Gobi Manchuriyan.\n:```json\n[\n  {\"item_name\": \"Chilli Prawns\", \"quantity\": 1, \"price\": 250},\n  {\"item_name\": \"Dry Fruits Salad\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Chilli Chicken\", \"quantity\": 1, \"price\": 140},\n  {\"item_name\": \"Chilli Gobi Manchuriyan\", \"quantity\": 1, \"price\": 120}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "I will go with net banking."
+  },
+  {
+    "role": "assistant",
+    "content": "Sorry, we don’t have net banking as a payment option. We accept cash on delivery, online payment, UPI payment, card payment, and wallet payment. Please choose one of these options."
+  },
+  {
+    "role": "user",
+    "content": "I will go with cash."
+  },
+  {
+    "role": "assistant",
+    "content": "Sure! Enjoy your meal."
+  }
+
+]}
+{"messages":[
+  {
+      "role": "user",
+      "content": "MENU_CONTEXT":{
+      "food_items": [    
+      {
+      "category": "Milk Shake & Ice Cream",
+      "items": [
+        {
+          "item_name": "Vennila",
+          "price": "75",
+          "description": ""
+        },
+        {
+          "item_name": "Strawberry",
+          "price": "75",
+          "description": ""
+        },
+        {
+          "item_name": "Chocolate",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Butter Scotch",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Pista",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Spanish Delite",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Black Current",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Cherry",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Cashew",
+          "price": "90",
+          "description": ""
+        },
+        {
+          "item_name": "Fig Fruit",
+          "price": "100",
+          "description": ""
+        },
+        {
+          "item_name": "Kashmir",
+          "price": "85",
+          "description": ""
+        },
+        {
+          "item_name": "Oman",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Saudi",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Thamam",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Mango Shake",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Papaya",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Pipeapple",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Chikku",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Aanar Tender Cocount",
+          "price": "90",
+          "description": ""
+        }
+      ]
+      },  
+      {  
+      "category": "Shakes",
+      "items": [
+        {
+          "item_name": "Semam",
+          "price": "80",
+          "description": ""
+        },
+      {
+        "item_name": "Badam Shake",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "item_name": "Oreo Shake",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Cara Milk Nuts",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Til Tak",
+        "price": "80",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Falooda",
+     "items": [
+      {
+        "item_name": "Looda",
+        "price": "20",
+        "description": ""
+      },
+      {
+        "item_name": "Royal Falooda",
+        "price": "150",
+        "description": ""
+      },
+      {
+        "item_name": "Pista Falooda",
+        "price": "160",
+        "description": ""
+      },
+      {
+        "item_name": "Butter Falooda",
+        "price": "170",
+        "description": ""
+      },
+      {
+        "item_name": "MGS Special Falooda",
+        "price": "210",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Limes",
+     "items": [
+      {
+        "item_name": "Fresh Limes",
+        "price": "35",
+        "description": ""
+      },
+      {
+        "item_name": "Ginger Limes",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Mint Limes",
+        "price": "35",
+        "description": ""
+      },
+      {
+        "item_name": "Soda Limes",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Grapes Limes",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Curry leaves Limes",
+        "price": "100",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Salads",
+     "items": [
+      {
+        "item_name": "Guts Salad",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "item_name": "Fruits Salad Pudding",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Dry Fruits Salad",
+        "price": "80",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Mutton",
+     "items": [
+      {
+        "item_name": "Mutton Chops",
+        "price": "190",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Chukka",
+        "price": "130",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Fry",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Boti Fry",
+        "price": "100",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Fish",
+     "items": [
+      {
+        "item_name": "Fish Fry",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "item_name": "Fish Curry",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Fish 65",
+        "price": "130",
+        "description": ""
+      },
+      {
+        "item_name": "Fish Masala",
+        "price": "170",
+        "description": ""
+      },
+      {
+        "item_name": "Chilli Fish",
+        "price": "180",
+        "description": ""
+      },
+      {
+        "item_name": "Prawns Fry",
+        "price": "180",
+        "description": ""
+      },
+      {
+        "item_name": "Prawns Masala",
+        "price": "15",
+        "description": ""
+      },
+      {
+        "item_name": "Prawns Curry",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Chilli Prawns",
+        "price": "25",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Parotta",
+     "items": [
+      {
+        "item_name": "Parotta Veechu Parotta",
+        "price": "70",
+        "description": ""
+      },
+      {
+        "item_name": "Open Veechu Parotta",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Veechu Egg Parotta",
+        "price": "70",
+        "description": ""
+      },
+      {
+        "item_name": "Piece Parotta",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Kothu Parotta",
+        "price": "180",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Kaima Parotta",
+        "price": "170",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Kaima Parotta",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Murtabak Parotta",
+        "price": "70",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Murtabak Parotta",
+        "price": "20",
+        "description": ""
+      },
+      {
+        "item_name": "Oll Parotta",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Without Oil Parotta",
+        "price": "30",
+        "description": ""
+      },
+      {
+        "item_name": "Panchu Parotta",
+        "price": "210",
+        "description": ""
+      },
+      {
+        "item_name": "Sweet Parotta",
+        "price": "170",
+        "description": ""
+      },
+      {
+        "item_name": "Banana Leaf Mutton Parotta",
+        "price": "40",
+        "description": ""
+      },
+      {
+        "item_name": "Banana Leaf Chicken Parotta",
+        "price": "300",
+        "description": ""
+      },
+      {
+        "item_name": "Chappathi",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Dum Parotta",
+        "price": "130",
+        "description": ""
+      },
+      {
+        "item_name": "Mushroom Dosa",
+        "price": "160",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Dosa",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Dosa",
+        "price": "130",
+        "description": ""
+      }
+     ]
+     },
+     { 
+     "category": "Idiyappam / Paya",
+     "items": [
+      {
+        "item_name": "Idiyappam / Paya",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Appam / Chicken Gravy",
+        "price": "135",
+        "description": ""
+      }
+     ]
+     },
+     {
+      "category": "Manchurian",
+      "items": [
+      {
+        "item_name": "Veg Manchuriyan",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "item_name": "Gobi Manchuriyan",
+        "price": "90",
+        "description": ""
+      },
+      {
+        "item_name": "Chilli Gobi Manchuriyan",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mushroom Gravy",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mushroom Manchurian",
+        "price": "150",
+        "description": ""
+      },
+      {
+        "item_name": "Crispy Veg",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Szechwan Chicken",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Chilli Chicken",
+        "price": "140",
+        "description": ""
+      },
+      {
+        "item_name": "Ginger Chicken",
+        "price": "150",
+        "description": ""
+      },
+      {
+        "item_name": "Dragon Chicken",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Shawarma Roll",
+        "price": "110",
+        "description": ""
+      },
+      {
+        "item_name": "Shawarma Plate",
+        "price": "140",
+         "description": ""
+          }
+        ]
+         },
+        {
+      "category": "Sued Rice",
+      "items": [
+      {
+        "item_name": "Veg Fried Rice",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "item_name": "Egg Fried Rice",
+        "price": "90",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Fried Rice",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mushroom Fried Rice",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Panner Fried Rice",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mixed Fried Rice",
+        "price": "150",
+        "description": ""
+      },
+      {
+        "item_name": "Schezwan Chicken Fried Rice",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Schezwan Veg Fried Rice",
+        "price": "140",
+        "description": ""
+      },
+      {
+        "item_name": "Taiwanese Chicken Fried Rice",
+        "price": "150",
+        "description": ""
+      },
+      {
+        "item_name": "Taiwanese Veg Fried Rice",
+        "price": "100",
+        "description": ""
+      }
+     ]
+      },
+      {
+       "category": "Noodles",
+      "items": [
+      {
+        "item_name": "Chicken Noodles",
+        "price": "110",
+        "description": ""
+      },
+      {
+        "item_name": "Veg Noodles",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Egg Noodles",
+        "price": "90",
+        "description": ""
+      },
+      {
+        "item_name": "Mixed Noodles",
+        "price": "130",
+        "description": ""
+      },
+      {
+        "item_name": "Schezwan Chicken Noodles",
+        "price": "140",
+        "description": ""
+      },
+      {
+        "item_name": "Schezwan Veg Noodles",
+        "price": "110",
+        "description": ""
+      },
+      {
+        "item_name": "Taiwanese Chicken Noodles",
+        "price": "140",
+        "description": ""
+      },
+      {
+        "item_name": "Taiwanese Veg Noodles",
+        "price": "100",
+        "description": ""
+      }
+      ]
+     }
+     ],
+     "offers": [
+      "20% off on order above 999",
+      "10% off on Parotta category",
+       "Exciting discounts on Manchurian and Noodles",
+       "Free delivery on orders above 999",
+       "flat 300 off on above 2999"
+     ],
+      "categories": ["Milk Shake & Ice cream", "Shakes",   "Falooda", "Limes", "Salads", "Mutton", "Fish",   "Parotta", "Idiyappam / Paya", "Manchurian", "Sued",   "Rice", "Noodles"],
+
+      "recommended_items": [
+      "Vennila Milk shake - 75",
+      "Strawberry Milk shake - 75",
+      "Chocolate Milk shake - 80",
+      "Fruits Salad Pudding - 80"
+      "Dry Fruits Salad - 80"
+      "Mutton Chops - 130",
+      "Fish Curry - 120",
+      "Fish Fry -100",
+      "Chilli Prawns - 250",
+      "Banana Leaf Chicken Parotta - 300",
+      "Chilli Gobi Manchuriyan - 120",
+      "Ginger Chicken - 150",
+      "Egg Noodles with Ginger Limes",
+      "Veg Fried Rice, Chilli Chicken, Guts Salad with Fresh Limes"
+     ],
+     "payment_methods": [
+      "Cash on Delivery",
+      "Online Payment",
+      "UPI Payment",
+      "Card Payment",
+      "Wallet Payment"
+     ],
+     "special_menu's": [
+      "Mutton Fry with Without Oil Parotta",
+      "Mutton Boti Fry with Veechu Egg Parotta",
+      "Chicken Kaima Parotta with Chilli Chicken",
+      "Chicken Noodles with Soda Limes",
+      "Schezwan Veg Noodles"
+    ]
+    }
+  }
+  {
+    "role": "user",
+    "content": "Hey, may i see the menu?"
+  },
+  {
+  "role": "assistant",
+  "content": "Yes, sure! Here's the menu... Feel free to order something!\n\n **Milk Shake & Ice Cream**\n- Vennila Milk Shake & Ice Cream – ₹75\n- Strawberry Milk Shake & Ice Cream – ₹75\n- Chocolate Milk Shake & Ice Cream – ₹80\n- Butter Scotch Milk Shake & Ice Cream – ₹80\n- Pista Milk Shake & Ice Cream – ₹80\n- Spanish Delite Milk Shake & Ice Cream – ₹80\n- Black Current Milk Shake & Ice Cream – ₹80\n- Cherry Milk Shake & Ice Cream – ₹80\n- Cashew Milk Shake & Ice Cream – ₹90\n- Fig Fruit Milk Shake & Ice Cream – ₹100\n- Kashmir Milk Shake & Ice Cream – ₹85\n- Oman Milk Shake & Ice Cream – ₹80\n- Saudi Milk Shake & Ice Cream – ₹80\n- Thamam Milk Shake & Ice Cream – ₹80\n- Mango Shake – ₹80\n- Papaya Milk Shake & Ice Cream – ₹80\n- Pineapple Milk Shake & Ice Cream – ₹80\n- Chikku Milk Shake & Ice Cream – ₹80\n- Aanar Tender Coconut Milk Shake & Ice Cream – ₹90\n\n**Shakes**\n- Semam – ₹80\n- Badam Shake – ₹100\n- Oreo Shake – ₹80\n- Cara Milk Nuts – ₹80\n- Til Tak – ₹80\n\n**Falooda**\n- Looda – ₹20\n- Royal Falooda – ₹150\n- Pista Falooda – ₹160\n- Butter Falooda – ₹170\n- MGS Special Falooda – ₹210\n\n**Limes**\n- Fresh Limes – ₹35\n- Ginger Limes – ₹25\n- Mint Limes – ₹35\n- Soda Limes – ₹25\n- Grapes Limes – ₹80\n- Curry Leaves Limes – ₹100\n\n**Salads**\n- Guts Salad – ₹100\n- Fruits Salad Pudding – ₹80\n- Dry Fruits Salad – ₹80\n\n**Mutton**\n- Mutton Chops – ₹190\n- Mutton Chukka – ₹130\n- Mutton Fry – ₹120\n- Mutton Boti Fry – ₹100\n\n**Fish**\n- Fish Fry – ₹100\n- Fish Curry – ₹120\n- Fish 65 – ₹130\n- Fish Masala – ₹170\n- Chilli Fish – ₹180\n- Prawns Fry – ₹180\n- Prawns Masala – ₹15\n- Prawns Curry – ₹25\n- Chilli Prawns – ₹25"
+  },
+  {
+    "role": "user",
+    "content": "Add one Mango Shake to the cart"
+  },
+  {
+    "role": "assistant",
+    "content": "Sure! Mango Shake added to your cart.\n```json\n[\n  {\"item_name\": \"Mango Shake\", \"quantity\": 1, \"price\": 80}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Add one Butter Scotch Milk Shake"
+  },
+  {
+    "role": "assistant",
+    "content": "Butter Scotch Milk Shake added.\n```json\n[\n  {\"item_name\": \"Mango Shake\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Butter Scotch Milk Shake\", \"quantity\": 1, \"price\": 80}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Also add one Oreo Shake"
+  },
+  {
+    "role": "assistant",
+    "content": "Oreo Shake added.\n```json\n[\n  {\"item_name\": \"Mango Shake\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Butter Scotch Milk Shake\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Oreo Shake\", \"quantity\": 1, \"price\": 80}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Add one Coconut King Blast"
+  },
+  {
+    "role": "assistant",
+    "content": "Hmm, I couldn’t find 'Coconut King Blast' on our menu. Could you please check the name or pick another item?"
+  },
+  {
+    "role": "user",
+    "content": "Ah sorry, then add one Fig Fruit Milk Shake"
+  },
+  {
+    "role": "assistant",
+    "content": "Fig Fruit Milk Shake added.\n```json\n[\n  {\"item_name\": \"Mango Shake\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Butter Scotch Milk Shake\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Oreo Shake\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Fig Fruit Milk Shake\", \"quantity\": 1, \"price\": 100}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "One Royal Falooda"
+  },
+  {
+    "role": "assistant",
+    "content": "Royal Falooda added.\n```json\n[\n  {\"item_name\": \"Mango Shake\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Butter Scotch Milk Shake\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Oreo Shake\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Fig Fruit Milk Shake\", \"quantity\": 1, \"price\": 100},\n  {\"item_name\": \"Royal Falooda\", \"quantity\": 1, \"price\": 150}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Add one Fish Fry"
+  },
+  {
+    "role": "assistant",
+    "content": "Fish Fry added.\n```json\n[\n  {\"item_name\": \"Mango Shake\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Butter Scotch Milk Shake\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Oreo Shake\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Fig Fruit Milk Shake\", \"quantity\": 1, \"price\": 100},\n  {\"item_name\": \"Royal Falooda\", \"quantity\": 1, \"price\": 150},\n  {\"item_name\": \"Fish Fry\", \"quantity\": 1, \"price\": 100}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Add one Dry Fruits Salad"
+  },
+  {
+    "role": "assistant",
+    "content": "Dry Fruits Salad added.\n```json\n[\n  {\"item_name\": \"Mango Shake\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Butter Scotch Milk Shake\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Oreo Shake\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Fig Fruit Milk Shake\", \"quantity\": 1, \"price\": 100},\n  {\"item_name\": \"Royal Falooda\", \"quantity\": 1, \"price\": 150},\n  {\"item_name\": \"Fish Fry\", \"quantity\": 1, \"price\": 100},\n  {\"item_name\": \"Dry Fruits Salad\", \"quantity\": 1, \"price\": 80}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Add one Butter Falooda"
+  },
+  {
+    "role": "assistant",
+    "content": "Butter Falooda added.\n```json\n[\n  {\"item_name\": \"Mango Shake\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Butter Scotch Milk Shake\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Oreo Shake\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Fig Fruit Milk Shake\", \"quantity\": 1, \"price\": 100},\n  {\"item_name\": \"Royal Falooda\", \"quantity\": 1, \"price\": 150},\n  {\"item_name\": \"Fish Fry\", \"quantity\": 1, \"price\": 100},\n  {\"item_name\": \"Dry Fruits Salad\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Butter Falooda\", \"quantity\": 1, \"price\": 170}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Add one Semam Shake"
+  },
+  {
+    "role": "assistant",
+    "content": "Semam Shake added.\n```json\n[\n  {\"item_name\": \"Mango Shake\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Butter Scotch Milk Shake\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Oreo Shake\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Fig Fruit Milk Shake\", \"quantity\": 1, \"price\": 100},\n  {\"item_name\": \"Royal Falooda\", \"quantity\": 1, \"price\": 150},\n  {\"item_name\": \"Fish Fry\", \"quantity\": 1, \"price\": 100},\n  {\"item_name\": \"Dry Fruits Salad\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Butter Falooda\", \"quantity\": 1, \"price\": 170},\n  {\"item_name\": \"Semam Shake\", \"quantity\": 1, \"price\": 80}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Add one Mutton Fry"
+  },
+  {
+    "role": "user",
+    "content": "Add one Mutton Fry"
+  },
+  {
+    "role": "assistant",
+    "content": "Mutton Fry added. Here's your final cart:\n```json\n[\n  {\"item_name\": \"Mango Shake\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Butter Scotch Milk Shake\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Oreo Shake\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Fig Fruit Milk Shake\", \"quantity\": 1, \"price\": 100},\n  {\"item_name\": \"Royal Falooda\", \"quantity\": 1, \"price\": 150},\n  {\"item_name\": \"Fish Fry\", \"quantity\": 1, \"price\": 100},\n  {\"item_name\": \"Dry Fruits Salad\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Butter Falooda\", \"quantity\": 1, \"price\": 170},\n  {\"item_name\": \"Semam Shake\", \"quantity\": 1, \"price\": 80},\n  {\"item_name\": \"Mutton Fry\", \"quantity\": 1, \"price\": 120}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "what's the total price?"
+  },
+  {
+    "role": "assistant",
+    "content": "for the total price, let me calculate it for you.\n\n- Mango Shake: ₹80\n- Butter Scotch Milk Shake: ₹80\n- Oreo Shake: ₹80\n- Fig Fruit Milk Shake: ₹100\n- Royal Falooda: ₹150\n- Fish Fry: ₹100\n- Dry Fruits Salad: ₹80\n- Butter Falooda: ₹170\n- Semam Shake: ₹80\n- Mutton Fry: ₹120\n\n**Total Price:** ₹1,010"
+  },
+  {
+    "role": "user",
+    "content": "ok how can i pay"
+  },
+  {
+    "role": "assistant",
+    "content": "You can pay using the following methods:\n- Cash on Delivery\n- Online Payment\n- UPI Payment\n- Card Payment\n- Wallet Payment\nPlease let me know which option you prefer."
+  },
+  {
+    "role": "user",
+    "content": "ok got it i pay through UPI"
+  },
+  {
+    "role": "assistant",
+    "content": "Great! Please proceed with the UPI payment. Once done, your order will be confirmed. Thank you for choosing us! Had a happy meal! If you need anything else, feel free to ask."
+  }
+]}
+{"messages":[
+  {
+      "role": "user",
+      "content": "MENU_CONTEXT":{
+      "food_items": [    
+      {
+      "category": "Milk Shake & Ice Cream",
+      "items": [
+        {
+          "item_name": "Vennila",
+          "price": "75",
+          "description": ""
+        },
+        {
+          "item_name": "Strawberry",
+          "price": "75",
+          "description": ""
+        },
+        {
+          "item_name": "Chocolate",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Butter Scotch",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Pista",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Spanish Delite",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Black Current",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Cherry",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Cashew",
+          "price": "90",
+          "description": ""
+        },
+        {
+          "item_name": "Fig Fruit",
+          "price": "100",
+          "description": ""
+        },
+        {
+          "item_name": "Kashmir",
+          "price": "85",
+          "description": ""
+        },
+        {
+          "item_name": "Oman",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Saudi",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Thamam",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Mango Shake",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Papaya",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Pipeapple",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Chikku",
+          "price": "80",
+          "description": ""
+        },
+        {
+          "item_name": "Aanar Tender Cocount",
+          "price": "90",
+          "description": ""
+        }
+      ]
+      },  
+      {  
+      "category": "Shakes",
+      "items": [
+        {
+          "item_name": "Semam",
+          "price": "80",
+          "description": ""
+        },
+      {
+        "item_name": "Badam Shake",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "item_name": "Oreo Shake",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Cara Milk Nuts",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Til Tak",
+        "price": "80",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Falooda",
+     "items": [
+      {
+        "item_name": "Looda",
+        "price": "20",
+        "description": ""
+      },
+      {
+        "item_name": "Royal Falooda",
+        "price": "150",
+        "description": ""
+      },
+      {
+        "item_name": "Pista Falooda",
+        "price": "160",
+        "description": ""
+      },
+      {
+        "item_name": "Butter Falooda",
+        "price": "170",
+        "description": ""
+      },
+      {
+        "item_name": "MGS Special Falooda",
+        "price": "210",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Limes",
+     "items": [
+      {
+        "item_name": "Fresh Limes",
+        "price": "35",
+        "description": ""
+      },
+      {
+        "item_name": "Ginger Limes",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Mint Limes",
+        "price": "35",
+        "description": ""
+      },
+      {
+        "item_name": "Soda Limes",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Grapes Limes",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Curry leaves Limes",
+        "price": "100",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Salads",
+     "items": [
+      {
+        "item_name": "Guts Salad",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "item_name": "Fruits Salad Pudding",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Dry Fruits Salad",
+        "price": "80",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Mutton",
+     "items": [
+      {
+        "item_name": "Mutton Chops",
+        "price": "190",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Chukka",
+        "price": "130",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Fry",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Boti Fry",
+        "price": "100",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Fish",
+     "items": [
+      {
+        "item_name": "Fish Fry",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "item_name": "Fish Curry",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Fish 65",
+        "price": "130",
+        "description": ""
+      },
+      {
+        "item_name": "Fish Masala",
+        "price": "170",
+        "description": ""
+      },
+      {
+        "item_name": "Chilli Fish",
+        "price": "180",
+        "description": ""
+      },
+      {
+        "item_name": "Prawns Fry",
+        "price": "180",
+        "description": ""
+      },
+      {
+        "item_name": "Prawns Masala",
+        "price": "15",
+        "description": ""
+      },
+      {
+        "item_name": "Prawns Curry",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Chilli Prawns",
+        "price": "25",
+        "description": ""
+      }
+     ]
+     },
+     {
+     "category": "Parotta",
+     "items": [
+      {
+        "item_name": "Parotta Veechu Parotta",
+        "price": "70",
+        "description": ""
+      },
+      {
+        "item_name": "Open Veechu Parotta",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Veechu Egg Parotta",
+        "price": "70",
+        "description": ""
+      },
+      {
+        "item_name": "Piece Parotta",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Kothu Parotta",
+        "price": "180",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Kaima Parotta",
+        "price": "170",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Kaima Parotta",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Murtabak Parotta",
+        "price": "70",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Murtabak Parotta",
+        "price": "20",
+        "description": ""
+      },
+      {
+        "item_name": "Oll Parotta",
+        "price": "25",
+        "description": ""
+      },
+      {
+        "item_name": "Without Oil Parotta",
+        "price": "30",
+        "description": ""
+      },
+      {
+        "item_name": "Panchu Parotta",
+        "price": "210",
+        "description": ""
+      },
+      {
+        "item_name": "Sweet Parotta",
+        "price": "170",
+        "description": ""
+      },
+      {
+        "item_name": "Banana Leaf Mutton Parotta",
+        "price": "40",
+        "description": ""
+      },
+      {
+        "item_name": "Banana Leaf Chicken Parotta",
+        "price": "300",
+        "description": ""
+      },
+      {
+        "item_name": "Chappathi",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Dum Parotta",
+        "price": "130",
+        "description": ""
+      },
+      {
+        "item_name": "Mushroom Dosa",
+        "price": "160",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Dosa",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Dosa",
+        "price": "130",
+        "description": ""
+      }
+     ]
+     },
+     { 
+     "category": "Idiyappam / Paya",
+     "items": [
+      {
+        "item_name": "Idiyappam / Paya",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Appam / Chicken Gravy",
+        "price": "135",
+        "description": ""
+      }
+     ]
+     },
+     {
+      "category": "Manchurian",
+      "items": [
+      {
+        "item_name": "Veg Manchuriyan",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "item_name": "Gobi Manchuriyan",
+        "price": "90",
+        "description": ""
+      },
+      {
+        "item_name": "Chilli Gobi Manchuriyan",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mushroom Gravy",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mushroom Manchurian",
+        "price": "150",
+        "description": ""
+      },
+      {
+        "item_name": "Crispy Veg",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Szechwan Chicken",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Chilli Chicken",
+        "price": "140",
+        "description": ""
+      },
+      {
+        "item_name": "Ginger Chicken",
+        "price": "150",
+        "description": ""
+      },
+      {
+        "item_name": "Dragon Chicken",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Shawarma Roll",
+        "price": "110",
+        "description": ""
+      },
+      {
+        "item_name": "Shawarma Plate",
+        "price": "140",
+         "description": ""
+          }
+        ]
+         },
+        {
+      "category": "Sued Rice",
+      "items": [
+      {
+        "item_name": "Veg Fried Rice",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "item_name": "Egg Fried Rice",
+        "price": "90",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Fried Rice",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mushroom Fried Rice",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Panner Fried Rice",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Mixed Fried Rice",
+        "price": "150",
+        "description": ""
+      },
+      {
+        "item_name": "Schezwan Chicken Fried Rice",
+        "price": "120",
+        "description": ""
+      },
+      {
+        "item_name": "Schezwan Veg Fried Rice",
+        "price": "140",
+        "description": ""
+      },
+      {
+        "item_name": "Taiwanese Chicken Fried Rice",
+        "price": "150",
+        "description": ""
+      },
+      {
+        "item_name": "Taiwanese Veg Fried Rice",
+        "price": "100",
+        "description": ""
+      }
+     ]
+      },
+      {
+       "category": "Noodles",
+      "items": [
+      {
+        "item_name": "Chicken Noodles",
+        "price": "110",
+        "description": ""
+      },
+      {
+        "item_name": "Veg Noodles",
+        "price": "80",
+        "description": ""
+      },
+      {
+        "item_name": "Egg Noodles",
+        "price": "90",
+        "description": ""
+      },
+      {
+        "item_name": "Mixed Noodles",
+        "price": "130",
+        "description": ""
+      },
+      {
+        "item_name": "Schezwan Chicken Noodles",
+        "price": "140",
+        "description": ""
+      },
+      {
+        "item_name": "Schezwan Veg Noodles",
+        "price": "110",
+        "description": ""
+      },
+      {
+        "item_name": "Taiwanese Chicken Noodles",
+        "price": "140",
+        "description": ""
+      },
+      {
+        "item_name": "Taiwanese Veg Noodles",
+        "price": "100",
+        "description": ""
+      }
+      ]
+     }
+     ],
+     "offers": [
+      "20% off on order above 999",
+      "10% off on Parotta category",
+       "Exciting discounts on Manchurian and Noodles",
+       "Free delivery on orders above 999",
+       "flat 300 off on above 2999"
+     ],
+      "categories": ["Milk Shake & Ice cream", "Shakes",   "Falooda", "Limes", "Salads", "Mutton", "Fish",   "Parotta", "Idiyappam / Paya", "Manchurian", "Sued",   "Rice", "Noodles"],
+
+      "recommended_items": [
+      "Vennila Milk shake - 75",
+      "Strawberry Milk shake - 75",
+      "Chocolate Milk shake - 80",
+      "Fruits Salad Pudding - 80"
+      "Dry Fruits Salad - 80"
+      "Mutton Chops - 130",
+      "Fish Curry - 120",
+      "Fish Fry -100",
+      "Chilli Prawns - 250",
+      "Banana Leaf Chicken Parotta - 300",
+      "Chilli Gobi Manchuriyan - 120",
+      "Ginger Chicken - 150",
+      "Egg Noodles with Ginger Limes",
+      "Veg Fried Rice, Chilli Chicken, Guts Salad with Fresh Limes"
+     ],
+     "payment_methods": [
+      "Cash on Delivery",
+      "Online Payment",
+      "UPI Payment",
+      "Card Payment",
+      "Wallet Payment"
+     ],
+     "special_menu's": [
+      "Mutton Fry with Without Oil Parotta",
+      "Mutton Boti Fry with Veechu Egg Parotta",
+      "Chicken Kaima Parotta with Chilli Chicken",
+      "Chicken Noodles with Soda Limes",
+      "Schezwan Veg Noodles"
+    ]
+    }
+  }
+  {
+    "role": "user",
+    "content": "Hello"
+  },
+  {
+    "role": "assistant",
+    "content": "Hi there! How can I assist you today? Would you like to see our menu or place an order?"
+  },
+  {
+    "role": "user",
+    "content": "Ok, I want one soda sharbat."
+  },
+  {
+    "role": "assistant",
+    "content": "Ohh, sorry, we don’t have soda sharbat. But we have Fresh Lime - ₹35, Ginger Lime - ₹25, Mint Lime - ₹35. What would you like to have?"
+  },
+  {
+    "role": "user",
+    "content": "Actually, I want soda sharbat."
+  },
+  {
+    "role": "assistant",
+    "content": "I apologize, but we don't have soda sharbat on our menu. However, we do have fresh limes, ginger limes, and mint limes. Would you like to try one of those instead? You can choose Fresh Lime; it's similar to soda sharbat."
+  },
+  {
+    "role": "user",
+    "content": "Ok, I want one Fresh Lime."
+  },
+  {
+    "role": "assistant",
+    "content": "Sure! Fresh Lime added to your order.\n```json\n[\n  {\"item_name\": \"Fresh Lime\", \"quantity\": 1, \"price\": 35}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Add one Lime Soda."
+  },
+  {
+    "role": "assistant",
+    "content": "Do you mean Soda Lime?"
+  },
+  {
+    "role": "user",
+    "content": "Yes."
+  },
+  {
+    "role": "assistant",
+    "content": "Soda Lime added to your order. Here's your updated cart:\n```json\n[\n  {\"item_name\": \"Fresh Lime\", \"quantity\": 1, \"price\": 35},\n  {\"item_name\": \"Soda Lime\", \"quantity\": 1, \"price\": 25}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Add one Pudina Lime."
+  },
+  {
+    "role": "assistant",
+    "content": "Sorry, we don’t have Pudina Lime, but we have Mint Lime - ₹35. Would you like to add that?"
+  },
+  {
+    "role": "user",
+    "content": "No, no thanks."
+  },
+  {
+    "role": "assistant",
+    "content": "No problem! If you need anything else or have any other requests, just let me know. Enjoy your Fresh Lime and Soda Lime! Here's your current order:\n```json\n[\n  {\"item_name\": \"Fresh Lime\", \"quantity\": 1, \"price\": 35},\n  {\"item_name\": \"Soda Lime\", \"quantity\": 1, \"price\": 25}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Wait, I also want to add one Chicken Fried Rice. What’s the price? Is it good?"
+  },
+  {
+    "role": "assistant",
+    "content": "Sure! Chicken Fried Rice is good, and it costs ₹120. Would you like to add it?"
+  },
+  {
+    "role": "user",
+    "content": "Wait, what is the best chicken item on the menu?"
+  },
+  {
+    "role": "assistant",
+    "content": "The best in our recommended items is Ginger Chicken, Chicken Kaima Parotta with Chilli Chicken, and Chicken Noodles with Soda Limes. Would you like any of those?"
+  },
+  {
+    "role": "user",
+    "content": "No thanks, just add one Chicken Fried Rice."
+  },
+  {
+    "role": "assistant",
+    "content": "Chicken Fried Rice added to your order. Here's your updated cart:\n```json\n[\n  {\"item_name\": \"Fresh Lime\", \"quantity\": 1, \"price\": 35},\n  {\"item_name\": \"Soda Lime\", \"quantity\": 1, \"price\": 25},\n  {\"item_name\": \"Chicken Fried Rice\", \"quantity\": 1, \"price\": 120}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Ok, what is the total price?"
+  },
+  {
+    "role": "assistant",
+    "content": "The total price for your order is:\n\n- Fresh Lime: ₹35\n- Soda Lime: ₹25\n- Chicken Fried Rice: ₹120\n\n**Total Price:** ₹180\n\nWould you like to proceed with the payment? If so, how would you like to pay? We accept cash on delivery, online payment, UPI, card payment, and wallet payment."
+  },
+  {
+    "role": "user",
+    "content": "I will pay through credit card."
+  },
+  {
+    "role": "assistant",
+    "content": "Sorry, we don’t accept credit cards."
+  },
+  {
+    "role": "user",
+    "content": "I will pay through debit card."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay! You can pay through debit card. Have a happy meal!"
+  }
 ]}

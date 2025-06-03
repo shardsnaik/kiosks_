@@ -274,17 +274,17 @@
       },
       {
         "item_name": "Prawns Masala",
-        "price": "15",
+        "price": "150",
         "description": ""
       },
       {
         "item_name": "Prawns Curry",
-        "price": "25",
+        "price": "250",
         "description": ""
       },
       {
         "item_name": "Chilli Prawns",
-        "price": "25",
+        "price": "250",
         "description": ""
       }
     ]
@@ -324,17 +324,17 @@
       },
       {
         "item_name": "Chicken Kaima Parotta",
-        "price": "25",
+        "price": "250",
         "description": ""
       },
       {
         "item_name": "Mutton Murtabak Parotta",
-        "price": "70",
+        "price": "270",
         "description": ""
       },
       {
         "item_name": "Chicken Murtabak Parotta",
-        "price": "20",
+        "price": "200",
         "description": ""
       },
       {
@@ -359,7 +359,7 @@
       },
       {
         "item_name": "Banana Leaf Mutton Parotta",
-        "price": "40",
+        "price": "400",
         "description": ""
       },
       {
