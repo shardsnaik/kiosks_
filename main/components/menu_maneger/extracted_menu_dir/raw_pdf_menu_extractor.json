@@ -1,0 +1,277 @@
+[
+  {
+    "category": "Sizzlers",
+    "items": [
+      {
+        "item_name": "Veg Steak Sizzler",
+        "price": "230.00",
+        "description": "Veg steak with barbeque sauce served with rice & french fries."
+      },
+      {
+        "item_name": "Paneer Tikka Sizzler",
+        "price": "250.00",
+        "description": "Paneer and assorted vegetables cooked into sizzlers."
+      }
+    ]
+  },
+  {
+    "category": "Veg Au Gratin",
+    "items": [
+      {
+        "item_name": "Veg Au Gratin",
+        "price": "210.00",
+        "description": "Minced & stir fried mix vegetables, mixed in white sauce layered with cheese. Served with garlic bread."
+      },
+      {
+        "item_name": "Veg Spinach Au Gratin",
+        "price": "210.00",
+        "description": ""
+      },
+      {
+        "item_name": "Baked Vegitables",
+        "price": "210.00",
+        "description": ""
+      },
+      {
+        "item_name": "Cheese Microni",
+        "price": "210.00",
+        "description": ""
+      },
+      {
+        "item_name": "Penne Paprika",
+        "price": "210.00",
+        "description": "Penne served with bechamel flavoured with paprika flakes."
+      },
+      {
+        "item_name": "Penne Arrabiata",
+        "price": "210.00",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "category": "Chinese & Oriental Main Course Veg",
+    "items": [
+      {
+        "item_name": "Veg Chowmein",
+        "price": "185.00",
+        "description": ""
+      },
+      {
+        "item_name": "Veg Hakka Noodle",
+        "price": "190.00",
+        "description": ""
+      },
+      {
+        "item_name": "Veg Schezwan Noodle",
+        "price": "190.00",
+        "description": ""
+      },
+      {
+        "item_name": "Veg American Chopsuey",
+        "price": "180.00",
+        "description": ""
+      },
+      {
+        "item_name": "Veg Fried Rice",
+        "price": "190.00",
+        "description": ""
+      },
+      {
+        "item_name": "Veg Singapuri Rice",
+        "price": "195.00",
+        "description": ""
+      },
+      {
+        "item_name": "Veg Singapuri Noodle",
+        "price": "195.00",
+        "description": ""
+      },
+      {
+        "item_name": "Veg Schezwan Fried Rice",
+        "price": "190.00",
+        "description": ""
+      },
+      {
+        "item_name": "Veg Tripple Fried Rice",
+        "price": "230.00",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "category": "Chinese & Oriental Main Course Non-Veg",
+    "items": [
+      {
+        "item_name": "Chicken Chowmein",
+        "price": "220.00",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Hakka Noodle",
+        "price": "220.00",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Schezwan Noodle",
+        "price": "230.00",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken American Choupsy",
+        "price": "230.00",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Fried Rice",
+        "price": "220.00",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Schezwan Fried Rice",
+        "price": "240.00",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "category": "Tandoor",
+    "items": [
+      {
+        "item_name": "Chicken Alishan",
+        "price": "215.00",
+        "description": "Tender Boneless chicken marinated in tangy mix of yoghurt & spices cooked in tandoor, topped with cheese."
+      },
+      {
+        "item_name": "Chicken Tikka",
+        "price": "245.00",
+        "description": "Chicken pieces marinated in a blend of fragrant spices mixed with yogurt."
+      },
+      {
+        "item_name": "Chicken Angara",
+        "price": "245.00",
+        "description": "Spicy chicken kebab with a smoky aroma & charcoal flavour."
+      },
+      {
+        "item_name": "Chicken Irani Kebab",
+        "price": "260.00",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Shami Kebab",
+        "price": "260.00",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Seekh Kebab",
+        "price": "260.00",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Bhuna",
+        "price": "265.00",
+        "description": "Succulent mutton pan fried in spicy masala"
+      },
+      {
+        "item_name": "Mutton Shami Kebab",
+        "price": "280.00",
+        "description": ""
+      },
+      {
+        "item_name": "Mutton Chopli Kebab",
+        "price": "280.00",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "category": "Non-Veg",
+    "items": [
+      {
+        "item_name": "Chicken 65",
+        "price": "215.00",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Schezwan",
+        "price": "220.00",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Manchurian",
+        "price": "210.00",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Kentucky",
+        "price": "250.00",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Lolipop",
+        "price": "220.00",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Chilli",
+        "price": "215.00",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Crunchy",
+        "price": "225.00",
+        "description": ""
+      },
+      {
+        "item_name": "Chicken Satay",
+        "price": "225.00",
+        "description": ""
+      },
+      {
+        "item_name": "Drums of Heaven",
+        "price": "270.00",
+        "description": ""
+      },
+      {
+        "item_name": "Prawns Chilly",
+        "price": "420.00",
+        "description": ""
+      },
+      {
+        "item_name": "Prawns Koliwada",
+        "price": "420.00",
+        "description": ""
+      },
+      {
+        "item_name": "Prawns Salt & Pepper",
+        "price": "420.00",
+        "description": ""
+      },
+      {
+        "item_name": "Prawns Golden Fried",
+        "price": "420.00",
+        "description": ""
+      },
+      {
+        "item_name": "Chinese Non-Veg Platter",
+        "price": "580.00",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "category": "Indian Main Course - Veg",
+    "items": [
+      {
+        "item_name": "Veg Jalfrizi",
+        "price": "225.00",
+        "description": "A semi-dry Indian recipe with a mix of vegetables cooked in a tomato-based gravy"
+      },
+      {
+        "item_name": "Veg Jaipuri",
+        "price": "220.00",
+        "description": ""
+      }
+    ]
+  }
+]
