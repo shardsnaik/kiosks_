@@ -1,1050 +1,1323 @@
-  "MENU_CONTEXT": {
-    "food_items": [
-      {
-        "category": "Milk Shake & Ice Cream",
-        "items": [
-          { "item_name": "Vennila", "price": 75, "description": "" },
-          { "item_name": "Strawberry", "price": 75, "description": "" },
-          { "item_name": "Chocolate", "price": 80, "description": "" },
-          { "item_name": "Butter Scotch", "price": 80, "description": "" },
-          { "item_name": "Pista", "price": 80, "description": "" }
-        ]
-      },
-      {
-        "category": "Shakes",
-        "items": [
-          { "item_name": "Semam", "price": 80, "description": "" },
-          { "item_name": "Badam Shake", "price": 100, "description": "" },
-          { "item_name": "Oreo Shake", "price": 80, "description": "" },
-          { "item_name": "Cara Milk Nuts", "price": 80, "description": "" },
-          { "item_name": "Til Tak", "price": 80, "description": "" }
-        ]
-      },
-      {
-        "category": "Falooda",
-        "items": [
-          { "item_name": "Looda", "price": 20, "description": "" },
-          { "item_name": "Royal Falooda", "price": 150, "description": "" },
-          { "item_name": "Pista Falooda", "price": 160, "description": "" },
-          { "item_name": "Butter Falooda", "price": 170, "description": "" },
-          { "item_name": "MGS Special Falooda", "price": 210, "description": "" }
-        ]
-      },
-      {
-        "category": "Limes",
-        "items": [
-          { "item_name": "Fresh Limes", "price": 35, "description": "" },
-          { "item_name": "Ginger Limes", "price": 25, "description": "" },
-          { "item_name": "Mint Limes", "price": 35, "description": "" },
-          { "item_name": "Soda Limes", "price": 25, "description": "" }
-        ]
-      }
-    ],
-    "offers": [
-      "10% off on order above 499",
-      "10% off on Shakes category",
-      "Exciting discounts on Milk Shake and Ice cream",
-      "Free delivery on orders above 999",
-      "Buy 1 Get 1 Free on Falooda"
-    ],
-    "categories": ["Milk Shake & Ice Cream", "Shakes", "Falooda", "Limes"],
-    "recommended_items": [
-      "Vennila Milk shake - 75",
-      "Strawberry Milk shake - 75",
-      "Chocolate Milk shake - 80",
-      "Royal Falooda - 150",
-      "Pista Falooda - 160",
-      "Ginger Limes - 35",
-      "Fresh Limes - 25",
-      "Mint Limes - 35"
-    ],
-    "payment_methods": [
-      "Cash on Delivery",
-      "Online Payment",
-      "UPI Payment",
-      "Card Payment",
-      "Wallet Payment"
-    ],
-    "special_menu's": [
-      "Pista Milk Shake & Ice Cream",
-      "MGS Special Falooda",
-      "Soda Limes"
-    ]
-  }
+//   "MENU_CONTEXT": {
+//     "food_items": [
+//       {
+//         "category": "Milk Shake & Ice Cream",
+//         "items": [
+//           { "item_name": "Vennila", "price": 75, "description": "" },
+//           { "item_name": "Strawberry", "price": 75, "description": "" },
+//           { "item_name": "Chocolate", "price": 80, "description": "" },
+//           { "item_name": "Butter Scotch", "price": 80, "description": "" },
+//           { "item_name": "Pista", "price": 80, "description": "" }
+//         ]
+//       },
+//       {
+//         "category": "Shakes",
+//         "items": [
+//           { "item_name": "Semam", "price": 80, "description": "" },
+//           { "item_name": "Badam Shake", "price": 100, "description": "" },
+//           { "item_name": "Oreo Shake", "price": 80, "description": "" },
+//           { "item_name": "Cara Milk Nuts", "price": 80, "description": "" },
+//           { "item_name": "Til Tak", "price": 80, "description": "" }
+//         ]
+//       },
+//       {
+//         "category": "Falooda",
+//         "items": [
+//           { "item_name": "Looda", "price": 20, "description": "" },
+//           { "item_name": "Royal Falooda", "price": 150, "description": "" },
+//           { "item_name": "Pista Falooda", "price": 160, "description": "" },
+//           { "item_name": "Butter Falooda", "price": 170, "description": "" },
+//           { "item_name": "MGS Special Falooda", "price": 210, "description": "" }
+//         ]
+//       },
+//       {
+//         "category": "Limes",
+//         "items": [
+//           { "item_name": "Fresh Limes", "price": 35, "description": "" },
+//           { "item_name": "Ginger Limes", "price": 25, "description": "" },
+//           { "item_name": "Mint Limes", "price": 35, "description": "" },
+//           { "item_name": "Soda Limes", "price": 25, "description": "" }
+//         ]
+//       }
+//     ],
+//     "offers": [
+//       "10% off on order above 499",
+//       "10% off on Shakes category",
+//       "Exciting discounts on Milk Shake and Ice cream",
+//       "Free delivery on orders above 999",
+//       "Buy 1 Get 1 Free on Falooda"
+//     ],
+//     "categories": ["Milk Shake & Ice Cream", "Shakes", "Falooda", "Limes"],
+//     "recommended_items": [
+//       "Vennila Milk shake - 75",
+//       "Strawberry Milk shake - 75",
+//       "Chocolate Milk shake - 80",
+//       "Royal Falooda - 150",
+//       "Pista Falooda - 160",
+//       "Ginger Limes - 35",
+//       "Fresh Limes - 25",
+//       "Mint Limes - 35"
+//     ],
+//     "payment_methods": [
+//       "Cash on Delivery",
+//       "Online Payment",
+//       "UPI Payment",
+//       "Card Payment",
+//       "Wallet Payment"
+//     ],
+//     "special_menu's": [
+//       "Pista Milk Shake & Ice Cream",
+//       "MGS Special Falooda",
+//       "Soda Limes"
+//     ]
+//   }
 
-// Menu 2
-{
-  "MENU_CONTEXT": {
-    "food_items": [  
-  {
-    "category": "Milk Shake & Ice Cream",
-    "items": [
-      {
-        "item_name": "Vennila",
-        "price": "75",
-        "description": ""
-      },
-      {
-        "item_name": "Strawberry",
-        "price": "75",
-        "description": ""
-      },
-      {
-        "item_name": "Chocolate",
-        "price": "80",
-        "description": ""
-      },
-      {
-        "item_name": "Butter Scotch",
-        "price": "80",
-        "description": ""
-      },
-      {
-        "item_name": "Pista",
-        "price": "80",
-        "description": ""
-      },
-      {
-        "item_name": "Spanish Delite",
-        "price": "80",
-        "description": ""
-      },
-      {
-        "item_name": "Black Current",
-        "price": "80",
-        "description": ""
-      },
-      {
-        "item_name": "Cherry",
-        "price": "80",
-        "description": ""
-      },
-      {
-        "item_name": "Cashew",
-        "price": "90",
-        "description": ""
-      },
-      {
-        "item_name": "Fig Fruit",
-        "price": "100",
-        "description": ""
-      },
-      {
-        "item_name": "Kashmir",
-        "price": "85",
-        "description": ""
-      },
-      {
-        "item_name": "Oman",
-        "price": "80",
-        "description": ""
-      },
-      {
-        "item_name": "Saudi",
-        "price": "80",
-        "description": ""
-      },
-      {
-        "item_name": "Thamam",
-        "price": "80",
-        "description": ""
-      },
-      {
-        "item_name": "Mango Shake",
-        "price": "80",
-        "description": ""
-      },
-      {
-        "item_name": "Papaya",
-        "price": "80",
-        "description": ""
-      },
-      {
-        "item_name": "Pipeapple",
-        "price": "80",
-        "description": ""
-      },
-      {
-        "item_name": "Chikku",
-        "price": "80",
-        "description": ""
-      },
-      {
-        "item_name": "Aanar Tender Cocount",
-        "price": "90",
-        "description": ""
-      }
-    ]
-  },
-  {
-    "category": "Shakes",
-    "items": [
-      {
-        "item_name": "Semam",
-        "price": "80",
-        "description": ""
-      },
-      {
-        "item_name": "Badam Shake",
-        "price": "100",
-        "description": ""
-      },
-      {
-        "item_name": "Oreo Shake",
-        "price": "80",
-        "description": ""
-      },
-      {
-        "item_name": "Cara Milk Nuts",
-        "price": "80",
-        "description": ""
-      },
-      {
-        "item_name": "Til Tak",
-        "price": "80",
-        "description": ""
-      }
-    ]
-  },
-  {
-    "category": "Falooda",
-    "items": [
-      {
-        "item_name": "Looda",
-        "price": "20",
-        "description": ""
-      },
-      {
-        "item_name": "Royal Falooda",
-        "price": "150",
-        "description": ""
-      },
-      {
-        "item_name": "Pista Falooda",
-        "price": "160",
-        "description": ""
-      },
-      {
-        "item_name": "Butter Falooda",
-        "price": "170",
-        "description": ""
-      },
-      {
-        "item_name": "MGS Special Falooda",
-        "price": "210",
-        "description": ""
-      }
-    ]
-  },
-  {
-    "category": "Limes",
-    "items": [
-      {
-        "item_name": "Fresh Limes",
-        "price": "35",
-        "description": ""
-      },
-      {
-        "item_name": "Ginger Limes",
-        "price": "25",
-        "description": ""
-      },
-      {
-        "item_name": "Mint Limes",
-        "price": "35",
-        "description": ""
-      },
-      {
-        "item_name": "Soda Limes",
-        "price": "25",
-        "description": ""
-      },
-      {
-        "item_name": "Grapes Limes",
-        "price": "80",
-        "description": ""
-      },
-      {
-        "item_name": "Curry leaves Limes",
-        "price": "100",
-        "description": ""
-      }
-    ]
-  },
-  {
-    "category": "Salads",
-    "items": [
-      {
-        "item_name": "Guts Salad",
-        "price": "100",
-        "description": ""
-      },
-      {
-        "item_name": "Fruits Salad Pudding",
-        "price": "80",
-        "description": ""
-      },
-      {
-        "item_name": "Dry Fruits Salad",
-        "price": "80",
-        "description": ""
-      }
-    ]
-  },
-  {
-    "category": "Mutton",
-    "items": [
-      {
-        "item_name": "Mutton Chops",
-        "price": "190",
-        "description": ""
-      },
-      {
-        "item_name": "Mutton Chukka",
-        "price": "130",
-        "description": ""
-      },
-      {
-        "item_name": "Mutton Fry",
-        "price": "120",
-        "description": ""
-      },
-      {
-        "item_name": "Mutton Boti Fry",
-        "price": "100",
-        "description": ""
-      }
-    ]
-  },
-  {
-    "category": "Fish",
-    "items": [
-      {
-        "item_name": "Fish Fry",
-        "price": "100",
-        "description": ""
-      },
-      {
-        "item_name": "Fish Curry",
-        "price": "120",
-        "description": ""
-      },
-      {
-        "item_name": "Fish 65",
-        "price": "130",
-        "description": ""
-      },
-      {
-        "item_name": "Fish Masala",
-        "price": "170",
-        "description": ""
-      },
-      {
-        "item_name": "Chilli Fish",
-        "price": "180",
-        "description": ""
-      },
-      {
-        "item_name": "Prawns Fry",
-        "price": "180",
-        "description": ""
-      },
-      {
-        "item_name": "Prawns Masala",
-        "price": "150",
-        "description": ""
-      },
-      {
-        "item_name": "Prawns Curry",
-        "price": "250",
-        "description": ""
-      },
-      {
-        "item_name": "Chilli Prawns",
-        "price": "250",
-        "description": ""
-      }
-    ]
-  },
-  {
-    "category": "Parotta",
-    "items": [
-      {
-        "item_name": "Parotta Veechu Parotta",
-        "price": "70",
-        "description": ""
-      },
-      {
-        "item_name": "Open Veechu Parotta",
-        "price": "25",
-        "description": ""
-      },
-      {
-        "item_name": "Veechu Egg Parotta",
-        "price": "70",
-        "description": ""
-      },
-      {
-        "item_name": "Piece Parotta",
-        "price": "25",
-        "description": ""
-      },
-      {
-        "item_name": "Kothu Parotta",
-        "price": "180",
-        "description": ""
-      },
-      {
-        "item_name": "Mutton Kaima Parotta",
-        "price": "170",
-        "description": ""
-      },
-      {
-        "item_name": "Chicken Kaima Parotta",
-        "price": "25",
-        "description": ""
-      },
-      {
-        "item_name": "Mutton Murtabak Parotta",
-        "price": "170",
-        "description": ""
-      },
-      {
-        "item_name": "Chicken Murtabak Parotta",
-        "price": "200",
-        "description": ""
-      },
-      {
-        "item_name": "Oll Parotta",
-        "price": "25",
-        "description": ""
-      },
-      {
-        "item_name": "Without Oil Parotta",
-        "price": "30",
-        "description": ""
-      },
-      {
-        "item_name": "Panchu Parotta",
-        "price": "210",
-        "description": ""
-      },
-      {
-        "item_name": "Sweet Parotta",
-        "price": "170",
-        "description": ""
-      },
-      {
-        "item_name": "Banana Leaf Mutton Parotta",
-        "price": "400",
-        "description": ""
-      },
-      {
-        "item_name": "Banana Leaf Chicken Parotta",
-        "price": "300",
-        "description": ""
-      },
-      {
-        "item_name": "Chappathi",
-        "price": "120",
-        "description": ""
-      },
-      {
-        "item_name": "Chicken Dum Parotta",
-        "price": "130",
-        "description": ""
-      },
-      {
-        "item_name": "Mushroom Dosa",
-        "price": "160",
-        "description": ""
-      },
-      {
-        "item_name": "Chicken Dosa",
-        "price": "120",
-        "description": ""
-      },
-      {
-        "item_name": "Mutton Dosa",
-        "price": "130",
-        "description": ""
-      }
-    ]
-  },
-  {
-    "category": "Idiyappam / Paya",
-    "items": [
-      {
-        "item_name": "Idiyappam / Paya",
-        "price": "80",
-        "description": ""
-      },
-      {
-        "item_name": "Appam / Chicken Gravy",
-        "price": "135",
-        "description": ""
-      }
-    ]
-  },
-  {
-    "category": "Manchurian",
-    "items": [
-      {
-        "item_name": "Veg Manchuriyan",
-        "price": "100",
-        "description": ""
-      },
-      {
-        "item_name": "Gobi Manchuriyan",
-        "price": "90",
-        "description": ""
-      },
-      {
-        "item_name": "Chilli Gobi Manchuriyan",
-        "price": "120",
-        "description": ""
-      },
-      {
-        "item_name": "Mushroom Gravy",
-        "price": "120",
-        "description": ""
-      },
-      {
-        "item_name": "Mushroom Manchurian",
-        "price": "150",
-        "description": ""
-      },
-      {
-        "item_name": "Crispy Veg",
-        "price": "120",
-        "description": ""
-      },
-      {
-        "item_name": "Szechwan Chicken",
-        "price": "120",
-        "description": ""
-      },
-      {
-        "item_name": "Chilli Chicken",
-        "price": "140",
-        "description": ""
-      },
-      {
-        "item_name": "Ginger Chicken",
-        "price": "150",
-        "description": ""
-      },
-      {
-        "item_name": "Dragon Chicken",
-        "price": "80",
-        "description": ""
-      },
-      {
-        "item_name": "Shawarma Roll",
-        "price": "110",
-        "description": ""
-      },
-      {
-        "item_name": "Shawarma Plate",
-        "price": "140",
-        "description": ""
-      }
-    ]
-  },
-  {
-    "category": "Sued Rice",
-    "items": [
-      {
-        "item_name": "Veg Fried Rice",
-        "price": "100",
-        "description": ""
-      },
-      {
-        "item_name": "Egg Fried Rice",
-        "price": "90",
-        "description": ""
-      },
-      {
-        "item_name": "Chicken Fried Rice",
-        "price": "120",
-        "description": ""
-      },
-      {
-        "item_name": "Mushroom Fried Rice",
-        "price": "120",
-        "description": ""
-      },
-      {
-        "item_name": "Panner Fried Rice",
-        "price": "120",
-        "description": ""
-      },
-      {
-        "item_name": "Mixed Fried Rice",
-        "price": "150",
-        "description": ""
-      },
-      {
-        "item_name": "Schezwan Chicken Fried Rice",
-        "price": "120",
-        "description": ""
-      },
-      {
-        "item_name": "Schezwan Veg Fried Rice",
-        "price": "140",
-        "description": ""
-      },
-      {
-        "item_name": "Taiwanese Chicken Fried Rice",
-        "price": "150",
-        "description": ""
-      },
-      {
-        "item_name": "Taiwanese Veg Fried Rice",
-        "price": "100",
-        "description": ""
-      }
-    ]
-  },
-  {
-    "category": "Noodles",
-    "items": [
-      {
-        "item_name": "Chicken Noodles",
-        "price": "110",
-        "description": ""
-      },
-      {
-        "item_name": "Veg Noodles",
-        "price": "80",
-        "description": ""
-      },
-      {
-        "item_name": "Egg Noodles",
-        "price": "90",
-        "description": ""
-      },
-      {
-        "item_name": "Mixed Noodles",
-        "price": "130",
-        "description": ""
-      },
-      {
-        "item_name": "Schezwan Chicken Noodles",
-        "price": "140",
-        "description": ""
-      },
-      {
-        "item_name": "Schezwan Veg Noodles",
-        "price": "110",
-        "description": ""
-      },
-      {
-        "item_name": "Taiwanese Chicken Noodles",
-        "price": "140",
-        "description": ""
-      },
-      {
-        "item_name": "Taiwanese Veg Noodles",
-        "price": "100",
-        "description": ""
-      }
-    ]
-  }
-  ],
-  "offers": [
-      "20% off on order above 999",
-      "10% off on Parotta category",
-      "Exciting discounts on Manchurian and Noodles",
-      "Free delivery on orders above 999",
-      "flat 300 off on above 2999"
-    ],
-    "categories": ["Milk Shake & Ice cream", "Shakes", "Falooda", "Limes", "Salads", "Mutton", "Fish", "Parotta", "Idiyappam / Paya", "Manchurian", "Sued", "Rice", "Noodles"],
+// // Menu 2
+// {
+//   "MENU_CONTEXT": {
+//     "food_items": [  
+//   {
+//     "category": "Milk Shake & Ice Cream",
+//     "items": [
+//       {
+//         "item_name": "Vennila",
+//         "price": "75",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Strawberry",
+//         "price": "75",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Chocolate",
+//         "price": "80",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Butter Scotch",
+//         "price": "80",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Pista",
+//         "price": "80",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Spanish Delite",
+//         "price": "80",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Black Current",
+//         "price": "80",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Cherry",
+//         "price": "80",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Cashew",
+//         "price": "90",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Fig Fruit",
+//         "price": "100",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Kashmir",
+//         "price": "85",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Oman",
+//         "price": "80",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Saudi",
+//         "price": "80",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Thamam",
+//         "price": "80",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Mango Shake",
+//         "price": "80",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Papaya",
+//         "price": "80",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Pipeapple",
+//         "price": "80",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Chikku",
+//         "price": "80",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Aanar Tender Cocount",
+//         "price": "90",
+//         "description": ""
+//       }
+//     ]
+//   },
+//   {
+//     "category": "Shakes",
+//     "items": [
+//       {
+//         "item_name": "Semam",
+//         "price": "80",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Badam Shake",
+//         "price": "100",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Oreo Shake",
+//         "price": "80",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Cara Milk Nuts",
+//         "price": "80",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Til Tak",
+//         "price": "80",
+//         "description": ""
+//       }
+//     ]
+//   },
+//   {
+//     "category": "Falooda",
+//     "items": [
+//       {
+//         "item_name": "Looda",
+//         "price": "20",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Royal Falooda",
+//         "price": "150",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Pista Falooda",
+//         "price": "160",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Butter Falooda",
+//         "price": "170",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "MGS Special Falooda",
+//         "price": "210",
+//         "description": ""
+//       }
+//     ]
+//   },
+//   {
+//     "category": "Limes",
+//     "items": [
+//       {
+//         "item_name": "Fresh Limes",
+//         "price": "35",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Ginger Limes",
+//         "price": "25",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Mint Limes",
+//         "price": "35",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Soda Limes",
+//         "price": "25",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Grapes Limes",
+//         "price": "80",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Curry leaves Limes",
+//         "price": "100",
+//         "description": ""
+//       }
+//     ]
+//   },
+//   {
+//     "category": "Salads",
+//     "items": [
+//       {
+//         "item_name": "Guts Salad",
+//         "price": "100",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Fruits Salad Pudding",
+//         "price": "80",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Dry Fruits Salad",
+//         "price": "80",
+//         "description": ""
+//       }
+//     ]
+//   },
+//   {
+//     "category": "Mutton",
+//     "items": [
+//       {
+//         "item_name": "Mutton Chops",
+//         "price": "190",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Mutton Chukka",
+//         "price": "130",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Mutton Fry",
+//         "price": "120",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Mutton Boti Fry",
+//         "price": "100",
+//         "description": ""
+//       }
+//     ]
+//   },
+//   {
+//     "category": "Fish",
+//     "items": [
+//       {
+//         "item_name": "Fish Fry",
+//         "price": "100",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Fish Curry",
+//         "price": "120",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Fish 65",
+//         "price": "130",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Fish Masala",
+//         "price": "170",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Chilli Fish",
+//         "price": "180",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Prawns Fry",
+//         "price": "180",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Prawns Masala",
+//         "price": "150",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Prawns Curry",
+//         "price": "250",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Chilli Prawns",
+//         "price": "250",
+//         "description": ""
+//       }
+//     ]
+//   },
+//   {
+//     "category": "Parotta",
+//     "items": [
+//       {
+//         "item_name": "Parotta Veechu Parotta",
+//         "price": "70",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Open Veechu Parotta",
+//         "price": "25",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Veechu Egg Parotta",
+//         "price": "70",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Piece Parotta",
+//         "price": "25",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Kothu Parotta",
+//         "price": "180",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Mutton Kaima Parotta",
+//         "price": "170",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Chicken Kaima Parotta",
+//         "price": "25",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Mutton Murtabak Parotta",
+//         "price": "170",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Chicken Murtabak Parotta",
+//         "price": "200",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Oll Parotta",
+//         "price": "25",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Without Oil Parotta",
+//         "price": "30",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Panchu Parotta",
+//         "price": "210",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Sweet Parotta",
+//         "price": "170",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Banana Leaf Mutton Parotta",
+//         "price": "400",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Banana Leaf Chicken Parotta",
+//         "price": "300",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Chappathi",
+//         "price": "120",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Chicken Dum Parotta",
+//         "price": "130",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Mushroom Dosa",
+//         "price": "160",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Chicken Dosa",
+//         "price": "120",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Mutton Dosa",
+//         "price": "130",
+//         "description": ""
+//       }
+//     ]
+//   },
+//   {
+//     "category": "Idiyappam / Paya",
+//     "items": [
+//       {
+//         "item_name": "Idiyappam / Paya",
+//         "price": "80",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Appam / Chicken Gravy",
+//         "price": "135",
+//         "description": ""
+//       }
+//     ]
+//   },
+//   {
+//     "category": "Manchurian",
+//     "items": [
+//       {
+//         "item_name": "Veg Manchuriyan",
+//         "price": "100",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Gobi Manchuriyan",
+//         "price": "90",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Chilli Gobi Manchuriyan",
+//         "price": "120",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Mushroom Gravy",
+//         "price": "120",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Mushroom Manchurian",
+//         "price": "150",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Crispy Veg",
+//         "price": "120",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Szechwan Chicken",
+//         "price": "120",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Chilli Chicken",
+//         "price": "140",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Ginger Chicken",
+//         "price": "150",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Dragon Chicken",
+//         "price": "80",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Shawarma Roll",
+//         "price": "110",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Shawarma Plate",
+//         "price": "140",
+//         "description": ""
+//       }
+//     ]
+//   },
+//   {
+//     "category": "Sued Rice",
+//     "items": [
+//       {
+//         "item_name": "Veg Fried Rice",
+//         "price": "100",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Egg Fried Rice",
+//         "price": "90",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Chicken Fried Rice",
+//         "price": "120",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Mushroom Fried Rice",
+//         "price": "120",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Panner Fried Rice",
+//         "price": "120",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Mixed Fried Rice",
+//         "price": "150",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Schezwan Chicken Fried Rice",
+//         "price": "120",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Schezwan Veg Fried Rice",
+//         "price": "140",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Taiwanese Chicken Fried Rice",
+//         "price": "150",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Taiwanese Veg Fried Rice",
+//         "price": "100",
+//         "description": ""
+//       }
+//     ]
+//   },
+//   {
+//     "category": "Noodles",
+//     "items": [
+//       {
+//         "item_name": "Chicken Noodles",
+//         "price": "110",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Veg Noodles",
+//         "price": "80",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Egg Noodles",
+//         "price": "90",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Mixed Noodles",
+//         "price": "130",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Schezwan Chicken Noodles",
+//         "price": "140",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Schezwan Veg Noodles",
+//         "price": "110",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Taiwanese Chicken Noodles",
+//         "price": "140",
+//         "description": ""
+//       },
+//       {
+//         "item_name": "Taiwanese Veg Noodles",
+//         "price": "100",
+//         "description": ""
+//       }
+//     ]
+//   }
+//   ],
+//   "offers": [
+//       "20% off on order above 999",
+//       "10% off on Parotta category",
+//       "Exciting discounts on Manchurian and Noodles",
+//       "Free delivery on orders above 999",
+//       "flat 300 off on above 2999"
+//     ],
+//     "categories": ["Milk Shake & Ice cream", "Shakes", "Falooda", "Limes", "Salads", "Mutton", "Fish", "Parotta", "Idiyappam / Paya", "Manchurian", "Sued", "Rice", "Noodles"],
 
-    "recommended_items": [
-      "Vennila Milk shake - 75",
-      "Strawberry Milk shake - 75",
-      "Chocolate Milk shake - 80",
-      "Fruits Salad Pudding - 80"
-      "Dry Fruits Salad - 80"
-      "Mutton Chops - 130",
-      "Fish Curry - 120",
-      "Fish Fry -100",
-      "Chilli Prawns with Banana Leaf Chicken Parotta - 300",
-      "Chilli Gobi Manchuriyan - 120",
-      "Ginger Chicken - 150",
-      "Egg Noodles with Ginger Limes",
-      "Veg Fried Rice, Chilli Chicken, Guts Salad with Fresh Limes"
-    ],
-    "payment_methods": [
-      "Cash on Delivery",
-      "Online Payment",
-      "UPI Payment",
-      "Card Payment",
-      "Wallet Payment"
-    ],
-    "special_menu's": [
-      "Mutton Fry with Without Oil Parotta",
-      "Mutton Boti Fry with Veechu Egg Parotta",
-      "Chicken Kaima Parotta with Chilli Chicken",
-      "Chicken Noodles with Soda Limes",
-      "Schezwan Veg Noodles"
-    ]
-  }
-}
+//     "recommended_items": [
+//       "Vennila Milk shake - 75",
+//       "Strawberry Milk shake - 75",
+//       "Chocolate Milk shake - 80",
+//       "Fruits Salad Pudding - 80"
+//       "Dry Fruits Salad - 80"
+//       "Mutton Chops - 130",
+//       "Fish Curry - 120",
+//       "Fish Fry -100",
+//       "Chilli Prawns with Banana Leaf Chicken Parotta - 300",
+//       "Chilli Gobi Manchuriyan - 120",
+//       "Ginger Chicken - 150",
+//       "Egg Noodles with Ginger Limes",
+//       "Veg Fried Rice, Chilli Chicken, Guts Salad with Fresh Limes"
+//     ],
+//     "payment_methods": [
+//       "Cash on Delivery",
+//       "Online Payment",
+//       "UPI Payment",
+//       "Card Payment",
+//       "Wallet Payment"
+//     ],
+//     "special_menu's": [
+//       "Mutton Fry with Without Oil Parotta",
+//       "Mutton Boti Fry with Veechu Egg Parotta",
+//       "Chicken Kaima Parotta with Chilli Chicken",
+//       "Chicken Noodles with Soda Limes",
+//       "Schezwan Veg Noodles"
+//     ]
+//   }
+// }
 
 
-// Menu 3
+// // Menu 3
+// {
+//     "MENU_CONTEXT":{
+//         "food_items":[
+//     {
+//         "category": "Sizzlers",
+//         "items": [
+//             {
+//                 "item_name": "Veg Steak Sizzler",
+//                 "price": "230.00",
+//                 "description": "Veg steak with barbeque sauce served with rice & french fries."
+//             },
+//             {
+//                 "item_name": "Paneer Tikka Sizzler",
+//                 "price": "250.00",
+//                 "description": "Paneer and assorted vegetables cooked into sizzlers."
+//             }
+//         ]
+//     },
+//     {
+//         "category": "Veg Au Gratin",
+//         "items": [
+//             {
+//                 "item_name": "Veg Au Gratin",
+//                 "price": "210.00",
+//                 "description": "Minced & stir fried mix vegetables, mixed in white sauce layered with cheese. Served with garlic bread."
+//             },
+//             {
+//                 "item_name": "Veg Spinach Au Gratin",
+//                 "price": "210.00",
+//                 "description": ""
+//             },
+//             {
+//                 "item_name": "Baked Vegitables",
+//                 "price": "210.00",
+//                 "description": ""
+//             },
+//             {
+//                 "item_name": "Cheese Microni",
+//                 "price": "210.00",
+//                 "description": ""
+//             },
+//             {
+//                 "item_name": "Penne Paprika",
+//                 "price": "210.00",
+//                 "description": "Penne served with bechamel flavoured with paprika flakes."
+//             },
+//             {
+//                 "item_name": "Penne Arrabiata",
+//                 "price": "210.00",
+//                 "description": ""
+//             }
+//         ]
+//     },
+//     {
+//         "category": "Chinese & Oriental Main Course Veg",
+//         "items": [
+//             {
+//             "item_name": "Chicken 65",
+//             "price": "215.00",
+//             "description": "A crispy, deep-fried chicken dish infused with bold South Indian spices, served with a tangy kick."
+//         },
+//         {
+//             "item_name": "Chicken Schezwan",
+//             "price": "220.00",
+//             "description": "Tender chicken cooked in a fiery Schezwan sauce, loaded with garlic, chilies, and a hint of sweetness."
+//         },
+//         {
+//             "item_name": "Chicken Manchurian",
+//             "price": "210.00",
+//             "description": "Juicy chicken balls tossed in a delicious Indo-Chinese Manchurian sauce with aromatic spices."
+//         },
+//         {
+//             "item_name": "Chicken Kentucky",
+//             "price": "250.00",
+//             "description": "Crispy, golden-fried chicken coated in a secret blend of herbs and spices, inspired by Kentucky flavors."
+//         },
+//         {
+//             "item_name": "Chicken Lolipop",
+//             "price": "220.00",
+//             "description": "Succulent chicken wings marinated and deep-fried to perfection, served with a tangy dipping sauce."
+//         },
+//         {
+//             "item_name": "Chicken Chilli",
+//             "price": "215.00",
+//             "description": "Spicy and savory chicken stir-fried with bell peppers, onions, and a bold chili garlic sauce."
+//         },
+//         {
+//             "item_name": "Chicken Crunchy",
+//             "price": "225.00",
+//             "description": "Delightfully crispy chicken bites coated in a crunchy batter, packed with flavorful seasoning."
+//         },
+//         {
+//             "item_name": "Chicken Satay",
+//             "price": "225.00",
+//             "description": "Grilled skewers of marinated chicken, served with a creamy, peanut-based satay sauce."
+//         },
+//         {
+//             "item_name": "Drums of Heaven",
+//             "price": "270.00",
+//             "description": "A heavenly treat of juicy chicken wings glazed with a savory and slightly sweet sauce."
+//         },
+//         {
+//             "item_name": "Prawns Chilly",
+//             "price": "420.00",
+//             "description": "Succulent prawns stir-fried in a spicy chili sauce with crunchy vegetables."
+//         },
+//         {
+//             "item_name": "Prawns Koliwada",
+//             "price": "420.00",
+//             "description": "A Mumbai street-food favorite—crispy, deep-fried prawns infused with tangy spices."
+//         },
+//         {
+//             "item_name": "Prawns Salt & Pepper",
+//             "price": "420.00",
+//             "description": "Simple yet flavorful crispy prawns tossed with salt, black pepper, and aromatic seasoning."
+//         },
+//         {
+//             "item_name": "Prawns Golden Fried",
+//             "price": "420.00",
+//             "description": "Golden-battered prawns fried to crispy perfection and served with a zesty dip."
+//         },
+//         {
+//             "item_name": "Chinese Non-Veg Platter",
+//             "price": "580.00",
+//             "description": "An assortment of delicious Chinese-style non-veg starters, perfect for sharing and enjoying a mix of flavors."
+//         }
+//         ]
+//     },
+//     {
+//         "category": "Chinese & Oriental Main Course Non-Veg",
+//         "items": [
+//             {
+//                 "item_name": "Chicken Chowmein",
+//                 "price": "220.00",
+//                 "description": ""
+//             },
+//             {
+//                 "item_name": "Chicken Hakka Noodle",
+//                 "price": "220.00",
+//                 "description": ""
+//             },
+//             {
+//                 "item_name": "Chicken Schezwan Noodle",
+//                 "price": "230.00",
+//                 "description": ""
+//             },
+//             {
+//                 "item_name": "Chicken American Choupsy",
+//                 "price": "230.00",
+//                 "description": ""
+//             },
+//             {
+//                 "item_name": "Chicken Fried Rice",
+//                 "price": "220.00",
+//                 "description": ""
+//             },
+//             {
+//                 "item_name": "Chicken Schezwan Fried Rice",
+//                 "price": "240.00",
+//                 "description": ""
+//             }
+//         ]
+//     },
+//     {
+//         "category": "Tandoor",
+//         "items": [
+//             {
+//                 "item_name": "Chicken Alishan",
+//                 "price": "215.00",
+//                 "description": "Tender Boneless chicken marinated in tangy mix of yoghurt & spices cooked in tandoor, topped with cheese."
+//             },
+//             {
+//                 "item_name": "Chicken Tikka",
+//                 "price": "245.00",
+//                 "description": "Chicken pieces marinated in a blend of fragrant spices mixed with yogurt."
+//             },
+//             {
+//                 "item_name": "Chicken Angara",
+//                 "price": "245.00",
+//                 "description": "Spicy chicken kebab with a smoky aroma & charcoal flavour."
+//             },
+//             {
+//                 "item_name": "Chicken Irani Kebab",
+//                 "price": "260.00",
+//                 "description": ""
+//             },
+//             {
+//                 "item_name": "Chicken Shami Kebab",
+//                 "price": "260.00",
+//                 "description": ""
+//             },
+//             {
+//                 "item_name": "Mutton Seekh Kebab",
+//                 "price": "260.00",
+//                 "description": ""
+//             },
+//             {
+//                 "item_name": "Mutton Bhuna",
+//                 "price": "265.00",
+//                 "description": "Succulent mutton pan fried in spicy masala"
+//             },
+//             {
+//                 "item_name": "Mutton Shami Kebab",
+//                 "price": "280.00",
+//                 "description": ""
+//             },
+//             {
+//                 "item_name": "Mutton Chopli Kebab",
+//                 "price": "280.00",
+//                 "description": ""
+//             }
+//         ]
+//     },
+//     {
+//         "category": "Non-Veg",
+//         "items": [
+//             {
+//             "item_name": "Chicken 65",
+//             "price": "215.00",
+//             "description": "A crispy and spicy deep-fried chicken dish, coated with a flavorful South Indian seasoning."
+//         },
+//         {
+//             "item_name": "Chicken Schezwan",
+//             "price": "220.00",
+//             "description": "Tender chicken tossed in fiery Schezwan sauce, packed with bold garlic and chili flavors."
+//         },
+//         {
+//             "item_name": "Chicken Manchurian",
+//             "price": "210.00",
+//             "description": "Juicy chicken dumplings stir-fried in a rich Manchurian gravy, infused with aromatic spices."
+//         },
+//         {
+//             "item_name": "Chicken Kentucky",
+//             "price": "250.00",
+//             "description": "Crispy, golden-fried chicken with a flavorful herb and spice blend, inspired by Kentucky-style cooking."
+//         },
+//         {
+//             "item_name": "Chicken Lolipop",
+//             "price": "220.00",
+//             "description": "Succulent chicken wings deep-fried and coated with a delicious blend of spices, served with dipping sauce."
+//         },
+//         {
+//             "item_name": "Chicken Chilli",
+//             "price": "215.00",
+//             "description": "Spicy and tangy chicken stir-fried with bell peppers, onions, and chili sauce."
+//         },
+//         {
+//             "item_name": "Chicken Crunchy",
+//             "price": "225.00",
+//             "description": "Crispy-coated chicken bites, fried to perfection for a crunchy and flavorful experience."
+//         },
+//         {
+//             "item_name": "Chicken Satay",
+//             "price": "225.00",
+//             "description": "Grilled chicken skewers marinated in exotic spices and served with a delicious peanut-based sauce."
+//         },
+//         {
+//             "item_name": "Drums of Heaven",
+//             "price": "270.00",
+//             "description": "Juicy, well-marinated chicken wings tossed in a flavorful sauce for a heavenly taste."
+//         },
+//         {
+//             "item_name": "Prawns Chilly",
+//             "price": "420.00",
+//             "description": "Juicy prawns stir-fried with a bold chili garlic sauce, creating a perfect mix of heat and flavor."
+//         },
+//         {
+//             "item_name": "Prawns Koliwada",
+//             "price": "420.00",
+//             "description": "Crispy, deep-fried prawns coated in a tangy spice blend, a Mumbai street-food favorite."
+//         },
+//         {
+//             "item_name": "Prawns Salt & Pepper",
+//             "price": "420.00",
+//             "description": "Simple yet delightful prawns seasoned with salt, black pepper, and aromatic spices."
+//         },
+//         {
+//             "item_name": "Prawns Golden Fried",
+//             "price": "420.00",
+//             "description": "Prawns coated in a golden-batter and deep-fried to crispy perfection, served with a dip."
+//         },
+//         {
+//             "item_name": "Chinese Non-Veg Platter",
+//             "price": "580.00",
+//             "description": "A delicious assortment of Chinese-style non-veg starters, perfect for a flavorful feast."
+//         }
+//         ]
+//     },
+//     {
+//         "category": "Indian Main Course - Veg",
+//         "items": [
+//             {
+//                 "item_name": "Veg Jalfrizi",
+//                 "price": "225.00",
+//                 "description": "A semi-dry Indian recipe with a mix of vegetables cooked in a tomato-based gravy"
+//             },
+//             {
+//                 "item_name": "Veg Jaipuri",
+//                 "price": "220.00",
+//                 "description": ""
+//             }
+//         ]
+//     }
+// ],
+//     "offers": [
+//       "20% off on order above 999",
+//       "10% off on Parotta category",
+//       "Exciting discounts on Manchurian and Noodles",
+//       "Free delivery on orders above 999",
+//       "flat 300 off on above 2999"
+//     ],
+//     "categories":[
+//       "Sizzlers", 
+//       "Veg Au Gratin", 
+//       "Chinese & Oriental Main Course Veg", 
+//       "Chinese & Oriental Main Course Non-Veg", 
+//       "Tandoor", 
+//       "Non-Veg", 
+//       "Indian Main Course - Veg"
+//       ],
+//     "Recommended_items":[ 
+//       "Chicken 65 - 215.00",
+//       "Chicken Schezwan - 220.00",
+//       "Chicken Manchurian - 210.00",
+//       "Drums of Heaven - 270.00",
+//       "Prawns Golden Fried - 420.00",
+//       "Chinese Non-Veg Platter - 580.00",
+//       "Veg Schezwan Noodle - 190.00",
+//       "Veg Tripple Fried Rice - 230.00",
+//       "Paneer Tikka Masala - 250.00",
+//       "Mutton Rogan Josh - 290.00"],
+//     "payment_methods":[
+//       "Cash on Delivery",
+//       "Online Payment",
+//       "UPI Payment",
+//       "Card Payment",
+//       "Wallet Payment"
+//     ],
+//     "special_menu's": [
+//       "Chicken Fried Rice with Chicken 65",
+//       "Chicken Hakka Noodle with Chicken Lolipop",
+//       "Drums of Heaven",
+//       "Prawns Salt & Pepper"
+//     ]
+// }}
+
+
+// Menu 4
+
 {
     "MENU_CONTEXT":{
         "food_items":[
     {
-        "category": "Sizzlers",
+        "category": "All day Breakfast",
         "items": [
             {
-                "item_name": "Veg Steak Sizzler",
-                "price": "230.00",
-                "description": "Veg steak with barbeque sauce served with rice & french fries."
+                "item_name": "Akki Roti",
+                "price": "111",
+                "description": "Delicious flat bread made from rice flour served with our speciality chutney pudi"
             },
             {
-                "item_name": "Paneer Tikka Sizzler",
-                "price": "250.00",
-                "description": "Paneer and assorted vegetables cooked into sizzlers."
+                "item_name": "Butter Khali Dosa Double",
+                "price": "151",
+                "description": ""
+            },
+            {
+                "item_name": "Butter Khali Dosa Single",
+                "price": "87",
+                "description": ""
+            },
+            {
+                "item_name": "Butter Masala Dosa",
+                "price": "165",
+                "description": "Unfolded masala dosa served with sagu and chutney"
+            },
+            {
+                "item_name": "Butter Plain Dose",
+                "price": "143",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Khali Dosa Double",
+                "price": "140",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Khali Dosa Single",
+                "price": "80",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Masala Dosa",
+                "price": "165",
+                "description": "Crispy crepe made of fermented rice and lentil batter with flavourful spiced seasoned"
+            },
+            {
+                "item_name": "Ghee Plain Dosa",
+                "price": "143",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Khali Dosa Double",
+                "price": "115",
+                "description": "Light and fluffy dosae served with sagu & chutney"
+            },
+            {
+                "item_name": "Khali Dosa Single",
+                "price": "76",
+                "description": "Light and fluffy dosae served with sagu & chutney"
+            },
+            {
+                "item_name": "Masala Dosa",
+                "price": "140",
+                "description": "Crispy crepe made of fermented rice and lentil batter with flavourful spiced seasoned"
+            },
+            {
+                "item_name": "Onion Uttappam",
+                "price": "137",
+                "description": "Plain dosae with sweet onions, finely chopped green chillies and curry leaves served"
+            },
+            {
+                "item_name": "Open Butter Masala Dosa",
+                "price": "165",
+                "description": "Unfolded masala dosa served with sagu and chutney"
+            },
+            {
+                "item_name": "Plain Dosa",
+                "price": "120",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Pudi Dosa",
+                "price": "135",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Ragi Dosa Double",
+                "price": "115",
+                "description": "A healthy and delicious crepe prepared with finger millet served with sagu and"
+            },
+            {
+                "item_name": "Ragi Dosa Single",
+                "price": "60",
+                "description": "A healthy and delicious crepe prepared with finger millet served with sagu and"
+            },
+            {
+                "item_name": "Rava Masala Dosa",
+                "price": "140",
+                "description": "A thin netted savoury crepe made of sooji, rice flour, maida and water"
+            },
+            {
+                "item_name": "Rava Onion Dosa",
+                "price": "150",
+                "description": "Crispy netted crepes made with semolina, rice flour, onions and finely chopped green"
+            },
+            {
+                "item_name": "Rava Plain Dosa",
+                "price": "120",
+                "description": "Crisp aromatic crepes made with semolina, cumin, ginger, coriander leaves and green chilies"
+            },
+            {
+                "item_name": "Set Dosa",
+                "price": "130",
+                "description": "Soft, light and spongy dosa"
+            },
+            {
+                "item_name": "Spl Garlic Masala Dosa",
+                "price": "180",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Masala Thatte Idly",
+                "price": "120",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Ghee Thatte Idly",
+                "price": "98",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Idly (2 Pcs)",
+                "price": "52",
+                "description": "Classic Tari Idly served with traditional coconut chutney"
+            },
+            {
+                "item_name": "Plain Thatte Idly",
+                "price": "59",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Tawa Idly",
+                "price": "130",
+                "description": ""
+            },{
+                "item_name": "Ghee Pongal",
+                "price": "125",
+                "description": "A Classic Combination of Rice & Dal with goodness of Ghee"
+            },
+            {
+                "item_name": "Ghee Set Dosa",
+                "price": "145",
+                "description": "Soft, light and spongy dosa made with ghee"
+            },
+            {
+                "item_name": "Poori",
+                "price": "99",
+                "description": ""
+            },
+            {
+                "item_name": "Ragi Roti",
+                "price": "111",
+                "description": "A Healthy, tasty gluten free flat bread made from finger millet served with"
+            },
+            {
+                "item_name": "Maddur Vada",
+                "price": "38",
+                "description": ""
+            },
+            {
+                "item_name": "Masala Vada [2 Pcs]",
+                "price": "45",
+                "description": "Popular South Indian Fritter made with Chana Dal, Onion, Spices & herbs, served"
+            },
+            {
+                "item_name": "Vada",
+                "price": "58",
+                "description": "Crispy doughnut shaped fritters made from lentils served with sambhar and chutney"
             }
         ]
     },
     {
-        "category": "Veg Au Gratin",
+        "category": "Uttapam",
         "items": [
             {
-                "item_name": "Veg Au Gratin",
-                "price": "210.00",
-                "description": "Minced & stir fried mix vegetables, mixed in white sauce layered with cheese. Served with garlic bread."
+                "item_name": "Onion Uttappam",
+                "price": "137",
+                "description": "Plain dosae with sweet onions, finely chopped green chillies and curry leaves served"
             },
             {
-                "item_name": "Veg Spinach Au Gratin",
-                "price": "210.00",
-                "description": ""
+                "item_name": "Tomato Uttapam",
+                "price": "137",
+                "description": "Savoury pancakes with crispy golden edges and a pillowy soft centre topped with"
+            }
+            
+        ]
+    },
+    
+    {
+        "category": "Lunch",
+        "items": [
+            {
+                "item_name": "Bisibele Bhath",
+                "price": "115",
+                "description": "A delicious and healthy complete meal of rice, lentils and vegetables. Served with"
             },
             {
-                "item_name": "Baked Vegitables",
-                "price": "210.00",
-                "description": ""
+                "item_name": "Combo Rice",
+                "price": "140",
+                "description": "Choice Of Any 2 Rice [Lemon Rice, Puliyogare, Bisi Bele Bhath, Curd Rice]"
             },
             {
-                "item_name": "Cheese Microni",
-                "price": "210.00",
-                "description": ""
+                "item_name": "Curd Rice",
+                "price": "90",
+                "description": "Soft cooked mushy rice mixed with curd and salt, finished off with tempering"
             },
             {
-                "item_name": "Penne Paprika",
-                "price": "210.00",
-                "description": "Penne served with bechamel flavoured with paprika flakes."
+                "item_name": "Lemon Rice",
+                "price": "90",
+                "description": "A rice preparation enhanced with distinct flavours of lemon juice, curry leaves, turmeric"
             },
             {
-                "item_name": "Penne Arrabiata",
-                "price": "210.00",
-                "description": ""
+                "item_name": "Mix Rice",
+                "price": "85",
+                "description": "Choice of any 1 rice lemon rice, puliyogare, bisi bele bhath, curd rice"
+            },
+            {
+                "item_name": "Pudi Rice",
+                "price": "151",
+                "description": "Rice flavoured with our signature chutney Pudi"
+            },
+            {
+                "item_name": "Puliyogare",
+                "price": "105",
+                "description": "Authentic and traditional rice made with tamarind extract and dry spices"
             }
         ]
     },
     {
-        "category": "Chinese & Oriental Main Course Veg",
+        "category": "Meals",
         "items": [
             {
-            "item_name": "Chicken 65",
-            "price": "215.00",
-            "description": "A crispy, deep-fried chicken dish infused with bold South Indian spices, served with a tangy kick."
-        },
-        {
-            "item_name": "Chicken Schezwan",
-            "price": "220.00",
-            "description": "Tender chicken cooked in a fiery Schezwan sauce, loaded with garlic, chilies, and a hint of sweetness."
-        },
-        {
-            "item_name": "Chicken Manchurian",
-            "price": "210.00",
-            "description": "Juicy chicken balls tossed in a delicious Indo-Chinese Manchurian sauce with aromatic spices."
-        },
-        {
-            "item_name": "Chicken Kentucky",
-            "price": "250.00",
-            "description": "Crispy, golden-fried chicken coated in a secret blend of herbs and spices, inspired by Kentucky flavors."
-        },
-        {
-            "item_name": "Chicken Lolipop",
-            "price": "220.00",
-            "description": "Succulent chicken wings marinated and deep-fried to perfection, served with a tangy dipping sauce."
-        },
-        {
-            "item_name": "Chicken Chilli",
-            "price": "215.00",
-            "description": "Spicy and savory chicken stir-fried with bell peppers, onions, and a bold chili garlic sauce."
-        },
-        {
-            "item_name": "Chicken Crunchy",
-            "price": "225.00",
-            "description": "Delightfully crispy chicken bites coated in a crunchy batter, packed with flavorful seasoning."
-        },
-        {
-            "item_name": "Chicken Satay",
-            "price": "225.00",
-            "description": "Grilled skewers of marinated chicken, served with a creamy, peanut-based satay sauce."
-        },
-        {
-            "item_name": "Drums of Heaven",
-            "price": "270.00",
-            "description": "A heavenly treat of juicy chicken wings glazed with a savory and slightly sweet sauce."
-        },
-        {
-            "item_name": "Prawns Chilly",
-            "price": "420.00",
-            "description": "Succulent prawns stir-fried in a spicy chili sauce with crunchy vegetables."
-        },
-        {
-            "item_name": "Prawns Koliwada",
-            "price": "420.00",
-            "description": "A Mumbai street-food favorite—crispy, deep-fried prawns infused with tangy spices."
-        },
-        {
-            "item_name": "Prawns Salt & Pepper",
-            "price": "420.00",
-            "description": "Simple yet flavorful crispy prawns tossed with salt, black pepper, and aromatic seasoning."
-        },
-        {
-            "item_name": "Prawns Golden Fried",
-            "price": "420.00",
-            "description": "Golden-battered prawns fried to crispy perfection and served with a zesty dip."
-        },
-        {
-            "item_name": "Chinese Non-Veg Platter",
-            "price": "580.00",
-            "description": "An assortment of delicious Chinese-style non-veg starters, perfect for sharing and enjoying a mix of flavors."
-        }
-        ]
-    },
-    {
-        "category": "Chinese & Oriental Main Course Non-Veg",
-        "items": [
-            {
-                "item_name": "Chicken Chowmein",
-                "price": "220.00",
-                "description": ""
+                "item_name": "Mini Meals",
+                "price": "104",
+                "description": "Rice, Sambar ,Rasam, Paliya, Papad"
             },
             {
-                "item_name": "Chicken Hakka Noodle",
-                "price": "220.00",
-                "description": ""
-            },
-            {
-                "item_name": "Chicken Schezwan Noodle",
-                "price": "230.00",
-                "description": ""
-            },
-            {
-                "item_name": "Chicken American Choupsy",
-                "price": "230.00",
-                "description": ""
-            },
-            {
-                "item_name": "Chicken Fried Rice",
-                "price": "220.00",
-                "description": ""
-            },
-            {
-                "item_name": "Chicken Schezwan Fried Rice",
-                "price": "240.00",
+                "item_name": "South Indian Meal",
+                "price": "165",
                 "description": ""
             }
         ]
-    },
-    {
-        "category": "Tandoor",
-        "items": [
-            {
-                "item_name": "Chicken Alishan",
-                "price": "215.00",
-                "description": "Tender Boneless chicken marinated in tangy mix of yoghurt & spices cooked in tandoor, topped with cheese."
-            },
-            {
-                "item_name": "Chicken Tikka",
-                "price": "245.00",
-                "description": "Chicken pieces marinated in a blend of fragrant spices mixed with yogurt."
-            },
-            {
-                "item_name": "Chicken Angara",
-                "price": "245.00",
-                "description": "Spicy chicken kebab with a smoky aroma & charcoal flavour."
-            },
-            {
-                "item_name": "Chicken Irani Kebab",
-                "price": "260.00",
-                "description": ""
-            },
-            {
-                "item_name": "Chicken Shami Kebab",
-                "price": "260.00",
-                "description": ""
-            },
-            {
-                "item_name": "Mutton Seekh Kebab",
-                "price": "260.00",
-                "description": ""
-            },
-            {
-                "item_name": "Mutton Bhuna",
-                "price": "265.00",
-                "description": "Succulent mutton pan fried in spicy masala"
-            },
-            {
-                "item_name": "Mutton Shami Kebab",
-                "price": "280.00",
-                "description": ""
-            },
-            {
-                "item_name": "Mutton Chopli Kebab",
-                "price": "280.00",
-                "description": ""
-            }
-        ]
-    },
-    {
-        "category": "Non-Veg",
-        "items": [
-            {
-            "item_name": "Chicken 65",
-            "price": "215.00",
-            "description": "A crispy and spicy deep-fried chicken dish, coated with a flavorful South Indian seasoning."
-        },
-        {
-            "item_name": "Chicken Schezwan",
-            "price": "220.00",
-            "description": "Tender chicken tossed in fiery Schezwan sauce, packed with bold garlic and chili flavors."
-        },
-        {
-            "item_name": "Chicken Manchurian",
-            "price": "210.00",
-            "description": "Juicy chicken dumplings stir-fried in a rich Manchurian gravy, infused with aromatic spices."
-        },
-        {
-            "item_name": "Chicken Kentucky",
-            "price": "250.00",
-            "description": "Crispy, golden-fried chicken with a flavorful herb and spice blend, inspired by Kentucky-style cooking."
-        },
-        {
-            "item_name": "Chicken Lolipop",
-            "price": "220.00",
-            "description": "Succulent chicken wings deep-fried and coated with a delicious blend of spices, served with dipping sauce."
-        },
-        {
-            "item_name": "Chicken Chilli",
-            "price": "215.00",
-            "description": "Spicy and tangy chicken stir-fried with bell peppers, onions, and chili sauce."
-        },
-        {
-            "item_name": "Chicken Crunchy",
-            "price": "225.00",
-            "description": "Crispy-coated chicken bites, fried to perfection for a crunchy and flavorful experience."
-        },
-        {
-            "item_name": "Chicken Satay",
-            "price": "225.00",
-            "description": "Grilled chicken skewers marinated in exotic spices and served with a delicious peanut-based sauce."
-        },
-        {
-            "item_name": "Drums of Heaven",
-            "price": "270.00",
-            "description": "Juicy, well-marinated chicken wings tossed in a flavorful sauce for a heavenly taste."
-        },
-        {
-            "item_name": "Prawns Chilly",
-            "price": "420.00",
-            "description": "Juicy prawns stir-fried with a bold chili garlic sauce, creating a perfect mix of heat and flavor."
-        },
-        {
-            "item_name": "Prawns Koliwada",
-            "price": "420.00",
-            "description": "Crispy, deep-fried prawns coated in a tangy spice blend, a Mumbai street-food favorite."
-        },
-        {
-            "item_name": "Prawns Salt & Pepper",
-            "price": "420.00",
-            "description": "Simple yet delightful prawns seasoned with salt, black pepper, and aromatic spices."
-        },
-        {
-            "item_name": "Prawns Golden Fried",
-            "price": "420.00",
-            "description": "Prawns coated in a golden-batter and deep-fried to crispy perfection, served with a dip."
-        },
-        {
-            "item_name": "Chinese Non-Veg Platter",
-            "price": "580.00",
-            "description": "A delicious assortment of Chinese-style non-veg starters, perfect for a flavorful feast."
-        }
-        ]
-    },
-    {
-        "category": "Indian Main Course - Veg",
-        "items": [
-            {
-                "item_name": "Veg Jalfrizi",
-                "price": "225.00",
-                "description": "A semi-dry Indian recipe with a mix of vegetables cooked in a tomato-based gravy"
-            },
-            {
-                "item_name": "Veg Jaipuri",
-                "price": "220.00",
-                "description": ""
-            }
-        ]
-    }
-],
-"offers": [
-      "20% off on order above 999",
-      "10% off on Parotta category",
-      "Exciting discounts on Manchurian and Noodles",
-      "Free delivery on orders above 999",
-      "flat 300 off on above 2999"
+    }],
+    "offers":[
+      "Flat ₹100 Off on above 599",
+      "Flat 50% Off on above 2999",
+      "20% off on 1999"
     ],
-    "categories":[
-      "Sizzlers", 
-      "Veg Au Gratin", 
-      "Chinese & Oriental Main Course Veg", 
-      "Chinese & Oriental Main Course Non-Veg", 
-      "Tandoor", 
-      "Non-Veg", 
-      "Indian Main Course - Veg"
-      ],
-    "Recommended_items":[ 
-      "Chicken 65 - 215.00",
-      "Chicken Schezwan - 220.00",
-      "Chicken Manchurian - 210.00",
-      "Drums of Heaven - 270.00",
-      "Prawns Golden Fried - 420.00",
-      "Chinese Non-Veg Platter - 580.00",
-      "Veg Schezwan Noodle - 190.00",
-      "Veg Tripple Fried Rice - 230.00",
-      "Paneer Tikka Masala - 250.00",
-      "Mutton Rogan Josh - 290.00",
-],
-"payment_methods":[
-    "Cash on Delivery",
+    "categories":["All day Breakfast","Uttapam","Lunch","meals"],
+    "Recommended_items":[
+      "Ghee Masala Dosa",
+      "Idly(2 Pcs)",
+      "Masala Dosa",
+      "Bisibele Bhath",
+      "Curd Rice"
+    ],
+    "payment_methods":[
+      "Cash",
       "Online Payment",
       "UPI Payment",
-      "Card Payment",
-      "Wallet Payment"
-],
-"special_menu's": [
-      "Chicken Fried Rice with Chicken 65",
-      "Chicken Hakka Noodle with Chicken Lolipop",
-      "Drums of Heaven",
-      "Prawns Salt & Pepper"
-    ]
+      "Card Payment"],
+
 }}
-
-3 
-1
-
 
 
 // {

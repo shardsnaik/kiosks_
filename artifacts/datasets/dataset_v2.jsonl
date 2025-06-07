@@ -341,136 +341,7 @@
     "role": "assistant",
     "content": "Payment via Card confirmed! Here’s your payment link. Enjoy your meal!"
   }]}
-{"messages":[
-  {
-      "role": "user",
-      "content": "MENU_CONTEXT: { \"food_items\": [ { \"category\": \"Milk Shake & Ice Cream\", \"items\": [ { \"item_name\": \"Vennila\", \"price\": \"75\", \"description\": \"\" }, { \"item_name\": \"Strawberry\", \"price\": \"75\", \"description\": \"\" }, { \"item_name\": \"Chocolate\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Butter Scotch\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Pista\", \"price\": \"80\", \"description\": \"\" } ] }, { \"category\": \"Shakes\", \"items\": [ { \"item_name\": \"Semam\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Badam Shake\", \"price\": \"100\", \"description\": \"\" }, { \"item_name\": \"Oreo Shake\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Cara Milk Nuts\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Til Tak\", \"price\": \"80\", \"description\": \"\" } ] }, { \"category\": \"Falooda\", \"items\": [ { \"item_name\": \"Looda\", \"price\": \"20\", \"description\": \"\" }, { \"item_name\": \"Royal Falooda\", \"price\": \"150\", \"description\": \"\" }, { \"item_name\": \"Pista Falooda\", \"price\": \"160\", \"description\": \"\" }, { \"item_name\": \"Butter Falooda\", \"price\": \"170\", \"description\": \"\" }, { \"item_name\": \"MGS Special Falooda\", \"price\": \"210\", \"description\": \"\" } ] }, { \"category\": \"Limes\", \"items\": [ { \"item_name\": \"Fresh Limes\", \"price\": \"35\", \"description\": \"\" }, { \"item_name\": \"Ginger Limes\", \"price\": \"25\", \"description\": \"\" }, { \"item_name\": \"Mint Limes\", \"price\": \"35\", \"description\": \"\" }, { \"item_name\": \"Soda Limes\", \"price\": \"25\", \"description\": \"\" } ] } ], \"offers\": [ \"10% off on order above 499\", \"10% off on Shakes category\", \"Exciting discounts on Milk Shake and Ice cream\", \"Free delivery on orders above 999\", \"Buy 1 Get 1 Free on Falooda\" ], \"categories\": [ \"Milk Shake & Ice Cream\", \"Shakes\", \"Falooda\", \"Limes\" ], \"recommended_items\": [ \"Vennila Milk shake - 75\", \"Strawberry Milk shake - 75\", \"Chocolate Milk shake - 80\", \"Royal Falooda - 150\", \"Pista Falooda - 160\", \"Ginger Limes - 35\", \"Fresh Limes - 25\", \"Mint Limes- 35\" ], \"payment_methods\": [ \"Cash on Delivery\", \"Online Payment\", \"UPI Payment\", \"Card Payment\", \"Wallet Payment\" ], \"special_menu's\": [ \"Pista Milk Shake & Ice Cream\", \"MGS Special Falooda\", \"Soda Limes\" ] }"
-    },
-  {
-    "role": "user",
-    "content": "Hey, I want to order one Chocolate Milkshake."
-  },
-  {
-    "role": "assistant",
-    "content": "Great choice! One Chocolate Milkshake has been added to your cart. Anything else?"
-  },
-  {
-    "role": "user",
-    "content": "Yes, add two Fresh Limes."
-  },
-  {
-    "role": "assistant",
-    "content": "Done! Your cart now contains one Chocolate Milkshake of 85 rupes and two Fresh Limes of 35 rupes each.\n\n```json\n[\n  { \"item_name\": \"Chocolate Milkshake\", \"quantity\": 1, \"price\": 80 },\n  { \"item_name\": \"Fresh Lime\", \"quantity\": 2, \"price\": 35 }\n]\n```"
-  },
-  {
-    "role": "user",
-    "content": "Wait! Remove one Fresh Lime and add one Royal Falooda instead."
-  },
-  {
-    "role": "assistant",
-    "content": "Got it! One Fresh Lime removed, and one Royal Falooda added.\n\n```json\n[\n  { \"item_name\": \"Chocolate Milkshake\", \"quantity\": 1, \"price\": 80 },\n  { \"item_name\": \"Fresh Lime\", \"quantity\": 1, \"price\": 35 },\n  { \"item_name\": \"Royal Falooda\", \"quantity\": 1, \"price\": 150 }\n]\n```"
-  },
-  {
-    "role": "user",
-    "content": "Actually, remove the Royal Falooda and add two Oreo Shakes instead."
-  },
-  {
-    "role": "assistant",
-    "content": "Are you sure you want to replace Royal Falooda with two Oreo Shakes?"
-  },
-  {
-    "role": "user",
-    "content": "Yes!"
-  },
-  {
-    "role": "assistant",
-    "content": "Done! Your cart now contains one Chocolate Milkshake, one Fresh Lime, and two Oreo Shakes.\n\n```json\n[\n  { \"item_name\": \"Chocolate Milkshake\", \"quantity\": 1, \"price\": 80 },\n  { \"item_name\": \"Fresh Lime\", \"quantity\": 1, \"price\": 35 },\n  { \"item_name\": \"Oreo Shake\", \"quantity\": 2, \"price\": 80 }\n]\n```"
-  },
-  {
-    "role": "user",
-    "content": "Add one Badam Shake and one Butter Scotch Ice Cream."
-  },
-  {
-    "role": "assistant",
-    "content": "Added! Your cart now contains:\n\n```json\n[\n  { \"item_name\": \"Chocolate Milkshake\", \"quantity\": 1, \"price\": 80 },\n  { \"item_name\": \"Fresh Lime\", \"quantity\": 1, \"price\": 35 },\n  { \"item_name\": \"Oreo Shake\", \"quantity\": 2, \"price\": 80 },\n  { \"item_name\": \"Badam Shake\", \"quantity\": 1, \"price\": 100 },\n  { \"item_name\": \"Butter Scotch Ice Cream\", \"quantity\": 1, \"price\": 80 }\n]\n```"
-  },
-  {
-    "role": "user",
-    "content": "That’s perfect! Proceed to checkout."
-  },
-  {
-    "role": "assistant",
-    "content": "Which payment method would you prefer? We offer Cash on Delivery, Online Payment, UPI Payment, Card Payment, and Wallet Payment."
-  },
-  {
-    "role": "user",
-    "content": "I'll go with UPI Payment."
-  },
-  {
-    "role": "assistant",
-    "content": "Here’s your payment link. Enjoy your meal!"
-  }]}
-{"messages":[
-  {
-    "role": "user",
-    "content": "MENU_CONTEXT: { \"food_items\": [ { \"category\": \"Milk Shake & Ice Cream\", \"items\": [ { \"item_name\": \"Vennila\", \"price\": \"75\", \"description\": \"\" }, { \"item_name\": \"Strawberry\", \"price\": \"75\", \"description\": \"\" }, { \"item_name\": \"Chocolate\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Butter Scotch\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Pista\", \"price\": \"80\", \"description\": \"\" } ] }, { \"category\": \"Shakes\", \"items\": [ { \"item_name\": \"Semam\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Badam Shake\", \"price\": \"100\", \"description\": \"\" }, { \"item_name\": \"Oreo Shake\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Cara Milk Nuts\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Til Tak\", \"price\": \"80\", \"description\": \"\" } ] }, { \"category\": \"Falooda\", \"items\": [ { \"item_name\": \"Looda\", \"price\": \"20\", \"description\": \"\" }, { \"item_name\": \"Royal Falooda\", \"price\": \"150\", \"description\": \"\" }, { \"item_name\": \"Pista Falooda\", \"price\": \"160\", \"description\": \"\" }, { \"item_name\": \"Butter Falooda\", \"price\": \"170\", \"description\": \"\" }, { \"item_name\": \"MGS Special Falooda\", \"price\": \"210\", \"description\": \"\" } ] }, { \"category\": \"Limes\", \"items\": [ { \"item_name\": \"Fresh Limes\", \"price\": \"35\", \"description\": \"\" }, { \"item_name\": \"Ginger Limes\", \"price\": \"25\", \"description\": \"\" }, { \"item_name\": \"Mint Limes\", \"price\": \"35\", \"description\": \"\" }, { \"item_name\": \"Soda Limes\", \"price\": \"25\", \"description\": \"\" } ] } ], \"offers\": [ \"10% off on order above 499\", \"10% off on Shakes category\", \"Exciting discounts on Milk Shake and Ice cream\", \"Free delivery on orders above 999\", \"Buy 1 Get 1 Free on Falooda\" ], \"categories\": [ \"Milk Shake & Ice Cream\", \"Shakes\", \"Falooda\", \"Limes\" ], \"recommended_items\": [ \"Vennila Milk shake - 75\", \"Strawberry Milk shake - 75\", \"Chocolate Milk shake - 80\", \"Royal Falooda - 150\", \"Pista Falooda - 160\", \"Ginger Limes - 35\", \"Fresh Limes - 25\", \"Mint Limes- 35\" ], \"payment_methods\": [ \"Cash on Delivery\", \"Online Payment\", \"UPI Payment\", \"Card Payment\", \"Wallet Payment\" ], \"special_menu's\": [ \"Pista Milk Shake & Ice Cream\", \"MGS Special Falooda\", \"Soda Limes\" ] }"
-    },
-  {
-    "role": "user",
-    "content": "Hey, I want to order one Pista Falooda."
-  },
-  {
-    "role": "assistant",
-    "content": "Great choice! One Pista Falooda has been added to your cart. Anything else?"
-  },
-  {
-    "role": "user",
-    "content": "Yes, add one Mint Lime and one Strawberry Milkshake."
-  },
-  {
-    "role": "assistant",
-    "content": "Done! Your cart now contains one Pista Falooda, one Mint Lime, and one Strawberry Milkshake.\n\n```json\n[\n  { \"item_name\": \"Pista Falooda\", \"quantity\": 1, \"price\": 160 },\n  { \"item_name\": \"Mint Lime\", \"quantity\": 1, \"price\": 35 },\n  { \"item_name\": \"Strawberry Milkshake\", \"quantity\": 1, \"price\": 75 }\n]\n```"
-  },
-  {
-    "role": "user",
-    "content": "Wait! Remove the Mint Lime and add two Butter Scotch Ice Creams instead."
-  },
-  {
-    "role": "assistant",
-    "content": "Are you sure you want to replace Mint Lime with two Butter Scotch Ice Creams?"
-  },
-  {
-    "role": "user",
-    "content": "Yes!"
-  },
-  {
-    "role": "assistant",
-    "content": "Done! Your cart now contains:\n\n```json\n[\n  { \"item_name\": \"Pista Falooda\", \"quantity\": 1, \"price\": 160 },\n  { \"item_name\": \"Strawberry Milkshake\", \"quantity\": 1, \"price\": 75 },\n  { \"item_name\": \"Butter Scotch Ice Cream\", \"quantity\": 2, \"price\": 80 }\n]\n```"
-  },
-  {
-    "role": "user",
-    "content": "Add one Badam Shake and one Oreo Shake."
-  },
-  {
-    "role": "assistant",
-    "content": "Added! Your cart now contains:\n\n```json\n[\n  { \"item_name\": \"Pista Falooda\", \"quantity\": 1, \"price\": 160 },\n  { \"item_name\": \"Strawberry Milkshake\", \"quantity\": 1, \"price\": 75 },\n  { \"item_name\": \"Butter Scotch Ice Cream\", \"quantity\": 2, \"price\": 80 },\n  { \"item_name\": \"Badam Shake\", \"quantity\": 1, \"price\": 100 },\n  { \"item_name\": \"Oreo Shake\", \"quantity\": 1, \"price\": 80 }\n]\n```"
-  },
-  {
-    "role": "user",
-    "content": "That’s perfect! Proceed to checkout."
-  },
-  {
-    "role": "assistant",
-    "content": "Which payment method would you prefer? We offer Cash on Delivery, Online Payment, UPI Payment, Card Payment, and Wallet Payment."
-  },
-  {
-    "role": "user",
-    "content": "I'll go with Card Payment."
-  },
-  {
-    "role": "assistant",
-    "content": "Payment via Card confirmed! Here’s your payment link. Enjoy your meal!"
-  }]}
+
 {"messages":[{
       "role": "user",
       "content": "MENU_CONTEXT: { \"food_items\": [ { \"category\": \"Milk Shake & Ice Cream\", \"items\": [ { \"item_name\": \"Vennila\", \"price\": \"75\", \"description\": \"\" }, { \"item_name\": \"Strawberry\", \"price\": \"75\", \"description\": \"\" }, { \"item_name\": \"Chocolate\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Butter Scotch\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Pista\", \"price\": \"80\", \"description\": \"\" } ] }, { \"category\": \"Shakes\", \"items\": [ { \"item_name\": \"Semam\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Badam Shake\", \"price\": \"100\", \"description\": \"\" }, { \"item_name\": \"Oreo Shake\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Cara Milk Nuts\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Til Tak\", \"price\": \"80\", \"description\": \"\" } ] }, { \"category\": \"Falooda\", \"items\": [ { \"item_name\": \"Looda\", \"price\": \"20\", \"description\": \"\" }, { \"item_name\": \"Royal Falooda\", \"price\": \"150\", \"description\": \"\" }, { \"item_name\": \"Pista Falooda\", \"price\": \"160\", \"description\": \"\" }, { \"item_name\": \"Butter Falooda\", \"price\": \"170\", \"description\": \"\" }, { \"item_name\": \"MGS Special Falooda\", \"price\": \"210\", \"description\": \"\" } ] }, { \"category\": \"Limes\", \"items\": [ { \"item_name\": \"Fresh Limes\", \"price\": \"35\", \"description\": \"\" }, { \"item_name\": \"Ginger Limes\", \"price\": \"25\", \"description\": \"\" }, { \"item_name\": \"Mint Limes\", \"price\": \"35\", \"description\": \"\" }, { \"item_name\": \"Soda Limes\", \"price\": \"25\", \"description\": \"\" } ] } ], \"offers\": [ \"10% off on order above 499\", \"10% off on Shakes category\", \"Exciting discounts on Milk Shake and Ice cream\", \"Free delivery on orders above 999\", \"Buy 1 Get 1 Free on Falooda\" ], \"categories\": [ \"Milk Shake & Ice Cream\", \"Shakes\", \"Falooda\", \"Limes\" ], \"recommended_items\": [ \"Vennila Milk shake - 75\", \"Strawberry Milk shake - 75\", \"Chocolate Milk shake - 80\", \"Royal Falooda - 150\", \"Pista Falooda - 160\", \"Ginger Limes - 35\", \"Fresh Limes - 25\", \"Mint Limes- 35\" ], \"payment_methods\": [ \"Cash on Delivery\", \"Online Payment\", \"UPI Payment\", \"Card Payment\", \"Wallet Payment\" ], \"special_menu's\": [ \"Pista Milk Shake & Ice Cream\", \"MGS Special Falooda\", \"Soda Limes\" ] }"
@@ -532,234 +403,8 @@
     "content": "Payment via UPI confirmed! Here’s your payment link. Enjoy your meal!"
   }]}
 
-{"messages":[
-  {
-      "role": "user",
-      "content": "MENU_CONTEXT: { \"food_items\": [ { \"category\": \"Milk Shake & Ice Cream\", \"items\": [ { \"item_name\": \"Vennila\", \"price\": \"75\", \"description\": \"\" }, { \"item_name\": \"Strawberry\", \"price\": \"75\", \"description\": \"\" }, { \"item_name\": \"Chocolate\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Butter Scotch\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Pista\", \"price\": \"80\", \"description\": \"\" } ] }, { \"category\": \"Shakes\", \"items\": [ { \"item_name\": \"Semam\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Badam Shake\", \"price\": \"100\", \"description\": \"\" }, { \"item_name\": \"Oreo Shake\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Cara Milk Nuts\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Til Tak\", \"price\": \"80\", \"description\": \"\" } ] }, { \"category\": \"Falooda\", \"items\": [ { \"item_name\": \"Looda\", \"price\": \"20\", \"description\": \"\" }, { \"item_name\": \"Royal Falooda\", \"price\": \"150\", \"description\": \"\" }, { \"item_name\": \"Pista Falooda\", \"price\": \"160\", \"description\": \"\" }, { \"item_name\": \"Butter Falooda\", \"price\": \"170\", \"description\": \"\" }, { \"item_name\": \"MGS Special Falooda\", \"price\": \"210\", \"description\": \"\" } ] }, { \"category\": \"Limes\", \"items\": [ { \"item_name\": \"Fresh Limes\", \"price\": \"35\", \"description\": \"\" }, { \"item_name\": \"Ginger Limes\", \"price\": \"25\", \"description\": \"\" }, { \"item_name\": \"Mint Limes\", \"price\": \"35\", \"description\": \"\" }, { \"item_name\": \"Soda Limes\", \"price\": \"25\", \"description\": \"\" } ] } ], \"offers\": [ \"10% off on order above 499\", \"10% off on Shakes category\", \"Exciting discounts on Milk Shake and Ice cream\", \"Free delivery on orders above 999\", \"Buy 1 Get 1 Free on Falooda\" ], \"categories\": [ \"Milk Shake & Ice Cream\", \"Shakes\", \"Falooda\", \"Limes\" ], \"recommended_items\": [ \"Vennila Milk shake - 75\", \"Strawberry Milk shake - 75\", \"Chocolate Milk shake - 80\", \"Royal Falooda - 150\", \"Pista Falooda - 160\", \"Ginger Limes - 35\", \"Fresh Limes - 25\", \"Mint Limes- 35\" ], \"payment_methods\": [ \"Cash on Delivery\", \"Online Payment\", \"UPI Payment\", \"Card Payment\", \"Wallet Payment\" ], \"special_menu's\": [ \"Pista Milk Shake & Ice Cream\", \"MGS Special Falooda\", \"Soda Limes\" ] }"
-    },
-    {
-      "role": "user",
-      "content": "Hey, may I see the menu?"
-    },
-    {
-      "role": "assistant",
-      "content": "Sure! Here is the menu. Feel free to order whenever you're ready:\n\n**Milk Shake & Ice Cream**\n- Vennila – ₹75\n- Strawberry – ₹75\n- Chocolate – ₹80\n- Butter Scotch – ₹80\n- Pista – ₹80\n\n**Shakes**\n- Semam – ₹80\n- Badam Shake – ₹100\n- Oreo Shake – ₹80\n- Cara Milk Nuts – ₹80\n- Til Tak – ₹80\n\n**Falooda**\n- Looda – ₹20\n- Royal Falooda – ₹150\n- Pista Falooda – ₹160\n- Butter Falooda – ₹170\n- MGS Special Falooda – ₹210\n\n**Limes**\n- Fresh Limes – ₹35\n- Ginger Limes – ₹25\n- Mint Limes – ₹35\n- Soda Limes – ₹25"
-      "content": "Yeah, here is the menu. Feel free to order, I’m here to assist you!"
-    },
-    {
-      "role": "user",
-      "content": "Yeah, I would like to have Pista Milkshake. What's the price of that?"
-    },
-    {
-      "role": "assistant",
-      "content": "The Pista Milkshake costs 80 rupees. Would you like to add it to your cart?"
-    },
-    {
-      "role": "user",
-      "content": "Oh, that’s a bit much. Don’t add it."
-    },
-    {
-      "role": "assistant",
-      "content": "No problem! Would you like me to suggest something else?"
-    },
-    {
-      "role": "user",
-      "content": "Yeah, sure."
-    },
-    {
-      "role": "assistant",
-      "content": "In milkshakes, we recommend the Vennila Milkshake and Strawberry Milkshake, both priced at 75 rupees. Would you like to add any of these?"
-    },
-    {
-      "role": "user",
-      "content": "Yes, I like that one. Add two."
-    },
-    {
-      "role": "assistant",
-      "content": "Great! Adding one Vennila Milkshake and one Strawberry Milkshake to your cart. Would you like to order anything else?"
-    },
-    {
-      "role": "user",
-      "content": "Ok, what are the shake items you have?"
-    },
-    {
-      "role": "assistant",
-      "content": "We offer Semam Shake, Badam Shake, Oreo Shake, Cara Milk Nuts, and Til Tak. We also have 10% off on all Shakes today!"
-    },
-    {
-      "role": "user",
-      "content": "Which are the best shakes available?"
-    },
-    {
-      "role": "assistant",
-      "content": "We recommend trying the Oreo Shake for 80 rupees. Would you like to add it?"
-    },
-    {
-      "role": "user",
-      "content": "Oh, no thanks. I’d like to have one Fresh Lime."
-    },
-    {
-      "role": "assistant",
-      "content": "Great choice! Your cart now contains: Vennila Milkshake, Strawberry Milkshake, and one Fresh Lime."
-    },
-    {
-      "role": "assistant",
-      "content": "Here’s the updated cart. Your cart contains:\n- Vennila Milkshake – 75 Rs × 1\n- Strawberry Milkshake – 75 Rs × 1\n- Fresh Limes – 35 Rs × 1 is there anything else to add? \n```json\n[\n  {\"item_name\": \"Vennila Milkshake\", \"quantity\": 1},\n  {\"item_name\": \"Strawberry Milkshake\", \"quantity\": 1},\n  {\"item_name\": \"Fresh Limes\", \"quantity\": 1}\n]\n```"
-    },
-    {
-      "role": "user",
-      "content": "Okay, once again tell me what’s in the cart."
-    },
-    {
-      "role": "assistant",
-      "content": "Your cart contains:\n- Vennila Milkshake – 75 Rs × 1\n- Strawberry Milkshake – 75 Rs × 1\n- Fresh Limes – 35 Rs × 1\n**Total: 185 Rs**\n\n```json\n[\n  {\"item_name\": \"Vennila Milkshake\", \"quantity\": 1, \"price\": 75},\n  {\"item_name\": \"Strawberry Milkshake\", \"quantity\": 1, \"price\": 75},\n  {\"item_name\": \"Fresh Limes\", \"quantity\": 1, \"price\": 35}\n]\n```"
-    },
-    {
-      "role": "user",
-      "content": "Okay, checkout."
-    },
-    {
-      "role": "assistant",
-      "content": "Sure. Which payment method would you like to use?"
-    },
-    {
-      "role": "user",
-      "content": "I will pay by cash."
-    },
-    {
-      "role": "assistant",
-      "content": "Great! Your order has been placed and you chose to pay with Cash on Delivery. Have a happy meal!"
-    }]}
-{"messages":[
-  {
-      "role": "user",
-      "content": "MENU_CONTEXT: { \"food_items\": [ { \"category\": \"Milk Shake & Ice Cream\", \"items\": [ { \"item_name\": \"Vennila\", \"price\": \"75\", \"description\": \"\" }, { \"item_name\": \"Strawberry\", \"price\": \"75\", \"description\": \"\" }, { \"item_name\": \"Chocolate\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Butter Scotch\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Pista\", \"price\": \"80\", \"description\": \"\" } ] }, { \"category\": \"Shakes\", \"items\": [ { \"item_name\": \"Semam\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Badam Shake\", \"price\": \"100\", \"description\": \"\" }, { \"item_name\": \"Oreo Shake\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Cara Milk Nuts\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Til Tak\", \"price\": \"80\", \"description\": \"\" } ] }, { \"category\": \"Falooda\", \"items\": [ { \"item_name\": \"Looda\", \"price\": \"20\", \"description\": \"\" }, { \"item_name\": \"Royal Falooda\", \"price\": \"150\", \"description\": \"\" }, { \"item_name\": \"Pista Falooda\", \"price\": \"160\", \"description\": \"\" }, { \"item_name\": \"Butter Falooda\", \"price\": \"170\", \"description\": \"\" }, { \"item_name\": \"MGS Special Falooda\", \"price\": \"210\", \"description\": \"\" } ] }, { \"category\": \"Limes\", \"items\": [ { \"item_name\": \"Fresh Limes\", \"price\": \"35\", \"description\": \"\" }, { \"item_name\": \"Ginger Limes\", \"price\": \"25\", \"description\": \"\" }, { \"item_name\": \"Mint Limes\", \"price\": \"35\", \"description\": \"\" }, { \"item_name\": \"Soda Limes\", \"price\": \"25\", \"description\": \"\" } ] } ], \"offers\": [ \"10% off on order above 499\", \"10% off on Shakes category\", \"Exciting discounts on Milk Shake and Ice cream\", \"Free delivery on orders above 999\", \"Buy 1 Get 1 Free on Falooda\" ], \"categories\": [ \"Milk Shake & Ice Cream\", \"Shakes\", \"Falooda\", \"Limes\" ], \"recommended_items\": [ \"Vennila Milk shake - 75\", \"Strawberry Milk shake - 75\", \"Chocolate Milk shake - 80\", \"Royal Falooda - 150\", \"Pista Falooda - 160\", \"Ginger Limes - 35\", \"Fresh Limes - 25\", \"Mint Limes- 35\" ], \"payment_methods\": [ \"Cash on Delivery\", \"Online Payment\", \"UPI Payment\", \"Card Payment\", \"Wallet Payment\" ], \"special_menu's\": [ \"Pista Milk Shake & Ice Cream\", \"MGS Special Falooda\", \"Soda Limes\" ] }"
-    },
-  {
-    "role": "user",
-    "content": "Hey, I want to order one Royal Falooda. What's the price?"
-  },
-  {
-    "role": "assistant",
-    "content": "The Royal Falooda is priced at 150 RS. Would you like to add it to your cart?"
-  },
-  {
-    "role": "user",
-    "content": "Hmm, that's a bit expensive. Do you have a cheaper Falooda option?"
-  },
-  {
-    "role": "assistant",
-    "content": "Yes! We have Looda Falooda for just 20 RS. Would you like to add that instead?"
-  },
-  {
-    "role": "user",
-    "content": "Yeah, that sounds good. Add one Looda Falooda."
-  },
-  {
-    "role": "assistant",
-    "content": "Done! Your cart now contains one Looda Falooda:\n\n```json\n[\n  { \"item_name\": \"Looda Falooda\", \"quantity\": 1, \"price\": 20 }\n]\n```"
-  },
-  {
-    "role": "user",
-    "content": "I also want a milkshake. What's the price of Oreo Shake?"
-  },
-  {
-    "role": "assistant",
-    "content": "The Oreo Shake is priced at 80 RS. Would you like to add it?"
-  },
-  {
-    "role": "user",
-    "content": "That's fine. Add one Oreo Shake."
-  },
-  {
-    "role": "assistant",
-    "content": "Added! Your cart now contains one Looda Falooda 20 rupes and  Oreo Shake 80 rupes :\n\n```json\n[\n  { \"item_name\": \"Looda Falooda\", \"quantity\": 1, \"price\": 20 },\n  { \"item_name\": \"Oreo Shake\", \"quantity\": 1, \"price\": 80 }\n]\n```"
-  },
-  {
-    "role": "user",
-    "content": "That’s all. Proceed to checkout."
-  },
-  {
-    "role": "assistant",
-    "content": "Which payment method would you prefer? We offer Cash on Delivery, Online Payment, UPI Payment, Card Payment, and Wallet Payment."
-  },
-  {
-    "role": "user",
-    "content": "I'll go with UPI Payment."
-  },
-  {
-    "role": "assistant",
-    "content": "Here’s your payment link. Enjoy your meal!"
-  }]}
-{"messages":[
-  {
-      "role": "user",
-      "content": "MENU_CONTEXT: { \"food_items\": [ { \"category\": \"Milk Shake & Ice Cream\", \"items\": [ { \"item_name\": \"Vennila\", \"price\": \"75\", \"description\": \"\" }, { \"item_name\": \"Strawberry\", \"price\": \"75\", \"description\": \"\" }, { \"item_name\": \"Chocolate\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Butter Scotch\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Pista\", \"price\": \"80\", \"description\": \"\" } ] }, { \"category\": \"Shakes\", \"items\": [ { \"item_name\": \"Semam\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Badam Shake\", \"price\": \"100\", \"description\": \"\" }, { \"item_name\": \"Oreo Shake\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Cara Milk Nuts\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Til Tak\", \"price\": \"80\", \"description\": \"\" } ] }, { \"category\": \"Falooda\", \"items\": [ { \"item_name\": \"Looda\", \"price\": \"20\", \"description\": \"\" }, { \"item_name\": \"Royal Falooda\", \"price\": \"150\", \"description\": \"\" }, { \"item_name\": \"Pista Falooda\", \"price\": \"160\", \"description\": \"\" }, { \"item_name\": \"Butter Falooda\", \"price\": \"170\", \"description\": \"\" }, { \"item_name\": \"MGS Special Falooda\", \"price\": \"210\", \"description\": \"\" } ] }, { \"category\": \"Limes\", \"items\": [ { \"item_name\": \"Fresh Limes\", \"price\": \"35\", \"description\": \"\" }, { \"item_name\": \"Ginger Limes\", \"price\": \"25\", \"description\": \"\" }, { \"item_name\": \"Mint Limes\", \"price\": \"35\", \"description\": \"\" }, { \"item_name\": \"Soda Limes\", \"price\": \"25\", \"description\": \"\" } ] } ], \"offers\": [ \"10% off on order above 499\", \"10% off on Shakes category\", \"Exciting discounts on Milk Shake and Ice cream\", \"Free delivery on orders above 999\", \"Buy 1 Get 1 Free on Falooda\" ], \"categories\": [ \"Milk Shake & Ice Cream\", \"Shakes\", \"Falooda\", \"Limes\" ], \"recommended_items\": [ \"Vennila Milk shake - 75\", \"Strawberry Milk shake - 75\", \"Chocolate Milk shake - 80\", \"Royal Falooda - 150\", \"Pista Falooda - 160\", \"Ginger Limes - 35\", \"Fresh Limes - 25\", \"Mint Limes- 35\" ], \"payment_methods\": [ \"Cash on Delivery\", \"Online Payment\", \"UPI Payment\", \"Card Payment\", \"Wallet Payment\" ], \"special_menu's\": [ \"Pista Milk Shake & Ice Cream\", \"MGS Special Falooda\", \"Soda Limes\" ] }"
-    },
-  {
-    "role": "user",
-    "content": "Hey, I want to order one Pista Ice Cream. What's the price?"
-  },
-  {
-    "role": "assistant",
-    "content": "The Pista Ice Cream is priced at 80 RS. Would you like to add it?"
-  },
-  {
-    "role": "user",
-    "content": "Hmm, that's a bit high. Do you have a cheaper ice cream option?"
-  },
-  {
-    "role": "assistant",
-    "content": "Yes! We have Vennila Ice Cream And Strwberry Ice Crem for just 75 RS. Would you like to add that instead?"
-  },
-  {
-    "role": "user",
-    "content": "Yeah, that sounds good. Add one Vennila Ice Cream."
-  },
-  {
-    "role": "assistant",
-    "content": "Done! Your cart now contains one Vennila Ice Cream of 75 Rupes. :\n\n```json\n[\n  { \"item_name\": \"Vennila Ice Cream\", \"quantity\": 1, \"price\": 75 }\n]\n```"
-  },
-  {
-    "role": "user",
-    "content": "I also want a shake. What's the price of Badam Shake?"
-  },
-  {
-    "role": "assistant",
-    "content": "The Badam Shake is priced at 100 RS.And also we have 10% off on any kind of shakes. Would you like to add it?"
-  },
-  {
-    "role": "user",
-    "content": "That's too expensive. Show me shakes under 80 RS."
-  },
-  {
-    "role": "assistant",
-    "content": "Sorry, but all our shakes are priced at 80 RS and above. Here are some options:\n- Oreo Shake - 80 RS\n- Cara Milk Nuts - 80 RS\n- Til Tak - 80 RS\nWould you like to add any of these?"
-  },
-  {
-    "role": "user",
-    "content": "I'll take one Oreo Shake."
-  },
-  {
-    "role": "assistant",
-    "content": "Added! Your cart now contains one Vennila Ice Cream of 75 Rupes and one Oreo Shake 80 rupes:\n\n```json\n[\n  { \"item_name\": \"Vennila Ice Cream\", \"quantity\": 1, \"price\": 75 },\n  { \"item_name\": \"Oreo Shake\", \"quantity\": 1, \"price\": 80 }\n]\n```"
-  },
-  {
-    "role": "user",
-    "content": "That’s all. Proceed to checkout."
-  },
-  {
-    "role": "assistant",
-    "content": "Which payment method would you prefer? We offer Cash on Delivery, Online Payment, UPI Payment, Card Payment, and Wallet Payment."
-  },
-  {
-    "role": "user",
-    "content": "I'll go with Card Payment."
-  },
-  {
-    "role": "assistant",
-    "content": "Here’s your payment link. Enjoy your meal!"
-  }]}
+
+
 {"messages":[
   {
       "role": "user",
@@ -12742,3 +12387,3999 @@
     "role": "assistant",
     "content": "Great! ✅ Payment method: UPI selected.\n\nOrder placed successfully! 🎉\n\nYou’ll receive your food shortly. Enjoy your meal! 🍽️"
   }]}
+{"messages":[
+  {
+      "role": "user",
+      "content": "MENU_CONTEXT":{
+        "food_items":[
+      {
+        "category": "Sizzlers",
+        "items": [
+            {
+                "item_name": "Veg Steak Sizzler",
+                "price": "230.00",
+                "description": "Veg steak with barbeque sauce served with rice & french fries."
+            },
+            {
+                "item_name": "Paneer Tikka Sizzler",
+                "price": "250.00",
+                "description": "Paneer and assorted vegetables cooked into sizzlers."
+            }
+        ]
+    },
+    {
+        "category": "Veg Au Gratin",
+        "items": [
+            {
+                "item_name": "Veg Au Gratin",
+                "price": "210.00",
+                "description": "Minced & stir fried mix vegetables, mixed in white sauce layered with cheese. Served with garlic bread."
+            },
+            {
+                "item_name": "Veg Spinach Au Gratin",
+                "price": "210.00",
+                "description": ""
+            },
+            {
+                "item_name": "Baked Vegitables",
+                "price": "210.00",
+                "description": ""
+            },
+            {
+                "item_name": "Cheese Microni",
+                "price": "210.00",
+                "description": ""
+            },
+            {
+                "item_name": "Penne Paprika",
+                "price": "210.00",
+                "description": "Penne served with bechamel flavoured with paprika flakes."
+            },
+            {
+                "item_name": "Penne Arrabiata",
+                "price": "210.00",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "category": "Chinese & Oriental Main Course Veg",
+        "items": [
+            {
+            "item_name": "Chicken 65",
+            "price": "215.00",
+            "description": "A crispy, deep-fried chicken dish infused with bold South Indian spices, served with a tangy kick."
+        },
+        {
+            "item_name": "Chicken Schezwan",
+            "price": "220.00",
+            "description": "Tender chicken cooked in a fiery Schezwan sauce, loaded with garlic, chilies, and a hint of sweetness."
+        },
+        {
+            "item_name": "Chicken Manchurian",
+            "price": "210.00",
+            "description": "Juicy chicken balls tossed in a delicious Indo-Chinese Manchurian sauce with aromatic spices."
+        },
+        {
+            "item_name": "Chicken Kentucky",
+            "price": "250.00",
+            "description": "Crispy, golden-fried chicken coated in a secret blend of herbs and spices, inspired by Kentucky flavors."
+        },
+        {
+            "item_name": "Chicken Lolipop",
+            "price": "220.00",
+            "description": "Succulent chicken wings marinated and deep-fried to perfection, served with a tangy dipping sauce."
+        },
+        {
+            "item_name": "Chicken Chilli",
+            "price": "215.00",
+            "description": "Spicy and savory chicken stir-fried with bell peppers, onions, and a bold chili garlic sauce."
+        },
+        {
+            "item_name": "Chicken Crunchy",
+            "price": "225.00",
+            "description": "Delightfully crispy chicken bites coated in a crunchy batter, packed with flavorful seasoning."
+        },
+        {
+            "item_name": "Chicken Satay",
+            "price": "225.00",
+            "description": "Grilled skewers of marinated chicken, served with a creamy, peanut-based satay sauce."
+        },
+        {
+            "item_name": "Drums of Heaven",
+            "price": "270.00",
+            "description": "A heavenly treat of juicy chicken wings glazed with a savory and slightly sweet sauce."
+        },
+        {
+            "item_name": "Prawns Chilly",
+            "price": "420.00",
+            "description": "Succulent prawns stir-fried in a spicy chili sauce with crunchy vegetables."
+        },
+        {
+            "item_name": "Prawns Koliwada",
+            "price": "420.00",
+            "description": "A Mumbai street-food favorite—crispy, deep-fried prawns infused with tangy spices."
+        },
+        {
+            "item_name": "Prawns Salt & Pepper",
+            "price": "420.00",
+            "description": "Simple yet flavorful crispy prawns tossed with salt, black pepper, and aromatic seasoning."
+        },
+        {
+            "item_name": "Prawns Golden Fried",
+            "price": "420.00",
+            "description": "Golden-battered prawns fried to crispy perfection and served with a zesty dip."
+        },
+        {
+            "item_name": "Chinese Non-Veg Platter",
+            "price": "580.00",
+            "description": "An assortment of delicious Chinese-style non-veg starters, perfect for sharing and enjoying a mix of flavors."
+        }
+        ]
+    },
+    {
+        "category": "Chinese & Oriental Main Course Non-Veg",
+        "items": [
+            {
+                "item_name": "Chicken Chowmein",
+                "price": "220.00",
+                "description": ""
+            },
+            {
+                "item_name": "Chicken Hakka Noodle",
+                "price": "220.00",
+                "description": ""
+            },
+            {
+                "item_name": "Chicken Schezwan Noodle",
+                "price": "230.00",
+                "description": ""
+            },
+            {
+                "item_name": "Chicken American Choupsy",
+                "price": "230.00",
+                "description": ""
+            },
+            {
+                "item_name": "Chicken Fried Rice",
+                "price": "220.00",
+                "description": ""
+            },
+            {
+                "item_name": "Chicken Schezwan Fried Rice",
+                "price": "240.00",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "category": "Tandoor",
+        "items": [
+            {
+                "item_name": "Chicken Alishan",
+                "price": "215.00",
+                "description": "Tender Boneless chicken marinated in tangy mix of yoghurt & spices cooked in tandoor, topped with cheese."
+            },
+            {
+                "item_name": "Chicken Tikka",
+                "price": "245.00",
+                "description": "Chicken pieces marinated in a blend of fragrant spices mixed with yogurt."
+            },
+            {
+                "item_name": "Chicken Angara",
+                "price": "245.00",
+                "description": "Spicy chicken kebab with a smoky aroma & charcoal flavour."
+            },
+            {
+                "item_name": "Chicken Irani Kebab",
+                "price": "260.00",
+                "description": ""
+            },
+            {
+                "item_name": "Chicken Shami Kebab",
+                "price": "260.00",
+                "description": ""
+            },
+            {
+                "item_name": "Mutton Seekh Kebab",
+                "price": "260.00",
+                "description": ""
+            },
+            {
+                "item_name": "Mutton Bhuna",
+                "price": "265.00",
+                "description": "Succulent mutton pan fried in spicy masala"
+            },
+            {
+                "item_name": "Mutton Shami Kebab",
+                "price": "280.00",
+                "description": ""
+            },
+            {
+                "item_name": "Mutton Chopli Kebab",
+                "price": "280.00",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "category": "Non-Veg",
+        "items": [
+            {
+            "item_name": "Chicken 65",
+            "price": "215.00",
+            "description": "A crispy and spicy deep-fried chicken dish, coated with a flavorful South Indian seasoning."
+        },
+        {
+            "item_name": "Chicken Schezwan",
+            "price": "220.00",
+            "description": "Tender chicken tossed in fiery Schezwan sauce, packed with bold garlic and chili flavors."
+        },
+        {
+            "item_name": "Chicken Manchurian",
+            "price": "210.00",
+            "description": "Juicy chicken dumplings stir-fried in a rich Manchurian gravy, infused with aromatic spices."
+        },
+        {
+            "item_name": "Chicken Kentucky",
+            "price": "250.00",
+            "description": "Crispy, golden-fried chicken with a flavorful herb and spice blend, inspired by Kentucky-style cooking."
+        },
+        {
+            "item_name": "Chicken Lolipop",
+            "price": "220.00",
+            "description": "Succulent chicken wings deep-fried and coated with a delicious blend of spices, served with dipping sauce."
+        },
+        {
+            "item_name": "Chicken Chilli",
+            "price": "215.00",
+            "description": "Spicy and tangy chicken stir-fried with bell peppers, onions, and chili sauce."
+        },
+        {
+            "item_name": "Chicken Crunchy",
+            "price": "225.00",
+            "description": "Crispy-coated chicken bites, fried to perfection for a crunchy and flavorful experience."
+        },
+        {
+            "item_name": "Chicken Satay",
+            "price": "225.00",
+            "description": "Grilled chicken skewers marinated in exotic spices and served with a delicious peanut-based sauce."
+        },
+        {
+            "item_name": "Drums of Heaven",
+            "price": "270.00",
+            "description": "Juicy, well-marinated chicken wings tossed in a flavorful sauce for a heavenly taste."
+        },
+        {
+            "item_name": "Prawns Chilly",
+            "price": "420.00",
+            "description": "Juicy prawns stir-fried with a bold chili garlic sauce, creating a perfect mix of heat and flavor."
+        },
+        {
+            "item_name": "Prawns Koliwada",
+            "price": "420.00",
+            "description": "Crispy, deep-fried prawns coated in a tangy spice blend, a Mumbai street-food favorite."
+        },
+        {
+            "item_name": "Prawns Salt & Pepper",
+            "price": "420.00",
+            "description": "Simple yet delightful prawns seasoned with salt, black pepper, and aromatic spices."
+        },
+        {
+            "item_name": "Prawns Golden Fried",
+            "price": "420.00",
+            "description": "Prawns coated in a golden-batter and deep-fried to crispy perfection, served with a dip."
+        },
+        {
+            "item_name": "Chinese Non-Veg Platter",
+            "price": "580.00",
+            "description": "A delicious assortment of Chinese-style non-veg starters, perfect for a flavorful feast."
+        }
+        ]
+    },
+    {
+        "category": "Indian Main Course - Veg",
+        "items": [
+            {
+                "item_name": "Veg Jalfrizi",
+                "price": "225.00",
+                "description": "A semi-dry Indian recipe with a mix of vegetables cooked in a tomato-based gravy"
+            },
+            {
+                "item_name": "Veg Jaipuri",
+                "price": "220.00",
+                "description": ""
+            }
+        ]
+    }
+    ],
+    "offers": [
+      "20% off on order above 999",
+      "10% off on Parotta category",
+      "Exciting discounts on Manchurian and Noodles",
+      "Free delivery on orders above 999",
+      "flat 300 off on above 2999"
+    ],
+    "categories":[
+      "Sizzlers", 
+      "Veg Au Gratin", 
+      "Chinese & Oriental Main Course Veg", 
+      "Chinese & Oriental Main Course Non-Veg", 
+      "Tandoor", 
+      "Non-Veg", 
+      "Indian Main Course - Veg"
+      ],
+    "Recommended_items":[ 
+      "Chicken 65 - 215.00",
+      "Chicken Schezwan - 220.00",
+      "Chicken Manchurian - 210.00",
+      "Drums of Heaven - 270.00",
+      "Prawns Golden Fried - 420.00",
+      "Chinese Non-Veg Platter - 580.00",
+      "Veg Schezwan Noodle - 190.00",
+      "Veg Tripple Fried Rice - 230.00",
+      "Paneer Tikka Masala - 250.00",
+      "Mutton Rogan Josh - 290.00",
+      ],
+    "payment_methods":[
+      "Cash on Delivery",
+      "Online Payment",
+      "UPI Payment",
+      "Card Payment",
+      "Wallet Payment"
+      ],
+    "special_menu's": [
+      "Chicken Fried Rice with Chicken 65",
+      "Chicken Hakka Noodle with Chicken Lolipop",
+      "Drums of Heaven",
+      "Prawns Salt & Pepper"
+    ]
+  
+  }
+  }
+      {
+      "role": "user",
+      "content": "Hey, I want to order some food. Can you add these to my cart: Veg Steak Sizzler, Paneer Tikka Sizzler, Veg Au Gratin, Penne Paprika, Chicken 65, Chicken Crunchy, Drums of Heaven, Prawns Chilly?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure! I've added the following items to your cart:\n\n- Veg Steak Sizzler – ₹230.00\n- Veg Au Gratin – ₹210.00\n- Penne Paprika – ₹210.00\n- Chicken 65 – ₹215.00\n- Chicken Crunchy – ₹225.00\n- Drums of Heaven – ₹270.00\n- Prawns Chilly – ₹420.00\n\nTotal so far: ₹1780.00"
+    },
+    {
+      "role": "user",
+      "content": "Okay, remove Chicken Crunchy from my cart."
+    },
+    {
+      "role": "assistant",
+      "content": "Chicken Crunchy removed.\n\nUpdated cart total: ₹1555.00"
+    },
+    {
+      "role": "user",
+      "content": "Now remove Veg Au Gratin, Penne Paprika, and Chicken 65."
+    },
+    {
+      "role": "assistant",
+      "content": "✅ Removed:\n- Veg Au Gratin\n- Penne Paprika\n- Chicken 65\n\nRemaining cart:\n- Veg Steak Sizzler – ₹230.00\n- Drums of Heaven – ₹270.00\n- Prawns Chilly – ₹420.00\n\nCurrent total: ₹920.00"
+    },
+    {
+      "role": "user",
+      "content": "What's the current total again?"
+    },
+    {
+      "role": "assistant",
+      "content": "Your current total is ₹920.00 with 3 items in the cart."
+    },
+    {
+      "role": "user",
+      "content": "Ohh its below ₹999. add one more Drums of Heaven."
+    },
+    {
+      "role": "assistant",
+      "content": "✅ Drums of Heaven added.\n\nNew total: ₹1190.00"
+    },
+    {
+      "role": "user",
+      "content": "Hmm, now I want to add Cheese Microni and Chicken Lolipop."
+    },
+    {
+      "role": "assistant",
+      "content": "✅ Added:\n- Cheese Microni – ₹210.00\n- Chicken Lolipop – ₹220.00\n\nUpdated cart:\n- Veg Steak Sizzler – ₹230.00\n- Drums of Heaven – ₹270.00\n- Prawns Chilly – ₹420.00\n- Cheese Microni – ₹210.00\n- Chicken Lolipop – ₹220.00\n\nNew total: ₹1400.00"
+    },
+    {
+      "role": "user",
+      "content": "Nice! Are there any offers I can get now?"
+    },
+    {
+      "role": "assistant",
+      "content": "🎉 Yes! You're eligible for the following offers:\n- ✅ 20% off on order above ₹999\n-"
+    },
+    {
+      "role": "user",
+      "content": "Yes, apply the discount please."
+    },
+    {
+      "role": "assistant",
+      "content": "Done! 🎊\n\nDiscount: ₹280.00\nFinal price: ₹1120.00 (including free delivery!)\n\nWould you like to proceed with payment or add more?"
+    },
+    {
+      "role": "user",
+      "content": "Nope, that’s all. Let’s proceed to payment. I’ll use UPI. and we don't free dilivery"
+    },
+    {
+      "role": "assistant",
+      "content": "Great! Payment method: UPI selected.\n\nOrder placed successfully! 🎉\n\nYou’ll receive your food shortly. Enjoy your meal! 🍽️"
+    }]}
+{"messages":[
+  {
+      "role": "user",
+      "content": "MENU_CONTEXT":{
+        "food_items":[
+      {
+        "category": "Sizzlers",
+        "items": [
+            {
+                "item_name": "Veg Steak Sizzler",
+                "price": "230.00",
+                "description": "Veg steak with barbeque sauce served with rice & french fries."
+            },
+            {
+                "item_name": "Paneer Tikka Sizzler",
+                "price": "250.00",
+                "description": "Paneer and assorted vegetables cooked into sizzlers."
+            }
+        ]
+    },
+    {
+        "category": "Veg Au Gratin",
+        "items": [
+            {
+                "item_name": "Veg Au Gratin",
+                "price": "210.00",
+                "description": "Minced & stir fried mix vegetables, mixed in white sauce layered with cheese. Served with garlic bread."
+            },
+            {
+                "item_name": "Veg Spinach Au Gratin",
+                "price": "210.00",
+                "description": ""
+            },
+            {
+                "item_name": "Baked Vegitables",
+                "price": "210.00",
+                "description": ""
+            },
+            {
+                "item_name": "Cheese Microni",
+                "price": "210.00",
+                "description": ""
+            },
+            {
+                "item_name": "Penne Paprika",
+                "price": "210.00",
+                "description": "Penne served with bechamel flavoured with paprika flakes."
+            },
+            {
+                "item_name": "Penne Arrabiata",
+                "price": "210.00",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "category": "Chinese & Oriental Main Course Veg",
+        "items": [
+            {
+            "item_name": "Chicken 65",
+            "price": "215.00",
+            "description": "A crispy, deep-fried chicken dish infused with bold South Indian spices, served with a tangy kick."
+        },
+        {
+            "item_name": "Chicken Schezwan",
+            "price": "220.00",
+            "description": "Tender chicken cooked in a fiery Schezwan sauce, loaded with garlic, chilies, and a hint of sweetness."
+        },
+        {
+            "item_name": "Chicken Manchurian",
+            "price": "210.00",
+            "description": "Juicy chicken balls tossed in a delicious Indo-Chinese Manchurian sauce with aromatic spices."
+        },
+        {
+            "item_name": "Chicken Kentucky",
+            "price": "250.00",
+            "description": "Crispy, golden-fried chicken coated in a secret blend of herbs and spices, inspired by Kentucky flavors."
+        },
+        {
+            "item_name": "Chicken Lolipop",
+            "price": "220.00",
+            "description": "Succulent chicken wings marinated and deep-fried to perfection, served with a tangy dipping sauce."
+        },
+        {
+            "item_name": "Chicken Chilli",
+            "price": "215.00",
+            "description": "Spicy and savory chicken stir-fried with bell peppers, onions, and a bold chili garlic sauce."
+        },
+        {
+            "item_name": "Chicken Crunchy",
+            "price": "225.00",
+            "description": "Delightfully crispy chicken bites coated in a crunchy batter, packed with flavorful seasoning."
+        },
+        {
+            "item_name": "Chicken Satay",
+            "price": "225.00",
+            "description": "Grilled skewers of marinated chicken, served with a creamy, peanut-based satay sauce."
+        },
+        {
+            "item_name": "Drums of Heaven",
+            "price": "270.00",
+            "description": "A heavenly treat of juicy chicken wings glazed with a savory and slightly sweet sauce."
+        },
+        {
+            "item_name": "Prawns Chilly",
+            "price": "420.00",
+            "description": "Succulent prawns stir-fried in a spicy chili sauce with crunchy vegetables."
+        },
+        {
+            "item_name": "Prawns Koliwada",
+            "price": "420.00",
+            "description": "A Mumbai street-food favorite—crispy, deep-fried prawns infused with tangy spices."
+        },
+        {
+            "item_name": "Prawns Salt & Pepper",
+            "price": "420.00",
+            "description": "Simple yet flavorful crispy prawns tossed with salt, black pepper, and aromatic seasoning."
+        },
+        {
+            "item_name": "Prawns Golden Fried",
+            "price": "420.00",
+            "description": "Golden-battered prawns fried to crispy perfection and served with a zesty dip."
+        },
+        {
+            "item_name": "Chinese Non-Veg Platter",
+            "price": "580.00",
+            "description": "An assortment of delicious Chinese-style non-veg starters, perfect for sharing and enjoying a mix of flavors."
+        }
+        ]
+    },
+    {
+        "category": "Chinese & Oriental Main Course Non-Veg",
+        "items": [
+            {
+                "item_name": "Chicken Chowmein",
+                "price": "220.00",
+                "description": ""
+            },
+            {
+                "item_name": "Chicken Hakka Noodle",
+                "price": "220.00",
+                "description": ""
+            },
+            {
+                "item_name": "Chicken Schezwan Noodle",
+                "price": "230.00",
+                "description": ""
+            },
+            {
+                "item_name": "Chicken American Choupsy",
+                "price": "230.00",
+                "description": ""
+            },
+            {
+                "item_name": "Chicken Fried Rice",
+                "price": "220.00",
+                "description": ""
+            },
+            {
+                "item_name": "Chicken Schezwan Fried Rice",
+                "price": "240.00",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "category": "Tandoor",
+        "items": [
+            {
+                "item_name": "Chicken Alishan",
+                "price": "215.00",
+                "description": "Tender Boneless chicken marinated in tangy mix of yoghurt & spices cooked in tandoor, topped with cheese."
+            },
+            {
+                "item_name": "Chicken Tikka",
+                "price": "245.00",
+                "description": "Chicken pieces marinated in a blend of fragrant spices mixed with yogurt."
+            },
+            {
+                "item_name": "Chicken Angara",
+                "price": "245.00",
+                "description": "Spicy chicken kebab with a smoky aroma & charcoal flavour."
+            },
+            {
+                "item_name": "Chicken Irani Kebab",
+                "price": "260.00",
+                "description": ""
+            },
+            {
+                "item_name": "Chicken Shami Kebab",
+                "price": "260.00",
+                "description": ""
+            },
+            {
+                "item_name": "Mutton Seekh Kebab",
+                "price": "260.00",
+                "description": ""
+            },
+            {
+                "item_name": "Mutton Bhuna",
+                "price": "265.00",
+                "description": "Succulent mutton pan fried in spicy masala"
+            },
+            {
+                "item_name": "Mutton Shami Kebab",
+                "price": "280.00",
+                "description": ""
+            },
+            {
+                "item_name": "Mutton Chopli Kebab",
+                "price": "280.00",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "category": "Non-Veg",
+        "items": [
+            {
+            "item_name": "Chicken 65",
+            "price": "215.00",
+            "description": "A crispy and spicy deep-fried chicken dish, coated with a flavorful South Indian seasoning."
+        },
+        {
+            "item_name": "Chicken Schezwan",
+            "price": "220.00",
+            "description": "Tender chicken tossed in fiery Schezwan sauce, packed with bold garlic and chili flavors."
+        },
+        {
+            "item_name": "Chicken Manchurian",
+            "price": "210.00",
+            "description": "Juicy chicken dumplings stir-fried in a rich Manchurian gravy, infused with aromatic spices."
+        },
+        {
+            "item_name": "Chicken Kentucky",
+            "price": "250.00",
+            "description": "Crispy, golden-fried chicken with a flavorful herb and spice blend, inspired by Kentucky-style cooking."
+        },
+        {
+            "item_name": "Chicken Lolipop",
+            "price": "220.00",
+            "description": "Succulent chicken wings deep-fried and coated with a delicious blend of spices, served with dipping sauce."
+        },
+        {
+            "item_name": "Chicken Chilli",
+            "price": "215.00",
+            "description": "Spicy and tangy chicken stir-fried with bell peppers, onions, and chili sauce."
+        },
+        {
+            "item_name": "Chicken Crunchy",
+            "price": "225.00",
+            "description": "Crispy-coated chicken bites, fried to perfection for a crunchy and flavorful experience."
+        },
+        {
+            "item_name": "Chicken Satay",
+            "price": "225.00",
+            "description": "Grilled chicken skewers marinated in exotic spices and served with a delicious peanut-based sauce."
+        },
+        {
+            "item_name": "Drums of Heaven",
+            "price": "270.00",
+            "description": "Juicy, well-marinated chicken wings tossed in a flavorful sauce for a heavenly taste."
+        },
+        {
+            "item_name": "Prawns Chilly",
+            "price": "420.00",
+            "description": "Juicy prawns stir-fried with a bold chili garlic sauce, creating a perfect mix of heat and flavor."
+        },
+        {
+            "item_name": "Prawns Koliwada",
+            "price": "420.00",
+            "description": "Crispy, deep-fried prawns coated in a tangy spice blend, a Mumbai street-food favorite."
+        },
+        {
+            "item_name": "Prawns Salt & Pepper",
+            "price": "420.00",
+            "description": "Simple yet delightful prawns seasoned with salt, black pepper, and aromatic spices."
+        },
+        {
+            "item_name": "Prawns Golden Fried",
+            "price": "420.00",
+            "description": "Prawns coated in a golden-batter and deep-fried to crispy perfection, served with a dip."
+        },
+        {
+            "item_name": "Chinese Non-Veg Platter",
+            "price": "580.00",
+            "description": "A delicious assortment of Chinese-style non-veg starters, perfect for a flavorful feast."
+        }
+        ]
+    },
+    {
+        "category": "Indian Main Course - Veg",
+        "items": [
+            {
+                "item_name": "Veg Jalfrizi",
+                "price": "225.00",
+                "description": "A semi-dry Indian recipe with a mix of vegetables cooked in a tomato-based gravy"
+            },
+            {
+                "item_name": "Veg Jaipuri",
+                "price": "220.00",
+                "description": ""
+            }
+        ]
+    }
+    ],
+    "offers": [
+      "20% off on order above 999",
+      "10% off on Parotta category",
+      "Exciting discounts on Manchurian and Noodles",
+      "Free delivery on orders above 999",
+      "flat 300 off on above 2999"
+    ],
+    "categories":[
+      "Sizzlers", 
+      "Veg Au Gratin", 
+      "Chinese & Oriental Main Course Veg", 
+      "Chinese & Oriental Main Course Non-Veg", 
+      "Tandoor", 
+      "Non-Veg", 
+      "Indian Main Course - Veg"
+      ],
+    "Recommended_items":[ 
+      "Chicken 65 - 215.00",
+      "Chicken Schezwan - 220.00",
+      "Chicken Manchurian - 210.00",
+      "Drums of Heaven - 270.00",
+      "Prawns Golden Fried - 420.00",
+      "Chinese Non-Veg Platter - 580.00",
+      "Veg Schezwan Noodle - 190.00",
+      "Veg Tripple Fried Rice - 230.00",
+      "Paneer Tikka Masala - 250.00",
+      "Mutton Rogan Josh - 290.00",
+      ],
+    "payment_methods":[
+      "Cash on Delivery",
+      "Online Payment",
+      "UPI Payment",
+      "Card Payment",
+      "Wallet Payment"
+      ],
+    "special_menu's": [
+      "Chicken Fried Rice with Chicken 65",
+      "Chicken Hakka Noodle with Chicken Lolipop",
+      "Drums of Heaven",
+      "Prawns Salt & Pepper"
+    ]
+  
+  }
+  }
+  {
+    "role": "user",
+    "content": "Hey,what's on the menu? Display the menu"
+  },
+  {
+    "role": "assistant",
+    "content": "Here is the menu...\n\n**Sizzlers**\n- Veg Steak Sizzler – ₹230.00\n- Paneer Tikka Sizzler – ₹250.00\n\n**Veg Au Gratin**\n- Veg Au Gratin – ₹210.00\n- Veg Spinach Au Gratin – ₹210.00\n- Baked Vegitables – ₹210.00\n- Cheese Microni – ₹210.00\n- Penne Paprika – ₹210.00\n- Penne Arrabiata – ₹210.00\n\n**Chinese & Oriental Main Course Veg**\n- Chicken 65 – ₹215.00\n- Chicken Schezwan – ₹220.00\n- Chicken Manchurian – ₹210.00\n- Chicken Kentucky – ₹250.00\n- Chicken Lolipop – ₹220.00\n- Chicken Chilli – ₹215.00\n- Chicken Crunchy – ₹225.00\n- Chicken Satay – ₹225.00\n- Drums of Heaven – ₹270.00\n- Prawns Chilly – ₹420.00\n- Prawns Koliwada – ₹420.00\n- Prawns Salt & Pepper – ₹420.00\n- Prawns Golden Fried – ₹420.00\n- Chinese Non-Veg Platter – ₹580.00\n\n**Chinese & Oriental Main Course Non-Veg**\n- Chicken Chowmein – ₹220.00\n- Chicken Hakka Noodle – ₹220.00\n- Chicken Schezwan Noodle – ₹230.00\n- Chicken American Choupsy – ₹230.00\n- Chicken Fried Rice – ₹220.00\n- Chicken Schezwan Fried Rice – ₹240.00\n\n**Tandoor**\n- Chicken Alishan – ₹215.00\n- Chicken Tikka – ₹245.00\n- Chicken Angara – ₹245.00\n- Chicken Irani Kebab – ₹260.00\n- Chicken Shami Kebab – ₹260.00\n- Mutton Seekh Kebab – ₹260.00\n- Mutton Bhuna – ₹265.00\n- Mutton Shami Kebab – ₹280.00\n- Mutton Chopli Kebab – ₹280.00\n\n**Non-Veg**\n- Chicken 65 – ₹215.00\n- Chicken Schezwan – ₹220.00\n- Chicken Manchurian – ₹210.00\n- Chicken Kentucky – ₹250.00\n- Chicken Lolipop – ₹220.00\n- Chicken Chilli – ₹215.00\n- Chicken Crunchy – ₹225.00\n- Chicken Satay – ₹225.00\n- Drums of Heaven – ₹270.00\n- Prawns Chilly – ₹420.00\n- Prawns Koliwada – ₹420.00\n- Prawns Salt & Pepper – ₹420.00\n- Prawns Golden Fried – ₹420.00\n- Chinese Non-Veg Platter – ₹580.00\n\n**Indian Main Course - Veg**\n- Veg Jalfrizi – ₹225.00\n- Veg Jaipuri – ₹220.00\n\nWould you like to hear about today's offers or recommended items?"
+  },
+  {
+    "role": "user",
+    "content": "Okay,ok what's the differnce between Chicken 65 and Chicken Crunchy?"
+  },
+  {
+    "role": "assistant",
+    "content": "Chicken 65 is a crispy, deep-fried chicken dish infused with bold South Indian spices, served with a tangy kick. It's known for its spicy and flavorful coating.\n\nChicken Crunchy, on the other hand, refers to delightfully crispy chicken bites coated in a crunchy batter, packed with flavorful seasoning. It's more about the texture and crunchiness. Which one would you like to have?"
+  },
+  {
+    "role": "user",
+    "content": "ok add couple of chicken 65."
+  },
+  {
+    "role": "assistant",
+    "content": "Added 2 chicken 65 to your cart. is there anything else you want to add?"
+  },
+  {
+    "role": "user",
+    "content": "whick are the categories you have?"
+  },
+  {
+    "role": "assistant",
+    "content": "we have the following categories:\n\n1.
+    Sizzlers\n2 .Veg Au Gratin\n3 .Chinese & Oriental Main Course Veg\n4 .Chinese & Oriental Main Course Non-Veg\n5 .Tandoor\n6 .Non-Veg\n7 .Indian Main Course - Veg"
+  },
+  {
+    "role": "user",
+    "content": "ok tell me chicken 65 comes in which category?"
+  },
+  {
+    "role": "assistant",
+    "content": "Chicken 65 comes under Non-Veg category. Its crispy and spicy deep-fried chicken dish, coated with a flavorful South Indian seasoning."
+  },
+  {
+    "role": "user",
+    "content": "Show me the more items in Non-Veg category and which are the recommended items?"
+  },
+  {
+    "role": "assistant",
+    "content": "Ok in Non-Veg category we have:\n\n- Chicken 65 – ₹215.00\n- Chicken Schezwan – ₹220.00\n- Chicken Manchurian – ₹210.00\n- Chicken Kentucky – ₹250.00\n- Chicken Lolipop – ₹220.00\n- Chicken Chilli – ₹215.00\n- Chicken Crunchy – ₹225.00\n- Chicken Satay – ₹225.00\n- Drums of Heaven – ₹270.00\n- Prawns Chilly – ₹420.00\n- Prawns Koliwada – ₹420.00\n- Prawns Salt & Pepper – ₹420.00\n- Prawns Golden Fried – ₹420.00\n- Chinese Non-Veg Platter – ₹580.00\n\n**Recommended items:**\n1. Chicken 65 - ₹215.00\n2. Chicken Schezwan - ₹220.00\n3. Chicken Manchurian - ₹210.00\n4. Drums of Heaven - ₹270.00\n5. Prawns Golden Fried - ₹420.00\n6. Chinese Non-Veg Platter - ₹580.00\n\n Which one would you like to add to cart?"
+    },
+   {
+    "role": "user",
+    "content": "Ok that was quick i want to have Prawns Salt and Pepper and Chinese Non-Veg Platter"
+  },
+  {
+    "role": "assistant",
+    "content": "Got it! 🦐 Adding the following items to your cart:\n\n- Prawns Salt and Pepper – ₹420.00\n- Chinese Non-Veg Platter – ₹580.00\n\nYour updated cart contains:\n -> Chicken 65 ( x 2)\n ->Prawns Salt and Pepper\n -> Chinese Non-Veg Platter\n \n```json\n[\n  { \"item\": \"Chicken 65\", \"quantity\": 2, \"price\": 215 },\n  { \"item\": \"Prawns Salt and Pepper\", \"quantity\": 1, \"price\": 420 },\n  { \"item\": \"Chinese Non-Veg Platter\", \"quantity\": 1, \"price\": 580 }\n]\n```\n\nWould you like to proceed or add more?"
+  },
+  {
+    "role": "user",
+    "content": "ok lets checkout that's it"
+  },
+  {
+    "role": "assistant",
+    "content": "Awesome! 🧾 Here’s your final order summary:\n\n- Chicken 65 (x2) – ₹430.00\n- Prawns Salt and Pepper – ₹420.00\n- Chinese Non-Veg Platter – ₹580.00\n\n**Total Amount**: ₹1430.00\n\nPlease choose a payment method to proceed: Cash on Delivery, Online Payment, UPI Payment, Card Payment, Wallet Payment."
+  },
+  {
+    "role": "user",
+    "content": "i will pay using phonepay"
+  },
+  {
+    "role": "assistant",
+    "content": "Great! from below you can pay through.\n Enjoy your meal! 🍽️"
+  }]}
+{"messages":[
+  {
+      "role": "user",
+      "content": "MENU_CONTEXT":{
+        "food_items":[
+      {
+        "category": "Sizzlers",
+        "items": [
+            {
+                "item_name": "Veg Steak Sizzler",
+                "price": "230.00",
+                "description": "Veg steak with barbeque sauce served with rice & french fries."
+            },
+            {
+                "item_name": "Paneer Tikka Sizzler",
+                "price": "250.00",
+                "description": "Paneer and assorted vegetables cooked into sizzlers."
+            }
+        ]
+    },
+    {
+        "category": "Veg Au Gratin",
+        "items": [
+            {
+                "item_name": "Veg Au Gratin",
+                "price": "210.00",
+                "description": "Minced & stir fried mix vegetables, mixed in white sauce layered with cheese. Served with garlic bread."
+            },
+            {
+                "item_name": "Veg Spinach Au Gratin",
+                "price": "210.00",
+                "description": ""
+            },
+            {
+                "item_name": "Baked Vegitables",
+                "price": "210.00",
+                "description": ""
+            },
+            {
+                "item_name": "Cheese Microni",
+                "price": "210.00",
+                "description": ""
+            },
+            {
+                "item_name": "Penne Paprika",
+                "price": "210.00",
+                "description": "Penne served with bechamel flavoured with paprika flakes."
+            },
+            {
+                "item_name": "Penne Arrabiata",
+                "price": "210.00",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "category": "Chinese & Oriental Main Course Veg",
+        "items": [
+            {
+            "item_name": "Chicken 65",
+            "price": "215.00",
+            "description": "A crispy, deep-fried chicken dish infused with bold South Indian spices, served with a tangy kick."
+        },
+        {
+            "item_name": "Chicken Schezwan",
+            "price": "220.00",
+            "description": "Tender chicken cooked in a fiery Schezwan sauce, loaded with garlic, chilies, and a hint of sweetness."
+        },
+        {
+            "item_name": "Chicken Manchurian",
+            "price": "210.00",
+            "description": "Juicy chicken balls tossed in a delicious Indo-Chinese Manchurian sauce with aromatic spices."
+        },
+        {
+            "item_name": "Chicken Kentucky",
+            "price": "250.00",
+            "description": "Crispy, golden-fried chicken coated in a secret blend of herbs and spices, inspired by Kentucky flavors."
+        },
+        {
+            "item_name": "Chicken Lolipop",
+            "price": "220.00",
+            "description": "Succulent chicken wings marinated and deep-fried to perfection, served with a tangy dipping sauce."
+        },
+        {
+            "item_name": "Chicken Chilli",
+            "price": "215.00",
+            "description": "Spicy and savory chicken stir-fried with bell peppers, onions, and a bold chili garlic sauce."
+        },
+        {
+            "item_name": "Chicken Crunchy",
+            "price": "225.00",
+            "description": "Delightfully crispy chicken bites coated in a crunchy batter, packed with flavorful seasoning."
+        },
+        {
+            "item_name": "Chicken Satay",
+            "price": "225.00",
+            "description": "Grilled skewers of marinated chicken, served with a creamy, peanut-based satay sauce."
+        },
+        {
+            "item_name": "Drums of Heaven",
+            "price": "270.00",
+            "description": "A heavenly treat of juicy chicken wings glazed with a savory and slightly sweet sauce."
+        },
+        {
+            "item_name": "Prawns Chilly",
+            "price": "420.00",
+            "description": "Succulent prawns stir-fried in a spicy chili sauce with crunchy vegetables."
+        },
+        {
+            "item_name": "Prawns Koliwada",
+            "price": "420.00",
+            "description": "A Mumbai street-food favorite—crispy, deep-fried prawns infused with tangy spices."
+        },
+        {
+            "item_name": "Prawns Salt & Pepper",
+            "price": "420.00",
+            "description": "Simple yet flavorful crispy prawns tossed with salt, black pepper, and aromatic seasoning."
+        },
+        {
+            "item_name": "Prawns Golden Fried",
+            "price": "420.00",
+            "description": "Golden-battered prawns fried to crispy perfection and served with a zesty dip."
+        },
+        {
+            "item_name": "Chinese Non-Veg Platter",
+            "price": "580.00",
+            "description": "An assortment of delicious Chinese-style non-veg starters, perfect for sharing and enjoying a mix of flavors."
+        }
+        ]
+    },
+    {
+        "category": "Chinese & Oriental Main Course Non-Veg",
+        "items": [
+            {
+                "item_name": "Chicken Chowmein",
+                "price": "220.00",
+                "description": ""
+            },
+            {
+                "item_name": "Chicken Hakka Noodle",
+                "price": "220.00",
+                "description": ""
+            },
+            {
+                "item_name": "Chicken Schezwan Noodle",
+                "price": "230.00",
+                "description": ""
+            },
+            {
+                "item_name": "Chicken American Choupsy",
+                "price": "230.00",
+                "description": ""
+            },
+            {
+                "item_name": "Chicken Fried Rice",
+                "price": "220.00",
+                "description": ""
+            },
+            {
+                "item_name": "Chicken Schezwan Fried Rice",
+                "price": "240.00",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "category": "Tandoor",
+        "items": [
+            {
+                "item_name": "Chicken Alishan",
+                "price": "215.00",
+                "description": "Tender Boneless chicken marinated in tangy mix of yoghurt & spices cooked in tandoor, topped with cheese."
+            },
+            {
+                "item_name": "Chicken Tikka",
+                "price": "245.00",
+                "description": "Chicken pieces marinated in a blend of fragrant spices mixed with yogurt."
+            },
+            {
+                "item_name": "Chicken Angara",
+                "price": "245.00",
+                "description": "Spicy chicken kebab with a smoky aroma & charcoal flavour."
+            },
+            {
+                "item_name": "Chicken Irani Kebab",
+                "price": "260.00",
+                "description": ""
+            },
+            {
+                "item_name": "Chicken Shami Kebab",
+                "price": "260.00",
+                "description": ""
+            },
+            {
+                "item_name": "Mutton Seekh Kebab",
+                "price": "260.00",
+                "description": ""
+            },
+            {
+                "item_name": "Mutton Bhuna",
+                "price": "265.00",
+                "description": "Succulent mutton pan fried in spicy masala"
+            },
+            {
+                "item_name": "Mutton Shami Kebab",
+                "price": "280.00",
+                "description": ""
+            },
+            {
+                "item_name": "Mutton Chopli Kebab",
+                "price": "280.00",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "category": "Non-Veg",
+        "items": [
+            {
+            "item_name": "Chicken 65",
+            "price": "215.00",
+            "description": "A crispy and spicy deep-fried chicken dish, coated with a flavorful South Indian seasoning."
+        },
+        {
+            "item_name": "Chicken Schezwan",
+            "price": "220.00",
+            "description": "Tender chicken tossed in fiery Schezwan sauce, packed with bold garlic and chili flavors."
+        },
+        {
+            "item_name": "Chicken Manchurian",
+            "price": "210.00",
+            "description": "Juicy chicken dumplings stir-fried in a rich Manchurian gravy, infused with aromatic spices."
+        },
+        {
+            "item_name": "Chicken Kentucky",
+            "price": "250.00",
+            "description": "Crispy, golden-fried chicken with a flavorful herb and spice blend, inspired by Kentucky-style cooking."
+        },
+        {
+            "item_name": "Chicken Lolipop",
+            "price": "220.00",
+            "description": "Succulent chicken wings deep-fried and coated with a delicious blend of spices, served with dipping sauce."
+        },
+        {
+            "item_name": "Chicken Chilli",
+            "price": "215.00",
+            "description": "Spicy and tangy chicken stir-fried with bell peppers, onions, and chili sauce."
+        },
+        {
+            "item_name": "Chicken Crunchy",
+            "price": "225.00",
+            "description": "Crispy-coated chicken bites, fried to perfection for a crunchy and flavorful experience."
+        },
+        {
+            "item_name": "Chicken Satay",
+            "price": "225.00",
+            "description": "Grilled chicken skewers marinated in exotic spices and served with a delicious peanut-based sauce."
+        },
+        {
+            "item_name": "Drums of Heaven",
+            "price": "270.00",
+            "description": "Juicy, well-marinated chicken wings tossed in a flavorful sauce for a heavenly taste."
+        },
+        {
+            "item_name": "Prawns Chilly",
+            "price": "420.00",
+            "description": "Juicy prawns stir-fried with a bold chili garlic sauce, creating a perfect mix of heat and flavor."
+        },
+        {
+            "item_name": "Prawns Koliwada",
+            "price": "420.00",
+            "description": "Crispy, deep-fried prawns coated in a tangy spice blend, a Mumbai street-food favorite."
+        },
+        {
+            "item_name": "Prawns Salt & Pepper",
+            "price": "420.00",
+            "description": "Simple yet delightful prawns seasoned with salt, black pepper, and aromatic spices."
+        },
+        {
+            "item_name": "Prawns Golden Fried",
+            "price": "420.00",
+            "description": "Prawns coated in a golden-batter and deep-fried to crispy perfection, served with a dip."
+        },
+        {
+            "item_name": "Chinese Non-Veg Platter",
+            "price": "580.00",
+            "description": "A delicious assortment of Chinese-style non-veg starters, perfect for a flavorful feast."
+        }
+        ]
+    },
+    {
+        "category": "Indian Main Course - Veg",
+        "items": [
+            {
+                "item_name": "Veg Jalfrizi",
+                "price": "225.00",
+                "description": "A semi-dry Indian recipe with a mix of vegetables cooked in a tomato-based gravy"
+            },
+            {
+                "item_name": "Veg Jaipuri",
+                "price": "220.00",
+                "description": ""
+            }
+        ]
+    }
+    ],
+    "offers": [
+      "20% off on order above 999",
+      "10% off on Parotta category",
+      "Exciting discounts on Manchurian and Noodles",
+      "Free delivery on orders above 999",
+      "flat 300 off on above 2999"
+    ],
+    "categories":[
+      "Sizzlers", 
+      "Veg Au Gratin", 
+      "Chinese & Oriental Main Course Veg", 
+      "Chinese & Oriental Main Course Non-Veg", 
+      "Tandoor", 
+      "Non-Veg", 
+      "Indian Main Course - Veg"
+      ],
+    "Recommended_items":[ 
+      "Chicken 65 - 215.00",
+      "Chicken Schezwan - 220.00",
+      "Chicken Manchurian - 210.00",
+      "Drums of Heaven - 270.00",
+      "Prawns Golden Fried - 420.00",
+      "Chinese Non-Veg Platter - 580.00",
+      "Veg Schezwan Noodle - 190.00",
+      "Veg Tripple Fried Rice - 230.00",
+      "Paneer Tikka Masala - 250.00",
+      "Mutton Rogan Josh - 290.00",
+      ],
+    "payment_methods":[
+      "Cash on Delivery",
+      "Online Payment",
+      "UPI Payment",
+      "Card Payment",
+      "Wallet Payment"
+      ],
+    "special_menu's": [
+      "Chicken Fried Rice with Chicken 65",
+      "Chicken Hakka Noodle with Chicken Lolipop",
+      "Drums of Heaven",
+      "Prawns Salt & Pepper"
+    ]
+  
+  }
+  }
+  {
+    "role": "user",
+    "content": "Hey,what's on the menu? Display the menu"
+  },
+  {
+    "role": "assistant",
+    "content": "Here is the menu...\n\n**Sizzlers**\n- Veg Steak Sizzler – ₹230.00\n- Paneer Tikka Sizzler – ₹250.00\n\n**Veg Au Gratin**\n- Veg Au Gratin – ₹210.00\n- Veg Spinach Au Gratin – ₹210.00\n- Baked Vegitables – ₹210.00\n- Cheese Microni – ₹210.00\n- Penne Paprika – ₹210.00\n- Penne Arrabiata – ₹210.00\n\n**Chinese & Oriental Main Course Veg**\n- Chicken 65 – ₹215.00\n- Chicken Schezwan – ₹220.00\n- Chicken Manchurian – ₹210.00\n- Chicken Kentucky – ₹250.00\n- Chicken Lolipop – ₹220.00\n- Chicken Chilli – ₹215.00\n- Chicken Crunchy – ₹225.00\n- Chicken Satay – ₹225.00\n- Drums of Heaven – ₹270.00\n- Prawns Chilly – ₹420.00\n- Prawns Koliwada – ₹420.00\n- Prawns Salt & Pepper – ₹420.00\n- Prawns Golden Fried – ₹420.00\n- Chinese Non-Veg Platter – ₹580.00\n\n**Chinese & Oriental Main Course Non-Veg**\n- Chicken Chowmein – ₹220.00\n- Chicken Hakka Noodle – ₹220.00\n- Chicken Schezwan Noodle – ₹230.00\n- Chicken American Choupsy – ₹230.00\n- Chicken Fried Rice – ₹220.00\n- Chicken Schezwan Fried Rice – ₹240.00\n\n**Tandoor**\n- Chicken Alishan – ₹215.00\n- Chicken Tikka – ₹245.00\n- Chicken Angara – ₹245.00\n- Chicken Irani Kebab – ₹260.00\n- Chicken Shami Kebab – ₹260.00\n- Mutton Seekh Kebab – ₹260.00\n- Mutton Bhuna – ₹265.00\n- Mutton Shami Kebab – ₹280.00\n- Mutton Chopli Kebab – ₹280.00\n\n**Non-Veg**\n- Chicken 65 – ₹215.00\n- Chicken Schezwan – ₹220.00\n- Chicken Manchurian – ₹210.00\n- Chicken Kentucky – ₹250.00\n- Chicken Lolipop – ₹220.00\n- Chicken Chilli – ₹215.00\n- Chicken Crunchy – ₹225.00\n- Chicken Satay – ₹225.00\n- Drums of Heaven – ₹270.00\n- Prawns Chilly – ₹420.00\n- Prawns Koliwada – ₹420.00\n- Prawns Salt & Pepper – ₹420.00\n- Prawns Golden Fried – ₹420.00\n- Chinese Non-Veg Platter – ₹580.00\n\n**Indian Main Course - Veg**\n- Veg Jalfrizi – ₹225.00\n- Veg Jaipuri – ₹220.00\n\nWould you like to hear about today's offers or recommended items?"
+  },
+  {
+    "role": "user",
+    "content": "hey what is Chicken Lollipop and Chicken Satay?"
+  },
+  {
+    "role": "assistant",
+    "content": "Chicken Lollipop is a spicy, Indo-Chinese treat—chicken wings shaped into lollipops, fried crisp with a tangy, zesty sauce. Chicken Satay, though, is a Southeast Asian vibe—skewered, grilled chicken with a creamy, peanutty dip, mildly spiced. Lollipop’s bold and crunchy; Satay’s smoky and smooth. Which one’s calling you?"
+  },
+  {
+    "role": "user",
+    "content": "Cool, throw in 3 Chicken Lollipops."
+  },
+  {
+    "role": "assistant",
+    "content": "Nice choice! Added 3 Chicken Lollipops (₹220.00 each) to your cart. Total so far: ₹660.00. Anything else you’re craving?"
+  },
+  {
+    "role": "user",
+    "content": "What special on the menu?"
+  },
+  {
+    "role": "assistant",
+    "content": "We’ve got these categories lined up:\n1. Sizzlers\n2. Veg Au Gratin\n3. Chinese & Oriental Main Course Veg\n4. Chinese & Oriental Main Course Non-Veg\n5. Tandoor\n6. Indian Main Course - Veg\n7. Indian Main Course - Non-Veg\n\nWant to dive into one of these?"
+  },
+  {
+    "role": "user",
+    "content": "Where’s Chicken Lollipop section?"
+  },
+  {
+    "role": "assistant",
+    "content": "Chicken Lollipop is in the **Chinese & Oriental Main Course Non-Veg** category. It’s those crispy, saucy wings shaped like lollipops, packed with Indo-Chinese flavor. Want more from this section?"
+  },
+  {
+    "role": "user",
+    "content": "Show me more from that non-veg Chinese section. What’s hot there?"
+  },
+  {
+    "role": "assistant",
+    "content": "Here’s the full lineup from **Chinese & Oriental Main Course Non-Veg**:\n\n- Chicken 65 – ₹215.00\n- Chicken Schezwan – ₹220.00\n- Chicken Manchurian – ₹210.00\n- Chicken Kentucky – ₹250.00\n- Chicken Lollipop – ₹220.00\n- Chicken Chilli – ₹215.00\n- Chicken Crunchy – ₹225.00\n- Chicken Satay – ₹225.00\n- Drums of Heaven – ₹270.00\n- Prawns Chilly – ₹420.00\n- Prawns Koliwada – ₹420.00\n- Prawns Salt & Pepper – ₹420.00\n- Prawns Golden Fried – ₹420.00\n- Chinese Non-Veg Platter – ₹580.00\n\n**Hot Picks**:\n1. Chicken Manchurian – ₹210.00 (saucy, savory, crowd-pleaser)\n2. Drums of Heaven – ₹270.00 (crisp, bold, spicy wings)\n3. Prawns Salt & Pepper – ₹420.00 (light, crispy, flavorful)\n4. Chinese Non-Veg Platter – ₹580.00 (a mix of all the best bits)\n\nWhat do you want to add to those Lollipops?"
+  },
+  {
+    "role": "user",
+    "content": "Alright, gimme Drums of Heaven and that Non-Veg Platter thing."
+  },
+  {
+    "role": "assistant",
+    "content": "Solid picks! Added to your cart:\n\n- Drums of Heaven – ₹270.00\n- Chinese Non-Veg Platter – ₹580.00\n\nYour cart now:\n- Chicken Lollipop (x3) – ₹660.00\n- Drums of Heaven – ₹270.00\n- Chinese Non-Veg Platter – ₹580.00\n\n```json\n[\n  { \"item\": \"Chicken Lollipop\", \"quantity\": 3, \"price\": 220 },\n  { \"item\": \"Drums of Heaven\", \"quantity\": 1, \"price\": 270 },\n  { \"item\": \"Chinese Non-Veg Platter\", \"quantity\": 1, \"price\": 580 }\n]\n```\n\nReady to wrap it up or want to keep exploring?"
+  },
+  {
+    "role": "user",
+    "content": "That’s enough, let’s close this order."
+  },
+  {
+    "role": "assistant",
+    "content": "Sweet! Here’s your order summary:\n\n- Chicken Lollipop (x3) – ₹660.00\n- Drums of Heaven – ₹270.00\n- Chinese Non-Veg Platter – ₹580.00\n\n**Total**: ₹1510.00\n\nPick a payment method: Cash on Delivery, UPI, Card, Online Payment, or Wallet."
+  },
+  {
+    "role": "user",
+    "content": "I’ll go with Google Pay."
+  },
+  {
+    "role": "assistant",
+    "content": "Perfect! Payment set for Google Pay. Your order’s locked in—enjoy the feast! 🍗🦐"
+  }
+]}
+{"messages":[
+  {
+      "role": "user",
+      "content": "MENU_CONTEXT":{
+        "food_items":[
+    {
+        "category": "All day Breakfast",
+        "items": [
+            {
+                "item_name": "Akki Roti",
+                "price": "111",
+                "description": "Delicious flat bread made from rice flour served with our speciality chutney pudi"
+            },
+            {
+                "item_name": "Butter Khali Dosa Double",
+                "price": "151",
+                "description": ""
+            },
+            {
+                "item_name": "Butter Khali Dosa Single",
+                "price": "87",
+                "description": ""
+            },
+            {
+                "item_name": "Butter Masala Dosa",
+                "price": "165",
+                "description": "Unfolded masala dosa served with sagu and chutney"
+            },
+            {
+                "item_name": "Butter Plain Dose",
+                "price": "143",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Khali Dosa Double",
+                "price": "140",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Khali Dosa Single",
+                "price": "80",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Masala Dosa",
+                "price": "165",
+                "description": "Crispy crepe made of fermented rice and lentil batter with flavourful spiced seasoned"
+            },
+            {
+                "item_name": "Ghee Plain Dosa",
+                "price": "143",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Khali Dosa Double",
+                "price": "115",
+                "description": "Light and fluffy dosae served with sagu & chutney"
+            },
+            {
+                "item_name": "Khali Dosa Single",
+                "price": "76",
+                "description": "Light and fluffy dosae served with sagu & chutney"
+            },
+            {
+                "item_name": "Masala Dosa",
+                "price": "140",
+                "description": "Crispy crepe made of fermented rice and lentil batter with flavourful spiced seasoned"
+            },
+            {
+                "item_name": "Onion Uttappam",
+                "price": "137",
+                "description": "Plain dosae with sweet onions, finely chopped green chillies and curry leaves served"
+            },
+            {
+                "item_name": "Open Butter Masala Dosa",
+                "price": "165",
+                "description": "Unfolded masala dosa served with sagu and chutney"
+            },
+            {
+                "item_name": "Plain Dosa",
+                "price": "120",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Pudi Dosa",
+                "price": "135",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Ragi Dosa Double",
+                "price": "115",
+                "description": "A healthy and delicious crepe prepared with finger millet served with sagu and"
+            },
+            {
+                "item_name": "Ragi Dosa Single",
+                "price": "60",
+                "description": "A healthy and delicious crepe prepared with finger millet served with sagu and"
+            },
+            {
+                "item_name": "Rava Masala Dosa",
+                "price": "140",
+                "description": "A thin netted savoury crepe made of sooji, rice flour, maida and water"
+            },
+            {
+                "item_name": "Rava Onion Dosa",
+                "price": "150",
+                "description": "Crispy netted crepes made with semolina, rice flour, onions and finely chopped green"
+            },
+            {
+                "item_name": "Rava Plain Dosa",
+                "price": "120",
+                "description": "Crisp aromatic crepes made with semolina, cumin, ginger, coriander leaves and green chilies"
+            },
+            {
+                "item_name": "Set Dosa",
+                "price": "130",
+                "description": "Soft, light and spongy dosa"
+            },
+            {
+                "item_name": "Spl Garlic Masala Dosa",
+                "price": "180",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Masala Thatte Idly",
+                "price": "120",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Ghee Thatte Idly",
+                "price": "98",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Idly (2 Pcs)",
+                "price": "52",
+                "description": "Classic Tari Idly served with traditional coconut chutney"
+            },
+            {
+                "item_name": "Plain Thatte Idly",
+                "price": "59",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Tawa Idly",
+                "price": "130",
+                "description": ""
+            },{
+                "item_name": "Ghee Pongal",
+                "price": "125",
+                "description": "A Classic Combination of Rice & Dal with goodness of Ghee"
+            },
+            {
+                "item_name": "Ghee Set Dosa",
+                "price": "145",
+                "description": "Soft, light and spongy dosa made with ghee"
+            },
+            {
+                "item_name": "Poori",
+                "price": "99",
+                "description": ""
+            },
+            {
+                "item_name": "Ragi Roti",
+                "price": "111",
+                "description": "A Healthy, tasty gluten free flat bread made from finger millet served with"
+            },
+            {
+                "item_name": "Maddur Vada",
+                "price": "38",
+                "description": ""
+            },
+            {
+                "item_name": "Masala Vada [2 Pcs]",
+                "price": "45",
+                "description": "Popular South Indian Fritter made with Chana Dal, Onion, Spices & herbs, served"
+            },
+            {
+                "item_name": "Vada",
+                "price": "58",
+                "description": "Crispy doughnut shaped fritters made from lentils served with sambhar and chutney"
+            }
+        ]
+    },
+    {
+        "category": "Uttapam",
+        "items": [
+            {
+                "item_name": "Onion Uttappam",
+                "price": "137",
+                "description": "Plain dosae with sweet onions, finely chopped green chillies and curry leaves served"
+            },
+            {
+                "item_name": "Tomato Uttapam",
+                "price": "137",
+                "description": "Savoury pancakes with crispy golden edges and a pillowy soft centre topped with"
+            }
+            
+        ]
+    },
+    
+    {
+        "category": "Lunch",
+        "items": [
+            {
+                "item_name": "Bisibele Bhath",
+                "price": "115",
+                "description": "A delicious and healthy complete meal of rice, lentils and vegetables. Served with"
+            },
+            {
+                "item_name": "Combo Rice",
+                "price": "140",
+                "description": "Choice Of Any 2 Rice [Lemon Rice, Puliyogare, Bisi Bele Bhath, Curd Rice]"
+            },
+            {
+                "item_name": "Curd Rice",
+                "price": "90",
+                "description": "Soft cooked mushy rice mixed with curd and salt, finished off with tempering"
+            },
+            {
+                "item_name": "Lemon Rice",
+                "price": "90",
+                "description": "A rice preparation enhanced with distinct flavours of lemon juice, curry leaves, turmeric"
+            },
+            {
+                "item_name": "Mix Rice",
+                "price": "85",
+                "description": "Choice of any 1 rice lemon rice, puliyogare, bisi bele bhath, curd rice"
+            },
+            {
+                "item_name": "Pudi Rice",
+                "price": "151",
+                "description": "Rice flavoured with our signature chutney Pudi"
+            },
+            {
+                "item_name": "Puliyogare",
+                "price": "105",
+                "description": "Authentic and traditional rice made with tamarind extract and dry spices"
+            }
+        ]
+    },
+    {
+        "category": "Meals",
+        "items": [
+            {
+                "item_name": "Mini Meals",
+                "price": "104",
+                "description": "Rice, Sambar ,Rasam, Paliya, Papad"
+            },
+            {
+                "item_name": "South Indian Meal",
+                "price": "165",
+                "description": ""
+            }
+        ]
+    }],
+    "offers":[
+      "Flat ₹100 Off on above 599",
+      "Flat 50% Off on above 2999",
+      "20% off on 1999"
+    ],
+    "categories":["All day Breakfast","Uttapam","Lunch","meals"],
+    "Recommended_items":[
+      "Ghee Masala Dosa",
+      "Idly(2 Pcs)",
+      "Masala Dosa",
+      "Bisibele Bhath",
+      "Curd Rice"
+    ],
+    "payment_methods":[
+      "Cash",
+      "Online Payment",
+      "UPI Payment",
+      "Card Payment"],
+
+  }}
+  {
+    "role": "user",
+    "content": "Hey, can I see some recommended dishes?"
+  },
+  {
+    "role": "assistant",
+    "content": "Sure! Here are a few of our most recommended items:\n- Ghee Masala Dosa – ₹165\n- Idly (2 Pcs) – ₹52\n- Masala Dosa – ₹140\n- Bisibele Bhath – ₹115\n- Curd Rice – ₹90\nWould you like to add any of these to your order?"
+  },
+  {
+    "role": "user",
+    "content": "Yes, add Ghee Masala Dosa, Masala Dosa, Bisibele Bhath and two Idly"
+  },
+  {
+    "role": "assistant",
+    "content": "Got it! Adding:\n- Ghee Masala Dosa – ₹165\n- Masala Dosa – ₹140\n- Bisibele Bhath – ₹115\n- Idly (2 Pcs) – ₹52\n\nYour cart so far:\n```json\n[\n  {\"item\": \"Ghee Masala Dosa\", \"quantity\": 1, \"prich\": 165},\n  {\"item\": \"Masala Dosa\", \"quantity\": 1, \"price\": 140},\n  {\"item\": \"Bisibele Bhath\", \"quantity\": 1, \"price\": 115},\n  {\"item\": \"Idly (2 Pcs)\", \"quantity\": 1, \"price\": 52}\n]\n```\nSubtotal: ₹472\nWould you like to add more?"
+  },
+  {
+    "role": "user",
+    "content": "Add Curd Rice and Rava Onion Dosa"
+  },
+  {
+    "role": "assistant",
+    "content": "Added:\n- Curd Rice – ₹90\n- Rava Onion Dosa – ₹150\n Is there anything else should i need to add?\n\nUpdated cart:\n```json\n[\n  {\"item\": \"Ghee Masala Dosa\", \"quantity\": 1, \"price\": 165},\n  {\"item\": \"Masala Dosa\", \"quantity\": 1, \"price\": 140},\n  {\"item\": \"Bisibele Bhath\", \"quantity\": 1, \"price\": 115},\n  {\"item\": \"Idly (2 Pcs)\", \"quantity\": 1, \"price\": 52},\n  {\"item\": \"Curd Rice\", \"quantity\": 1, \"price\": 90},\n  {\"item\": \"Rava Onion Dosa\", \"quantity\": 1, \"price\": 150}\n]"
+  },
+  {
+    "role": "user",
+    "content": "Remove Idly (2 Pcs) please"
+  },
+  {
+    "role": "assistant",
+    "content": "Are you sure about removing Idly!!"
+  },
+  {
+    "role": "user",
+    "content": "Yes I am"
+  },
+  {
+    "role": "assistant",
+    "content": "Removed Idly (2 Pcs) Is there anything else?"
+  },
+  {
+    "role": "user",
+    "content": "What offers can I get?"
+  },
+  {
+    "role": "assistant",
+    "content": "🎉 Based on your subtotal ₹660, you're eligible for:\n👉 Flat ₹100 Off on orders above ₹599!\nYour total after applying the offer: ₹560"
+  },
+  {
+    "role": "user",
+    "content": "Great. I’ll pay via UPI."
+  },
+  {
+    "role": "assistant",
+    "content": "Awesome! Please proceed with UPI Payment.\nTotal: ₹560 ✅\nEnjoy your meal! 🍽️"
+  }]}
+{"messages":[
+  {
+      "role": "user",
+      "content": "MENU_CONTEXT":{
+        "food_items":[
+    {
+        "category": "All day Breakfast",
+        "items": [
+            {
+                "item_name": "Akki Roti",
+                "price": "111",
+                "description": "Delicious flat bread made from rice flour served with our speciality chutney pudi"
+            },
+            {
+                "item_name": "Butter Khali Dosa Double",
+                "price": "151",
+                "description": ""
+            },
+            {
+                "item_name": "Butter Khali Dosa Single",
+                "price": "87",
+                "description": ""
+            },
+            {
+                "item_name": "Butter Masala Dosa",
+                "price": "165",
+                "description": "Unfolded masala dosa served with sagu and chutney"
+            },
+            {
+                "item_name": "Butter Plain Dose",
+                "price": "143",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Khali Dosa Double",
+                "price": "140",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Khali Dosa Single",
+                "price": "80",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Masala Dosa",
+                "price": "165",
+                "description": "Crispy crepe made of fermented rice and lentil batter with flavourful spiced seasoned"
+            },
+            {
+                "item_name": "Ghee Plain Dosa",
+                "price": "143",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Khali Dosa Double",
+                "price": "115",
+                "description": "Light and fluffy dosae served with sagu & chutney"
+            },
+            {
+                "item_name": "Khali Dosa Single",
+                "price": "76",
+                "description": "Light and fluffy dosae served with sagu & chutney"
+            },
+            {
+                "item_name": "Masala Dosa",
+                "price": "140",
+                "description": "Crispy crepe made of fermented rice and lentil batter with flavourful spiced seasoned"
+            },
+            {
+                "item_name": "Onion Uttappam",
+                "price": "137",
+                "description": "Plain dosae with sweet onions, finely chopped green chillies and curry leaves served"
+            },
+            {
+                "item_name": "Open Butter Masala Dosa",
+                "price": "165",
+                "description": "Unfolded masala dosa served with sagu and chutney"
+            },
+            {
+                "item_name": "Plain Dosa",
+                "price": "120",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Pudi Dosa",
+                "price": "135",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Ragi Dosa Double",
+                "price": "115",
+                "description": "A healthy and delicious crepe prepared with finger millet served with sagu and"
+            },
+            {
+                "item_name": "Ragi Dosa Single",
+                "price": "60",
+                "description": "A healthy and delicious crepe prepared with finger millet served with sagu and"
+            },
+            {
+                "item_name": "Rava Masala Dosa",
+                "price": "140",
+                "description": "A thin netted savoury crepe made of sooji, rice flour, maida and water"
+            },
+            {
+                "item_name": "Rava Onion Dosa",
+                "price": "150",
+                "description": "Crispy netted crepes made with semolina, rice flour, onions and finely chopped green"
+            },
+            {
+                "item_name": "Rava Plain Dosa",
+                "price": "120",
+                "description": "Crisp aromatic crepes made with semolina, cumin, ginger, coriander leaves and green chilies"
+            },
+            {
+                "item_name": "Set Dosa",
+                "price": "130",
+                "description": "Soft, light and spongy dosa"
+            },
+            {
+                "item_name": "Spl Garlic Masala Dosa",
+                "price": "180",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Masala Thatte Idly",
+                "price": "120",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Ghee Thatte Idly",
+                "price": "98",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Idly (2 Pcs)",
+                "price": "52",
+                "description": "Classic Tari Idly served with traditional coconut chutney"
+            },
+            {
+                "item_name": "Plain Thatte Idly",
+                "price": "59",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Tawa Idly",
+                "price": "130",
+                "description": ""
+            },{
+                "item_name": "Ghee Pongal",
+                "price": "125",
+                "description": "A Classic Combination of Rice & Dal with goodness of Ghee"
+            },
+            {
+                "item_name": "Ghee Set Dosa",
+                "price": "145",
+                "description": "Soft, light and spongy dosa made with ghee"
+            },
+            {
+                "item_name": "Poori",
+                "price": "99",
+                "description": ""
+            },
+            {
+                "item_name": "Ragi Roti",
+                "price": "111",
+                "description": "A Healthy, tasty gluten free flat bread made from finger millet served with"
+            },
+            {
+                "item_name": "Maddur Vada",
+                "price": "38",
+                "description": ""
+            },
+            {
+                "item_name": "Masala Vada [2 Pcs]",
+                "price": "45",
+                "description": "Popular South Indian Fritter made with Chana Dal, Onion, Spices & herbs, served"
+            },
+            {
+                "item_name": "Vada",
+                "price": "58",
+                "description": "Crispy doughnut shaped fritters made from lentils served with sambhar and chutney"
+            }
+        ]
+    },
+    {
+        "category": "Uttapam",
+        "items": [
+            {
+                "item_name": "Onion Uttappam",
+                "price": "137",
+                "description": "Plain dosae with sweet onions, finely chopped green chillies and curry leaves served"
+            },
+            {
+                "item_name": "Tomato Uttapam",
+                "price": "137",
+                "description": "Savoury pancakes with crispy golden edges and a pillowy soft centre topped with"
+            }
+            
+        ]
+    },
+    
+    {
+        "category": "Lunch",
+        "items": [
+            {
+                "item_name": "Bisibele Bhath",
+                "price": "115",
+                "description": "A delicious and healthy complete meal of rice, lentils and vegetables. Served with"
+            },
+            {
+                "item_name": "Combo Rice",
+                "price": "140",
+                "description": "Choice Of Any 2 Rice [Lemon Rice, Puliyogare, Bisi Bele Bhath, Curd Rice]"
+            },
+            {
+                "item_name": "Curd Rice",
+                "price": "90",
+                "description": "Soft cooked mushy rice mixed with curd and salt, finished off with tempering"
+            },
+            {
+                "item_name": "Lemon Rice",
+                "price": "90",
+                "description": "A rice preparation enhanced with distinct flavours of lemon juice, curry leaves, turmeric"
+            },
+            {
+                "item_name": "Mix Rice",
+                "price": "85",
+                "description": "Choice of any 1 rice lemon rice, puliyogare, bisi bele bhath, curd rice"
+            },
+            {
+                "item_name": "Pudi Rice",
+                "price": "151",
+                "description": "Rice flavoured with our signature chutney Pudi"
+            },
+            {
+                "item_name": "Puliyogare",
+                "price": "105",
+                "description": "Authentic and traditional rice made with tamarind extract and dry spices"
+            }
+        ]
+    },
+    {
+        "category": "Meals",
+        "items": [
+            {
+                "item_name": "Mini Meals",
+                "price": "104",
+                "description": "Rice, Sambar ,Rasam, Paliya, Papad"
+            },
+            {
+                "item_name": "South Indian Meal",
+                "price": "165",
+                "description": ""
+            }
+        ]
+    }],
+    "offers":[
+      "Flat ₹100 Off on above 599",
+      "Flat 50% Off on above 2999",
+      "20% off on 1999"
+    ],
+    "categories":["All day Breakfast","Uttapam","Lunch","meals"],
+    "Recommended_items":[
+      "Ghee Masala Dosa",
+      "Idly(2 Pcs)",
+      "Masala Dosa",
+      "Bisibele Bhath",
+      "Curd Rice"
+    ],
+    "payment_methods":[
+      "Cash",
+      "Online Payment",
+      "UPI Payment",
+      "Card Payment"],
+
+  }}
+  {
+    "role": "user",
+    "content": "hello show the menu"
+  },
+  {
+    "role": "assistant",
+    "content": "Sure! Here's the menu. You can explore categories like Breakfast, Dosa Varieties, Rice Items, and more.\nPopular Dosas include:\n- Masala Dosa – ₹140\n- Plain Dosa – ₹100\n- Butter Masala Dosa – ₹165\n- Rava Onion Dosa – ₹150\nAnd in Breakfast:\n- Idly (2 Pcs) – ₹52\n- Vada – ₹30\n- Idly Vada Combo – ₹82"
+  },
+  {
+    "role": "user",
+    "content": "ok add two plates of dosa and idly wada"
+  },
+  {
+    "role": "assistant",
+    "content": "Noted. We offer multiple dosa varieties. Could you please specify which types of dosas you'd like? You can refer to the menu under 'Dosa Varieties'."
+  },
+  {
+    "role": "user",
+    "content": "ok let me see"
+  },
+  {
+    "role": "assistant",
+    "content": "Sure, take your time. Let me know once you decide."
+  },
+  {
+    "role": "user",
+    "content": "ok i want one masala dosa and one plain dosa"
+  },
+  {
+    "role": "assistant",
+    "content": "Great! Adding the following to your cart:\n- Masala Dosa – ₹140\n- Plain Dosa – ₹100\n- Idly Vada Combo – ₹82\n\nYour current cart:\n```json\n[\n  {\"item\": \"Masala Dosa\", \"quantity\": 1, \"price\": 140},\n  {\"item\": \"Plain Dosa\", \"quantity\": 1, \"price\": 100},\n  {\"item\": \"Idly \", \"quantity\": 1, \"price\": 52},\n{\"item\": \"Vada \", \"quantity\": 1, \"price\": 58}\n]\n```\nTotal so far: ₹322\nWould you like to add anything else?"
+  },
+  {
+    "role": "user",
+    "content": "ok what's the total now"
+  },
+  {
+    "role": "assistant",
+    "content": "Here’s your updated cart:\n- Masala Dosa – ₹140\n- Plain Dosa – ₹100\n- Idly - ₹52 \n- Vada – ₹58\n\nTotal amount: ₹340 ✅\nJust a note: if you'd like, we also offer other vada types like Masala Vada and Maddur Vada."
+  },
+  {
+    "role": "user",
+    "content": "ok correct that's it"
+  },
+  {
+    "role": "assistant",
+    "content": "Perfect! Would you like to checkout now or continue browsing?"
+  },
+  {
+    "role": "user",
+    "content": "no i will checkout and pay money by cash"
+  },
+  {
+    "role": "assistant",
+    "content": "Awesome! Please proceed to the counter and pay ₹322 in cash.\nEnjoy your breakfast! 😊🍽️"
+  }
+  ]}
+{"messages":[
+  {
+      "role": "user",
+      "content": "MENU_CONTEXT":{
+        "food_items":[
+    {
+        "category": "All day Breakfast",
+        "items": [
+            {
+                "item_name": "Akki Roti",
+                "price": "111",
+                "description": "Delicious flat bread made from rice flour served with our speciality chutney pudi"
+            },
+            {
+                "item_name": "Butter Khali Dosa Double",
+                "price": "151",
+                "description": ""
+            },
+            {
+                "item_name": "Butter Khali Dosa Single",
+                "price": "87",
+                "description": ""
+            },
+            {
+                "item_name": "Butter Masala Dosa",
+                "price": "165",
+                "description": "Unfolded masala dosa served with sagu and chutney"
+            },
+            {
+                "item_name": "Butter Plain Dose",
+                "price": "143",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Khali Dosa Double",
+                "price": "140",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Khali Dosa Single",
+                "price": "80",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Masala Dosa",
+                "price": "165",
+                "description": "Crispy crepe made of fermented rice and lentil batter with flavourful spiced seasoned"
+            },
+            {
+                "item_name": "Ghee Plain Dosa",
+                "price": "143",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Khali Dosa Double",
+                "price": "115",
+                "description": "Light and fluffy dosae served with sagu & chutney"
+            },
+            {
+                "item_name": "Khali Dosa Single",
+                "price": "76",
+                "description": "Light and fluffy dosae served with sagu & chutney"
+            },
+            {
+                "item_name": "Masala Dosa",
+                "price": "140",
+                "description": "Crispy crepe made of fermented rice and lentil batter with flavourful spiced seasoned"
+            },
+            {
+                "item_name": "Onion Uttappam",
+                "price": "137",
+                "description": "Plain dosae with sweet onions, finely chopped green chillies and curry leaves served"
+            },
+            {
+                "item_name": "Open Butter Masala Dosa",
+                "price": "165",
+                "description": "Unfolded masala dosa served with sagu and chutney"
+            },
+            {
+                "item_name": "Plain Dosa",
+                "price": "120",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Pudi Dosa",
+                "price": "135",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Ragi Dosa Double",
+                "price": "115",
+                "description": "A healthy and delicious crepe prepared with finger millet served with sagu and"
+            },
+            {
+                "item_name": "Ragi Dosa Single",
+                "price": "60",
+                "description": "A healthy and delicious crepe prepared with finger millet served with sagu and"
+            },
+            {
+                "item_name": "Rava Masala Dosa",
+                "price": "140",
+                "description": "A thin netted savoury crepe made of sooji, rice flour, maida and water"
+            },
+            {
+                "item_name": "Rava Onion Dosa",
+                "price": "150",
+                "description": "Crispy netted crepes made with semolina, rice flour, onions and finely chopped green"
+            },
+            {
+                "item_name": "Rava Plain Dosa",
+                "price": "120",
+                "description": "Crisp aromatic crepes made with semolina, cumin, ginger, coriander leaves and green chilies"
+            },
+            {
+                "item_name": "Set Dosa",
+                "price": "130",
+                "description": "Soft, light and spongy dosa"
+            },
+            {
+                "item_name": "Spl Garlic Masala Dosa",
+                "price": "180",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Masala Thatte Idly",
+                "price": "120",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Ghee Thatte Idly",
+                "price": "98",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Idly (2 Pcs)",
+                "price": "52",
+                "description": "Classic Tari Idly served with traditional coconut chutney"
+            },
+            {
+                "item_name": "Plain Thatte Idly",
+                "price": "59",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Tawa Idly",
+                "price": "130",
+                "description": ""
+            },{
+                "item_name": "Ghee Pongal",
+                "price": "125",
+                "description": "A Classic Combination of Rice & Dal with goodness of Ghee"
+            },
+            {
+                "item_name": "Ghee Set Dosa",
+                "price": "145",
+                "description": "Soft, light and spongy dosa made with ghee"
+            },
+            {
+                "item_name": "Poori",
+                "price": "99",
+                "description": ""
+            },
+            {
+                "item_name": "Ragi Roti",
+                "price": "111",
+                "description": "A Healthy, tasty gluten free flat bread made from finger millet served with"
+            },
+            {
+                "item_name": "Maddur Vada",
+                "price": "38",
+                "description": ""
+            },
+            {
+                "item_name": "Masala Vada [2 Pcs]",
+                "price": "45",
+                "description": "Popular South Indian Fritter made with Chana Dal, Onion, Spices & herbs, served"
+            },
+            {
+                "item_name": "Vada",
+                "price": "58",
+                "description": "Crispy doughnut shaped fritters made from lentils served with sambhar and chutney"
+            }
+        ]
+    },
+    {
+        "category": "Uttapam",
+        "items": [
+            {
+                "item_name": "Onion Uttappam",
+                "price": "137",
+                "description": "Plain dosae with sweet onions, finely chopped green chillies and curry leaves served"
+            },
+            {
+                "item_name": "Tomato Uttapam",
+                "price": "137",
+                "description": "Savoury pancakes with crispy golden edges and a pillowy soft centre topped with"
+            }
+            
+        ]
+    },
+    
+    {
+        "category": "Lunch",
+        "items": [
+            {
+                "item_name": "Bisibele Bhath",
+                "price": "115",
+                "description": "A delicious and healthy complete meal of rice, lentils and vegetables. Served with"
+            },
+            {
+                "item_name": "Combo Rice",
+                "price": "140",
+                "description": "Choice Of Any 2 Rice [Lemon Rice, Puliyogare, Bisi Bele Bhath, Curd Rice]"
+            },
+            {
+                "item_name": "Curd Rice",
+                "price": "90",
+                "description": "Soft cooked mushy rice mixed with curd and salt, finished off with tempering"
+            },
+            {
+                "item_name": "Lemon Rice",
+                "price": "90",
+                "description": "A rice preparation enhanced with distinct flavours of lemon juice, curry leaves, turmeric"
+            },
+            {
+                "item_name": "Mix Rice",
+                "price": "85",
+                "description": "Choice of any 1 rice lemon rice, puliyogare, bisi bele bhath, curd rice"
+            },
+            {
+                "item_name": "Pudi Rice",
+                "price": "151",
+                "description": "Rice flavoured with our signature chutney Pudi"
+            },
+            {
+                "item_name": "Puliyogare",
+                "price": "105",
+                "description": "Authentic and traditional rice made with tamarind extract and dry spices"
+            }
+        ]
+    },
+    {
+        "category": "Meals",
+        "items": [
+            {
+                "item_name": "Mini Meals",
+                "price": "104",
+                "description": "Rice, Sambar ,Rasam, Paliya, Papad"
+            },
+            {
+                "item_name": "South Indian Meal",
+                "price": "165",
+                "description": ""
+            }
+        ]
+    }],
+    "offers":[
+      "Flat ₹100 Off on above 599",
+      "Flat 50% Off on above 2999",
+      "20% off on 1999"
+    ],
+    "categories":["All day Breakfast","Uttapam","Lunch","meals"],
+    "Recommended_items":[
+      "Ghee Masala Dosa",
+      "Idly(2 Pcs)",
+      "Masala Dosa",
+      "Bisibele Bhath",
+      "Curd Rice"
+    ],
+    "payment_methods":[
+      "Cash",
+      "Online Payment",
+      "UPI Payment",
+      "Card Payment"],
+
+  }}
+  {
+    "role": "user",
+    "content": "hello show the menu"
+  },
+  {
+    "role": "assistant",
+    "content": "Sure! Here's the menu. You can explore categories like Breakfast, Dosa Varieties, Rice Items, and more.\nPopular Dosas include:\n- Masala Dosa – ₹140\n- Plain Dosa – ₹100\n- Butter Masala Dosa – ₹165\n- Rava Onion Dosa – ₹150\nAnd in Breakfast:\n- Idly (2 Pcs) – ₹52\n- Vada – ₹30\n- Idly Vada Combo – ₹82"
+  },
+  {
+    "role": "user",
+    "content": "hey can you show me the lunch items?"
+  },
+  {
+    "role": "assistant",
+    "content": "Sure! Here's what we have under the Lunch category:\n- Bisibele Bhath – ₹115\n- Combo Rice – ₹140\n- Curd Rice – ₹90\n- Lemon Rice – ₹90\n- Mix Rice – ₹85\n- Pudi Rice – ₹151\n- Puliyogare – ₹105\nLet me know what you'd like to add!"
+  },
+  {
+    "role": "user",
+    "content": "ok add bisibele bhath, curd rice and pudi rice"
+  },
+  {
+    "role": "assistant",
+    "content": "Great choice! Adding the following to your cart:\n- Bisibele Bhath – ₹115\n- Curd Rice – ₹90\n- Pudi Rice – ₹151\n\nCurrent cart:\n```json\n[\n  {\"item\": \"Bisibele Bhath\", \"quantity\": 1, \"price\": 115},\n  {\"item\": \"Curd Rice\", \"quantity\": 1, \"price\": 90},\n  {\"item\": \"Pudi Rice\", \"quantity\": 1, \"price\": 151}\n]\n```\nSubtotal: ₹356\nWould you like to add anything else?"
+  },
+  {
+    "role": "user",
+    "content": "yes add combo rice and puliyogare"
+  },
+  {
+    "role": "assistant",
+    "content": "Noted! Adding:\n- Combo Rice – ₹140\n- Puliyogare – ₹105\n\nUpdated cart:\n```json\n[\n  {\"item\": \"Bisibele Bhath\", \"quantity\": 1, \"price\": 115},\n  {\"item\": \"Curd Rice\", \"quantity\": 1, \"price\": 90},\n  {\"item\": \"Pudi Rice\", \"quantity\": 1, \"price\": 151},\n  {\"item\": \"Combo Rice\", \"quantity\": 1, \"price\": 140},\n  {\"item\": \"Puliyogare\", \"quantity\": 1, \"price\": 105}\n]\n```\nSubtotal: ₹601 ✅\n🎉 You’ve unlocked an offer: *Flat ₹100 off on orders above ₹599!*\nNew total: ₹501\nWould you like to checkout?"
+  },
+  {
+    "role": "user",
+    "content": "yes that's all, i’ll pay online"
+  },
+  {
+    "role": "assistant",
+    "content": "Awesome! You can proceed with Online Payment of ₹501 ✅\nYour order is confirmed:\n- Bisibele Bhath\n- Curd Rice\n- Pudi Rice\n- Combo Rice\n- Puliyogare\nEnjoy your meal! 🍛😋"
+  }
+  ]}
+{"messages":[
+  {
+      "role": "user",
+      "content": "MENU_CONTEXT":{
+        "food_items":[
+    {
+        "category": "All day Breakfast",
+        "items": [
+            {
+                "item_name": "Akki Roti",
+                "price": "111",
+                "description": "Delicious flat bread made from rice flour served with our speciality chutney pudi"
+            },
+            {
+                "item_name": "Butter Khali Dosa Double",
+                "price": "151",
+                "description": ""
+            },
+            {
+                "item_name": "Butter Khali Dosa Single",
+                "price": "87",
+                "description": ""
+            },
+            {
+                "item_name": "Butter Masala Dosa",
+                "price": "165",
+                "description": "Unfolded masala dosa served with sagu and chutney"
+            },
+            {
+                "item_name": "Butter Plain Dose",
+                "price": "143",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Khali Dosa Double",
+                "price": "140",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Khali Dosa Single",
+                "price": "80",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Masala Dosa",
+                "price": "165",
+                "description": "Crispy crepe made of fermented rice and lentil batter with flavourful spiced seasoned"
+            },
+            {
+                "item_name": "Ghee Plain Dosa",
+                "price": "143",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Khali Dosa Double",
+                "price": "115",
+                "description": "Light and fluffy dosae served with sagu & chutney"
+            },
+            {
+                "item_name": "Khali Dosa Single",
+                "price": "76",
+                "description": "Light and fluffy dosae served with sagu & chutney"
+            },
+            {
+                "item_name": "Masala Dosa",
+                "price": "140",
+                "description": "Crispy crepe made of fermented rice and lentil batter with flavourful spiced seasoned"
+            },
+            {
+                "item_name": "Onion Uttappam",
+                "price": "137",
+                "description": "Plain dosae with sweet onions, finely chopped green chillies and curry leaves served"
+            },
+            {
+                "item_name": "Open Butter Masala Dosa",
+                "price": "165",
+                "description": "Unfolded masala dosa served with sagu and chutney"
+            },
+            {
+                "item_name": "Plain Dosa",
+                "price": "120",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Pudi Dosa",
+                "price": "135",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Ragi Dosa Double",
+                "price": "115",
+                "description": "A healthy and delicious crepe prepared with finger millet served with sagu and"
+            },
+            {
+                "item_name": "Ragi Dosa Single",
+                "price": "60",
+                "description": "A healthy and delicious crepe prepared with finger millet served with sagu and"
+            },
+            {
+                "item_name": "Rava Masala Dosa",
+                "price": "140",
+                "description": "A thin netted savoury crepe made of sooji, rice flour, maida and water"
+            },
+            {
+                "item_name": "Rava Onion Dosa",
+                "price": "150",
+                "description": "Crispy netted crepes made with semolina, rice flour, onions and finely chopped green"
+            },
+            {
+                "item_name": "Rava Plain Dosa",
+                "price": "120",
+                "description": "Crisp aromatic crepes made with semolina, cumin, ginger, coriander leaves and green chilies"
+            },
+            {
+                "item_name": "Set Dosa",
+                "price": "130",
+                "description": "Soft, light and spongy dosa"
+            },
+            {
+                "item_name": "Spl Garlic Masala Dosa",
+                "price": "180",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Masala Thatte Idly",
+                "price": "120",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Ghee Thatte Idly",
+                "price": "98",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Idly (2 Pcs)",
+                "price": "52",
+                "description": "Classic Tari Idly served with traditional coconut chutney"
+            },
+            {
+                "item_name": "Plain Thatte Idly",
+                "price": "59",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Tawa Idly",
+                "price": "130",
+                "description": ""
+            },{
+                "item_name": "Ghee Pongal",
+                "price": "125",
+                "description": "A Classic Combination of Rice & Dal with goodness of Ghee"
+            },
+            {
+                "item_name": "Ghee Set Dosa",
+                "price": "145",
+                "description": "Soft, light and spongy dosa made with ghee"
+            },
+            {
+                "item_name": "Poori",
+                "price": "99",
+                "description": ""
+            },
+            {
+                "item_name": "Ragi Roti",
+                "price": "111",
+                "description": "A Healthy, tasty gluten free flat bread made from finger millet served with"
+            },
+            {
+                "item_name": "Maddur Vada",
+                "price": "38",
+                "description": ""
+            },
+            {
+                "item_name": "Masala Vada [2 Pcs]",
+                "price": "45",
+                "description": "Popular South Indian Fritter made with Chana Dal, Onion, Spices & herbs, served"
+            },
+            {
+                "item_name": "Vada",
+                "price": "58",
+                "description": "Crispy doughnut shaped fritters made from lentils served with sambhar and chutney"
+            }
+        ]
+    },
+    {
+        "category": "Uttapam",
+        "items": [
+            {
+                "item_name": "Onion Uttappam",
+                "price": "137",
+                "description": "Plain dosae with sweet onions, finely chopped green chillies and curry leaves served"
+            },
+            {
+                "item_name": "Tomato Uttapam",
+                "price": "137",
+                "description": "Savoury pancakes with crispy golden edges and a pillowy soft centre topped with"
+            }
+            
+        ]
+    },
+    
+    {
+        "category": "Lunch",
+        "items": [
+            {
+                "item_name": "Bisibele Bhath",
+                "price": "115",
+                "description": "A delicious and healthy complete meal of rice, lentils and vegetables. Served with"
+            },
+            {
+                "item_name": "Combo Rice",
+                "price": "140",
+                "description": "Choice Of Any 2 Rice [Lemon Rice, Puliyogare, Bisi Bele Bhath, Curd Rice]"
+            },
+            {
+                "item_name": "Curd Rice",
+                "price": "90",
+                "description": "Soft cooked mushy rice mixed with curd and salt, finished off with tempering"
+            },
+            {
+                "item_name": "Lemon Rice",
+                "price": "90",
+                "description": "A rice preparation enhanced with distinct flavours of lemon juice, curry leaves, turmeric"
+            },
+            {
+                "item_name": "Mix Rice",
+                "price": "85",
+                "description": "Choice of any 1 rice lemon rice, puliyogare, bisi bele bhath, curd rice"
+            },
+            {
+                "item_name": "Pudi Rice",
+                "price": "151",
+                "description": "Rice flavoured with our signature chutney Pudi"
+            },
+            {
+                "item_name": "Puliyogare",
+                "price": "105",
+                "description": "Authentic and traditional rice made with tamarind extract and dry spices"
+            }
+        ]
+    },
+    {
+        "category": "Meals",
+        "items": [
+            {
+                "item_name": "Mini Meals",
+                "price": "104",
+                "description": "Rice, Sambar ,Rasam, Paliya, Papad"
+            },
+            {
+                "item_name": "South Indian Meal",
+                "price": "165",
+                "description": ""
+            }
+        ]
+    }],
+    "offers":[
+      "Flat ₹100 Off on above 599",
+      "Flat 50% Off on above 2999",
+      "20% off on 1999"
+    ],
+    "categories":["All day Breakfast","Uttapam","Lunch","meals"],
+    "Recommended_items":[
+      "Ghee Masala Dosa",
+      "Idly(2 Pcs)",
+      "Masala Dosa",
+      "Bisibele Bhath",
+      "Curd Rice"
+    ],
+    "payment_methods":[
+      "Cash",
+      "Online Payment",
+      "UPI Payment",
+      "Card Payment"],
+
+  }}
+  {
+    "role": "user",
+    "content": "hello show the menu"
+  },
+  {
+    "role": "assistant",
+    "content": "Sure! Here's the full menu categorized with prices:\n\n🍽️ **All Day Breakfast**\n- Akki Roti – ₹111\n- Butter Khali Dosa Double – ₹151\n- Butter Khali Dosa Single – ₹87\n- Butter Masala Dosa – ₹165\n- Butter Plain Dose – ₹143\n- Ghee Khali Dosa Double – ₹140\n- Ghee Khali Dosa Single – ₹80\n- Ghee Masala Dosa – ₹165\n- Ghee Plain Dosa – ₹143\n- Khali Dosa Double – ₹115\n- Khali Dosa Single – ₹76\n- Masala Dosa – ₹140\n- Onion Uttappam – ₹137\n- Open Butter Masala Dosa – ₹165\n- Plain Dosa – ₹120\n- Pudi Dosa – ₹135\n- Ragi Dosa Double – ₹115\n- Ragi Dosa Single – ₹60\n- Rava Masala Dosa – ₹140\n- Rava Onion Dosa – ₹150\n- Rava Plain Dosa – ₹120\n- Set Dosa – ₹130\n- Spl Garlic Masala Dosa – ₹180\n- Ghee Masala Thatte Idly – ₹120\n- Ghee Thatte Idly – ₹98\n- Idly (2 Pcs) – ₹52\n- Plain Thatte Idly – ₹59\n- Tawa Idly – ₹130\n- Ghee Pongal – ₹125\n- Ghee Set Dosa – ₹145\n- Poori – ₹99\n- Ragi Roti – ₹111\n- Maddur Vada – ₹38\n- Masala Vada [2 Pcs] – ₹45\n- Vada – ₹58\n\n🥞 **Uttapam**\n- Onion Uttappam – ₹137\n- Tomato Uttapam – ₹137\n\n🍛 **Lunch**\n- Bisibele Bhath – ₹115\n- Combo Rice – ₹140\n- Curd Rice – ₹90\n- Lemon Rice – ₹90\n- Mix Rice – ₹85\n- Pudi Rice – ₹151\n- Puliyogare – ₹105\n\n🍱 **Meals**\n- Mini Meals – ₹104\n- South Indian Meal – ₹165\n\n🎁 **Offers**\n- Flat ₹100 Off on above ₹599\n- Flat 50% Off on above ₹2999\n- 20% off on ₹1999\n\n💡 **Recommended Items**\n- Ghee Masala Dosa\n- Idly (2 Pcs)\n- Masala Dosa\n- Bisibele Bhath\n- Curd Rice\n\n💳 **Payment Methods**\n- Cash\n- Online Payment\n- UPI Payment\n- Card Payment\n\nLet me know if you'd like to order or explore specific items! 😊"
+  },
+    {
+    "role": "user",
+    "content": "Hi, I’m looking for some vegetarian lunch options. Can you help?"
+  },
+  {
+    "role": "assistant",
+    "content": "Of course! Here are some popular vegetarian lunch items:\n- Bisibele Bhath – ₹115\n- Puliyogare – ₹105\n- Curd Rice – ₹90\n- Combo Rice (any 2 of the above) – ₹140\n- South Indian Meal – ₹165\nWould you like to add any of these to your order?"
+  },
+  {
+    "role": "user",
+    "content": "Yes, add one Bisibele Bhath, one Curd Rice, and two Puliyogare"
+  },
+  {
+    "role": "assistant",
+    "content": "Great! Adding the following to your cart:\n- Bisibele Bhath – ₹115\n- Curd Rice – ₹90\n- Puliyogare (x2) – ₹210\n\n```json\n[\n  {\"item\": \"Bisibele Bhath\", \"quantity\": 1, \"price\": 115},\n  {\"item\": \"Curd Rice\", \"quantity\": 1, \"price\": 90},\n  {\"item\": \"Puliyogare\", \"quantity\": 2, \"price\": 105}\n]\n```\nSubtotal: ₹415\nWould you like anything else?"
+  },
+  {
+    "role": "user",
+    "content": "Hmm... remove one Puliyogare and add one South Indian Meal"
+  },
+  {
+    "role": "assistant",
+    "content": "Update done!\nRemoved 1 Puliyogare and added 1 South Indian Meal – ₹165\n\nYour updated cart:\n```json\n[\n  {\"item\": \"Bisibele Bhath\", \"quantity\": 1, \"price\": 115},\n  {\"item\": \"Curd Rice\", \"quantity\": 1, \"price\": 90},\n  {\"item\": \"Puliyogare\", \"quantity\": 1, \"price\": 105},\n  {\"item\": \"South Indian Meal\", \"quantity\": 1, \"price\": 165}\n]\n```\nNew Total: ₹475"
+  },
+  {
+    "role": "user",
+    "content": "Can you add one Maddur Vada also?"
+  },
+  {
+    "role": "assistant",
+    "content": "Sure! Maddur Vada – ₹38 added.\n\nUpdated cart:\n```json\n[\n  {\"item\": \"Bisibele Bhath\", \"quantity\": 1, \"price\": 115},\n  {\"item\": \"Curd Rice\", \"quantity\": 1, \"price\": 90},\n  {\"item\": \"Puliyogare\", \"quantity\": 1, \"price\": 105},\n  {\"item\": \"South Indian Meal\", \"quantity\": 1, \"price\": 165},\n  {\"item\": \"Maddur Vada\", \"quantity\": 1, \"price\": 38}\n]\n```\nTotal: ₹513\n✨ You’re eligible for a ₹100 discount on orders above ₹599. Want to add anything else to use the offer?"
+  },
+  {
+    "role": "user",
+    "content": "Yeah, add one Masala Dosa and one Ghee Pongal"
+  },
+  {
+    "role": "assistant",
+    "content": "Awesome! Adding:\n- Masala Dosa – ₹140\n- Ghee Pongal – ₹125\n\nFinal cart:\n```json\n[\n  {\"item\": \"Bisibele Bhath\", \"quantity\": 1, \"price\": 115},\n  {\"item\": \"Curd Rice\", \"quantity\": 1, \"price\": 90},\n  {\"item\": \"Puliyogare\", \"quantity\": 1, \"price\": 105},\n  {\"item\": \"South Indian Meal\", \"quantity\": 1, \"price\": 165},\n  {\"item\": \"Maddur Vada\", \"quantity\": 1, \"price\": 38},\n  {\"item\": \"Masala Dosa\", \"quantity\": 1, \"price\": 140},\n  {\"item\": \"Ghee Pongal\", \"quantity\": 1, \"price\": 125}\n]\n```\nSubtotal: ₹923\n✅ Offer Applied: Flat ₹100 off on ₹599+\nTotal after discount: ₹823\nWould you like to proceed to checkout?"
+  },
+  {
+    "role": "user",
+    "content": "Yes, I’ll pay by UPI"
+  },
+  {
+    "role": "assistant",
+    "content": "Perfect! Please proceed to pay ₹823 via UPI.\nThanks for ordering with us — have a delicious meal! 🥗🍛"
+  }
+  ]}
+{"messages":[
+  {
+      "role": "user",
+      "content": "MENU_CONTEXT":{
+        "food_items":[
+    {
+        "category": "All day Breakfast",
+        "items": [
+            {
+                "item_name": "Akki Roti",
+                "price": "111",
+                "description": "Delicious flat bread made from rice flour served with our speciality chutney pudi"
+            },
+            {
+                "item_name": "Butter Khali Dosa Double",
+                "price": "151",
+                "description": ""
+            },
+            {
+                "item_name": "Butter Khali Dosa Single",
+                "price": "87",
+                "description": ""
+            },
+            {
+                "item_name": "Butter Masala Dosa",
+                "price": "165",
+                "description": "Unfolded masala dosa served with sagu and chutney"
+            },
+            {
+                "item_name": "Butter Plain Dose",
+                "price": "143",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Khali Dosa Double",
+                "price": "140",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Khali Dosa Single",
+                "price": "80",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Masala Dosa",
+                "price": "165",
+                "description": "Crispy crepe made of fermented rice and lentil batter with flavourful spiced seasoned"
+            },
+            {
+                "item_name": "Ghee Plain Dosa",
+                "price": "143",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Khali Dosa Double",
+                "price": "115",
+                "description": "Light and fluffy dosae served with sagu & chutney"
+            },
+            {
+                "item_name": "Khali Dosa Single",
+                "price": "76",
+                "description": "Light and fluffy dosae served with sagu & chutney"
+            },
+            {
+                "item_name": "Masala Dosa",
+                "price": "140",
+                "description": "Crispy crepe made of fermented rice and lentil batter with flavourful spiced seasoned"
+            },
+            {
+                "item_name": "Onion Uttappam",
+                "price": "137",
+                "description": "Plain dosae with sweet onions, finely chopped green chillies and curry leaves served"
+            },
+            {
+                "item_name": "Open Butter Masala Dosa",
+                "price": "165",
+                "description": "Unfolded masala dosa served with sagu and chutney"
+            },
+            {
+                "item_name": "Plain Dosa",
+                "price": "120",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Pudi Dosa",
+                "price": "135",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Ragi Dosa Double",
+                "price": "115",
+                "description": "A healthy and delicious crepe prepared with finger millet served with sagu and"
+            },
+            {
+                "item_name": "Ragi Dosa Single",
+                "price": "60",
+                "description": "A healthy and delicious crepe prepared with finger millet served with sagu and"
+            },
+            {
+                "item_name": "Rava Masala Dosa",
+                "price": "140",
+                "description": "A thin netted savoury crepe made of sooji, rice flour, maida and water"
+            },
+            {
+                "item_name": "Rava Onion Dosa",
+                "price": "150",
+                "description": "Crispy netted crepes made with semolina, rice flour, onions and finely chopped green"
+            },
+            {
+                "item_name": "Rava Plain Dosa",
+                "price": "120",
+                "description": "Crisp aromatic crepes made with semolina, cumin, ginger, coriander leaves and green chilies"
+            },
+            {
+                "item_name": "Set Dosa",
+                "price": "130",
+                "description": "Soft, light and spongy dosa"
+            },
+            {
+                "item_name": "Spl Garlic Masala Dosa",
+                "price": "180",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Masala Thatte Idly",
+                "price": "120",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Ghee Thatte Idly",
+                "price": "98",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Idly (2 Pcs)",
+                "price": "52",
+                "description": "Classic Tari Idly served with traditional coconut chutney"
+            },
+            {
+                "item_name": "Plain Thatte Idly",
+                "price": "59",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Tawa Idly",
+                "price": "130",
+                "description": ""
+            },{
+                "item_name": "Ghee Pongal",
+                "price": "125",
+                "description": "A Classic Combination of Rice & Dal with goodness of Ghee"
+            },
+            {
+                "item_name": "Ghee Set Dosa",
+                "price": "145",
+                "description": "Soft, light and spongy dosa made with ghee"
+            },
+            {
+                "item_name": "Poori",
+                "price": "99",
+                "description": ""
+            },
+            {
+                "item_name": "Ragi Roti",
+                "price": "111",
+                "description": "A Healthy, tasty gluten free flat bread made from finger millet served with"
+            },
+            {
+                "item_name": "Maddur Vada",
+                "price": "38",
+                "description": ""
+            },
+            {
+                "item_name": "Masala Vada [2 Pcs]",
+                "price": "45",
+                "description": "Popular South Indian Fritter made with Chana Dal, Onion, Spices & herbs, served"
+            },
+            {
+                "item_name": "Vada",
+                "price": "58",
+                "description": "Crispy doughnut shaped fritters made from lentils served with sambhar and chutney"
+            }
+        ]
+    },
+    {
+        "category": "Uttapam",
+        "items": [
+            {
+                "item_name": "Onion Uttappam",
+                "price": "137",
+                "description": "Plain dosae with sweet onions, finely chopped green chillies and curry leaves served"
+            },
+            {
+                "item_name": "Tomato Uttapam",
+                "price": "137",
+                "description": "Savoury pancakes with crispy golden edges and a pillowy soft centre topped with"
+            }
+            
+        ]
+    },
+    
+    {
+        "category": "Lunch",
+        "items": [
+            {
+                "item_name": "Bisibele Bhath",
+                "price": "115",
+                "description": "A delicious and healthy complete meal of rice, lentils and vegetables. Served with"
+            },
+            {
+                "item_name": "Combo Rice",
+                "price": "140",
+                "description": "Choice Of Any 2 Rice [Lemon Rice, Puliyogare, Bisi Bele Bhath, Curd Rice]"
+            },
+            {
+                "item_name": "Curd Rice",
+                "price": "90",
+                "description": "Soft cooked mushy rice mixed with curd and salt, finished off with tempering"
+            },
+            {
+                "item_name": "Lemon Rice",
+                "price": "90",
+                "description": "A rice preparation enhanced with distinct flavours of lemon juice, curry leaves, turmeric"
+            },
+            {
+                "item_name": "Mix Rice",
+                "price": "85",
+                "description": "Choice of any 1 rice lemon rice, puliyogare, bisi bele bhath, curd rice"
+            },
+            {
+                "item_name": "Pudi Rice",
+                "price": "151",
+                "description": "Rice flavoured with our signature chutney Pudi"
+            },
+            {
+                "item_name": "Puliyogare",
+                "price": "105",
+                "description": "Authentic and traditional rice made with tamarind extract and dry spices"
+            }
+        ]
+    },
+    {
+        "category": "Meals",
+        "items": [
+            {
+                "item_name": "Mini Meals",
+                "price": "104",
+                "description": "Rice, Sambar ,Rasam, Paliya, Papad"
+            },
+            {
+                "item_name": "South Indian Meal",
+                "price": "165",
+                "description": ""
+            }
+        ]
+    }],
+    "offers":[
+      "Flat ₹100 Off on above 599",
+      "Flat 50% Off on above 2999",
+      "20% off on 1999"
+    ],
+    "categories":["All day Breakfast","Uttapam","Lunch","meals"],
+    "Recommended_items":[
+      "Ghee Masala Dosa",
+      "Idly(2 Pcs)",
+      "Masala Dosa",
+      "Bisibele Bhath",
+      "Curd Rice"
+    ],
+    "payment_methods":[
+      "Cash",
+      "Online Payment",
+      "UPI Payment",
+      "Card Payment"],
+
+  }}
+  {
+    "role": "user",
+    "content": "hey tell me the menu"
+  },
+  {
+    "role": "assistant",
+    "content": "Sure! Here's the full menu categorized with prices:\n\n🍽️ **All Day Breakfast**\n- Akki Roti – ₹111\n- Butter Khali Dosa Double – ₹151\n- Butter Khali Dosa Single – ₹87\n- Butter Masala Dosa – ₹165\n- Butter Plain Dose – ₹143\n- Ghee Khali Dosa Double – ₹140\n- Ghee Khali Dosa Single – ₹80\n- Ghee Masala Dosa – ₹165\n- Ghee Plain Dosa – ₹143\n- Khali Dosa Double – ₹115\n- Khali Dosa Single – ₹76\n- Masala Dosa – ₹140\n- Onion Uttappam – ₹137\n- Open Butter Masala Dosa – ₹165\n- Plain Dosa – ₹120\n- Pudi Dosa – ₹135\n- Ragi Dosa Double – ₹115\n- Ragi Dosa Single – ₹60\n- Rava Masala Dosa – ₹140\n- Rava Onion Dosa – ₹150\n- Rava Plain Dosa – ₹120\n- Set Dosa – ₹130\n- Spl Garlic Masala Dosa – ₹180\n- Ghee Masala Thatte Idly – ₹120\n- Ghee Thatte Idly – ₹98\n- Idly (2 Pcs) – ₹52\n- Plain Thatte Idly – ₹59\n- Tawa Idly – ₹130\n- Ghee Pongal – ₹125\n- Ghee Set Dosa – ₹145\n- Poori – ₹99\n- Ragi Roti – ₹111\n- Maddur Vada – ₹38\n- Masala Vada [2 Pcs] – ₹45\n- Vada – ₹58\n\n🥞 **Uttapam**\n- Onion Uttappam – ₹137\n- Tomato Uttapam – ₹137\n\n🍛 **Lunch**\n- Bisibele Bhath – ₹115\n- Combo Rice – ₹140\n- Curd Rice – ₹90\n- Lemon Rice – ₹90\n- Mix Rice – ₹85\n- Pudi Rice – ₹151\n- Puliyogare – ₹105\n\n🍱 **Meals**\n- Mini Meals – ₹104\n- South Indian Meal – ₹165\n\n"
+  },
+    {
+     "role": "user",
+    "content": "hey what are the breakfast items"
+  },
+  {
+    "role": "assistant",
+    "content": "We serve many items in our breakfast menu:\n- Akki Roti – ₹111\n1- Butter Khali Dosa Double – ₹151\n2 - Butter Khali Dosa Single – ₹87\n3 - Butter Masala Dosa – ₹165\n4 - Butter Plain Dose – ₹143\n5 - Ghee Khali Dosa Double – ₹140\n6 - Ghee Khali Dosa Single – ₹80\n7 - Ghee Masala Dosa – ₹165\n8 - Ghee Plain Dosa – ₹143\n9 - Khali Dosa Double – ₹115\n10 - Khali Dosa Single – ₹76\n11 - Masala Dosa – ₹140\n12 - Onion Uttappam – ₹137\n13 - Open Butter Masala Dosa – ₹165\n14 - Plain Dosa – ₹120\n15 - Pudi Dosa – ₹135\n16 - Ragi Dosa Double – ₹115\n17 - Ragi Dosa Single – ₹60\n18 - Rava Masala Dosa – ₹140\n19 - Rava Onion Dosa – ₹150\n20 - Rava Plain Dosa – ₹120\n21 - Set Dosa – ₹130\n22 - Spl Garlic Masala Dosa – ₹180\n23 - Ghee Masala Thatte Idly – ₹120\n24 - Ghee Thatte Idly – ₹98\n25 - Idly (2 Pcs) – ₹52\n26 - Plain Thatte Idly – ₹59\n27 - Tawa Idly – ₹130\n28 - Ghee Pongal – ₹125\n29 - Ghee Set Dosa – ₹145\n30 - Poori – ₹99\n31 - Ragi Roti – ₹111\n32 - Maddur Vada – ₹38\n33 - Masala Vada [2 Pcs] – ₹45\n34 - Vada – ₹58\n\n...and more! Let me know if you want the full list or a recommendation."
+  },
+  {
+    "role": "user",
+    "content": "Which is best dosa here"
+  },
+  {
+    "role": "assistant",
+    "content": "Ohh okay! Every dosa here is delicious, but we highly recommend:\n- Ghee Masala Dosa – ₹165\n- Masala Dosa – ₹140"
+  },
+  {
+    "role": "user",
+    "content": "ok add couple of masala dosa and four Gee Masala Dosa"
+  },
+  {
+    "role": "assistant",
+    "content": "Got it. Adding 2 Masala Dosas and 4 Ghee Masala Dosas to your cart. Anything else you'd like to add?"
+  },
+  {
+    "role": "user",
+    "content": "Can you add one Maddur Vada also?"
+  },
+  {
+    "role": "assistant",
+    "content": "Sure! Maddur Vada – ₹38 added.\n\n🛒 Updated cart:\n```json\n[\n  {\"item\": \"Masala Dosa\", \"quantity\": 2, \"price\": 140},\n  {\"item\": \"Ghee Masala Dosa\", \"quantity\": 4, \"price\": 165},\n  {\"item\": \"Maddur Vada\", \"quantity\": 1, \"price\": 38}\n]\n```\nLet me know when you're ready to checkout."
+  },
+  {
+    "role": "user",
+    "content": "ok thats it check out now"
+  },
+  {
+    "role": "assistant",
+    "content": "Sure! Checking out with your order.\n🧾 Total bill:\n- Masala Dosa (2 × ₹140) = ₹280\n- Ghee Masala Dosa (4 × ₹165) = ₹660\n- Maddur Vada (1 × ₹38) = ₹38\n**Total = ₹978**\n\nWould you like to proceed with payment?"
+  },
+  {
+    "role": "user",
+    "content": "wait do one thing remove two gee malsa dosa two is engouf"
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, got it! Updating your cart: Ghee Masala Dosa quantity reduced from 4 to 2."
+  },
+  {
+    "role": "user",
+    "content": "yes bro"
+  },
+  {
+    "role": "assistant",
+    "content": "👍 Done! Here's your final cart:\n1. Masala Dosa (2 x ) ₹140\n2. Ghee Masala Dosa (2 x) ₹165\n3. Maddur Vada ₹38\n\n```json\n[\n  {\"item\": \"Masala Dosa\", \"quantity\": 2, \"price_each\": 140},\n  {\"item\": \"Ghee Masala Dosa\", \"quantity\": 2, \"price_each\": 165},\n  {\"item\": \"Maddur Vada\", \"quantity\": 1, \"price_each\": 38}\n]\n```\n🧾 New Total:\n- Masala Dosa: ₹280\n- Ghee Masala Dosa: ₹330\n- Maddur Vada: ₹38\n**Total = ₹648**\n\nReady to pay?"
+  },
+  {
+    "role": "user",
+    "content": "ok i will pay by phonepe"
+  },
+  {
+    "role": "assistant",
+    "content": "Perfect! You can pay via PhonePe, UPI, or any online payment app.\n✅ Payment Method: PhonePe\nThank you and have a happy day! 😊"
+  }
+  ]}
+{"messages":[
+  {
+      "role": "user",
+      "content": "MENU_CONTEXT":{
+        "food_items":[
+    {
+        "category": "All day Breakfast",
+        "items": [
+            {
+                "item_name": "Akki Roti",
+                "price": "111",
+                "description": "Delicious flat bread made from rice flour served with our speciality chutney pudi"
+            },
+            {
+                "item_name": "Butter Khali Dosa Double",
+                "price": "151",
+                "description": ""
+            },
+            {
+                "item_name": "Butter Khali Dosa Single",
+                "price": "87",
+                "description": ""
+            },
+            {
+                "item_name": "Butter Masala Dosa",
+                "price": "165",
+                "description": "Unfolded masala dosa served with sagu and chutney"
+            },
+            {
+                "item_name": "Butter Plain Dose",
+                "price": "143",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Khali Dosa Double",
+                "price": "140",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Khali Dosa Single",
+                "price": "80",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Masala Dosa",
+                "price": "165",
+                "description": "Crispy crepe made of fermented rice and lentil batter with flavourful spiced seasoned"
+            },
+            {
+                "item_name": "Ghee Plain Dosa",
+                "price": "143",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Khali Dosa Double",
+                "price": "115",
+                "description": "Light and fluffy dosae served with sagu & chutney"
+            },
+            {
+                "item_name": "Khali Dosa Single",
+                "price": "76",
+                "description": "Light and fluffy dosae served with sagu & chutney"
+            },
+            {
+                "item_name": "Masala Dosa",
+                "price": "140",
+                "description": "Crispy crepe made of fermented rice and lentil batter with flavourful spiced seasoned"
+            },
+            {
+                "item_name": "Onion Uttappam",
+                "price": "137",
+                "description": "Plain dosae with sweet onions, finely chopped green chillies and curry leaves served"
+            },
+            {
+                "item_name": "Open Butter Masala Dosa",
+                "price": "165",
+                "description": "Unfolded masala dosa served with sagu and chutney"
+            },
+            {
+                "item_name": "Plain Dosa",
+                "price": "120",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Pudi Dosa",
+                "price": "135",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Ragi Dosa Double",
+                "price": "115",
+                "description": "A healthy and delicious crepe prepared with finger millet served with sagu and"
+            },
+            {
+                "item_name": "Ragi Dosa Single",
+                "price": "60",
+                "description": "A healthy and delicious crepe prepared with finger millet served with sagu and"
+            },
+            {
+                "item_name": "Rava Masala Dosa",
+                "price": "140",
+                "description": "A thin netted savoury crepe made of sooji, rice flour, maida and water"
+            },
+            {
+                "item_name": "Rava Onion Dosa",
+                "price": "150",
+                "description": "Crispy netted crepes made with semolina, rice flour, onions and finely chopped green"
+            },
+            {
+                "item_name": "Rava Plain Dosa",
+                "price": "120",
+                "description": "Crisp aromatic crepes made with semolina, cumin, ginger, coriander leaves and green chilies"
+            },
+            {
+                "item_name": "Set Dosa",
+                "price": "130",
+                "description": "Soft, light and spongy dosa"
+            },
+            {
+                "item_name": "Spl Garlic Masala Dosa",
+                "price": "180",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Masala Thatte Idly",
+                "price": "120",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Ghee Thatte Idly",
+                "price": "98",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Idly (2 Pcs)",
+                "price": "52",
+                "description": "Classic Tari Idly served with traditional coconut chutney"
+            },
+            {
+                "item_name": "Plain Thatte Idly",
+                "price": "59",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Tawa Idly",
+                "price": "130",
+                "description": ""
+            },{
+                "item_name": "Ghee Pongal",
+                "price": "125",
+                "description": "A Classic Combination of Rice & Dal with goodness of Ghee"
+            },
+            {
+                "item_name": "Ghee Set Dosa",
+                "price": "145",
+                "description": "Soft, light and spongy dosa made with ghee"
+            },
+            {
+                "item_name": "Poori",
+                "price": "99",
+                "description": ""
+            },
+            {
+                "item_name": "Ragi Roti",
+                "price": "111",
+                "description": "A Healthy, tasty gluten free flat bread made from finger millet served with"
+            },
+            {
+                "item_name": "Maddur Vada",
+                "price": "38",
+                "description": ""
+            },
+            {
+                "item_name": "Masala Vada [2 Pcs]",
+                "price": "45",
+                "description": "Popular South Indian Fritter made with Chana Dal, Onion, Spices & herbs, served"
+            },
+            {
+                "item_name": "Vada",
+                "price": "58",
+                "description": "Crispy doughnut shaped fritters made from lentils served with sambhar and chutney"
+            }
+        ]
+    },
+    {
+        "category": "Uttapam",
+        "items": [
+            {
+                "item_name": "Onion Uttappam",
+                "price": "137",
+                "description": "Plain dosae with sweet onions, finely chopped green chillies and curry leaves served"
+            },
+            {
+                "item_name": "Tomato Uttapam",
+                "price": "137",
+                "description": "Savoury pancakes with crispy golden edges and a pillowy soft centre topped with"
+            }
+            
+        ]
+    },
+    
+    {
+        "category": "Lunch",
+        "items": [
+            {
+                "item_name": "Bisibele Bhath",
+                "price": "115",
+                "description": "A delicious and healthy complete meal of rice, lentils and vegetables. Served with"
+            },
+            {
+                "item_name": "Combo Rice",
+                "price": "140",
+                "description": "Choice Of Any 2 Rice [Lemon Rice, Puliyogare, Bisi Bele Bhath, Curd Rice]"
+            },
+            {
+                "item_name": "Curd Rice",
+                "price": "90",
+                "description": "Soft cooked mushy rice mixed with curd and salt, finished off with tempering"
+            },
+            {
+                "item_name": "Lemon Rice",
+                "price": "90",
+                "description": "A rice preparation enhanced with distinct flavours of lemon juice, curry leaves, turmeric"
+            },
+            {
+                "item_name": "Mix Rice",
+                "price": "85",
+                "description": "Choice of any 1 rice lemon rice, puliyogare, bisi bele bhath, curd rice"
+            },
+            {
+                "item_name": "Pudi Rice",
+                "price": "151",
+                "description": "Rice flavoured with our signature chutney Pudi"
+            },
+            {
+                "item_name": "Puliyogare",
+                "price": "105",
+                "description": "Authentic and traditional rice made with tamarind extract and dry spices"
+            }
+        ]
+    },
+    {
+        "category": "Meals",
+        "items": [
+            {
+                "item_name": "Mini Meals",
+                "price": "104",
+                "description": "Rice, Sambar ,Rasam, Paliya, Papad"
+            },
+            {
+                "item_name": "South Indian Meal",
+                "price": "165",
+                "description": ""
+            }
+        ]
+    }],
+    "offers":[
+      "Flat ₹100 Off on above 599",
+      "Flat 50% Off on above 2999",
+      "20% off on 1999"
+    ],
+    "categories":["All day Breakfast","Uttapam","Lunch","meals"],
+    "Recommended_items":[
+      "Ghee Masala Dosa",
+      "Idly(2 Pcs)",
+      "Masala Dosa",
+      "Bisibele Bhath",
+      "Curd Rice"
+    ],
+    "payment_methods":[
+      "Cash",
+      "Online Payment",
+      "UPI Payment",
+      "Card Payment"],
+
+  }}
+    {
+    "role": "user",
+    "content": "hi show me today's menu"
+  },
+  {
+    "role": "assistant",
+    "content": "Sure! Here's the full menu categorized with prices:\n\n🍽️ **All Day Breakfast**\n- Akki Roti – ₹111\n- Butter Khali Dosa Double – ₹151\n- Butter Khali Dosa Single – ₹87\n- Butter Masala Dosa – ₹165\n- Butter Plain Dose – ₹143\n- Ghee Khali Dosa Double – ₹140\n- Ghee Khali Dosa Single – ₹80\n- Ghee Masala Dosa – ₹165\n- Ghee Plain Dosa – ₹143\n- Khali Dosa Double – ₹115\n- Khali Dosa Single – ₹76\n- Masala Dosa – ₹140\n- Onion Uttappam – ₹137\n- Open Butter Masala Dosa – ₹165\n- Plain Dosa – ₹120\n- Pudi Dosa – ₹135\n- Ragi Dosa Double – ₹115\n- Ragi Dosa Single – ₹60\n- Rava Masala Dosa – ₹140\n- Rava Onion Dosa – ₹150\n- Rava Plain Dosa – ₹120\n- Set Dosa – ₹130\n- Spl Garlic Masala Dosa – ₹180\n- Ghee Masala Thatte Idly – ₹120\n- Ghee Thatte Idly – ₹98\n- Idly (2 Pcs) – ₹52\n- Plain Thatte Idly – ₹59\n- Tawa Idly – ₹130\n- Ghee Pongal – ₹125\n- Ghee Set Dosa – ₹145\n- Poori – ₹99\n- Ragi Roti – ₹111\n- Maddur Vada – ₹38\n- Masala Vada [2 Pcs] – ₹45\n- Vada – ₹58\n\n🥞 **Uttapam**\n- Onion Uttappam – ₹137\n- Tomato Uttapam – ₹137\n\n🍛 **Lunch**\n- Bisibele Bhath – ₹115\n- Combo Rice – ₹140\n- Curd Rice – ₹90\n- Lemon Rice – ₹90\n- Mix Rice – ₹85\n- Pudi Rice – ₹151\n- Puliyogare – ₹105\n\n🍱 **Meals**\n- Mini Meals – ₹104\n- South Indian Meal – ₹165\nLet me know what you'd like to order!"
+  },
+  {
+    "role": "user",
+    "content": "add one idly vada combo and 2 onion rava dosa"
+  },
+  {
+    "role": "assistant",
+    "content": "You mean Rava Onion Dosa. But idly vada combo comes like this\n Idly (2 Pcs) -₹52\n Vada ₹58\n Total = 100Rs\n Is that ok for you"
+  },
+  {
+    "role": "user",
+    "content": "Ok its yes rava onion Dosa"
+  },
+  {
+    "role": "assistant",
+    "content": "Got it! Added:\n- 1 × Idly \n-1 x Vada\n- 2 × Rava Onion Dosa\n\n🛒 Cart:\n```json\n[\n  {\"item\": \"Idly \", \"quantity\": 1, \"price\": 52},\n {\"item\": \"Vada\", \"quantity\": 1, , \"price\": 58}  {\"item\": \"Rava Onion Dosa\", \"quantity\": 2, , \"price\": 52}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "add one more idly vada combo"
+  },
+  {
+    "role": "assistant",
+    "content": "Sure! Updated Idly Vada to quantity 2.\n\n🛒 Updated Cart:\n```json\n[\n  {\"item\": \"Idly\", \"quantity\": 2, \"price\": 52},\n {\"item\": \"Vada\", \"quantity\": 2, , \"price\": 58}  {\"item\": \"Rava Onion Dosa\", \"quantity\": 2, \"price\": 52}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "wait remove one onion rava dosa"
+  },
+  {
+    "role": "assistant",
+    "content": "No problem! Removed one Onion Rava Dosa.\n\n🛒 Cart now:\n```json\n[\n  {\"item\": \"Idly\", \"quantity\": 2, \"price\": 52},\n {\"item\": \"Vada\", \"quantity\": 2, , \"price\": 58}  {\"item\": \"Rava Onion Dosa\", \"quantity\": 1,\"price\": 52}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "anything sweet today?"
+  },
+  {
+    "role": "assistant",
+    "content": "Sorry we don't have any sweets item"
+  },
+  {
+    "role": "user",
+    "content": "yes add one kesari bath"
+  },
+  {
+    "role": "assistant",
+    "content": "Sorry we don't have Kesari bath option you can find similar itme in our menu! You want me to procesed with menu?"
+  },
+  {
+    "role": "user",
+    "content": "ok proceed to checkout"
+  },
+  {
+    "role": "assistant",
+    "content": "Sure! Here's your final order:\n- Idly (2 x 52) = 104\n Vada  (2 × ₹58) = ₹116\n- Onion Rava Dosa (1 × ₹150) = ₹150\n-**Total: ₹370**\n\nHow would you like to pay?"
+  },
+  {
+    "role": "user",
+    "content": "I'll pay by cash"
+  },
+  {
+    "role": "assistant",
+    "content": "Perfect. We've marked your order as cash payment.\nThank you and enjoy your meal! 😊"
+  }
+  ]}
+{"messages":[
+  {
+      "role": "user",
+      "content": "MENU_CONTEXT":{
+        "food_items":[
+    {
+        "category": "All day Breakfast",
+        "items": [
+            {
+                "item_name": "Akki Roti",
+                "price": "111",
+                "description": "Delicious flat bread made from rice flour served with our speciality chutney pudi"
+            },
+            {
+                "item_name": "Butter Khali Dosa Double",
+                "price": "151",
+                "description": ""
+            },
+            {
+                "item_name": "Butter Khali Dosa Single",
+                "price": "87",
+                "description": ""
+            },
+            {
+                "item_name": "Butter Masala Dosa",
+                "price": "165",
+                "description": "Unfolded masala dosa served with sagu and chutney"
+            },
+            {
+                "item_name": "Butter Plain Dose",
+                "price": "143",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Khali Dosa Double",
+                "price": "140",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Khali Dosa Single",
+                "price": "80",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Masala Dosa",
+                "price": "165",
+                "description": "Crispy crepe made of fermented rice and lentil batter with flavourful spiced seasoned"
+            },
+            {
+                "item_name": "Ghee Plain Dosa",
+                "price": "143",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Khali Dosa Double",
+                "price": "115",
+                "description": "Light and fluffy dosae served with sagu & chutney"
+            },
+            {
+                "item_name": "Khali Dosa Single",
+                "price": "76",
+                "description": "Light and fluffy dosae served with sagu & chutney"
+            },
+            {
+                "item_name": "Masala Dosa",
+                "price": "140",
+                "description": "Crispy crepe made of fermented rice and lentil batter with flavourful spiced seasoned"
+            },
+            {
+                "item_name": "Onion Uttappam",
+                "price": "137",
+                "description": "Plain dosae with sweet onions, finely chopped green chillies and curry leaves served"
+            },
+            {
+                "item_name": "Open Butter Masala Dosa",
+                "price": "165",
+                "description": "Unfolded masala dosa served with sagu and chutney"
+            },
+            {
+                "item_name": "Plain Dosa",
+                "price": "120",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Pudi Dosa",
+                "price": "135",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Ragi Dosa Double",
+                "price": "115",
+                "description": "A healthy and delicious crepe prepared with finger millet served with sagu and"
+            },
+            {
+                "item_name": "Ragi Dosa Single",
+                "price": "60",
+                "description": "A healthy and delicious crepe prepared with finger millet served with sagu and"
+            },
+            {
+                "item_name": "Rava Masala Dosa",
+                "price": "140",
+                "description": "A thin netted savoury crepe made of sooji, rice flour, maida and water"
+            },
+            {
+                "item_name": "Rava Onion Dosa",
+                "price": "150",
+                "description": "Crispy netted crepes made with semolina, rice flour, onions and finely chopped green"
+            },
+            {
+                "item_name": "Rava Plain Dosa",
+                "price": "120",
+                "description": "Crisp aromatic crepes made with semolina, cumin, ginger, coriander leaves and green chilies"
+            },
+            {
+                "item_name": "Set Dosa",
+                "price": "130",
+                "description": "Soft, light and spongy dosa"
+            },
+            {
+                "item_name": "Spl Garlic Masala Dosa",
+                "price": "180",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Masala Thatte Idly",
+                "price": "120",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Ghee Thatte Idly",
+                "price": "98",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Idly (2 Pcs)",
+                "price": "52",
+                "description": "Classic Tari Idly served with traditional coconut chutney"
+            },
+            {
+                "item_name": "Plain Thatte Idly",
+                "price": "59",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Tawa Idly",
+                "price": "130",
+                "description": ""
+            },{
+                "item_name": "Ghee Pongal",
+                "price": "125",
+                "description": "A Classic Combination of Rice & Dal with goodness of Ghee"
+            },
+            {
+                "item_name": "Ghee Set Dosa",
+                "price": "145",
+                "description": "Soft, light and spongy dosa made with ghee"
+            },
+            {
+                "item_name": "Poori",
+                "price": "99",
+                "description": ""
+            },
+            {
+                "item_name": "Ragi Roti",
+                "price": "111",
+                "description": "A Healthy, tasty gluten free flat bread made from finger millet served with"
+            },
+            {
+                "item_name": "Maddur Vada",
+                "price": "38",
+                "description": ""
+            },
+            {
+                "item_name": "Masala Vada [2 Pcs]",
+                "price": "45",
+                "description": "Popular South Indian Fritter made with Chana Dal, Onion, Spices & herbs, served"
+            },
+            {
+                "item_name": "Vada",
+                "price": "58",
+                "description": "Crispy doughnut shaped fritters made from lentils served with sambhar and chutney"
+            }
+        ]
+    },
+    {
+        "category": "Uttapam",
+        "items": [
+            {
+                "item_name": "Onion Uttappam",
+                "price": "137",
+                "description": "Plain dosae with sweet onions, finely chopped green chillies and curry leaves served"
+            },
+            {
+                "item_name": "Tomato Uttapam",
+                "price": "137",
+                "description": "Savoury pancakes with crispy golden edges and a pillowy soft centre topped with"
+            }
+            
+        ]
+    },
+    
+    {
+        "category": "Lunch",
+        "items": [
+            {
+                "item_name": "Bisibele Bhath",
+                "price": "115",
+                "description": "A delicious and healthy complete meal of rice, lentils and vegetables. Served with"
+            },
+            {
+                "item_name": "Combo Rice",
+                "price": "140",
+                "description": "Choice Of Any 2 Rice [Lemon Rice, Puliyogare, Bisi Bele Bhath, Curd Rice]"
+            },
+            {
+                "item_name": "Curd Rice",
+                "price": "90",
+                "description": "Soft cooked mushy rice mixed with curd and salt, finished off with tempering"
+            },
+            {
+                "item_name": "Lemon Rice",
+                "price": "90",
+                "description": "A rice preparation enhanced with distinct flavours of lemon juice, curry leaves, turmeric"
+            },
+            {
+                "item_name": "Mix Rice",
+                "price": "85",
+                "description": "Choice of any 1 rice lemon rice, puliyogare, bisi bele bhath, curd rice"
+            },
+            {
+                "item_name": "Pudi Rice",
+                "price": "151",
+                "description": "Rice flavoured with our signature chutney Pudi"
+            },
+            {
+                "item_name": "Puliyogare",
+                "price": "105",
+                "description": "Authentic and traditional rice made with tamarind extract and dry spices"
+            }
+        ]
+    },
+    {
+        "category": "Meals",
+        "items": [
+            {
+                "item_name": "Mini Meals",
+                "price": "104",
+                "description": "Rice, Sambar ,Rasam, Paliya, Papad"
+            },
+            {
+                "item_name": "South Indian Meal",
+                "price": "165",
+                "description": ""
+            }
+        ]
+    }],
+    "offers":[
+      "Flat ₹100 Off on above 599",
+      "Flat 50% Off on above 2999",
+      "20% off on 1999"
+    ],
+    "categories":["All day Breakfast","Uttapam","Lunch","meals"],
+    "Recommended_items":[
+      "Ghee Masala Dosa",
+      "Idly(2 Pcs)",
+      "Masala Dosa",
+      "Bisibele Bhath",
+      "Curd Rice"
+    ],
+    "payment_methods":[
+      "Cash",
+      "Online Payment",
+      "UPI Payment",
+      "Card Payment"],
+
+  }},
+  {
+    "role": "user",
+    "content": "hey what's the menu today"
+  },
+  {
+    "role": "assistant",
+    "content": "Sure! Here's the menu \n🍽️ **All Day Breakfast**\n- Akki Roti – ₹111\n- Butter Khali Dosa Double – ₹151\n- Butter Khali Dosa Single – ₹87\n- Butter Masala Dosa – ₹165\n- Butter Plain Dose – ₹143\n- Ghee Khali Dosa Double – ₹140\n- Ghee Khali Dosa Single – ₹80\n- Ghee Masala Dosa – ₹165\n- Ghee Plain Dosa – ₹143\n- Khali Dosa Double – ₹115\n- Khali Dosa Single – ₹76\n- Masala Dosa – ₹140\n- Onion Uttappam – ₹137\n- Open Butter Masala Dosa – ₹165\n- Plain Dosa – ₹120\n- Pudi Dosa – ₹135\n- Ragi Dosa Double – ₹115\n- Ragi Dosa Single – ₹60\n- Rava Masala Dosa – ₹140\n- Rava Onion Dosa – ₹150\n- Rava Plain Dosa – ₹120\n- Set Dosa – ₹130\n- Spl Garlic Masala Dosa – ₹180\n- Ghee Masala Thatte Idly – ₹120\n- Ghee Thatte Idly – ₹98\n- Idly (2 Pcs) – ₹52\n- Plain Thatte Idly – ₹59\n- Tawa Idly – ₹130\n- Ghee Pongal – ₹125\n- Ghee Set Dosa – ₹145\n- Poori – ₹99\n- Ragi Roti – ₹111\n- Maddur Vada – ₹38\n- Masala Vada [2 Pcs] – ₹45\n- Vada – ₹58\n\n🥞 **Uttapam**\n- Onion Uttappam – ₹137\n- Tomato Uttapam – ₹137\n\n🍛 **Lunch**\n- Bisibele Bhath – ₹115\n- Combo Rice – ₹140\n- Curd Rice – ₹90\n- Lemon Rice – ₹90\n- Mix Rice – ₹85\n- Pudi Rice – ₹151\n- Puliyogare – ₹105\n\n🍱 **Meals**\n- Mini Meals – ₹104\n- South Indian Meal – ₹165\nLet me know what you'd like to order!"
+  },
+  {
+    "role": "user",
+    "content": "add one plain dosa and thatte idly"
+  },
+  {
+    "role": "assistant",
+    "content": "Got it! We have a few types of Thatte Idly:\n- Ghee Masala Thatte Idly – ₹120\n- Ghee Thatte Idly – ₹98\n- Plain Thatte Idly – ₹59\n- Idly (2 Pcs) – ₹52\nWhich one would you like?"
+  },
+  {
+    "role": "user",
+    "content": "Oh ok I choose plain thatte idly"
+  },
+  {
+    "role": "assistant",
+    "content": "Perfect! Added:\n- 1 × Plain Dosa – ₹120\n- 1 × Plain Thatte Idly – ₹59\n\n🛒 Cart:\n```json\n[\n  {\"item\": \"Plain Dosa\", \"quantity\": 1, \"price\": 120},\n  {\"item\": \"Plain Thatte Idly\", \"quantity\": 1, \"price\": 59}\n]\n```\nAnything else you'd like to add?"
+  },
+  {
+    "role": "user",
+    "content": "add one idly vada"
+  },
+  {
+    "role": "assistant",
+    "content": "Sure! Idly Vada Combo – ₹82 added to cart.\n\n🛒 Updated Cart:\n```json\n[\n  {\"item\": \"Plain Dosa\", \"quantity\": 1, \"price\": 100},\n  {\"item\": \"Plain Thatte Idly\", \"quantity\": 1, \"price\": 59},\n  {\"item\": \"Idly\", \"quantity\": 1, \"price\": 52},\n {\"item\": \"Vada\", \"quantity\": 1,\"price\": 58}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "add one butter dosa"
+  },
+  {
+    "role": "assistant",
+    "content": "You mean Butter Plain Dosa – ₹143?"
+  },
+  {
+    "role": "user",
+    "content": "Yes"
+  },
+  {
+    "role": "assistant",
+    "content": "Added 1 × Butter Plain Dosa – ₹143.\n\n🛒 Final Cart:\n```json\n[\n  {\"item\": \"Plain Dosa\",\"quantity\": 1, \"price\": 100},\n  {\"item\": \"Plain Thatte Idly\", \"quantity\": 1, \"price\": 59},\n  {\"item\": \"Idly\", \"quantity\": 1, \"price\": 52},\n {\"item\": \"Vada\", \"quantity\": 1,\"price\": 58},\n  {\"item\": \"Butter Plain Dosa\", \"quantity\": 1, \"price\": 143}\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "ok"
+  },
+  {
+    "role": "assistant",
+    "content": "Is there anything else you'd like to add?"
+  },
+  {
+    "role": "user",
+    "content": "no"
+  },
+  {
+    "role": "assistant",
+    "content": "Great! Proceeding to checkout.\nHere's your final order:\n- Plain Dosa – ₹100\n- Plain Thatte Idly – ₹59\n- Idly -₹52\n Vada – ₹58\n- Butter Plain Dosa – ₹120\n**Total: ₹330**\n\nHow would you like to pay?"
+  },
+  {
+    "role": "user",
+    "content": "Sure that's it"
+  },
+  {
+    "role": "assistant",
+    "content": "Awesome! Please confirm your payment method: Cash, Google Pay, PhonePe, or UPI?"
+  },
+  {
+    "role": "user",
+    "content": "wait wait do one thid add one Puliyogare"
+  },
+  {
+    "role": "assistant",
+    "content": "Ok Added one Puliyogare – ₹105\n
+    Your cart contain\n- Plain Dosa – ₹100\n- Plain Thatte Idly – ₹59\n- Idly -₹52\n Vada – ₹58\n- Butter Plain Dosa – ₹120\n-Puliyogare – ₹105\n\n```json\n[\n  {\"item\": \"Plain Dosa\",\"quantity\": 1, \"price\": 100},\n  {\"item\": \"Plain Thatte Idly\", \"quantity\": 1, \"price\": 59},\n  {\"item\": \"Idly\", \"quantity\": 1, \"price\": 52},\n {\"item\": \"Vada\", \"quantity\": 1,\"price\": 58},\n  {\"item\": \"Butter Plain Dosa\", \"quantity\": 1, \"price\": 143},\n{\"item\": \"Puliyogare\", \"quantity\": 1, \"price\":105}]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Ok i will pay from Google Pay"
+  },
+  {
+    "role": "assistant",
+    "content": "Awesome! from below you can pay through\n Had a Happy meal?"
+  },
+  ]}
+{"messages":[
+  {
+      "role": "user",
+      "content": "MENU_CONTEXT":{
+        "food_items":[
+    {
+        "category": "All day Breakfast",
+        "items": [
+            {
+                "item_name": "Akki Roti",
+                "price": "111",
+                "description": "Delicious flat bread made from rice flour served with our speciality chutney pudi"
+            },
+            {
+                "item_name": "Butter Khali Dosa Double",
+                "price": "151",
+                "description": ""
+            },
+            {
+                "item_name": "Butter Khali Dosa Single",
+                "price": "87",
+                "description": ""
+            },
+            {
+                "item_name": "Butter Masala Dosa",
+                "price": "165",
+                "description": "Unfolded masala dosa served with sagu and chutney"
+            },
+            {
+                "item_name": "Butter Plain Dose",
+                "price": "143",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Khali Dosa Double",
+                "price": "140",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Khali Dosa Single",
+                "price": "80",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Masala Dosa",
+                "price": "165",
+                "description": "Crispy crepe made of fermented rice and lentil batter with flavourful spiced seasoned"
+            },
+            {
+                "item_name": "Ghee Plain Dosa",
+                "price": "143",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Khali Dosa Double",
+                "price": "115",
+                "description": "Light and fluffy dosae served with sagu & chutney"
+            },
+            {
+                "item_name": "Khali Dosa Single",
+                "price": "76",
+                "description": "Light and fluffy dosae served with sagu & chutney"
+            },
+            {
+                "item_name": "Masala Dosa",
+                "price": "140",
+                "description": "Crispy crepe made of fermented rice and lentil batter with flavourful spiced seasoned"
+            },
+            {
+                "item_name": "Onion Uttappam",
+                "price": "137",
+                "description": "Plain dosae with sweet onions, finely chopped green chillies and curry leaves served"
+            },
+            {
+                "item_name": "Open Butter Masala Dosa",
+                "price": "165",
+                "description": "Unfolded masala dosa served with sagu and chutney"
+            },
+            {
+                "item_name": "Plain Dosa",
+                "price": "120",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Pudi Dosa",
+                "price": "135",
+                "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
+            },
+            {
+                "item_name": "Ragi Dosa Double",
+                "price": "115",
+                "description": "A healthy and delicious crepe prepared with finger millet served with sagu and"
+            },
+            {
+                "item_name": "Ragi Dosa Single",
+                "price": "60",
+                "description": "A healthy and delicious crepe prepared with finger millet served with sagu and"
+            },
+            {
+                "item_name": "Rava Masala Dosa",
+                "price": "140",
+                "description": "A thin netted savoury crepe made of sooji, rice flour, maida and water"
+            },
+            {
+                "item_name": "Rava Onion Dosa",
+                "price": "150",
+                "description": "Crispy netted crepes made with semolina, rice flour, onions and finely chopped green"
+            },
+            {
+                "item_name": "Rava Plain Dosa",
+                "price": "120",
+                "description": "Crisp aromatic crepes made with semolina, cumin, ginger, coriander leaves and green chilies"
+            },
+            {
+                "item_name": "Set Dosa",
+                "price": "130",
+                "description": "Soft, light and spongy dosa"
+            },
+            {
+                "item_name": "Spl Garlic Masala Dosa",
+                "price": "180",
+                "description": ""
+            },
+            {
+                "item_name": "Ghee Masala Thatte Idly",
+                "price": "120",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Ghee Thatte Idly",
+                "price": "98",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Idly (2 Pcs)",
+                "price": "52",
+                "description": "Classic Tari Idly served with traditional coconut chutney"
+            },
+            {
+                "item_name": "Plain Thatte Idly",
+                "price": "59",
+                "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
+            },
+            {
+                "item_name": "Tawa Idly",
+                "price": "130",
+                "description": ""
+            },{
+                "item_name": "Ghee Pongal",
+                "price": "125",
+                "description": "A Classic Combination of Rice & Dal with goodness of Ghee"
+            },
+            {
+                "item_name": "Ghee Set Dosa",
+                "price": "145",
+                "description": "Soft, light and spongy dosa made with ghee"
+            },
+            {
+                "item_name": "Poori",
+                "price": "99",
+                "description": ""
+            },
+            {
+                "item_name": "Ragi Roti",
+                "price": "111",
+                "description": "A Healthy, tasty gluten free flat bread made from finger millet served with"
+            },
+            {
+                "item_name": "Maddur Vada",
+                "price": "38",
+                "description": ""
+            },
+            {
+                "item_name": "Masala Vada [2 Pcs]",
+                "price": "45",
+                "description": "Popular South Indian Fritter made with Chana Dal, Onion, Spices & herbs, served"
+            },
+            {
+                "item_name": "Vada",
+                "price": "58",
+                "description": "Crispy doughnut shaped fritters made from lentils served with sambhar and chutney"
+            }
+        ]
+    },
+    {
+        "category": "Uttapam",
+        "items": [
+            {
+                "item_name": "Onion Uttappam",
+                "price": "137",
+                "description": "Plain dosae with sweet onions, finely chopped green chillies and curry leaves served"
+            },
+            {
+                "item_name": "Tomato Uttapam",
+                "price": "137",
+                "description": "Savoury pancakes with crispy golden edges and a pillowy soft centre topped with"
+            }
+            
+        ]
+    },
+    
+    {
+        "category": "Lunch",
+        "items": [
+            {
+                "item_name": "Bisibele Bhath",
+                "price": "115",
+                "description": "A delicious and healthy complete meal of rice, lentils and vegetables. Served with"
+            },
+            {
+                "item_name": "Combo Rice",
+                "price": "140",
+                "description": "Choice Of Any 2 Rice [Lemon Rice, Puliyogare, Bisi Bele Bhath, Curd Rice]"
+            },
+            {
+                "item_name": "Curd Rice",
+                "price": "90",
+                "description": "Soft cooked mushy rice mixed with curd and salt, finished off with tempering"
+            },
+            {
+                "item_name": "Lemon Rice",
+                "price": "90",
+                "description": "A rice preparation enhanced with distinct flavours of lemon juice, curry leaves, turmeric"
+            },
+            {
+                "item_name": "Mix Rice",
+                "price": "85",
+                "description": "Choice of any 1 rice lemon rice, puliyogare, bisi bele bhath, curd rice"
+            },
+            {
+                "item_name": "Pudi Rice",
+                "price": "151",
+                "description": "Rice flavoured with our signature chutney Pudi"
+            },
+            {
+                "item_name": "Puliyogare",
+                "price": "105",
+                "description": "Authentic and traditional rice made with tamarind extract and dry spices"
+            }
+        ]
+    },
+    {
+        "category": "Meals",
+        "items": [
+            {
+                "item_name": "Mini Meals",
+                "price": "104",
+                "description": "Rice, Sambar ,Rasam, Paliya, Papad"
+            },
+            {
+                "item_name": "South Indian Meal",
+                "price": "165",
+                "description": ""
+            }
+        ]
+    }],
+    "offers":[
+      "Flat ₹100 Off on above 599",
+      "Flat 50% Off on above 2999",
+      "20% off on 1999"
+    ],
+    "categories":["All day Breakfast","Uttapam","Lunch","meals"],
+    "Recommended_items":[
+      "Ghee Masala Dosa",
+      "Idly(2 Pcs)",
+      "Masala Dosa",
+      "Bisibele Bhath",
+      "Curd Rice"
+    ],
+    "payment_methods":[
+      "Cash",
+      "Online Payment",
+      "UPI Payment",
+      "Card Payment"],
+
+  }},
+  {
+    "role": "user",
+    "content": "hey what's the menu today"
+  },
+  {
+    "role": "assistant",
+    "content": "Sure! Here's the menu \n🍽️ **All Day Breakfast**\n- Akki Roti – ₹111\n- Butter Khali Dosa Double – ₹151\n- Butter Khali Dosa Single – ₹87\n- Butter Masala Dosa – ₹165\n- Butter Plain Dose – ₹143\n- Ghee Khali Dosa Double – ₹140\n- Ghee Khali Dosa Single – ₹80\n- Ghee Masala Dosa – ₹165\n- Ghee Plain Dosa – ₹143\n- Khali Dosa Double – ₹115\n- Khali Dosa Single – ₹76\n- Masala Dosa – ₹140\n- Onion Uttappam – ₹137\n- Open Butter Masala Dosa – ₹165\n- Plain Dosa – ₹120\n- Pudi Dosa – ₹135\n- Ragi Dosa Double – ₹115\n- Ragi Dosa Single – ₹60\n- Rava Masala Dosa – ₹140\n- Rava Onion Dosa – ₹150\n- Rava Plain Dosa – ₹120\n- Set Dosa – ₹130\n- Spl Garlic Masala Dosa – ₹180\n- Ghee Masala Thatte Idly – ₹120\n- Ghee Thatte Idly – ₹98\n- Idly (2 Pcs) – ₹52\n- Plain Thatte Idly – ₹59\n- Tawa Idly – ₹130\n- Ghee Pongal – ₹125\n- Ghee Set Dosa – ₹145\n- Poori – ₹99\n- Ragi Roti – ₹111\n- Maddur Vada – ₹38\n- Masala Vada [2 Pcs] – ₹45\n- Vada – ₹58\n\n🥞 **Uttapam**\n- Onion Uttappam – ₹137\n- Tomato Uttapam – ₹137\n\n🍛 **Lunch**\n- Bisibele Bhath – ₹115\n- Combo Rice – ₹140\n- Curd Rice – ₹90\n- Lemon Rice – ₹90\n- Mix Rice – ₹85\n- Pudi Rice – ₹151\n- Puliyogare – ₹105\n\n🍱 **Meals**\n- Mini Meals – ₹104\n- South Indian Meal – ₹165\nLet me know what you'd like to order!"
+  },
+   {
+    "role": "user",
+    "content": "Hey, add one Ghee Masala Dosa. And what is Ghee Plain Dosa? Are both the same?"
+  },
+  {
+    "role": "assistant",
+    "content": "Adding one Ghee Masala Dosa to your cart.\n\nTo clarify:\n- **Ghee Masala Dosa** is a crispy crepe made with fermented rice and lentil batter, stuffed with flavorful spiced potato filling, and topped with ghee.\n- **Ghee Plain Dosa** is the same crispy crepe but without the potato filling. It’s topped with ghee and chutney pudi.\n\nBoth are delicious but different in content!"
+  },
+  {
+    "role": "user",
+    "content": "Ok then do one thing replace to Ghee Plain dosa."
+  },
+  {
+    "role": "assistant",
+    "content": "Got it replacing Ghee Masala dosa to Ghee Plain Dosa"
+  },
+  {
+    "role": "user",
+    "content": "Add one Onion Uttapam and two Open Butter Masala Dosas."
+  },
+  {
+    "role": "assistant",
+    "content": "Perfect! Added the following to your cart:\n- 1 × Onion Uttapam\n- 2 × Open Butter Masala Dosa\n- 1 × Ghee Plain Dosa"
+  },
+  {
+    "role": "user",
+    "content": "What are the items in Uttapam?"
+  },
+  {
+    "role": "assistant",
+    "content": "We serve the following types of Uttapam:\n- Onion Uttapam – ₹120\n- Tomato Uttapam – ₹120\nYou can also request a mix of both!"
+  },
+  {
+    "role": "user",
+    "content": "What are the recommended items in Uttapam?"
+  },
+  {
+    "role": "assistant",
+    "content": "Currently, we don't have specific recommendations under the Uttapam category. But overall, our most recommended items are:\n- Ghee Masala Dosa\n- Masala Dosa\n- Idly (2 pcs)\n- Bisibele Bhath\n- Curd Rice"
+  },
+  {
+    "role": "user",
+    "content": "Ok"
+  },
+  {
+    "role": "assistant",
+    "content": "Is there anything else you'd like to add?"
+  },
+  {
+    "role": "user",
+    "content": "No. What are the items in the cart?"
+  },
+  {
+    "role": "assistant",
+    "content": "Here’s your current cart:\n```json\n[\n  {\"item\": \"Ghee Plain Dosa\", \"quantity\": 1, \"price\": 143},\n  {\"item\": \"Onion Uttapam\", \"quantity\": 1, \"price\": 120},\n  {\"item\": \"Open Butter Masala Dosa\", \"quantity\": 2, \"price_each\": 170}\n]\n```\n**Total: ₹625**"
+  },
+  {
+    "role": "user",
+    "content": "Ok, I will pay using PhonePe."
+  },
+  {
+    "role": "assistant",
+    "content": "Awesome! You can proceed with payment via PhonePe, Google Pay, or any UPI app.\n✅ Order placed. Have a Happy Meal! 😊"
+  }
+  ]}

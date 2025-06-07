@@ -1,0 +1,359 @@
+// from menu 1
+{"messages":[
+    {
+      "role": "user",
+      "content": "MENU_CONTEXT: { \"food_items\": [ { \"category\": \"Milk Shake & Ice Cream\", \"items\": [ { \"item_name\": \"Vennila\", \"price\": \"75\", \"description\": \"\" }, { \"item_name\": \"Strawberry\", \"price\": \"75\", \"description\": \"\" }, { \"item_name\": \"Chocolate\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Butter Scotch\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Pista\", \"price\": \"80\", \"description\": \"\" } ] }, { \"category\": \"Shakes\", \"items\": [ { \"item_name\": \"Semam\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Badam Shake\", \"price\": \"100\", \"description\": \"\" }, { \"item_name\": \"Oreo Shake\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Cara Milk Nuts\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Til Tak\", \"price\": \"80\", \"description\": \"\" } ] }, { \"category\": \"Falooda\", \"items\": [ { \"item_name\": \"Looda\", \"price\": \"20\", \"description\": \"\" }, { \"item_name\": \"Royal Falooda\", \"price\": \"150\", \"description\": \"\" }, { \"item_name\": \"Pista Falooda\", \"price\": \"160\", \"description\": \"\" }, { \"item_name\": \"Butter Falooda\", \"price\": \"170\", \"description\": \"\" }, { \"item_name\": \"MGS Special Falooda\", \"price\": \"210\", \"description\": \"\" } ] }, { \"category\": \"Limes\", \"items\": [ { \"item_name\": \"Fresh Limes\", \"price\": \"35\", \"description\": \"\" }, { \"item_name\": \"Ginger Limes\", \"price\": \"25\", \"description\": \"\" }, { \"item_name\": \"Mint Limes\", \"price\": \"35\", \"description\": \"\" }, { \"item_name\": \"Soda Limes\", \"price\": \"25\", \"description\": \"\" } ] } ], \"offers\": [ \"10% off on order above 499\", \"10% off on Shakes category\", \"Exciting discounts on Milk Shake and Ice cream\", \"Free delivery on orders above 999\", \"Buy 1 Get 1 Free on Falooda\" ], \"categories\": [ \"Milk Shake & Ice Cream\", \"Shakes\", \"Falooda\", \"Limes\" ], \"recommended_items\": [ \"Vennila Milk shake - 75\", \"Strawberry Milk shake - 75\", \"Chocolate Milk shake - 80\", \"Royal Falooda - 150\", \"Pista Falooda - 160\", \"Ginger Limes - 35\", \"Fresh Limes - 25\", \"Mint Limes- 35\" ], \"payment_methods\": [ \"Cash on Delivery\", \"Online Payment\", \"UPI Payment\", \"Card Payment\", \"Wallet Payment\" ], \"special_menu's\": [ \"Pista Milk Shake & Ice Cream\", \"MGS Special Falooda\", \"Soda Limes\" ] }"
+    },
+    {
+      "role": "user",
+      "content": "Hey, may I see the menu?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure! Here is the menu. Feel free to order whenever you're ready:\n\n**Milk Shake & Ice Cream**\n- Vennila – ₹75\n- Strawberry – ₹75\n- Chocolate – ₹80\n- Butter Scotch – ₹80\n- Pista – ₹80\n\n**Shakes**\n- Semam – ₹80\n- Badam Shake – ₹100\n- Oreo Shake – ₹80\n- Cara Milk Nuts – ₹80\n- Til Tak – ₹80\n\n**Falooda**\n- Looda – ₹20\n- Royal Falooda – ₹150\n- Pista Falooda – ₹160\n- Butter Falooda – ₹170\n- MGS Special Falooda – ₹210\n\n**Limes**\n- Fresh Limes – ₹35\n- Ginger Limes – ₹25\n- Mint Limes – ₹35\n- Soda Limes – ₹25"
+      "content": "Yeah, here is the menu. Feel free to order, I’m here to assist you!"
+    },
+    {
+      "role": "user",
+      "content": "Yeah, I would like to have Pista Milkshake. What's the price of that?"
+    },
+    {
+      "role": "assistant",
+      "content": "The Pista Milkshake costs 80 rupees. Would you like to add it to your cart?"
+    },
+    {
+      "role": "user",
+      "content": "Oh, that’s a bit much. Don’t add it."
+    },
+    {
+      "role": "assistant",
+      "content": "No problem! Would you like me to suggest something else?"
+    },
+    {
+      "role": "user",
+      "content": "Yeah, sure."
+    },
+    {
+      "role": "assistant",
+      "content": "In milkshakes, we recommend the Vennila Milkshake and Strawberry Milkshake, both priced at 75 rupees. Would you like to add any of these?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, I like that one. Add two."
+    },
+    {
+      "role": "assistant",
+      "content": "Great! Adding one Vennila Milkshake and one Strawberry Milkshake to your cart. Would you like to order anything else?"
+    },
+    {
+      "role": "user",
+      "content": "Ok, what are the shake items you have?"
+    },
+    {
+      "role": "assistant",
+      "content": "We offer Semam Shake, Badam Shake, Oreo Shake, Cara Milk Nuts, and Til Tak. We also have 10% off on all Shakes today!"
+    },
+    {
+      "role": "user",
+      "content": "Which are the best shakes available?"
+    },
+    {
+      "role": "assistant",
+      "content": "We recommend trying the Oreo Shake for 80 rupees. Would you like to add it?"
+    },
+    {
+      "role": "user",
+      "content": "Oh, no thanks. I’d like to have one Fresh Lime."
+    },
+    {
+      "role": "assistant",
+      "content": "Great choice! Your cart now contains: Vennila Milkshake, Strawberry Milkshake, and one Fresh Lime."
+    },
+    {
+      "role": "assistant",
+      "content": "Here’s the updated cart. Your cart contains:\n- Vennila Milkshake – 75 Rs × 1\n- Strawberry Milkshake – 75 Rs × 1\n- Fresh Limes – 35 Rs × 1 is there anything else to add? \n```json\n[\n  {\"item_name\": \"Vennila Milkshake\", \"quantity\": 1},\n  {\"item_name\": \"Strawberry Milkshake\", \"quantity\": 1},\n  {\"item_name\": \"Fresh Limes\", \"quantity\": 1}\n]\n```"
+    },
+    {
+      "role": "user",
+      "content": "Okay, once again tell me what’s in the cart."
+    },
+    {
+      "role": "assistant",
+      "content": "Your cart contains:\n- Vennila Milkshake – 75 Rs × 1\n- Strawberry Milkshake – 75 Rs × 1\n- Fresh Limes – 35 Rs × 1\n**Total: 185 Rs**\n\n```json\n[\n  {\"item_name\": \"Vennila Milkshake\", \"quantity\": 1, \"price\": 75},\n  {\"item_name\": \"Strawberry Milkshake\", \"quantity\": 1, \"price\": 75},\n  {\"item_name\": \"Fresh Limes\", \"quantity\": 1, \"price\": 35}\n]\n```"
+    },
+    {
+      "role": "user",
+      "content": "Okay, checkout."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. Which payment method would you like to use?"
+    },
+    {
+      "role": "user",
+      "content": "I will pay by cash."
+    },
+    {
+      "role": "assistant",
+      "content": "Great! Your order has been placed and you chose to pay with Cash on Delivery. Have a happy meal!"
+    }]}
+{"messages":[
+  {
+      "role": "user",
+      "content": "MENU_CONTEXT: { \"food_items\": [ { \"category\": \"Milk Shake & Ice Cream\", \"items\": [ { \"item_name\": \"Vennila\", \"price\": \"75\", \"description\": \"\" }, { \"item_name\": \"Strawberry\", \"price\": \"75\", \"description\": \"\" }, { \"item_name\": \"Chocolate\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Butter Scotch\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Pista\", \"price\": \"80\", \"description\": \"\" } ] }, { \"category\": \"Shakes\", \"items\": [ { \"item_name\": \"Semam\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Badam Shake\", \"price\": \"100\", \"description\": \"\" }, { \"item_name\": \"Oreo Shake\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Cara Milk Nuts\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Til Tak\", \"price\": \"80\", \"description\": \"\" } ] }, { \"category\": \"Falooda\", \"items\": [ { \"item_name\": \"Looda\", \"price\": \"20\", \"description\": \"\" }, { \"item_name\": \"Royal Falooda\", \"price\": \"150\", \"description\": \"\" }, { \"item_name\": \"Pista Falooda\", \"price\": \"160\", \"description\": \"\" }, { \"item_name\": \"Butter Falooda\", \"price\": \"170\", \"description\": \"\" }, { \"item_name\": \"MGS Special Falooda\", \"price\": \"210\", \"description\": \"\" } ] }, { \"category\": \"Limes\", \"items\": [ { \"item_name\": \"Fresh Limes\", \"price\": \"35\", \"description\": \"\" }, { \"item_name\": \"Ginger Limes\", \"price\": \"25\", \"description\": \"\" }, { \"item_name\": \"Mint Limes\", \"price\": \"35\", \"description\": \"\" }, { \"item_name\": \"Soda Limes\", \"price\": \"25\", \"description\": \"\" } ] } ], \"offers\": [ \"10% off on order above 499\", \"10% off on Shakes category\", \"Exciting discounts on Milk Shake and Ice cream\", \"Free delivery on orders above 999\", \"Buy 1 Get 1 Free on Falooda\" ], \"categories\": [ \"Milk Shake & Ice Cream\", \"Shakes\", \"Falooda\", \"Limes\" ], \"recommended_items\": [ \"Vennila Milk shake - 75\", \"Strawberry Milk shake - 75\", \"Chocolate Milk shake - 80\", \"Royal Falooda - 150\", \"Pista Falooda - 160\", \"Ginger Limes - 35\", \"Fresh Limes - 25\", \"Mint Limes- 35\" ], \"payment_methods\": [ \"Cash on Delivery\", \"Online Payment\", \"UPI Payment\", \"Card Payment\", \"Wallet Payment\" ], \"special_menu's\": [ \"Pista Milk Shake & Ice Cream\", \"MGS Special Falooda\", \"Soda Limes\" ] }"
+    },
+  {
+    "role": "user",
+    "content": "Hey, I want to order one Chocolate Milkshake."
+  },
+  {
+    "role": "assistant",
+    "content": "Great choice! One Chocolate Milkshake has been added to your cart. Anything else?"
+  },
+  {
+    "role": "user",
+    "content": "Yes, add two Fresh Limes."
+  },
+  {
+    "role": "assistant",
+    "content": "Done! Your cart now contains one Chocolate Milkshake of 85 rupes and two Fresh Limes of 35 rupes each.\n\n```json\n[\n  { \"item_name\": \"Chocolate Milkshake\", \"quantity\": 1, \"price\": 80 },\n  { \"item_name\": \"Fresh Lime\", \"quantity\": 2, \"price\": 35 }\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Wait! Remove one Fresh Lime and add one Royal Falooda instead."
+  },
+  {
+    "role": "assistant",
+    "content": "Got it! One Fresh Lime removed, and one Royal Falooda added.\n\n```json\n[\n  { \"item_name\": \"Chocolate Milkshake\", \"quantity\": 1, \"price\": 80 },\n  { \"item_name\": \"Fresh Lime\", \"quantity\": 1, \"price\": 35 },\n  { \"item_name\": \"Royal Falooda\", \"quantity\": 1, \"price\": 150 }\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Actually, remove the Royal Falooda and add two Oreo Shakes instead."
+  },
+  {
+    "role": "assistant",
+    "content": "Are you sure you want to replace Royal Falooda with two Oreo Shakes?"
+  },
+  {
+    "role": "user",
+    "content": "Yes!"
+  },
+  {
+    "role": "assistant",
+    "content": "Done! Your cart now contains one Chocolate Milkshake, one Fresh Lime, and two Oreo Shakes.\n\n```json\n[\n  { \"item_name\": \"Chocolate Milkshake\", \"quantity\": 1, \"price\": 80 },\n  { \"item_name\": \"Fresh Lime\", \"quantity\": 1, \"price\": 35 },\n  { \"item_name\": \"Oreo Shake\", \"quantity\": 2, \"price\": 80 }\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Add one Badam Shake and one Butter Scotch Ice Cream."
+  },
+  {
+    "role": "assistant",
+    "content": "Added! Your cart now contains:\n\n```json\n[\n  { \"item_name\": \"Chocolate Milkshake\", \"quantity\": 1, \"price\": 80 },\n  { \"item_name\": \"Fresh Lime\", \"quantity\": 1, \"price\": 35 },\n  { \"item_name\": \"Oreo Shake\", \"quantity\": 2, \"price\": 80 },\n  { \"item_name\": \"Badam Shake\", \"quantity\": 1, \"price\": 100 },\n  { \"item_name\": \"Butter Scotch Ice Cream\", \"quantity\": 1, \"price\": 80 }\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "That’s perfect! Proceed to checkout."
+  },
+  {
+    "role": "assistant",
+    "content": "Which payment method would you prefer? We offer Cash on Delivery, Online Payment, UPI Payment, Card Payment, and Wallet Payment."
+  },
+  {
+    "role": "user",
+    "content": "I'll go with UPI Payment."
+  },
+  {
+    "role": "assistant",
+    "content": "Here’s your payment link. Enjoy your meal!"
+  }]}
+{"messages":[
+  {
+    "role": "user",
+    "content": "MENU_CONTEXT: { \"food_items\": [ { \"category\": \"Milk Shake & Ice Cream\", \"items\": [ { \"item_name\": \"Vennila\", \"price\": \"75\", \"description\": \"\" }, { \"item_name\": \"Strawberry\", \"price\": \"75\", \"description\": \"\" }, { \"item_name\": \"Chocolate\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Butter Scotch\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Pista\", \"price\": \"80\", \"description\": \"\" } ] }, { \"category\": \"Shakes\", \"items\": [ { \"item_name\": \"Semam\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Badam Shake\", \"price\": \"100\", \"description\": \"\" }, { \"item_name\": \"Oreo Shake\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Cara Milk Nuts\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Til Tak\", \"price\": \"80\", \"description\": \"\" } ] }, { \"category\": \"Falooda\", \"items\": [ { \"item_name\": \"Looda\", \"price\": \"20\", \"description\": \"\" }, { \"item_name\": \"Royal Falooda\", \"price\": \"150\", \"description\": \"\" }, { \"item_name\": \"Pista Falooda\", \"price\": \"160\", \"description\": \"\" }, { \"item_name\": \"Butter Falooda\", \"price\": \"170\", \"description\": \"\" }, { \"item_name\": \"MGS Special Falooda\", \"price\": \"210\", \"description\": \"\" } ] }, { \"category\": \"Limes\", \"items\": [ { \"item_name\": \"Fresh Limes\", \"price\": \"35\", \"description\": \"\" }, { \"item_name\": \"Ginger Limes\", \"price\": \"25\", \"description\": \"\" }, { \"item_name\": \"Mint Limes\", \"price\": \"35\", \"description\": \"\" }, { \"item_name\": \"Soda Limes\", \"price\": \"25\", \"description\": \"\" } ] } ], \"offers\": [ \"10% off on order above 499\", \"10% off on Shakes category\", \"Exciting discounts on Milk Shake and Ice cream\", \"Free delivery on orders above 999\", \"Buy 1 Get 1 Free on Falooda\" ], \"categories\": [ \"Milk Shake & Ice Cream\", \"Shakes\", \"Falooda\", \"Limes\" ], \"recommended_items\": [ \"Vennila Milk shake - 75\", \"Strawberry Milk shake - 75\", \"Chocolate Milk shake - 80\", \"Royal Falooda - 150\", \"Pista Falooda - 160\", \"Ginger Limes - 35\", \"Fresh Limes - 25\", \"Mint Limes- 35\" ], \"payment_methods\": [ \"Cash on Delivery\", \"Online Payment\", \"UPI Payment\", \"Card Payment\", \"Wallet Payment\" ], \"special_menu's\": [ \"Pista Milk Shake & Ice Cream\", \"MGS Special Falooda\", \"Soda Limes\" ] }"
+    },
+  {
+    "role": "user",
+    "content": "Hey, I want to order one Pista Falooda."
+  },
+  {
+    "role": "assistant",
+    "content": "Great choice! One Pista Falooda has been added to your cart. Anything else?"
+  },
+  {
+    "role": "user",
+    "content": "Yes, add one Mint Lime and one Strawberry Milkshake."
+  },
+  {
+    "role": "assistant",
+    "content": "Done! Your cart now contains one Pista Falooda, one Mint Lime, and one Strawberry Milkshake.\n\n```json\n[\n  { \"item_name\": \"Pista Falooda\", \"quantity\": 1, \"price\": 160 },\n  { \"item_name\": \"Mint Lime\", \"quantity\": 1, \"price\": 35 },\n  { \"item_name\": \"Strawberry Milkshake\", \"quantity\": 1, \"price\": 75 }\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Wait! Remove the Mint Lime and add two Butter Scotch Ice Creams instead."
+  },
+  {
+    "role": "assistant",
+    "content": "Are you sure you want to replace Mint Lime with two Butter Scotch Ice Creams?"
+  },
+  {
+    "role": "user",
+    "content": "Yes!"
+  },
+  {
+    "role": "assistant",
+    "content": "Done! Your cart now contains:\n\n```json\n[\n  { \"item_name\": \"Pista Falooda\", \"quantity\": 1, \"price\": 160 },\n  { \"item_name\": \"Strawberry Milkshake\", \"quantity\": 1, \"price\": 75 },\n  { \"item_name\": \"Butter Scotch Ice Cream\", \"quantity\": 2, \"price\": 80 }\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "Add one Badam Shake and one Oreo Shake."
+  },
+  {
+    "role": "assistant",
+    "content": "Added! Your cart now contains:\n\n```json\n[\n  { \"item_name\": \"Pista Falooda\", \"quantity\": 1, \"price\": 160 },\n  { \"item_name\": \"Strawberry Milkshake\", \"quantity\": 1, \"price\": 75 },\n  { \"item_name\": \"Butter Scotch Ice Cream\", \"quantity\": 2, \"price\": 80 },\n  { \"item_name\": \"Badam Shake\", \"quantity\": 1, \"price\": 100 },\n  { \"item_name\": \"Oreo Shake\", \"quantity\": 1, \"price\": 80 }\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "That’s perfect! Proceed to checkout."
+  },
+  {
+    "role": "assistant",
+    "content": "Which payment method would you prefer? We offer Cash on Delivery, Online Payment, UPI Payment, Card Payment, and Wallet Payment."
+  },
+  {
+    "role": "user",
+    "content": "I'll go with Card Payment."
+  },
+  {
+    "role": "assistant",
+    "content": "Payment via Card confirmed! Here’s your payment link. Enjoy your meal!"
+  }]}
+{"messages":[
+  {
+      "role": "user",
+      "content": "MENU_CONTEXT: { \"food_items\": [ { \"category\": \"Milk Shake & Ice Cream\", \"items\": [ { \"item_name\": \"Vennila\", \"price\": \"75\", \"description\": \"\" }, { \"item_name\": \"Strawberry\", \"price\": \"75\", \"description\": \"\" }, { \"item_name\": \"Chocolate\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Butter Scotch\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Pista\", \"price\": \"80\", \"description\": \"\" } ] }, { \"category\": \"Shakes\", \"items\": [ { \"item_name\": \"Semam\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Badam Shake\", \"price\": \"100\", \"description\": \"\" }, { \"item_name\": \"Oreo Shake\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Cara Milk Nuts\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Til Tak\", \"price\": \"80\", \"description\": \"\" } ] }, { \"category\": \"Falooda\", \"items\": [ { \"item_name\": \"Looda\", \"price\": \"20\", \"description\": \"\" }, { \"item_name\": \"Royal Falooda\", \"price\": \"150\", \"description\": \"\" }, { \"item_name\": \"Pista Falooda\", \"price\": \"160\", \"description\": \"\" }, { \"item_name\": \"Butter Falooda\", \"price\": \"170\", \"description\": \"\" }, { \"item_name\": \"MGS Special Falooda\", \"price\": \"210\", \"description\": \"\" } ] }, { \"category\": \"Limes\", \"items\": [ { \"item_name\": \"Fresh Limes\", \"price\": \"35\", \"description\": \"\" }, { \"item_name\": \"Ginger Limes\", \"price\": \"25\", \"description\": \"\" }, { \"item_name\": \"Mint Limes\", \"price\": \"35\", \"description\": \"\" }, { \"item_name\": \"Soda Limes\", \"price\": \"25\", \"description\": \"\" } ] } ], \"offers\": [ \"10% off on order above 499\", \"10% off on Shakes category\", \"Exciting discounts on Milk Shake and Ice cream\", \"Free delivery on orders above 999\", \"Buy 1 Get 1 Free on Falooda\" ], \"categories\": [ \"Milk Shake & Ice Cream\", \"Shakes\", \"Falooda\", \"Limes\" ], \"recommended_items\": [ \"Vennila Milk shake - 75\", \"Strawberry Milk shake - 75\", \"Chocolate Milk shake - 80\", \"Royal Falooda - 150\", \"Pista Falooda - 160\", \"Ginger Limes - 35\", \"Fresh Limes - 25\", \"Mint Limes- 35\" ], \"payment_methods\": [ \"Cash on Delivery\", \"Online Payment\", \"UPI Payment\", \"Card Payment\", \"Wallet Payment\" ], \"special_menu's\": [ \"Pista Milk Shake & Ice Cream\", \"MGS Special Falooda\", \"Soda Limes\" ] }"
+    },
+  {
+    "role": "user",
+    "content": "Hey, I want to order one Royal Falooda. What's the price?"
+  },
+  {
+    "role": "assistant",
+    "content": "The Royal Falooda is priced at 150 RS. Would you like to add it to your cart?"
+  },
+  {
+    "role": "user",
+    "content": "Hmm, that's a bit expensive. Do you have a cheaper Falooda option?"
+  },
+  {
+    "role": "assistant",
+    "content": "Yes! We have Looda Falooda for just 20 RS. Would you like to add that instead?"
+  },
+  {
+    "role": "user",
+    "content": "Yeah, that sounds good. Add one Looda Falooda."
+  },
+  {
+    "role": "assistant",
+    "content": "Done! Your cart now contains one Looda Falooda:\n\n```json\n[\n  { \"item_name\": \"Looda Falooda\", \"quantity\": 1, \"price\": 20 }\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "I also want a milkshake. What's the price of Oreo Shake?"
+  },
+  {
+    "role": "assistant",
+    "content": "The Oreo Shake is priced at 80 RS. Would you like to add it?"
+  },
+  {
+    "role": "user",
+    "content": "That's fine. Add one Oreo Shake."
+  },
+  {
+    "role": "assistant",
+    "content": "Added! Your cart now contains one Looda Falooda 20 rupes and  Oreo Shake 80 rupes :\n\n```json\n[\n  { \"item_name\": \"Looda Falooda\", \"quantity\": 1, \"price\": 20 },\n  { \"item_name\": \"Oreo Shake\", \"quantity\": 1, \"price\": 80 }\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "That’s all. Proceed to checkout."
+  },
+  {
+    "role": "assistant",
+    "content": "Which payment method would you prefer? We offer Cash on Delivery, Online Payment, UPI Payment, Card Payment, and Wallet Payment."
+  },
+  {
+    "role": "user",
+    "content": "I'll go with UPI Payment."
+  },
+  {
+    "role": "assistant",
+    "content": "Here’s your payment link. Enjoy your meal!"
+  }]}
+{"messages":[
+  {
+      "role": "user",
+      "content": "MENU_CONTEXT: { \"food_items\": [ { \"category\": \"Milk Shake & Ice Cream\", \"items\": [ { \"item_name\": \"Vennila\", \"price\": \"75\", \"description\": \"\" }, { \"item_name\": \"Strawberry\", \"price\": \"75\", \"description\": \"\" }, { \"item_name\": \"Chocolate\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Butter Scotch\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Pista\", \"price\": \"80\", \"description\": \"\" } ] }, { \"category\": \"Shakes\", \"items\": [ { \"item_name\": \"Semam\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Badam Shake\", \"price\": \"100\", \"description\": \"\" }, { \"item_name\": \"Oreo Shake\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Cara Milk Nuts\", \"price\": \"80\", \"description\": \"\" }, { \"item_name\": \"Til Tak\", \"price\": \"80\", \"description\": \"\" } ] }, { \"category\": \"Falooda\", \"items\": [ { \"item_name\": \"Looda\", \"price\": \"20\", \"description\": \"\" }, { \"item_name\": \"Royal Falooda\", \"price\": \"150\", \"description\": \"\" }, { \"item_name\": \"Pista Falooda\", \"price\": \"160\", \"description\": \"\" }, { \"item_name\": \"Butter Falooda\", \"price\": \"170\", \"description\": \"\" }, { \"item_name\": \"MGS Special Falooda\", \"price\": \"210\", \"description\": \"\" } ] }, { \"category\": \"Limes\", \"items\": [ { \"item_name\": \"Fresh Limes\", \"price\": \"35\", \"description\": \"\" }, { \"item_name\": \"Ginger Limes\", \"price\": \"25\", \"description\": \"\" }, { \"item_name\": \"Mint Limes\", \"price\": \"35\", \"description\": \"\" }, { \"item_name\": \"Soda Limes\", \"price\": \"25\", \"description\": \"\" } ] } ], \"offers\": [ \"10% off on order above 499\", \"10% off on Shakes category\", \"Exciting discounts on Milk Shake and Ice cream\", \"Free delivery on orders above 999\", \"Buy 1 Get 1 Free on Falooda\" ], \"categories\": [ \"Milk Shake & Ice Cream\", \"Shakes\", \"Falooda\", \"Limes\" ], \"recommended_items\": [ \"Vennila Milk shake - 75\", \"Strawberry Milk shake - 75\", \"Chocolate Milk shake - 80\", \"Royal Falooda - 150\", \"Pista Falooda - 160\", \"Ginger Limes - 35\", \"Fresh Limes - 25\", \"Mint Limes- 35\" ], \"payment_methods\": [ \"Cash on Delivery\", \"Online Payment\", \"UPI Payment\", \"Card Payment\", \"Wallet Payment\" ], \"special_menu's\": [ \"Pista Milk Shake & Ice Cream\", \"MGS Special Falooda\", \"Soda Limes\" ] }"
+    },
+  {
+    "role": "user",
+    "content": "Hey, I want to order one Pista Ice Cream. What's the price?"
+  },
+  {
+    "role": "assistant",
+    "content": "The Pista Ice Cream is priced at 80 RS. Would you like to add it?"
+  },
+  {
+    "role": "user",
+    "content": "Hmm, that's a bit high. Do you have a cheaper ice cream option?"
+  },
+  {
+    "role": "assistant",
+    "content": "Yes! We have Vennila Ice Cream And Strwberry Ice Crem for just 75 RS. Would you like to add that instead?"
+  },
+  {
+    "role": "user",
+    "content": "Yeah, that sounds good. Add one Vennila Ice Cream."
+  },
+  {
+    "role": "assistant",
+    "content": "Done! Your cart now contains one Vennila Ice Cream of 75 Rupes. :\n\n```json\n[\n  { \"item_name\": \"Vennila Ice Cream\", \"quantity\": 1, \"price\": 75 }\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "I also want a shake. What's the price of Badam Shake?"
+  },
+  {
+    "role": "assistant",
+    "content": "The Badam Shake is priced at 100 RS.And also we have 10% off on any kind of shakes. Would you like to add it?"
+  },
+  {
+    "role": "user",
+    "content": "That's too expensive. Show me shakes under 80 RS."
+  },
+  {
+    "role": "assistant",
+    "content": "Sorry, but all our shakes are priced at 80 RS and above. Here are some options:\n- Oreo Shake - 80 RS\n- Cara Milk Nuts - 80 RS\n- Til Tak - 80 RS\nWould you like to add any of these?"
+  },
+  {
+    "role": "user",
+    "content": "I'll take one Oreo Shake."
+  },
+  {
+    "role": "assistant",
+    "content": "Added! Your cart now contains one Vennila Ice Cream of 75 Rupes and one Oreo Shake 80 rupes:\n\n```json\n[\n  { \"item_name\": \"Vennila Ice Cream\", \"quantity\": 1, \"price\": 75 },\n  { \"item_name\": \"Oreo Shake\", \"quantity\": 1, \"price\": 80 }\n]\n```"
+  },
+  {
+    "role": "user",
+    "content": "That’s all. Proceed to checkout."
+  },
+  {
+    "role": "assistant",
+    "content": "Which payment method would you prefer? We offer Cash on Delivery, Online Payment, UPI Payment, Card Payment, and Wallet Payment."
+  },
+  {
+    "role": "user",
+    "content": "I'll go with Card Payment."
+  },
+  {
+    "role": "assistant",
+    "content": "Here’s your payment link. Enjoy your meal!"
+  }]}
