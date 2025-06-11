@@ -91,7 +91,7 @@ class MainWindow(QMainWindow):
         # Main container
         main_widget = QWidget()
         main_layout = QHBoxLayout()
-
+        
         # ---------------------------
         # Left Panel (Menu Area)
         # ---------------------------

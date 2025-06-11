@@ -1,0 +1,10 @@
+[
+    {
+        "user_text": "hello",
+        "llm_response": "Hello! How may I assist you?"
+    },
+    {
+        "user_text": "show me the menu",
+        "llm_response": "Sure! Here's the menu. It includes options like Mango Lemonade with Popping Boba, Mango Iced Tea with Popping Boba, and Mango Milkshake. Feel free to ask if you have any more questions."
+    }
+]

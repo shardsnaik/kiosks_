@@ -1,266 +1,216 @@
 [
   {
-    "category": "Dosa",
+    "category": "BOBBLES WITH POPPING BOBA",
     "items": [
       {
-        "item_name": "Akki Roti",
-        "price": "",
-        "description": "Delicious flat bread made from rice flour served with our speciality chutney pudi"
+        "item_name": "Mango Lemonade with Popping Boba",
+        "price": "250",
+        "description": "A refreshing twist on mango lemonade, loaded with popping boba for a fun"
       },
       {
-        "item_name": "Butter Khali Dosa Double",
-        "price": "2151",
-        "description": ""
+        "item_name": "Cranberry Hibiscus Lemonade with Popping Boba",
+        "price": "250",
+        "description": "Tart cranberry meets floral hibiscus in this cool lemonade, finished with popping boba"
       },
       {
-        "item_name": "Butter Khali Dosa Single",
-        "price": "287",
-        "description": ""
+        "item_name": "Lychee Jasmine Lemonade with Popping Boba",
+        "price": "250",
+        "description": "A delicate blend of lychee and jasmine in a chilled lemonade with playful"
       },
       {
-        "item_name": "Butter Masala Dosa",
-        "price": "2165",
-        "description": "Unfolded masala dosa served with sagu and chutney"
+        "item_name": "Lychee Jasmine Cold Brew with Popping Boba",
+        "price": "290",
+        "description": "A floral-meets-bold cold brew with lychee jasmine flavors and boba pops that surprise"
       },
       {
-        "item_name": "Butter Plain Dose",
-        "price": "2143",
-        "description": ""
+        "item_name": "Mango Cold Brew with Popping Boba",
+        "price": "290",
+        "description": "Cold brew coffee meets juicy mango popping boba in this bold, sweet-meets-caffeinated combo"
       },
       {
-        "item_name": "Ghee Khali Dosa Double",
-        "price": "2140",
-        "description": ""
-      },
-      {
-        "item_name": "Ghee Khali Dosa Single",
-        "price": "80",
-        "description": ""
-      },
-      {
-        "item_name": "Ghee Masala Dosa",
-        "price": "2165",
-        "description": "Crispy crepe made of fermented rice and lentil batter with flavourful spiced seasoned"
-      },
-      {
-        "item_name": "Ghee Plain Dosa",
-        "price": "2143",
-        "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
-      },
-      {
-        "item_name": "Khali Dosa Double",
-        "price": "5",
-        "description": "Light and fluffy dosae served with sagu & chutney"
-      },
-      {
-        "item_name": "Khali Dosa Single",
-        "price": "276",
-        "description": "Light and fluffy dosae served with sagu & chutney"
-      },
-      {
-        "item_name": "Masala Dosa",
-        "price": "2140",
-        "description": "Crispy crepe made of fermented rice and lentil batter with flavourful spiced seasoned"
-      },
-      {
-        "item_name": "Onion Uttappam",
-        "price": "2137",
-        "description": "Plain dosae with sweet onions, finely chopped green chillies and curry leaves served"
-      },
-      {
-        "item_name": "Open Butter Masala Dosa",
-        "price": "2165",
-        "description": "Unfolded masala dosa served with sagu and chutney"
-      },
-      {
-        "item_name": "Plain Dosa",
-        "price": "120",
-        "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
-      },
-      {
-        "item_name": "Pudi Dosa",
-        "price": "2135",
-        "description": "Crispy crepe made of fermented rice and lentil batter, topped with chutney pudi"
-      },
-      {
-        "item_name": "Ragi Dosa Double",
-        "price": "115",
-        "description": "A healthy and delicious crepe prepared with finger millet served with sagu and"
-      },
-      {
-        "item_name": "Ragi Dosa Single",
-        "price": "60",
-        "description": "A healthy and delicious crepe prepared with finger millet served with sagu and"
-      },
-      {
-        "item_name": "Rava Masala Dosa",
-        "price": "2140",
-        "description": "A thin netted savoury crepe made of sooji, rice flour, maida and water"
-      },
-      {
-        "item_name": "Rava Onion Dosa",
-        "price": "150",
-        "description": "Crispy netted crepes made with semolina, rice flour, onions and finely chopped green"
-      },
-      {
-        "item_name": "Rava Plain Dosa",
-        "price": "120",
-        "description": "Crisp aromatic crepes made with semolina, cumin, ginger, coriander leaves and green chilies"
-      },
-      {
-        "item_name": "Set Dosa",
-        "price": "2130",
-        "description": "Soft, light and spongy dosa"
-      },
-      {
-        "item_name": "Spl Garlic Masala Dosa",
-        "price": "2180",
-        "description": ""
+        "item_name": "Cranberry Hibiscus Cold Brew with Popping Boba",
+        "price": "290",
+        "description": "Deep cold brew layered with tangy cranberry hibiscus notes and a pop of"
       }
     ]
   },
   {
-    "category": "Idly",
+    "category": "TROPICAL MANGO TREATS",
     "items": [
       {
-        "item_name": "Ghee Masala Thatte Idly",
-        "price": "2120",
-        "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
-      },
-      {
-        "item_name": "Ghee Thatte Idly",
-        "price": "298",
-        "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
-      },
-      {
-        "item_name": "Idly (2 Pcs)",
-        "price": "252",
-        "description": "Classic Tari Idly served with traditional coconut chutney"
-      },
-      {
-        "item_name": "Plain Thatte Idly",
-        "price": "59",
-        "description": "Melt in the mouth steamed cakes made with a fermented batter of rice"
-      },
-      {
-        "item_name": "Tawa Idly",
-        "price": "2130",
-        "description": ""
-      }
-    ]
-  },
-  {
-    "category": "Uttapam",
-    "items": [
-      {
-        "item_name": "Onion Uttappam",
-        "price": "2137",
-        "description": "Plain dosae with sweet onions, finely chopped green chillies and curry leaves served"
-      },
-      {
-        "item_name": "Tomato Uttapam",
-        "price": "2137",
-        "description": "Savoury pancakes with crispy golden edges and a pillowy soft centre topped with"
-      }
-    ]
-  },
-  {
-    "category": "Vada",
-    "items": [
-      {
-        "item_name": "Maddur Vada",
-        "price": "238",
-        "description": ""
-      },
-      {
-        "item_name": "Masala Vada [2 Pcs]",
-        "price": "245",
-        "description": "Popular South Indian Fritter made with Chana Dal, Onion, Spices & herbs, served"
-      },
-      {
-        "item_name": "Vada",
-        "price": "258",
-        "description": "Crispy doughnut shaped fritters made from lentils served with sambhar and chutney"
-      }
-    ]
-  },
-  {
-    "category": "Rice",
-    "items": [
-      {
-        "item_name": "Bisibele Bhath",
-        "price": "5",
-        "description": "A delicious and healthy complete meal of rice, lentils and vegetables. Served with"
-      },
-      {
-        "item_name": "Combo Rice",
-        "price": "2140",
-        "description": "Choice Of Any 2 Rice [Lemon Rice, Puliyogare, Bisi Bele Bhath, Curd Rice]"
-      },
-      {
-        "item_name": "Curd Rice",
-        "price": "90",
-        "description": "Soft cooked mushy rice mixed with curd and salt, finished off with tempering"
-      },
-      {
-        "item_name": "Lemon Rice",
-        "price": "90",
-        "description": "A rice preparation enhanced with distinct flavours of lemon juice, curry leaves, turmeric"
-      },
-      {
-        "item_name": "Mix Rice",
+        "item_name": "Mango Milkshake",
         "price": "285",
-        "description": "Choice of any 1 rice lemon rice, puliyogare, bisi bele bhath, curd rice"
+        "description": "A timeless Indian summer classicrich, creamy, and indulgently mango, blended to smooth perfection"
       },
       {
-        "item_name": "Pudi Rice",
-        "price": "2151",
-        "description": "Rice flavoured with our signature chutney Pudi"
+        "item_name": "Mango Lemonade with Popping Boba",
+        "price": "250",
+        "description": "A refreshing twist on mango lemonade, loaded with popping boba for a fun"
       },
       {
-        "item_name": "Puliyogare",
-        "price": "105",
-        "description": "Authentic and traditional rice made with tamarind extract and dry spices"
+        "item_name": "Mango Cold Brew with Popping Boba",
+        "price": "290",
+        "description": "Cold brew coffee meets juicy mango popping boba in this bold, sweet-meets-caffeinated combo"
+      },
+      {
+        "item_name": "Mango Iced Tea with Popping Boba",
+        "price": "265",
+        "description": "Classic iced tea gets a tropical makeover with mango flavor and popping boba"
+      },
+      {
+        "item_name": "Mango Velvet Pudding",
+        "price": "350",
+        "description": "A silky smooth mango pudding made with the season’s best — light, fruity"
       }
     ]
   },
   {
-    "category": "Meals",
+    "category": "TWC SPECIALS",
     "items": [
       {
-        "item_name": "Mini Meals",
-        "price": "104",
-        "description": "Rice, Sambar ,Rasam, Paliya, Papad"
+        "item_name": "Hot Sea Salt Mocha",
+        "price": "2295",
+        "description": "Mocha with herb-infused sea salt, topped with latte art"
       },
       {
-        "item_name": "South Indian Meal",
-        "price": "2165",
-        "description": ""
+        "item_name": "Hot Orange Zest Mocha",
+        "price": "2295",
+        "description": "Rich espresso with a hint of chocolate, a dash of milk and a"
+      },
+      {
+        "item_name": "Hot Dry Hazelnut Cappuccino",
+        "price": "300",
+        "description": "Cappuccino enhanced with the delicate and subtle essence of hazelnut"
+      },
+      {
+        "item_name": "Hot Caramel Macchiato",
+        "price": "2304",
+        "description": "Espresso, milk, and rich caramel flavors harmonize in our hot macchiato"
+      },
+      {
+        "item_name": "Hot French Vanilla Latte",
+        "price": "2294",
+        "description": "A light coffee with flavors of French vanilla"
       }
     ]
   },
   {
-    "category": "Others",
+    "category": "CLASSICS",
     "items": [
       {
-        "item_name": "Ghee Pongal",
-        "price": "2125",
-        "description": "A Classic Combination of Rice & Dal with goodness of Ghee"
+        "item_name": "Hot Americano",
+        "price": "2190",
+        "description": "A rich shot of espresso, diluted to create a weakened black coffee"
       },
       {
-        "item_name": "Ghee Set Dosa",
-        "price": "2145",
-        "description": "Soft, light and spongy dosa made with ghee"
+        "item_name": "Hot Toffee Nut Latte",
+        "price": "2333",
+        "description": "Rich espresso, milk, and toffee nut sweetness blended in classic latte"
       },
       {
-        "item_name": "Poori",
-        "price": "99",
+        "item_name": "Hot Cappuccino",
+        "price": "209",
+        "description": "An all-time favourite. Perfectly brewed by our baristas to balance dark espresso, steamed"
+      },
+      {
+        "item_name": "Hot Flatwhite",
+        "price": "2239",
+        "description": "A rich espresso, made with milk, topped with micro foam"
+      },
+      {
+        "item_name": "Hot Chocolate",
+        "price": "2239",
+        "description": "A sinful brew of dark chocolate and steamed milk"
+      },
+      {
+        "item_name": "Hot Latte",
+        "price": "2229",
+        "description": "A rich espresso, balanced with milk and a thin layer of foam"
+      },
+      {
+        "item_name": "Hot Signature Filter Coffee",
+        "price": "218",
+        "description": "Classic South Indian coffee, made with jaggery and milk"
+      }
+    ]
+  },
+  {
+    "category": "HOT TEA",
+    "items": [
+      {
+        "item_name": "Hot Chamomile Wellness Tea",
+        "price": "219",
         "description": ""
       },
       {
-        "item_name": "Ragi Roti",
+        "item_name": "Hot Himalayan Green Tea",
+        "price": "2227",
+        "description": ""
+      },
+      {
+        "item_name": "Hot Japanese Matcha Latte",
+        "price": "280",
+        "description": "A beverage, consisting of matcha flavoring, mixed with milk and served on ice"
+      },
+      {
+        "item_name": "Hot Masala Chai Latte",
+        "price": "2237",
+        "description": "A tea, infused with warm spices and milk"
+      }
+    ]
+  },
+  {
+    "category": "FRAPPE",
+    "items": [
+      {
+        "item_name": "Classic Cold Coffee",
+        "price": "260",
+        "description": "Our House Favourite. Created with a double shot of our in-hour espresso"
+      },
+      {
+        "item_name": "Toffee Nut Frappe",
+        "price": "352",
+        "description": "Creamy, rich blended delight with a nutty toffee flavor in every sip"
+      },
+      {
+        "item_name": "Caramel Frappe",
+        "price": "309",
+        "description": "Creamy coffee meets delicious caramel flavors in our caramel frappe"
+      },
+      {
+        "item_name": "Mocha Chocochip Frappe",
+        "price": "2325",
+        "description": "Dive into a rich mocha base with tantalizing chocolate chips, blended to perfection"
+      },
+      {
+        "item_name": "Choco Hazelnut Frappe",
+        "price": "2322",
+        "description": "A classic cold beverage, created by blending chocolate and hazelnut flavors with espresso"
+      }
+    ]
+  },
+  {
+    "category": "ICED CLASSICS",
+    "items": [
+      {
+        "item_name": "Iced Signature Filter Coffee",
+        "price": "218",
+        "description": "Classic South Indian coffee, made with jaggery and milk"
+      },
+      {
+        "item_name": "Iced Americano",
+        "price": "2190",
+        "description": "A rich shot of espresso, diluted to create a weakened black coffee"
+      },
+      {
+        "item_name": "Iced Cappuccino",
+        "price": "209",
+        "description": "A strong coffee, topped with foamed milk"
+      },
+      {
+        "item_name": "Iced Flatwhite",
         "price": "",
-        "description": "A Healthy, tasty gluten free flat bread made from finger millet served with"
+        "description": ""
       }
     ]
   }

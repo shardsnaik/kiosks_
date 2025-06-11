@@ -1,5 +1,5 @@
 pdf_maneger:
-  pdf_path: 'main\components\menu_maneger\pdf_dir\1_zomato.com_.png'
+  pdf_path: 'main\components\menu_maneger\pdf_dir\3_zom_cafe.png'
   pdf_dir: main/components/menu_maneger/pdf_dir
   extracted_menu_dir: main/components/menu_maneger/extracted_menu_dir
   json_file_name: 'reviewed_menu_data.json'

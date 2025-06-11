@@ -1,0 +1,10 @@
+[
+    {
+        "user_text": "hello show me the menu",
+        "llm_response": "Sure! Here's the menu. It says it's a mango milkshake. What would you like to drink?"
+    },
+    {
+        "user_text": ", , , , , , , , , , , , , ,",
+        "llm_response": "Sure! How about this {item_name}? It's $${price} for two."
+    }
+]
