@@ -1,0 +1,26 @@
+[
+    {
+        "user_text": "in a minute.",
+        "llm_response": "Sure! What would you like?"
+    },
+    {
+        "user_text": "ei su mi dimentio",
+        "llm_response": "Sure! What would you like to order?"
+    },
+    {
+        "user_text": "show me the menu",
+        "llm_response": "Sure! Here's the menu:\n\n1. Mango Lemonade with Popping Boba - $250\n\n2. Mango Iced Tea with Popping Boba - $265\n\n3. Mango Milkshake - $285"
+    },
+    {
+        "user_text": "Okay, add one mango milkshake.",
+        "llm_response": "Sure! Add one Mango Milkshake."
+    },
+    {
+        "user_text": "What are the categories?",
+        "llm_response": "The Mango Lemonade with Popping Boba is a single serving of cold lemonade, priced at \u20b9250. The Cranberry Hibiscus Lemonade with Popping Boba is also a single serving of cold lemonade, priced at \u20b9250. The Lychee Jasmine Lemonade with Popping Boba is a single serving of hot lemonade, priced at \u20b9250. The Lychee Jasmine Cold Brew with Popping Boba is a single serving of"
+    },
+    {
+        "user_text": "exit",
+        "llm_response": "Thank you"
+    }
+]

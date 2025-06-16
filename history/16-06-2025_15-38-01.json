@@ -1,0 +1,26 @@
+[
+    {
+        "user_text": "hello",
+        "llm_response": "Hello! How may I help you today?"
+    },
+    {
+        "user_text": "hey may i see the menu",
+        "llm_response": "Sure! What would you like to order?"
+    },
+    {
+        "user_text": "hey may i see the menu",
+        "llm_response": "Sure! Do you want to order any of the items on the menu?"
+    },
+    {
+        "user_text": "yes",
+        "llm_response": "Sure! What would you like to order?"
+    },
+    {
+        "user_text": "add one mango milkshake",
+        "llm_response": "Sure! Add one Mango Milkshake."
+    },
+    {
+        "user_text": "exit",
+        "llm_response": "Thank you"
+    }
+]

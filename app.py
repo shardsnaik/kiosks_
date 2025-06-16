@@ -9,7 +9,7 @@ from PyQt6.QtGui import QFont, QPixmap
 from main.pipelines.menu_maneger_pipeline import MenuManagerPipeline
 import json
 obj = MenuManagerPipeline()
-with open('main\components\menu_maneger\extracted_menu_dir\manual_reviewed_menu_data.json', 'r') as data:
+with open('main//components//menu_maneger//extracted_menu_dir//manual_reviewed_menu_data.json', 'r') as data:
     data = json.load(data)
 
 class MenuItemWidget(QFrame):
@@ -36,7 +36,9 @@ class MenuItemWidget(QFrame):
         layout.addWidget(name_label)
         
         # Price
-        price_label = QLabel(f"₹{int(item_data['price'])}")
+        price = item_data.get("price", "0")  # Default to "0" if missing
+        price_label = QLabel(f"₹{int(price) if price.isdigit() else 0}")
+
         price_font = QFont()
         price_font.setPointSize(10)
         price_label.setFont(price_font)

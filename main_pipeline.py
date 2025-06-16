@@ -45,4 +45,3 @@ class  the_AI_Kiosks:
 if __name__ == '__main__':
     kiosks = the_AI_Kiosks()
     kiosks.run_main()
-

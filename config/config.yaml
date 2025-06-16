@@ -16,8 +16,8 @@ cashier:
   # base_model_id: 'google/gemma-3-1b-it'
   # base_model_id: 'meta-llama/Llama-3.2-1B'
   # base_model_id: 'meta-llama/Llama-3.1-8B-Instruct'
-  fine_tuned_model: 'models/Qwen2.5-0.5B-finetunned-Instruct-merged'
-  rag_file_in_json: 'main\components\menu_maneger\extracted_menu_dir\manual_reviewed_menu_data.json'
+  fine_tuned_model: 'models/Qwen2.5-0.5B-v2.2-finetunned-Instruct-merged'
+  rag_file_in_json: 'main\components\menu_maneger\extracted_menu_dir\test.jsonl'
 
 artifacts:
   datasets: artifacts/datasets

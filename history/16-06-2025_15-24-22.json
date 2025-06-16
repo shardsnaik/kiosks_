@@ -1,0 +1,22 @@
+[
+    {
+        "user_text": "hello",
+        "llm_response": "Hello! How can I help you today?"
+    },
+    {
+        "user_text": "may i see the menu",
+        "llm_response": "Of course! Here it is:\n\n```json\n{\n\"items\": [\n{\n\"category\": \"Mango Milkshake\",\n\"items\": [{\"item_name\": \"Mango Milkshake\", \"price\": \"285\"}, {\"item_name\": \"Mango Velvet Pudding\", \"price\": \"350\"}]\n},\n{\n\"category\": \"Mango Iced Tea with Popping Boba\",\n\"items\": [ {\"item_name\": \"Mango Iced Tea\", \""
+    },
+    {
+        "user_text": "add one mango milkshake",
+        "llm_response": "Sure! How many extra mango milkshakes would you like?"
+    },
+    {
+        "user_text": "just one",
+        "llm_response": "```json\n[\n    {\"item_name\": \"Mango Lemonade with Popping Boba\", \"quantity\": 1},\n    {\"item_name\": \"Mango Iced Tea with Popping Boba\", \"quantity\": 1}\n]\n```"
+    },
+    {
+        "user_text": "exit",
+        "llm_response": "Thank you"
+    }
+]

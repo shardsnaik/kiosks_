@@ -1,0 +1,18 @@
+[
+    {
+        "user_text": "what about menu",
+        "llm_response": "What's special about Mango Velvet Pudding?"
+    },
+    {
+        "user_text": "show me the menu",
+        "llm_response": "Sure! Here's the menu. Do you want to order anything?"
+    },
+    {
+        "user_text": "show me the menu",
+        "llm_response": "Sure! What would you like to order?"
+    },
+    {
+        "user_text": "exit",
+        "llm_response": "Thank you"
+    }
+]
